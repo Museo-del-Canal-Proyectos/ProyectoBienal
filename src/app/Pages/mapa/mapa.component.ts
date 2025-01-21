@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as L from 'leaflet';
-import {Map, Marker,marker, tileLayer} from 'leaflet'
 import { Router } from '@angular/router';
+import { ServiceJsonService } from '../../service/service-json.service';
 L.Icon.Default.imagePath = 'https://unpkg.com/leaflet@1.7.1/dist/images/';
 @Component({
   selector: 'app-mapa',
@@ -9,10 +9,17 @@ L.Icon.Default.imagePath = 'https://unpkg.com/leaflet@1.7.1/dist/images/';
   templateUrl: './mapa.component.html',
   styleUrl: './mapa.component.css'
 })
-export class MapaComponent  {
- 
- 
+export class MapaComponent {
+
+
   private imagenAnterior: HTMLImageElement | null = null;
+  isActive = {
+    americaNorte: false,
+    centroAmerica: false,
+    americaDelSur: false,
+    europe: false
+  }
+
   cambiarColor(event: any) {
     const img = event.target as HTMLImageElement;
     // Si hay una imagen previamente clickeada, quita la clase 'rojo'
@@ -23,13 +30,43 @@ export class MapaComponent  {
     img.classList.toggle('rojo');
     // Actualiza la imagen previamente clickeada
     this.imagenAnterior = img;
+
+    //funciones de los datos de los markers de america
+  
   }
 
-  
 
-  constructor(private router: Router) {}
-  title = 'Leaflet en Angular';
-  map: L.Map | undefined;
+
+  constructor(private router: Router, public service: ServiceJsonService) { }
+  private map!: L.Map | undefined;//Objeto a la libreria de Leaflet referente 
+  private initMap(): void { //Funcion contenedora de la libreria para creacion del mapa
+
+    this.map = L.map('map', {
+      closePopupOnClick: false,
+      center: [31.0830688, -26.263346], //coordenadas de ubicacion al cargar el mapa
+      zoom: 2 //zoom de inicio
+    });
+    const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',/*estilo de mapa */ {
+      maxZoom: 18,//maximo zoom
+      minZoom: 2.5,//minimo zoom
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'//contribuidor del mapa
+    });
+
+    //creacion de icono personalizable region de america
+    var icons = L.icon({
+      iconUrl: '/images/location-sharp.svg',
+      iconSize: [30, 30]
+    })
+    //crreacion de icono personalizable region de europa
+    var iconsEAuropa = L.icon({
+      iconUrl: '/images/placeholder.png',
+      iconSize: [30, 30]
+    })
+    //anexamos el contenido de la referencia del mapa para cargarlo en el componente html
+    tiles.addTo(this.map);
+
+    //funciones de los datos de los markers de Europa
+  }
   ngOnInit(): void {
      // Crear el mapa
      this.map = L.map('map', {
@@ -41,22 +78,16 @@ export class MapaComponent  {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
    
     // Coordenadas para el marcador y el círculo
-    const markerLat = 45.4369446;
-    const markerLng = 12.3419915;
-
+    const markerLat = 45.4324246;
+    const markerLng = 12.3479238;
     const markerLat2 = 45.4345725;
     const markerLng2 = 12.3228442;
 
-    const markerLat3=45.4284795;
-    const markerLng3=12.3542474;
     
     // Agregar un marcador
-    const marker = L.marker([markerLat, markerLng]).addTo(this.map).bindPopup("Pabellon de Panama en Venecia");
-    const marker2 = L.marker([markerLat2, markerLng2]).addTo(this.map).bindPopup("Otro enlace")
-    const marker3 = L.marker([markerLat3, markerLng3]).addTo(this.map).bindPopup("Giardini")
-    marker.bindTooltip("Pabellon de Panama en Venecia").openTooltip();
-    marker2.bindTooltip("Otro Punto").openTooltip();
-    marker3.bindTooltip("Giardini de la Bienale", { permanent: true, direction: "top" }).openTooltip();
+    const marker = L.marker([markerLat, markerLng]).addTo(this.map).bindPopup("Panama Pabillion");
+    const marker2 = L.marker([markerLat2, markerLng2]).addTo(this.map)
+    marker.bindTooltip("Panama Pabillion").openTooltip();
     
 
     // Agregar un círculo alrededor del marcador
@@ -67,9 +98,10 @@ export class MapaComponent  {
       radius: 100 // Radio en metros
     }).addTo(this.map);
 
-
-
     marker.on('popupopen', () => {
+      // Una vez que el popup se haya abierto, ejecuta esta función
+      console.log("Popup abierto!");
+      
       // Llamar a la función para navegar a otra página o realizar alguna acción
       this.onMarkerClick();
     });
