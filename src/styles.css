@@ -9,3 +9,25 @@ body{
     
   }
 
+
+  .leaflet-control-attribution a{
+    display: none !important;
+}
+
+.leaflet-right .leaflet-control {
+    display: none !important;
+}
+
+
+/* .leaflet-container {
+  cursor: default !important;
+}
+
+.leaflet-marker-icon {
+  cursor: default !important;
+}
+
+.leaflet-control {
+  cursor: default !important;
+}
+ */

@@ -1,0 +1,26 @@
+[
+    {
+        "pais": "Estados Unidos",
+        "coordena": [
+            39.497387,
+            -97.899107
+        ],
+        "image": "/images/paises/usa.jpg"
+    },
+    {
+        "pais": "Canada",
+        "coordena": [
+            60.341759,
+            -103.766181
+        ],
+        "image": "/images/paises/canada.jpg"
+    },
+    {
+        "pais": "Mexico",
+        "coordena": [
+            25.012410,
+            -102.412073
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+]
