@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as L from 'leaflet';
 import {Map, Marker,marker, tileLayer} from 'leaflet'
 import { Router } from '@angular/router';
+L.Icon.Default.imagePath = 'https://unpkg.com/leaflet@1.7.1/dist/images/';
 @Component({
   selector: 'app-mapa',
   imports: [],
@@ -40,17 +41,23 @@ export class MapaComponent  {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
    
     // Coordenadas para el marcador y el círculo
-    const markerLat = 45.4324246;
-    const markerLng = 12.3479238;
+    const markerLat = 45.4369446;
+    const markerLng = 12.3419915;
+
     const markerLat2 = 45.4345725;
     const markerLng2 = 12.3228442;
 
+    const markerLat3=45.4284795;
+    const markerLng3=12.3542474;
     
     // Agregar un marcador
-    const marker = L.marker([markerLat, markerLng]).addTo(this.map).bindPopup("Panama Pabillion");
-    const marker2 = L.marker([markerLat2, markerLng2]).addTo(this.map)
-    marker.bindTooltip("Panama Pabillion").openTooltip();
-    this.router.navigate(['/about']);
+    const marker = L.marker([markerLat, markerLng]).addTo(this.map).bindPopup("Pabellon de Panama en Venecia");
+    const marker2 = L.marker([markerLat2, markerLng2]).addTo(this.map).bindPopup("Otro enlace")
+    const marker3 = L.marker([markerLat3, markerLng3]).addTo(this.map).bindPopup("Giardini")
+    marker.bindTooltip("Pabellon de Panama en Venecia").openTooltip();
+    marker2.bindTooltip("Otro Punto").openTooltip();
+    marker3.bindTooltip("Giardini de la Bienale", { permanent: true, direction: "top" }).openTooltip();
+    
 
     // Agregar un círculo alrededor del marcador
     L.circle([markerLat, markerLng], {
@@ -60,10 +67,9 @@ export class MapaComponent  {
       radius: 100 // Radio en metros
     }).addTo(this.map);
 
+
+
     marker.on('popupopen', () => {
-      // Una vez que el popup se haya abierto, ejecuta esta función
-      console.log("Popup abierto!");
-      
       // Llamar a la función para navegar a otra página o realizar alguna acción
       this.onMarkerClick();
     });
@@ -74,5 +80,34 @@ export class MapaComponent  {
   onMarkerClick(): void {
     // Usar el router para navegar a otra página
     this.router.navigate(['/bienal']);
+  }
+
+
+  oceania(event:any){
+    this.cambiarColor(event);
+  }
+
+  amNorte(event:any){
+    this.cambiarColor(event);
+  }
+
+  amCentral(event:any){
+    this.cambiarColor(event);
+  }
+
+  Suramerica(event:any){
+    this.cambiarColor(event);
+  }
+
+  Europa(event:any){
+    this.cambiarColor(event);
+  }
+
+  Africa(event:any){
+    this.cambiarColor(event);
+  }
+
+  Asia(event:any){
+    this.cambiarColor(event);
   }
 }
