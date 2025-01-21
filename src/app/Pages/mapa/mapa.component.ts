@@ -201,7 +201,7 @@ export class MapaComponent {
     var iconsEAuropa = L.icon({
       iconUrl: '/images/placeholder.png',
       iconSize: [30, 30]
-    })
+    }) 
     this.dataPuntosEuropa(iconsEAuropa, this.map);
   }
 
