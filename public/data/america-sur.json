@@ -2,80 +2,63 @@
     {
         "pais": "Colombia",
         "coordena": [
-            3.875125,
-            -73.330391
+            45.447548, 12.320100  
         ],
         "image": "/images/paises/colombia.jpg"
     },
     {
-        "pais": "Venezuela",
-        "coordena": [
-            6.776465,
-            -66.282006
-        ],
-        "image": "/images/paises/venezuela.jpg"
-    },
-    {
         "pais": "Ecuador",
         "coordena": [
-            -1.103160,
-            -78.650567
+            45.448542, 12.325379
         ],
         "image": "/images/paises/ecuador.jpg"
     },
     {
         "pais": "Perú",
         "coordena": [
-            -10.817399,
-            -75.108905
+            45.447729, 12.331301
         ],
         "image": "/images/paises/peru.jpg"
     },
     {
         "pais": "Bolivia",
         "coordena": [
-            -17.083312,
-            -64.605976
+            45.444477, 12.334906
         ],
         "image": "/images/paises/bolivia.jpg"
     },
     {
         "pais": "Paraguay",
         "coordena": [
-            -23.442503,
-            -58.443833
+            45.443423, 12.339112
         ],
         "image": "/images/paises/paraguay.jpg"
     },
     {
         "pais": "Chile",
         "coordena": [
-            -35.675149,
-            -71.542969
+            45.441918, 12.342245
         ],
         "image": "/images/paises/chile.jpg"
     },
     {
         "pais": "Uruguay",
         "coordena": [
-            -32.181519,
-            -55.851666
+            45.440232, 12.345034
         ],
         "image": "/images/paises/uruguay.jpg"
     },
     {
         "pais": "Argentina",
         "coordena": [
-            -36.638762,
-            -65.212018
+            45.438184, 12.350828
         ],
         "image": "/images/paises/argentina.jpg"
     },
     {
         "pais": "Brasil",
         "coordena": [
-            -8.999307,
-            -52.960468
+            45.438455, 12.357952
         ],
         "image": "/images/paises/brazil.jpg"
     }

@@ -1,49 +1,36 @@
 [
     {
-        "pais": "panama",
-        "coordena": [
-            9.0812829,
-            -79.7649858
-        ],
-        "image": "/images/paises/panama.jpg"
-    },
-    {
         "pais": "Guatemala",
         "coordena": [
-            15.385363,
-            -90.279957
+            45.426003, 12.339905
         ],
         "image": "/images/paises/guatemala.jpg"
     },
     {
         "pais": "El Salvador",
         "coordena": [
-            13.666994,
-            -88.773080
+            45.423902, 12.337155
         ],
         "image": "/images/paises/salvador.webp"
     },
     {
         "pais": "Honduras",
         "coordena": [
-            14.636601,
-            -86.891938
+            45.423645, 12.332451
         ],
         "image": "/images/paises/honduras.jpg"
     },
     {
         "pais": "Nicaragua",
         "coordena": [
-            12.721732,
-            -84.893940
+            45.423363, 12.330085
         ],
         "image": "/images/paises/nicaragua.jpg"
     },
     {
         "pais": "Costa Rica",
         "coordena": [
-            10.089539,
-            -84.156990
+            45.423962, 12.325835
         ],
         "image": "/images/paises/costaRica.jpg"
     }

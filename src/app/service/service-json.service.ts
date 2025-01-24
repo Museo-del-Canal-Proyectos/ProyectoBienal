@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class ServiceJsonService {
   constructor(public http: HttpClient) {}
 
-  getPuntosAmerica(): Observable<Datos[]> {
+  getPuntoGlobal(): Observable<Datos[]> {
     const url = '/data/marker.json';
     return this.http.get<Datos[]>(url);
   }

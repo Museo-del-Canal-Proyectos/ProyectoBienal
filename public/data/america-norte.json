@@ -2,24 +2,21 @@
     {
         "pais": "Estados Unidos",
         "coordena": [
-            39.497387,
-            -97.899107
+            45.437883, 12.327568
         ],
         "image": "/images/paises/usa.jpg"
     },
     {
         "pais": "Canada",
         "coordena": [
-            60.341759,
-            -103.766181
+            45.439660, 12.330357
         ],
         "image": "/images/paises/canada.jpg"
     },
     {
         "pais": "Mexico",
         "coordena": [
-            25.012410,
-            -102.412073
+            45.437943, 12.334606
         ],
         "image": "/images/paises/mexico.jpg"
     }
