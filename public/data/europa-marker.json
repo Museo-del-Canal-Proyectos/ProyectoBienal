@@ -1,0 +1,82 @@
+[
+    {
+        "pais": "Italia",
+        "coordena": [
+            42.960865,
+            12.461195
+        ],
+         "image": "/images/paises/italia.jpg"
+    },
+    {
+        "pais": "España",
+        "coordena": [
+            40.517398,
+            -3.554168
+        ],
+        "image": "/images/paises/españa.webp"
+    },
+    {
+        "pais": "Francia",
+        "coordena": [
+            46.777013,
+            2.669987
+        ],
+        "image": "/images/paises/francia.jpg"
+    },
+    {
+        "pais": "Alemania",
+        "coordena": [51.331002, 10.642316],
+        "image": "/images/paises/alemania.webp"
+    },
+    {
+        "pais": "Polina",
+        "coordena": [52.612874, 18.869087],
+        "image":"/images/paises/polonia.jpg"
+    },
+    {
+        "pais": "Suiza",
+        "coordena": [46.849153, 8.082728],
+        "image":"/images/paises/suiza.webp"
+    },
+    {
+        "pais": "Dinamarca",
+        "coordena": [55.539229, 9.107724],
+        "image":"/images/paises/dinamarca.jpg"
+    },
+    {
+        "pais": "Turquia",
+        "coordena": [39.459565, 35.233117],
+        "image":"/images/paises/turquia.jpg"
+    },
+    {
+        "pais": "Croacia",
+        "coordena": [44.802567, 15.066565],
+        "image":"/images/paises/croacia.jpg"
+    },
+    {
+        "pais": "Paises Bajos",
+        "coordena": [52.114631, 5.721880],
+        "image":"/images/paises/holanda.jpg"
+    },
+    {
+        "pais": "Austria",
+        "coordena": [47.709737, 14.224359],
+        "image":"/images/paises/austria.webp"
+    },
+    {
+        "pais": "Ucrania",
+        "coordena": [49.325847, 31.046853],
+        "image":"/images/paises/ucrania.webp"
+    },
+    {
+        "pais":" <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'> Panama</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Usa</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>china</a>",
+        "coordena": [62.751623, 92.708262],
+        "image":"/images/paises/rusia.png"
+    },
+    {
+        "pais":"Venecia",
+        "coordena": [45.439003, 12.341814],
+        "image":"/images/paises/venecia.jpg"
+    }
+    
+]

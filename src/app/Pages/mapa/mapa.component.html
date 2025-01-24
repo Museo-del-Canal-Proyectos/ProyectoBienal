@@ -7,10 +7,10 @@
 <p style="text-align: center;font-style: italic;font-weight: 600;font-size: 12px;">Selecciona un continente y mira la ubicación de los países participantes de la bienal</p>
          
             <p style="text-align: center;">
-               <b>América del Norte </b><br><img src="images/continentes/anorte.png" style="width: 100px; width: 100px;" (click)="cambiarColor($event)" alt="Image"><br>
-               <b>Centroamércia </b><br> <img src="images/continentes/centroamerica.png" style="width: 100px; width: 100px;" (click)="cambiarColor($event)" ><br>
-               <b>América del Sur </b><br> <img src="images/continentes/sudamerica.png" style="width: 100px; width: 100px;" (click)="cambiarColor($event)"><br>
-               <b>Europa </b><br><img src="images/continentes/europa.png" style="width: 100px; width: 100px;" (click)="cambiarColor($event)"><br>
+               <b>América del Norte </b><br><img src="images/continentes/anorte.png" style="width: 100px; width: 100px;" (click)="americaNorte($event)" alt="Image"><br>
+               <b>Centroamércia </b><br> <img src="images/continentes/centroamerica.png" style="width: 100px; width: 100px;" (click)="centroAmerica($event)" ><br>
+               <b>América del Sur </b><br> <img src="images/continentes/sudamerica.png" style="width: 100px; width: 100px;" (click)="americaDelSur($event)"><br>
+               <b>Europa </b><br><img src="images/continentes/europa.png" style="width: 100px; width: 100px;" (click)="europa($event)"><br>
                <b>Asia</b><br> <img src="images/continentes/asia.png" style="width: 100px; width: 100px;" (click)="cambiarColor($event)"><br>
                <b>África</b> <br><img src="images/continentes/africa.svg" style="width: 100px; width: 100px;" (click)="cambiarColor($event)"><br>
                <b>Oceanía </b><br>  <img src="images/continentes/oceania.png" style="width: 100px; width: 100px;" (click)="cambiarColor($event)">
@@ -19,7 +19,7 @@
           
             </div>
 
-
+            
 
             <div class="col-8"><div id="map" style="width: 1608px;height: 1080px;position: absolute;right: 20px;margin-right: -20px;" ></div></div>
         </div>

@@ -1,0 +1,154 @@
+[
+    {
+        "pais": "panama",
+        "coordena": [
+            9.0812829,
+            -79.7649858
+        ],
+        "image": "/images/paises/panama.jpg"
+    },
+    {
+        "pais": "Estados Unidos",
+        "coordena": [
+            39.497387,
+            -97.899107
+        ],
+        "image": "/images/paises/usa.jpg"
+    },
+    {
+        "pais": "Canada",
+        "coordena": [
+            60.341759,
+            -103.766181
+        ],
+        "image": "/images/paises/canada.jpg"
+    },
+    {
+        "pais": "Mexico",
+        "coordena": [
+            25.012410,
+            -102.412073
+        ],
+        "image": "/images/paises/mexico.jpg"
+    },
+    {
+        "pais": "Guatemala",
+        "coordena": [
+            15.385363,
+            -90.279957
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "El Salvador",
+        "coordena": [
+            13.666994,
+            -88.773080
+        ],
+        "image": "/images/paises/salvador.webp"
+    },
+    {
+        "pais": "Honduras",
+        "coordena": [
+            14.636601,
+            -86.891938
+        ],
+        "image": "/images/paises/honduras.jpg"
+    },
+    {
+        "pais": "Nicaragua",
+        "coordena": [
+            12.721732,
+            -84.893940
+        ],
+        "image": "/images/paises/nicaragua.jpg"
+    },
+    {
+        "pais": "Costa Rica",
+        "coordena": [
+            10.089539,
+            -84.156990
+        ],
+        "image": "/images/paises/costaRica.jpg"
+    },
+    {
+        "pais": "Colombia",
+        "coordena": [
+            3.875125,
+            -73.330391
+        ],
+        "image": "/images/paises/colombia.jpg"
+    },
+    {
+        "pais": "Venezuela",
+        "coordena": [
+            6.776465,
+            -66.282006
+        ],
+        "image": "/images/paises/venezuela.jpg"
+    },
+    {
+        "pais": "Ecuador",
+        "coordena": [
+            -1.103160,
+            -78.650567
+        ],
+        "image": "/images/paises/ecuador.jpg"
+    },
+    {
+        "pais": "Perú",
+        "coordena": [
+            -10.817399,
+            -75.108905
+        ],
+        "image": "/images/paises/peru.jpg"
+    },
+    {
+        "pais": "Bolivia",
+        "coordena": [
+            -17.083312,
+            -64.605976
+        ],
+        "image": "/images/paises/bolivia.jpg"
+    },
+    {
+        "pais": "Paraguay",
+        "coordena": [
+            -23.442503,
+            -58.443833
+        ],
+        "image": "/images/paises/paraguay.jpg"
+    },
+    {
+        "pais": "Chile",
+        "coordena": [
+            -35.675149,
+            -71.542969
+        ],
+        "image": "/images/paises/chile.jpg"
+    },
+    {
+        "pais": "Uruguay",
+        "coordena": [
+            -32.181519,
+            -55.851666
+        ],
+        "image": "/images/paises/uruguay.jpg"
+    },
+    {
+        "pais": "Argentina",
+        "coordena": [
+            -36.638762,
+            -65.212018
+        ],
+        "image": "/images/paises/argentina.jpg"
+    },
+    {
+        "pais": "Brasil",
+        "coordena": [
+            -8.999307,
+            -52.960468
+        ],
+        "image": "/images/paises/brazil.jpg"
+    }
+]

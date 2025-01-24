@@ -1,0 +1,82 @@
+[
+    {
+        "pais": "Colombia",
+        "coordena": [
+            3.875125,
+            -73.330391
+        ],
+        "image": "/images/paises/colombia.jpg"
+    },
+    {
+        "pais": "Venezuela",
+        "coordena": [
+            6.776465,
+            -66.282006
+        ],
+        "image": "/images/paises/venezuela.jpg"
+    },
+    {
+        "pais": "Ecuador",
+        "coordena": [
+            -1.103160,
+            -78.650567
+        ],
+        "image": "/images/paises/ecuador.jpg"
+    },
+    {
+        "pais": "Perú",
+        "coordena": [
+            -10.817399,
+            -75.108905
+        ],
+        "image": "/images/paises/peru.jpg"
+    },
+    {
+        "pais": "Bolivia",
+        "coordena": [
+            -17.083312,
+            -64.605976
+        ],
+        "image": "/images/paises/bolivia.jpg"
+    },
+    {
+        "pais": "Paraguay",
+        "coordena": [
+            -23.442503,
+            -58.443833
+        ],
+        "image": "/images/paises/paraguay.jpg"
+    },
+    {
+        "pais": "Chile",
+        "coordena": [
+            -35.675149,
+            -71.542969
+        ],
+        "image": "/images/paises/chile.jpg"
+    },
+    {
+        "pais": "Uruguay",
+        "coordena": [
+            -32.181519,
+            -55.851666
+        ],
+        "image": "/images/paises/uruguay.jpg"
+    },
+    {
+        "pais": "Argentina",
+        "coordena": [
+            -36.638762,
+            -65.212018
+        ],
+        "image": "/images/paises/argentina.jpg"
+    },
+    {
+        "pais": "Brasil",
+        "coordena": [
+            -8.999307,
+            -52.960468
+        ],
+        "image": "/images/paises/brazil.jpg"
+    }
+]
