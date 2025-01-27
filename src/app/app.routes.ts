@@ -8,7 +8,8 @@ export const routes: Routes = [
     { path: '', component: InicioComponent },
     { path: 'ong', component: OngComponent },
     { path: 'mapa', component: MapaComponent },
-    { path: 'bienal', component: BienalComponent }
+    { path: 'bienal', component: BienalComponent },
+    {path:'**', component: InicioComponent}
 ];
 
 

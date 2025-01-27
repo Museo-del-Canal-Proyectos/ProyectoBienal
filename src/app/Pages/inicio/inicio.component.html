@@ -1,28 +1,109 @@
+<swiper-container  style="--swiper-navigation-color: transparent; --swiper-pagination-color: white;"
+  class="mySwiper"
+  speed="600"
+  parallax="true"
+  pagination="true"
+  pagination-clickable="true"
+  navigation="true"
+>
+  <div
+    slot="container-start"
+    class="parallax-bg"
+    style="
+      background-image: url(./images/bg_Home2.png);
+    "
+    data-swiper-parallax="-23%"
+  ></div>
 
-<br><br>
-
-<p class="a1">Desliza para conocer la Bienal</p><br><br><br><br><br><br><br><br><br><br>
-<div class="container">
-<p style="text-align: left;">
-<swiper-container class="mySwiper"  pagination="false" effect="coverflow"  grab-cursor="true" centered-slides="true"
-slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="200"  initialSlide="0"
-coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true"  >
-<swiper-slide routerLink="/ong" >
-  <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
-
-</swiper-slide>
-<swiper-slide routerLink="/mapa">
-  <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-</swiper-slide>
-<swiper-slide >
-  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-</swiper-slide>
-<div class="swiper-pagination"></div>
-<div class="swiper-button-prev"></div>
-<div class="swiper-button-next"></div>
-
-
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br /><br /><br /><br /><br />La Bienal de Arte de Venecia
+    </div>
+    <div class="subtitle" data-swiper-parallax="-200" style="font-weight: 700">
+      Participaciones
+    </div>
+    <div class="text" data-swiper-parallax="-100">
+      <p style="font-style: italic">
+        La participación de Panamá en la 60ª Bienal de Arte de Venecia marca un
+        hito histórico para el país. Bajo el título "Surcos: En el cuerpo y en
+        la tierra", el pabellón panameño presentó una exposición que abordó la
+        migración como uno de los desafíos humanitarios más urgentes de nuestra
+        era. Las obras de los artistas Brooke Alfaro, Isabel De Obaldía, Giana
+        De Dier y Cisco Merel ofrecieron una narrativa colectiva que conectó al
+        público con historias de resiliencia, vulnerabilidad y esperanza. El
+        pabellón captó la atención de más de 45,000 visitantes y fue destacado
+        por críticos internacionales y medios especializados como The Art
+        Newspaper, Le Monde y Artforum. La muestra fue elogiada por su poderosa
+        exploración de la migración y su capacidad para generar una experiencia
+        inmersiva que resonó profundamente con los asistentes. Esta primera
+        participación de Panamá en la Bienal de Venecia no solo posiciona al
+        país en el panorama artístico global, sino que también demuestra la
+        capacidad de sus artistas para abordar temas de relevancia universal a
+        través del arte.
+      </p>
+      <button
+        type="button"
+        class="btn btn-success"
+        style="width: 400px; font-size: 40px; font-weight: 700"
+        routerLink="./mapa"
+      >
+        Ver el mapa <i class="fa-solid fa-map-pin"></i>
+      </button>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br /><br /><br /><br /><br />Los que pasan
+    </div>
+    <div class="subtitle" data-swiper-parallax="-200" style="font-weight: 700">
+      El arte como herramienta de esperanza
+    </div>
+    <div class="text" data-swiper-parallax="-100">
+      <p style="font-style: italic;">
+        El Pabellón Nacional de Panamá emerge como un eco profundo de las
+        huellas perdurables que la migración deja en las personas y en su
+        entorno. Bajo el título de “Surcos: En el cuerpo y en la tierra”, esta
+        exposición refleja la crisis migratoria actual, con un enfoque
+        particular en el contexto de Panamá. Por su posición geográfica que
+        ofrece un puente entre continentes y un paso expedito entre dos océanos,
+        Panamá siempre ha sido un lugar de tránsito, comercio y contacto
+        cultural. Es un país moldeado por la llegada y el paso de personas desde
+        la época precolombina, durante el periodo colonial y debido a la
+        construcción y administración de su famoso canal interoceánico.
+      </p>
+      <button
+      type="button"
+      class="btn btn-success"
+      style="width: 400px; font-size: 40px; font-weight: 700"
+      routerLink="./mapa"
+    >
+      Conocer más <i class="fa-solid fa-angles-right"></i>
+    </button>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800;">
+      <br /><br /><br /><br /><br /><br />Cátalogo de la bienal
+    </div>
+    <div class="subtitle" data-swiper-parallax="-200" style="font-weight: 700;">Subtitle</div>
+    <div class="text" data-swiper-parallax="-100">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum
+        mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo
+        vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet
+        magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit
+        lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula
+        nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non
+        eros quis feugiat.
+      </p>
+      <button
+      type="button"
+      class="btn btn-success"
+      style="width: 400px; font-size: 40px; font-weight: 700"
+      routerLink="./mapa"
+    >
+      Ver el Cátalogo <i class="fa-solid fa-angles-right"></i>
+    </button>
+    </div>
+  </swiper-slide>
 </swiper-container>
-</p>
-</div>
-
