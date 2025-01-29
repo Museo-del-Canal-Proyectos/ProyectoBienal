@@ -1,4 +1,4 @@
-<swiper-container  style="--swiper-navigation-color: transparent; --swiper-pagination-color: white;"
+<swiper-container  style="--swiper-navigation-color: white; --swiper-pagination-color: white;--swiper-navigation-size: 60px;--swiper-pagination-bullet-size: 20px;"
   class="mySwiper"
   speed="600"
   parallax="true"
@@ -10,7 +10,8 @@
     slot="container-start"
     class="parallax-bg"
     style="
-      background-image: url(./images/bg_Home2.png);
+      background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg_Home2.png);
+      
     "
     data-swiper-parallax="-23%"
   ></div>
@@ -44,10 +45,11 @@
       <button
         type="button"
         class="btn btn-success"
-        style="width: 400px; font-size: 40px; font-weight: 700"
+        style="width: 400px; font-size: 40px; font-weight: 700; border: 1px solid transparent;
+        font-weight: 700; border-radius: 2em;box-shadow: 0 0 10px 5px black;background-color: #FF5A5A;"
         routerLink="./mapa"
       >
-        Ver el mapa <i class="fa-solid fa-map-pin"></i>
+        Ver en el mapa <i class="fa-regular fa-map"></i>
       </button>
     </div>
   </swiper-slide>
@@ -74,12 +76,31 @@
       <button
       type="button"
       class="btn btn-success"
-      style="width: 400px; font-size: 40px; font-weight: 700"
-      routerLink="./mapa"
+      style="width: 400px; font-size: 40px; font-weight: 700; border: 1px solid transparent;
+        font-weight: 700; border-radius: 2em;box-shadow: 0 0 10px 5px black;background-color: #FF5A5A;"
+      routerLink="/ong"
     >
-      Conocer más <i class="fa-solid fa-angles-right"></i>
+      Conocer más <i class="fa-solid fa-shoe-prints"></i>
     </button>
     </div>
+
+
+    <div class="parent">
+      <div class="div1"><img src="/images/pasan/001.png" style="height: 250px; width: 250px;" data-bs-toggle="modal" data-bs-target="#exampleModal"></div>
+      <div class="div1"><img src="/images/pasan/002.png" style="height: 250px; width: 250px;"></div>
+      <div class="div1"><img src="/images/pasan/003.png" style="height: 250px;width: 250px;"></div>
+
+      <div class="div1"><img src="/images/pasan/004.png" style="height: 250px;width: 250px;"></div>
+      <div class="div1"><img src="/images/pasan/005.png" style="height: 250px;width: 250px;"></div>
+      <div class="div1"><img src="/images/pasan/006.png" style="height: 250px;width: 250px;"></div>
+
+      <div class="div1"><img src="/images/pasan/007.png" style="height: 250px;width: 250px;"></div>
+      <div class="div1"><img src="/images/pasan/008.png" style="height: 250px;width: 250px;"></div>
+      <div class="div1"><img src="/images/pasan/009.png" style="height: 250px;width: 250px;"></div>
+     
+  </div>
+
+
   </swiper-slide>
   <swiper-slide>
     <div class="title" data-swiper-parallax="-300" style="font-weight: 800;">
@@ -99,11 +120,32 @@
       <button
       type="button"
       class="btn btn-success"
-      style="width: 400px; font-size: 40px; font-weight: 700"
+      style="width: 400px; font-size: 40px; font-weight: 700; border: 1px solid transparent;
+        font-weight: 700; border-radius: 2em;box-shadow: 0 0 10px 5px black;background-color: #FF5A5A;"
       routerLink="./mapa"
     >
-      Ver el Cátalogo <i class="fa-solid fa-angles-right"></i>
+      Ver el Cátalogo <i class="fa-solid fa-book-open"></i>
     </button>
     </div>
   </swiper-slide>
 </swiper-container>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header" style="text-align: center;">
+        <h5 class="modal-title"  id="exampleModalLabel">Titulo de la imagen</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <p style="text-align: center;"> <img src="/images/log/ACNUR.png" style="height: 200px" ></p>
+      </div>
+     
+    </div>
+  </div>
+</div>
