@@ -1,37 +1,24 @@
 [
     {
-        "pais": "Guatemala",
+        "pais": "Panamá",
         "coordena": [
-            45.426003, 12.339905
+            45.43253953317171, 12.350561987425772
         ],
         "image": "/images/paises/guatemala.jpg"
     },
     {
-        "pais": "El Salvador",
+        "pais": "Cuba",
         "coordena": [
-            45.423902, 12.337155
+            45.444910532983535, 12.337138081850181
         ],
-        "image": "/images/paises/salvador.webp"
-    },
+        "image": "/images/paises/guatemala.jpg"
+    }
+    ,
     {
-        "pais": "Honduras",
+        "pais": "Grenada",
         "coordena": [
-            45.423645, 12.332451
+            45.44264437554481, 12.335895094839524
         ],
-        "image": "/images/paises/honduras.jpg"
-    },
-    {
-        "pais": "Nicaragua",
-        "coordena": [
-            45.423363, 12.330085
-        ],
-        "image": "/images/paises/nicaragua.jpg"
-    },
-    {
-        "pais": "Costa Rica",
-        "coordena": [
-            45.423962, 12.325835
-        ],
-        "image": "/images/paises/costaRica.jpg"
+        "image": "/images/paises/guatemala.jpg"
     }
 ]

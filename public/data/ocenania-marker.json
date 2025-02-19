@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "pais": "Australia",
+        "coordena": [
+            45.42887236721131, 12.358047409971245
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    }
+]

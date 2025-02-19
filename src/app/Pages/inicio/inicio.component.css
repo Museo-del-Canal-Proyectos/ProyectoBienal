@@ -50,7 +50,7 @@ swiper-slide .text {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 18px;
-  border: 2px solid whitesmoke;
+  
 }
 
 

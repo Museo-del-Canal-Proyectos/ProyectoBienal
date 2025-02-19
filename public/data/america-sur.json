@@ -1,64 +1,43 @@
 [
     {
-        "pais": "Colombia",
+        "pais": "Argentina",
         "coordena": [
-            45.447548, 12.320100  
+            45.4348682179207, 12.349898097006415
         ],
         "image": "/images/paises/colombia.jpg"
     },
     {
-        "pais": "Ecuador",
+        "pais": "<p style='text-align:center'><b>Giardine de la Bienalle</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Bolivia</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Brasil</a><br></div></div>",
         "coordena": [
-            45.448542, 12.325379
+            45.42887236721131, 12.358047409971245
         ],
         "image": "/images/paises/ecuador.jpg"
     },
     {
         "pais": "Perú",
         "coordena": [
-            45.447729, 12.331301
+            45.43336981823697, 12.35339234018924
         ],
         "image": "/images/paises/peru.jpg"
     },
     {
-        "pais": "Bolivia",
-        "coordena": [
-            45.444477, 12.334906
-        ],
-        "image": "/images/paises/bolivia.jpg"
-    },
-    {
-        "pais": "Paraguay",
-        "coordena": [
-            45.443423, 12.339112
-        ],
-        "image": "/images/paises/paraguay.jpg"
-    },
-    {
         "pais": "Chile",
         "coordena": [
-            45.441918, 12.342245
+            45.43786725326498, 12.350463531128801
         ],
         "image": "/images/paises/chile.jpg"
     },
     {
         "pais": "Uruguay",
         "coordena": [
-            45.440232, 12.345034
+            45.4286566383587, 12.358860927183024
         ],
         "image": "/images/paises/uruguay.jpg"
     },
     {
-        "pais": "Argentina",
+        "pais": "Venezuela",
         "coordena": [
-            45.438184, 12.350828
-        ],
-        "image": "/images/paises/argentina.jpg"
-    },
-    {
-        "pais": "Brasil",
-        "coordena": [
-            45.438455, 12.357952
+            45.42850019965845, 12.357470050416058
         ],
         "image": "/images/paises/brazil.jpg"
     }

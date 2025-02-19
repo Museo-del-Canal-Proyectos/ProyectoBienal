@@ -1,25 +1,25 @@
 [
     {
-        "pais": "<p style='text-align:center;'><b>Giardini della Biennale</b></p><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip' style='text-decoration: none;color: black;'>Canadá</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania' style='text-decoration: none;color: black;'>Usa</a><br>",
+        "pais": "Estados Unidos",
         "coordena": [
-            39.497387,
-            -97.899107
+            45.428753563539786,
+            12.358673305849361
         ],
         "image": "/images/paises/usa.jpg"
     },
     {
         "pais": "Canada",
         "coordena": [
-            60.341759,
-            -103.766181
+            45.42887236721131,
+            12.358047409971245
         ],
         "image": "/images/paises/canada.jpg"
     },
     {
         "pais": "Mexico",
         "coordena": [
-            25.012410,
-            -102.412073
+            45.434200976949576,
+            12.354940678453188
         ],
         "image": "/images/paises/mexico.jpg"
     }

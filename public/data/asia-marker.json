@@ -1,1 +1,108 @@
-[]
+[
+    {
+        "pais": "Armenia",
+        "coordena": [
+            45.429119831480634, 12.334157181983352
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Bangladesh",
+        "coordena": [
+            45.441590726849334, 12.330640317472959
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    }
+    ,
+    {
+        "pais": "China",
+        "coordena": [
+            45.4348682179207, 12.349898097006415
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Iran",
+        "coordena": [
+            45.43347659734883, 12.328354245308999
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "<p style='text-align:center'><b>Giardine de la Bienalle</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Israel</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Korea</a><br></div></div>",
+        "coordena": [
+            45.42887236721131, 12.358047409971245
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Japón",
+        "coordena": [
+            45.42819347009835, 12.357993487171164
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Libano",
+        "coordena": [
+            45.4348682179207, 12.349898097006415
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Mongolia",
+        "coordena": [
+            45.43316960432097, 12.351581851612451
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Oman",
+        "coordena": [
+            45.434026887604276, 12.345549520239533
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Filipinas",
+        "coordena": [
+            45.4332963037345, 12.354875884239053
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Arabia Saudita",
+        "coordena": [
+            45.43330968478806, 12.355121202408126
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Singapur",
+        "coordena": [
+            45.433522796845075, 12.353794874413293
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Timor",
+        "coordena": [
+            45.437137264692424, 12.333573386726012
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Emiratos Árabes Unidos",
+        "coordena": [
+            45.43341830206674, 12.353090906456947
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    },
+    {
+        "pais": "Uzbekistan",
+        "coordena": [
+            45.43358294665779, 12.353677726606458
+        ],
+        "image": "/images/paises/guatemala.jpg"
+    }
+]

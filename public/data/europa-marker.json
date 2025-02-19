@@ -1,64 +1,152 @@
 [
    {
-        "pais": "España",
+        "pais": "<p style='text-align:center'><b>Arsenale</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Albania</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Islandia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Irlanda</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Italia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Latvia</a></div></div>",
         "coordena": [
             45.437002, 12.317188
         ],
         "image": "/images/paises/españa.webp"
     },
     {
-        "pais": "Francia",
+        "pais": "Luxenburgo",
         "coordena": [
-            45.432732, 12.311765
+            45.43336961234824, 12.35388904872533
         ],
         "image": "/images/paises/francia.jpg"
     },
     {
-        "pais": "Alemania",
-        "coordena": [45.431657, 12.317481],
+        "pais": "Malta",
+        "coordena": [45.43337687015619, 12.353792712559104],
         "image": "/images/paises/alemania.webp"
     },
     {
-        "pais": "Polonia",
-        "coordena": [45.431577, 12.325728],
+        "pais": "Ucrania",
+        "coordena": [45.43331981528366, 12.354733603077687],
         "image":"/images/paises/polonia.jpg"
     },
     {
-        "pais": "Suiza",
-        "coordena": [45.434928, 12.321776
+        "pais": "<p style='text-align:center'><b>Giardine de la Bienalle</b></p><div class='row' style='width:300px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Austria</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Republica Checa</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Dinamarca</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Gran Bretaña</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Hungría</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Finlandia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Francia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Alemania</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Grecia</a></div></div>",
+        "coordena": [45.42887236721131, 12.358047409971245
 
     ],
         "image":"/images/paises/suiza.webp"
     },
     {
-        "pais": "Dinamarca",
-        "coordena": [45.440282, 12.329202],
+        "pais": "Belgica",
+        "coordena": [45.42958441974432, 12.357700294665218],
         "image":"/images/paises/dinamarca.jpg"
     },
     {
-        "pais": "Turquia",
-        "coordena": [45.435895, 12.318000],
+        "pais": "Paises Bajos",
+        "coordena": [45.429754019672664, 12.358044794685096],
         "image":"/images/paises/turquia.jpg"
     },
     {
-        "pais": "Austria",
-        "coordena": [45.4409314,12.3232827],
+        "pais": "Países nórdicos (Suecia, Finlandia, Noruega)",
+        "coordena": [45.42864467838947,12.358208523251184],
         "image":"/images/paises/austria.webp"
     },
     {
-        "pais": "Ucrania",
-        "coordena": [45.4344849,12.3507972],
+        "pais": "Polonia",
+        "coordena": [45.428597397522054,12.359872656499483],
         "image":"/images/paises/ucrania.webp"
     },
     {
-        "pais":" <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'> Panama</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Usa</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>china</a>",
-        "coordena": [45.439631, 12.362056
-        ],
-        "image":"/images/paises/rusia.png"
+        "pais":"Rumania",
+        "coordena": [45.428366762314944, 12.359821216299538],
+        "image":"/images/paises/venecia.jpg"
     },
     {
-        "pais":"Venecia",
-        "coordena": [45.436961, 12.340167],
+        "pais":"Serbia",
+        "coordena": [45.428366762314944, 12.360124386918976],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Eslovaquia",
+        "coordena": [45.42831564485238, 12.35861185444196],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"España",
+        "coordena": [45.42938260398585, 12.357487890295552],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Suiza",
+        "coordena": [45.42874782187958, 12.357106944287006],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Bosnia-Herzegovina",
+        "coordena": [45.43620873831049, 12.343123528064927],
+        "image":"/images/paises/venecia.jpg"
+    }
+    ,
+    {
+        "pais":"Bulgaria",
+        "coordena": [45.42943768591823, 12.326561919761213],
+        "image":"/images/paises/venecia.jpg"
+    }
+    ,
+    {
+        "pais":"Croacia",
+        "coordena": [45.44234205528422,  12.341054698289787],
+        "image":"/images/paises/venecia.jpg"
+    }
+    ,
+    {
+        "pais":"Chipre",
+        "coordena": [45.42874782187958, 12.348506538936247],
+        "image":"/images/paises/venecia.jpg"
+    }
+    ,
+    {
+        "pais":"Estonia",
+        "coordena": [45.446725705837316, 12.319199062084786],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Georgia",
+        "coordena": [45.43324419956426, 12.332580863955908],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Santa Sede",
+        "coordena": [45.42634272617983, 12.321729910174623],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Kosovo",
+        "coordena": [45.43276521584447, 12.349905522718611],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Lituania",
+        "coordena": [45.435566519512335, 12.346171046687077],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Montenegro",
+        "coordena": [45.43883648617929, 12.342816884771885],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Macedonia del Norte",
+        "coordena": [45.4366092416918, 12.322919598069422],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Portugal",
+        "coordena": [45.431949832823534, 12.32972608072301],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"San Marino",
+        "coordena": [45.43702750340916, 12.344984788121565],
+        "image":"/images/paises/venecia.jpg"
+    },
+    {
+        "pais":"Eslovenia",
+        "coordena": [45.43218695558332, 12.354500979164161],
         "image":"/images/paises/venecia.jpg"
     }
     

@@ -1,1 +1,109 @@
-[]
+[
+    {
+        "pais": "Benin",
+        "coordena": [
+            45.4348682179207,
+            12.349898097006415
+        ],
+        "image": "/images/paises/usa.jpg"
+    },
+    {
+        "pais": "Cemerún",
+        "coordena": [
+            45.44330727172999,
+            12.34011734549449
+        ],
+        "image": "/images/paises/canada.jpg"
+    },
+    {
+        "pais": "Egipto",
+        "coordena": [
+            45.42887236721131,
+            12.358047409971245
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+    ,
+    {
+        "pais": "Etiopía",
+        "coordena": [
+            45.43499908053881,
+            12.345474800810631
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+    ,
+    {
+        "pais": "Costa de Marfil",
+        "coordena": [
+            45.43015036483647,
+            12.326205171230388
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+    ,
+    {
+        "pais": "Nigeria",
+        "coordena": [
+            45.433458137542665,
+            12.324290912023539
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+    ,
+    {
+        "pais": "Senegal",
+        "coordena": [
+            45.43338362171533,
+            12.353416808956823
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+    ,
+    {
+        "pais": "República de Seychelles",
+        "coordena": [
+            45.43340101862532,
+            12.3541853354585
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+    ,
+    {
+        "pais": "Súdafrica",
+        "coordena": [
+            45.43419903961713,
+            12.355401732655242
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+    ,
+    {
+        "pais": "Tanzania",
+        "coordena": [
+            45.441804279555065,
+            12.334442489328147
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+    ,
+    {
+        "pais": "Uganda",
+        "coordena": [
+            45.43540664658178,
+            12.346753879459024
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+    ,
+    {
+        "pais": "Zimbabwe",
+        "coordena": [
+            45.43408780914301,
+            12.345227432013933
+        ],
+        "image": "/images/paises/mexico.jpg"
+    }
+]
+
+
