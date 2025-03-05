@@ -35,17 +35,17 @@ export class ServiceJsonService {
   }
 
   getPuntosAsia(): Observable<Datos[]> {
-    const url = '';
+    const url = 'data/asia-marker.json';
     return this.http.get<Datos[]>(url);
   }
 
   getPuntosAfrica(): Observable<Datos[]> {
-    const url = '';
+    const url = 'data/africa-marker.json';
     return this.http.get<Datos[]>(url);
   }
 
   getPuntosOceania(): Observable<Datos[]> {
-    const url = '';
+    const url = 'data/oceania-marker.json';
     return this.http.get<Datos[]>(url);
   }
 

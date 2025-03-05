@@ -1,0 +1,25 @@
+[
+    {
+        "pais": "Australia",
+        "coordena": [45.42887236721131, 12.358047409971245],
+        "image": "/images/paises/australia.jpg",
+        "imagenes_adicionales": [
+            "/images/australia1.jpg",
+            "/images/australia2.jpg",
+            "/images/australia3.jpg"
+        ],
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Australia",
+                "info": "Los pueblos de las Primeras Naciones de Australia son algunas de las culturas vivas continuas más antiguas de la Tierra, y estadísticamente una de las más encarceladas. Los parientes de Archie Moore son a la vez prueba y recordatorio de estos hechos. El extenso mural de tiza sobre pizarra hace un seguimiento de sus parientes kamilaroi y bigambul desde hace más de 65.000 años, incluidos los antepasados comunes de todos los humanos. Escrito a mano en las paredes y el techo, el árbol genealógico envuelve al público. Los materiales educativos hacen referencia a la transmisión del conocimiento y a lo que queda fuera de la historia. Las palabras kamilaroi y bigambul del dibujo afirman las iniciativas de recuperación de las lenguas indígenas, mientras que los agujeros señalan las invasiones coloniales, las masacres, las enfermedades y los desplazamientos que rompen los lazos familiares. El estanque central de reflexión es también un vacío; un monumento a las muertes de las Primeras Naciones bajo custodia del Estado al que asisten montones de informes forenses. Archie añade documentos de archivo que hacen referencia a los parientes para demostrar cómo las leyes coloniales y las políticas gubernamentales se han impuesto durante mucho tiempo a los pueblos de las Primeras Naciones. Estos papeles burocráticos que documentan tragedias están acunados por el reflejo del árbol genealógico en el agua circundante. El artista utiliza su historia familiar para hacer que los problemas sistémicos resulten incómodamente tangibles para el público, al tiempo que nos recuerda que todos somos parientes.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Australia Pavilion",
+                "info": "First Nations peoples of Australia are some of the oldest continuous living cultures on Earth, and statistically one of the most incarcerated. Archie Moore’s kith and kin is both evidence and reminder of these facts. The sprawling chalk on blackboard mural traces his Kamilaroi and Bigambul relations back 65,000+ years, including the common ancestors of all humans. Handwritten across the walls and ceiling, the family tree engulfs the audience. The education materials refer to the transmission of knowledge and what is left out of history. Kamilaroi and Bigambul words in the drawing assert Indigenous language revival initiatives, while holes signal colonial invasions, massacres, diseases and displacement that sever familial ties. The central reflection pool is also a void; a memorial to First Nations deaths in state custody attended by piles of coroners’ reports. Archie adds archival records referencing kin to demonstrate how colonial laws and government policies have long been imposed upon First Nations peoples. These bureaucratic papers documenting tragedies are cradled by the reflection of the family tree in the surrounding water. The artist uses his family history to make systemic issues uncomfortably tangible to audiences while providing a prescient reminder that we are all kin.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Kith and kin"
+    }
+]

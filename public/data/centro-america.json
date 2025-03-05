@@ -1,28 +1,5 @@
 [
     {
-        "pais": "Panamá",
-        "coordena": [45.43253953317171, 12.350561987425772],
-        "image": "/images/paises/panama.jpg",
-        "imagenes_adicionales": [
-            "/images/panama1.jpg",
-            "/images/panama2.jpg",
-            "/images/panama3.jpg"
-        ],
-        "traducciones": {
-            "es": {
-                "titulo": "Pabellón de Panamá",
-                "info": "El Pabellón de Panamá profundiza en el impacto perdurable de la migración en las personas y su entorno a través de obras de cuatro artistas. Panamá, puente transcontinental, ha sido un centro de tránsito, comercio e intercambio cultural desde la prehistoria hasta la actualidad. Recientemente, ha acaparado la atención debido al peligroso viaje a través del «Tapón del Darién», una selva de 26.000 km2 que conecta Colombia y Panamá -atravesada por más de 500.000 migrantes y solicitantes de asilo sólo en 2023-, un viaje angustioso sin infraestructuras ni servicios, y sin seguridad frente a abusos, peligros o violencia. Los artistas revelan realidades ignoradas (a menudo casi invisibles), desde la exploración de Giana De Dier de la migración afroantillana a principios del siglo XX hasta las representaciones de Brooke Alfaro de seres humanos en viajes hostiles. Isabel De Obaldía sumerge al espectador en una instalación de dibujos y esculturas de vidrio, mientras que Cisco Merel reflexiona sobre la esquiva promesa de un futuro mejor a través del barro y el acero. Las obras de arte sirven como poderosos testimonios de las penurias soportadas en pos de una vida mejor. Este pabellón relaciona el arte con la actual crisis migratoria, incitando a la empatía con quienes se ven obligados a labrarse sus propios arduos viajes, de esos que dejan huellas indelebles en la tierra y en el cuerpo.",
-                "descripcion": "Nombre de la Exhibición: "
-            },
-            "en": {
-                "titulo": "Panama Pavilion",
-                "info": "The Panama Pavilion delves into the enduring impact of migration on individuals and their surroundings through works by four artists. A transcontinental bridge, Panama has been a hub of transit, trade, and cultural exchange from prehistory to the present. Recently, it has gained attention due to the perilous journey through the “Darien Gap”, a 26,000km2 jungle connecting Colombia and Panama – crossed by over 500,000 migrants and asylum seekers in 2023 alone – a harrowing journey without infrastructure or services, and without security against abuse, danger or violence. The artists reveal overlooked realities (often all but rendered invisible), from Giana De Dier’s exploration of Afro-Antillean migration in the early 20th century, to Brooke Alfaro’s depictions of human beings on hostile journeys. Isabel De Obaldía immerses viewers in an installation of drawings and glass sculptures, while Cisco Merel reflects on the elusive promise of a better future through mud and steel. The artworks serve as powerful testimonies of the hardships endured in pursuit of a better life. This pavilion connects art and the current migration crisis, urging empathy for those who are forced to carve out their own arduous journeys—the kind that leave indelible traces on the land and on the body.",
-                "descripcion": "Exhibit Name: "
-            }
-        },
-        "exhibicion": "Traces: on the body and on the land"
-    },
-    {
         "pais": "Cuba",
         "coordena": [45.444910532983535, 12.337138081850181],
         "image": "/images/paises/cuba.jpg",

@@ -23,6 +23,32 @@ export class MapaComponent {
     europa: false
   }
 
+  dataPanama = {
+    "pais": "Panamá",
+    "coordena": [45.43253953317171, 12.350561987425772],
+    "image": "/images/paises/panama.jpg",
+    "imagenes_adicionales": [
+      "/images/panama1.jpg",
+      "/images/panama2.jpg",
+      "/images/panama3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Panamá",
+        "info": "El Pabellón de Panamá profundiza en el impacto perdurable de la migración en las personas y su entorno a través de obras de cuatro artistas. Panamá, puente transcontinental, ha sido un centro de tránsito, comercio e intercambio cultural desde la prehistoria hasta la actualidad. Recientemente, ha acaparado la atención debido al peligroso viaje a través del «Tapón del Darién», una selva de 26.000 km2 que conecta Colombia y Panamá -atravesada por más de 500.000 migrantes y solicitantes de asilo sólo en 2023-, un viaje angustioso sin infraestructuras ni servicios, y sin seguridad frente a abusos, peligros o violencia. Los artistas revelan realidades ignoradas (a menudo casi invisibles), desde la exploración de Giana De Dier de la migración afroantillana a principios del siglo XX hasta las representaciones de Brooke Alfaro de seres humanos en viajes hostiles. Isabel De Obaldía sumerge al espectador en una instalación de dibujos y esculturas de vidrio, mientras que Cisco Merel reflexiona sobre la esquiva promesa de un futuro mejor a través del barro y el acero. Las obras de arte sirven como poderosos testimonios de las penurias soportadas en pos de una vida mejor. Este pabellón relaciona el arte con la actual crisis migratoria, incitando a la empatía con quienes se ven obligados a labrarse sus propios arduos viajes, de esos que dejan huellas indelebles en la tierra y en el cuerpo.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Panama Pavilion",
+        "info": "The Panama Pavilion delves into the enduring impact of migration on individuals and their surroundings through works by four artists. A transcontinental bridge, Panama has been a hub of transit, trade, and cultural exchange from prehistory to the present. Recently, it has gained attention due to the perilous journey through the “Darien Gap”, a 26,000km2 jungle connecting Colombia and Panama – crossed by over 500,000 migrants and asylum seekers in 2023 alone – a harrowing journey without infrastructure or services, and without security against abuse, danger or violence. The artists reveal overlooked realities (often all but rendered invisible), from Giana De Dier’s exploration of Afro-Antillean migration in the early 20th century, to Brooke Alfaro’s depictions of human beings on hostile journeys. Isabel De Obaldía immerses viewers in an installation of drawings and glass sculptures, while Cisco Merel reflects on the elusive promise of a better future through mud and steel. The artworks serve as powerful testimonies of the hardships endured in pursuit of a better life. This pavilion connects art and the current migration crisis, urging empathy for those who are forced to carve out their own arduous journeys—the kind that leave indelible traces on the land and on the body.",
+        "descripcion": "Exhibit Name: "
+      }
+    },
+    "exhibicion": "Traces: on the body and on the land"
+  }
+
+
+
   private imagenAnterior: HTMLImageElement | null = null;
   dataGroupAmericaDelSur: any;
   grupoAmericaDelSur = L.layerGroup();//layersGroup para agrupar los marcadores de la region de america del sur
@@ -30,6 +56,10 @@ export class MapaComponent {
   grupoEuropa = L.layerGroup();//layersGroup para agrupar los marcadores de la region de europa
   grupoCentroAmerica = L.layerGroup();//layersGroup para agrupar los marcadores de la region de centro america
   grupoGlobal = L.layerGroup();//layersGroup para agrupar los marcadores de la region global
+  grupoAsia = L.layerGroup();//layersGroup para agrupar los marcadores de la region de asia
+  grupoAfrica = L.layerGroup();//layersGroup para agrupar los marcadores de la region de africa
+  grupoOceania = L.layerGroup();//layersGroup para agrupar los marcadores de la region de oceania
+
   cambiarColor(event: any) {
     const img = event.target as HTMLImageElement;
     // Si hay una imagen previamente clickeada, quita la clase 'rojo'
@@ -75,15 +105,16 @@ export class MapaComponent {
       iconSize: [30, 30]
     })
     //Punto de Panamá
-    var panama = L.marker([45.4323754, 12.3501436], {
+    var panama = L.marker([45.43253953317171, 12.350561987425772], {
       icon: icons,
       draggable: false,
     }).addTo(this.map)
       .bindPopup("Panamá", { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })
       .openPopup();
-    
-    panama.on('click', function() {
-      window.location.href = './bienal';
+
+    panama.on('click',  () => {
+      this.dataService.setCountryData(this.dataPanama);
+      this.router.navigate(['/bienal']);
     });
     // var panama = L.marker([45.4323754, 12.3501436], {//creamos el marcador con las coordenadas
     //   icon: icons,//referenciamos el icono que se va a usar
@@ -91,7 +122,7 @@ export class MapaComponent {
     // }).addTo(this.map).bindPopup("Panamá", { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();//abrimos popup de manera permanente comn el nombre del marcador
 
     //Circulo de Panamá
-    var circle = L.circle([45.4323754, 12.3501436], {
+    var circle = L.circle([45.43253953317171, 12.350561987425772], {
       color: '#FFFFFF',
       fillColor: '#FF5A5A',
       fillOpacity: 1.0,
@@ -104,14 +135,11 @@ export class MapaComponent {
       noroeste = L.latLng(45.502149, 12.278645),
       bounds = L.latLngBounds(noroeste, sureste);
     this.map.setMaxBounds(bounds);
-  
+
     //funciones de los datos de los markers de Europa
   }
   ngOnInit(): void {
-    this.service.getPuntosEuropa().subscribe(data => {
-      this.paises = data;
-      this.initMap();
-    });
+
 
   }
   //cargar el mapa despues de que se crea la vista del html mejora rendimiento.
@@ -120,7 +148,7 @@ export class MapaComponent {
   }
 
 
-  
+
 
 
 
@@ -135,12 +163,12 @@ export class MapaComponent {
     // });
   }
 
- 
+
 
   //funcion para mostrar iconos en la region de America vienen de la clase service donde se carga la data del json local.
   dataPuntos(icons: any, map: any) {
-    
-    if(map.hasLayer(this.grupoGlobal)) {
+
+    if (map.hasLayer(this.grupoGlobal)) {
       this.grupoGlobal.clearLayers();
       this.eliminarGrupoPuntos(map, this.grupoGlobal);
     } else {
@@ -170,12 +198,24 @@ export class MapaComponent {
           this.grupoCentroAmerica.clearLayers();
           this.eliminarGrupoPuntos(map, this.grupoCentroAmerica);
         }
-        if(map.hasLayer(this.grupoAmericaDelSur)) {
+        if (map.hasLayer(this.grupoAmericaDelSur)) {
           this.grupoAmericaDelSur.clearLayers();
           this.eliminarGrupoPuntos(map, this.grupoAmericaDelSur);
-        } 
+        }
+        if (map.hasLayer(this.grupoAsia)) {
+          this.grupoAsia.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAsia);
+        }
+        if (map.hasLayer(this.grupoOceania)) {
+          this.grupoOceania.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoOceania);
+        }
+        if (map.hasLayer(this.grupoAfrica)) {
+          this.grupoAfrica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAfrica);
+        }
 
-    },300);
+      }, 300);
 
     }
   }
@@ -193,16 +233,16 @@ export class MapaComponent {
             icon: icons,//referenciamos el icono que se va a usar
             draggable: false,//desactivamos funcion de agarrar los marcadores de localizacion
           })
-          
+
           this.grupoEuropa.addLayer(markers);
-          
+
           // Este evento es el que se dispara al hacer clic en el marcador
           markers.on('click', () => {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
             this.dataService.setCountryData(element);
             this.router.navigate(['/bienal']);
-            
-          
+
+
           });
 
           markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
@@ -222,11 +262,23 @@ export class MapaComponent {
           this.grupoCentroAmerica.clearLayers();
           this.eliminarGrupoPuntos(map, this.grupoCentroAmerica);
         }
-        if(map.hasLayer(this.grupoGlobal)) {
+        if (map.hasLayer(this.grupoGlobal)) {
           this.grupoGlobal.clearLayers();
           this.eliminarGrupoPuntos(map, this.grupoGlobal);
-        } 
-      },300)
+        }
+        if (map.hasLayer(this.grupoAsia)) {
+          this.grupoAsia.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAsia);
+        }
+        if (map.hasLayer(this.grupoAfrica)) {
+          this.grupoAfrica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAfrica);
+        }
+        if (map.hasLayer(this.grupoOceania)) {
+          this.grupoOceania.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoOceania);
+        }
+      }, 300)
     }
   }
 
@@ -244,13 +296,13 @@ export class MapaComponent {
             draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
           })
           this.grupoAmericaDelNorte.addLayer(markers);
-          
+
           markers.on('click', () => {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
             this.dataService.setCountryData(element);
             this.router.navigate(['/bienal']);
-            
-          
+
+
           });
 
           markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
@@ -270,24 +322,201 @@ export class MapaComponent {
           this.grupoCentroAmerica.clearLayers();
           this.eliminarGrupoPuntos(map, this.grupoCentroAmerica);
         }
-        if(map.hasLayer(this.grupoGlobal)) {
+        if (map.hasLayer(this.grupoGlobal)) {
           this.grupoGlobal.clearLayers();
           this.eliminarGrupoPuntos(map, this.grupoGlobal);
-        } 
+        }
+        if (map.hasLayer(this.grupoAsia)) {
+          this.grupoAsia.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAsia);
+        }
+        if (map.hasLayer(this.grupoOceania)) {
+          this.grupoOceania.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoOceania);
+        }
+        if (map.hasLayer(this.grupoAfrica)) {
+          this.grupoAfrica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAfrica);
+        }
       }, 300);
     }
   }
 
-  dataPuntosAfrica(icons:any, map:any){
+  dataPuntosAfrica(icons: any, map: any) {
+    if (map.hasLayer(this.grupoAfrica)) {
+      this.grupoAfrica.clearLayers();
+      this.eliminarGrupoPuntos(map, this.grupoAfrica);
+    } else {
+      this.service.getPuntosAfrica().subscribe((data) => {//for de iteracion por los elementos que se encuentran en el json
+        data.forEach((element: any) => {
+          //icon:icono,
+          var html = element.pais
+          var markers = L.marker(element.coordena, {//creamos el marcador con las coordenadas
+            icon: icons,//referenciamos el icono que se va a usar
+            draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
+          })
+          this.grupoAfrica.addLayer(markers);
 
+          markers.on('click', () => {
+            // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
+            this.dataService.setCountryData(element);
+            this.router.navigate(['/bienal']);
+          });
+          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+        })
+      });
+      this.grupoAfrica.addTo(map);
+      setTimeout(() => {
+        if (map.hasLayer(this.grupoEuropa)) {
+          this.grupoEuropa.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoEuropa);
+        }
+        if (map.hasLayer(this.grupoAmericaDelSur)) {
+          this.grupoAmericaDelSur.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAmericaDelSur);
+        }
+        if (map.hasLayer(this.grupoAmericaDelNorte)) {
+          this.grupoAmericaDelNorte.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAmericaDelNorte);
+        }
+        if (map.hasLayer(this.grupoGlobal)) {
+          this.grupoGlobal.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoGlobal);
+        }
+        if (map.hasLayer(this.grupoCentroAmerica)) {
+          this.grupoCentroAmerica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoCentroAmerica);
+        }
+        if (map.hasLayer(this.grupoAsia)) {
+          this.grupoAsia.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAsia);
+        }
+        if (map.hasLayer(this.grupoOceania)) {
+          this.grupoOceania.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoOceania);
+        }
+      }, 300);
+    }
   }
 
-  dataPuntosOceania(icons:any, map:any){
-    
+  dataPuntosOceania(icons: any, map: any) {
+    if (map.hasLayer(this.grupoOceania)) {
+      this.grupoOceania.clearLayers();
+      this.eliminarGrupoPuntos(map, this.grupoOceania);
+    } else {
+      this.service.getPuntosOceania().subscribe((data) => {//for de iteracion por los elementos que se encuentran en el json
+        data.forEach((element: any) => {
+          //icon:icono,
+          var html = element.pais
+          var markers = L.marker(element.coordena, {//creamos el marcador con las coordenadas
+            icon: icons,//referenciamos el icono que se va a usar
+            draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
+          })
+          this.grupoOceania.addLayer(markers);
+
+          markers.on('click', () => {
+            // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
+            this.dataService.setCountryData(element);
+            this.router.navigate(['/bienal']);
+
+
+          });
+
+          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+        })
+      });
+      this.grupoOceania.addTo(map);
+      setTimeout(() => {
+        if (map.hasLayer(this.grupoEuropa)) {
+          this.grupoEuropa.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoEuropa);
+        }
+        if (map.hasLayer(this.grupoAmericaDelSur)) {
+          this.grupoAmericaDelSur.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAmericaDelSur);
+        }
+        if (map.hasLayer(this.grupoCentroAmerica)) {
+          this.grupoCentroAmerica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoCentroAmerica);
+        }
+        if (map.hasLayer(this.grupoGlobal)) {
+          this.grupoGlobal.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoGlobal);
+        }
+        if (map.hasLayer(this.grupoAsia)) {
+          this.grupoAsia.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAsia);
+        }
+        if (map.hasLayer(this.grupoAfrica)) {
+          this.grupoAfrica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAfrica);
+        }
+        if (map.hasLayer(this.grupoAmericaDelNorte)) {
+          this.grupoAmericaDelNorte.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAmericaDelNorte);
+        }
+      }, 300);
+    }
   }
 
-  dataPuntosAsia(icons:any, map:any){
+  dataPuntosAsia(icons: any, map: any) {
+    if (map.hasLayer(this.grupoAsia)) {
+      this.grupoAsia.clearLayers();
+      this.eliminarGrupoPuntos(map, this.grupoAsia);
+    } else {
+      this.service.getPuntosAsia().subscribe((data) => {//for de iteracion por los elementos que se encuentran en el json
+        data.forEach((element: any) => {
+          //icon:icono,
+          var html = element.pais
+          var markers = L.marker(element.coordena, {//creamos el marcador con las coordenadas
+            icon: icons,//referenciamos el icono que se va a usar
+            draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
+          })
+          this.grupoAsia.addLayer(markers);
 
+          markers.on('click', () => {
+            // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
+            this.dataService.setCountryData(element);
+            this.router.navigate(['/bienal']);
+
+
+          });
+
+          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+        })
+      });
+      this.grupoAsia.addTo(map);
+      setTimeout(() => {
+        if (map.hasLayer(this.grupoEuropa)) {
+          this.grupoEuropa.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoEuropa);
+        }
+        if (map.hasLayer(this.grupoAmericaDelSur)) {
+          this.grupoAmericaDelSur.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAmericaDelSur);
+        }
+        if (map.hasLayer(this.grupoAmericaDelNorte)) {
+          this.grupoAmericaDelNorte.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAmericaDelNorte);
+        }
+        if (map.hasLayer(this.grupoGlobal)) {
+          this.grupoGlobal.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoGlobal);
+        }
+        if (map.hasLayer(this.grupoCentroAmerica)) {
+          this.grupoCentroAmerica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoCentroAmerica);
+        }
+        if (map.hasLayer(this.grupoAfrica)) {
+          this.grupoAfrica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAfrica);
+        }
+        if (map.hasLayer(this.grupoOceania)) {
+          this.grupoOceania.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoOceania);
+        }
+      }, 300);
+    }
   }
 
   dataPuntosCentroAmerica(icons: any, map: any) {
@@ -309,8 +538,8 @@ export class MapaComponent {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
             this.dataService.setCountryData(element);
             this.router.navigate(['/bienal']);
-            
-          
+
+
           });
 
           markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
@@ -330,10 +559,22 @@ export class MapaComponent {
           this.grupoAmericaDelNorte.clearLayers();
           this.eliminarGrupoPuntos(map, this.grupoAmericaDelNorte);
         }
-        if(map.hasLayer(this.grupoGlobal)) {
+        if (map.hasLayer(this.grupoGlobal)) {
           this.grupoGlobal.clearLayers();
           this.eliminarGrupoPuntos(map, this.grupoGlobal);
-        } 
+        }
+        if (map.hasLayer(this.grupoAsia)) {
+          this.grupoAsia.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAsia);
+        }
+        if (map.hasLayer(this.grupoAfrica)) {
+          this.grupoAfrica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAfrica);
+        }
+        if (map.hasLayer(this.grupoOceania)) {
+          this.grupoOceania.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoOceania);
+        }
       }, 300);
     }
   }
@@ -360,8 +601,6 @@ export class MapaComponent {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
             this.dataService.setCountryData(element);
             this.router.navigate(['/bienal']);
-            
-          
           });
 
 
@@ -369,24 +608,36 @@ export class MapaComponent {
         });
       });
       this.grupoAmericaDelSur.addTo(map);//anexamos puntos al grupo en el mapa
-     setTimeout(() => {
-      if (map.hasLayer(this.grupoAmericaDelNorte)) {
-        this.grupoAmericaDelNorte.clearLayers();
-        this.eliminarGrupoPuntos(map, this.grupoAmericaDelNorte);
-      }
-      if (map.hasLayer(this.grupoEuropa)) {
-        this.grupoEuropa.clearLayers();
-        this.eliminarGrupoPuntos(map, this.grupoEuropa);
-      }
-      if (map.hasLayer(this.grupoCentroAmerica)) {
-        this.grupoCentroAmerica.clearLayers();
-        this.eliminarGrupoPuntos(map, this.grupoCentroAmerica);
-      }
-      if(map.hasLayer(this.grupoGlobal)) {
-        this.grupoGlobal.clearLayers();
-        this.eliminarGrupoPuntos(map, this.grupoGlobal);
-      } 
-     },300);
+      setTimeout(() => {
+        if (map.hasLayer(this.grupoAmericaDelNorte)) {
+          this.grupoAmericaDelNorte.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAmericaDelNorte);
+        }
+        if (map.hasLayer(this.grupoEuropa)) {
+          this.grupoEuropa.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoEuropa);
+        }
+        if (map.hasLayer(this.grupoCentroAmerica)) {
+          this.grupoCentroAmerica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoCentroAmerica);
+        }
+        if (map.hasLayer(this.grupoGlobal)) {
+          this.grupoGlobal.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoGlobal);
+        }
+        if (map.hasLayer(this.grupoAsia)) {
+          this.grupoAsia.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAsia);
+        }
+        if (map.hasLayer(this.grupoAfrica)) {
+          this.grupoAfrica.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoAfrica);
+        }
+        if (map.hasLayer(this.grupoOceania)) {
+          this.grupoOceania.clearLayers();
+          this.eliminarGrupoPuntos(map, this.grupoOceania);
+        }
+      }, 300);
     }
   }
 
@@ -428,10 +679,39 @@ export class MapaComponent {
     var iconsEAuropa = L.icon({
       iconUrl: '/images/placeholder.png',
       iconSize: [30, 30]
-    }) 
+    })
     this.dataPuntosEuropa(iconsEAuropa, this.map);
-  
+
   }
+
+  africa(event: any) {
+    this.cambiarColor(event);
+    var icons = L.icon({
+      iconUrl: '/images/location-sharp.svg',
+      iconSize: [20, 20]
+    })
+    this.dataPuntosAfrica(icons, this.map);
+  }
+
+
+  asia(event: any) {
+    this.cambiarColor(event);
+    var icons = L.icon({
+      iconUrl: '/images/location-sharp.svg',
+      iconSize: [20, 20]
+    })
+    this.dataPuntosAsia(icons, this.map);
+  }
+
+  oceania(event: any) {
+    this.cambiarColor(event);
+    var icons = L.icon({
+      iconUrl: '/images/location-sharp.svg',
+      iconSize: [20, 20]
+    })
+    this.dataPuntosOceania(icons, this.map);
+  }
+
   //eliminar Puntos del Mapa
   eliminarGrupoPuntos(map: any, groud: any) {
     if (map.hasLayer(groud)) {
@@ -442,14 +722,14 @@ export class MapaComponent {
 
   //Función Todos los marcadores
 
-  activarMrcadores(event: any) {
-    this.cambiarColor(event);
-    var icons = L.icon({
-      iconUrl: '/images/location-sharp.svg',
-      iconSize: [20, 20]
-    })
-    this.dataPuntos(icons,this.map);
-  }
+  // activarMrcadores(event: any) {
+  //   this.cambiarColor(event);
+  //   var icons = L.icon({
+  //     iconUrl: '/images/location-sharp.svg',
+  //     iconSize: [20, 20]
+  //   })
+  //   this.dataPuntos(icons,this.map);
+  // }
 
 
 
