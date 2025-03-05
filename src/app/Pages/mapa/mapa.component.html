@@ -1,37 +1,121 @@
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-4" style="background-color: white; border: solid 10px #FF5A5A;width: 312px;height: 1080px;margin-left: -300px;">
-                <br><p style="text-align: center; color: black;font-size: 20px; font-weight: 800; text-transform: uppercase;">Escoge un continente</p>
-            
-<p style="text-align: center;font-style: italic;font-weight: 600;font-size: 12px;">Selecciona un continente y mira la ubicación de los países participantes de la bienal</p>
-         
-            <p style="text-align: center;">
-               <b>América del Norte </b><br><img src="images/continentes/anorte.png" style="width: 100px; width: 100px;" (click)="americaNorte($event)" alt="Image"><br>
-               <b>Centroamércia e Islas </b><br> <img src="images/continentes/centroamerica.png" style="width: 100px; width: 100px;" (click)="centroAmerica($event)" ><br>
-               <b>América del Sur </b><br> <img src="images/continentes/sudamerica.png" style="width: 100px; width: 100px;" (click)="americaDelSur($event)"><br>
-               <b>Europa </b><br><img src="images/continentes/europa.png" style="width: 100px; width: 100px;" (click)="europa($event)"><br>
-               <b>Asia</b><br> <img src="images/continentes/asia.png" style="width: 100px; width: 100px;" (click)="cambiarColor($event)"><br>
-               <b>África</b> <br><img src="images/continentes/africa.svg" style="width: 100px; width: 100px;"  (click)="activarMrcadores($event)"><br>
-               <b>Oceanía </b><br>  <img src="images/continentes/oceania.png" style="width: 100px; width: 100px;" (click)="cambiarColor($event)">
-            
-            </p>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div
+        id="map"
+        style="
+          width: 1920px;
+          height: 800px;
+          position: absolute;
+          right: 20px;
+          margin-right: -20px;
+        "
+      ></div>
+    </div>
+  </div>
 
-           
-          
-            </div>
+  <div
+    class="col-12"
+    style="
+      background-color: white;
+      border: solid 10px #ff5a5a;
+      width: 1920px;
+      height: 280px;
+      position: absolute;
+      top: 800px;
+      left: 0px;
+    "
+  >
+    <br />
+    <p
+      style="
+        text-align: center;
+        color: black;
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+      "
+    >
+      Escoge un continente
+    </p>
 
-            
+    <p
+      style="
+        text-align: center;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 15px;
+      "
+    >
+      Selecciona un continente y mira la ubicación de los países participantes
+      de la bienal
+    </p>
 
-            <div class="col-8"><div id="map" style="width: 1608px;height: 1080px;position: absolute;right: 20px;margin-right: -20px;" ></div>
+    <div class="parent">
+      <div class="div1" style="align-items: center">
+        <p style="text-align: center">
+          <img
+            src="images/continentes/anorte.png"
+            style="width: 100px; width: 100px"
+            (click)="americaNorte($event)"
+            alt="Image"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="images/continentes/centroamerica.png"
+            style="width: 100px; width: 100px"
+            (click)="centroAmerica($event)"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="images/continentes/sudamerica.png"
+            style="width: 100px; width: 100px"
+            (click)="americaDelSur($event)"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="images/continentes/europa.png"
+            style="width: 100px; width: 100px"
+            (click)="europa($event)"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="images/continentes/asia.png"
+            style="width: 100px; width: 100px"
+            (click)="cambiarColor($event)"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="images/continentes/africa.svg"
+            style="width: 100px; width: 100px"
+            (click)="activarMrcadores($event)"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="images/continentes/oceania.png"
+            style="width: 100px; width: 100px"
+            (click)="cambiarColor($event)"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
+      </div>
+
+      <!-- <p style="text-align: center;">
+           <b>América del Norte </b><br><img src="images/continentes/anorte.png" style="width: 100px; width: 100px;" (click)="americaNorte($event)" alt="Image"><br>
+           <b>Centroamércia & El Caribe </b><br> <img src="images/continentes/centroamerica.png" style="width: 100px; width: 100px;" (click)="centroAmerica($event)" ><br>
+           <b>América del Sur </b><br> <img src="images/continentes/sudamerica.png" style="width: 100px; width: 100px;" (click)="americaDelSur($event)"><br>
+           <b>Europa </b><br><img src="images/continentes/europa.png" style="width: 100px; width: 100px;" (click)="europa($event)"><br>
+           <b>Asia</b><br> <img src="images/continentes/asia.png" style="width: 100px; width: 100px;" (click)="cambiarColor($event)"><br>
+           <b>África</b> <br><img src="images/continentes/africa.svg" style="width: 100px; width: 100px;"  (click)="activarMrcadores($event)"><br>
+           <b>Oceanía </b><br>  <img src="images/continentes/oceania.png" style="width: 100px; width: 100px;" (click)="cambiarColor($event)">
         
-        
-        </div>
-
- 
-        </div>
-       
+        </p> -->
     </div>
 
-
-
+    <div class="parent">
+      <div class="div1">
+        <p style="font-weight: 800; font-size: 18px">
+          &nbsp;&nbsp;AMÉRICA DEL NORTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          CENTROAMÉRICA Y EL CARIBE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          AMÉRICA DEL SUR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          EUROPA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ASIA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ÁFRICA
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OCEANÍA
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

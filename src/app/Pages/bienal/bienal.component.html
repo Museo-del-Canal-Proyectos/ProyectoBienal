@@ -1,14 +1,11 @@
-<div style="width: 1920px; height: 1080px; background-color: white;border: solid 10px black;">
+<div style="width: 1920px; height: 1080px; background-color: white;border: solid 10px black;" >
   <br />
-  <div class="container"  transition-style="in:square:hesitate">
+  <div class="container"  transition-style="in:square:hesitate" *ngIf="countryData; else noData">
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4" style="font-weight: 700;">Albania</h1>
-          <p class="lead" style="word-spacing: 5px;"><b style="font-weight: 700;">Comisionado:</b> Blendi Gonxhja, Minister of Economy, Culture and Innovation
-           <b style="font-weight: 700;">Curador:</b>  Antonio Grulli
-            <b style="font-weight: 700;">Artista:</b> Iva Lulashi
-            <b style="font-weight: 700;">Lugar:</b> Arsenale</p>
+          <h1 class="display-4" style="font-weight: 700;">{{countryData.pais}}</h1>
+          <p class="lead" style="word-spacing: 5px;"><b style="font-weight: 700;">{{countryData.traducciones[idioma].descripcion }}</b> <i>{{countryData.exhibicion}}</i></p>
         </div>
       </div>
 
@@ -33,6 +30,21 @@
     /></swiper-slide>
    
     </swiper-container>
+
+
+    <!-- <swiper-container
+    class="mySwiper"
+    pagination="true"
+    pagination-type="progressbar"
+    navigation="true"
+  >
+    <swiper-slide *ngFor="let img of countryData.imagenes_adicionales">
+      <img [src]="img" alt="Imagen de {{ countryData.pais }}" width="100%">
+    </swiper-slide>
+  </swiper-container> -->
+
+
+    
   </div>
   <br />
   <div class="container" >
@@ -43,31 +55,12 @@
         align-items: center;      /* Centrado vertical */
         height: 300px; ">DESCRIPCIÓN</h3>
       </div>
-      <div class="col-6" transition-style="in:wipe:up" >
+      <div class="col-6" transition-style="in:wipe:up"   >
         <p style="font-size: 15px; font-style: italic; text-align: justify">
-          En su proyecto expositivo, la pintora <b>Iva Lulashi </b>evoca la “teoría del
-          vaso de agua”, que data del período prerrevolucionario ruso y está
-          vinculada a la pensadora feminista Alexandra Kollontai (1872-1952). La
-          teoría se basa en la idea de una revolución sexual, en la que los
-          impulsos se perciben como una necesidad que se satisface con la
-          despreocupación con la que se bebe un vaso de agua. El amor, el sexo y
-          el deseo pueden hacer o deshacer nuestras vidas. La obra de Iva
-          Lulashi gira en torno a estos temas universales eternamente
-          revolucionarios, capaces de trascender las diferencias y superar las
-          fronteras, no solo las geográficas. Las imágenes de sus cuadros están
-          extraídas de fotogramas de películas y vídeos, sugieren situaciones
-          vinculadas al acto erótico y están pobladas principalmente por cuerpos
-          femeninos. Su estilo mezcla la tradición pictórica albanesa con la
-          italiana y veneciana. Los espacios del pabellón están creados
-          siguiendo el plan arquitectónico estilizado y simplificado de la
-          casa/estudio de la artista. Los visitantes pueden admirar sus obras en
-          los espacios en los que nacen y viven, entre la intimidad, el
-          voyeurismo y la crítica institucional. Nacida en Albania, Iva Lulashi
-          se formó como pintora en Venecia, asistiendo a la Academia de Bellas
-          Artes local.
+          {{ countryData.traducciones[idioma].info }}
         </p>
       </div>
-
+      
      
 <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
 style="
@@ -87,6 +80,8 @@ routerLink="/mapa">
 <i class="fa-solid fa-circle-chevron-left"></i>
 </button>
 
+
+
 <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
 style="
   border-radius: 50px;
@@ -95,7 +90,7 @@ style="
   font-size: 40px;
   font-weight: 700;
   position: absolute;
-  right: 100px;
+  right: 30px;
   top: 950px;
   z-index: 1;
   background-color: black;
@@ -105,10 +100,32 @@ routerLink="/">
 <i class="fa-solid fa-home"></i>
 </button>
 
+<button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+style=" 
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  right: 140px;
+  top: 950px;
+  z-index: 1;
+  background-color: black;
+  color: white;
+"
+ (click)="cambiarIdioma()">
+ {{ idioma === 'es' ? 'ENG' : 'ESP' }}
+</button>
+
 
     </div>
   </div>
 </div>
+
+<ng-template #noData>
+  <p>No se encontró información del país seleccionado.</p>
+</ng-template>
 
 
 <!-- <p style='text-align:center'><b>Giardine de la Bienalle</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Panama</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Usa</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>china</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'> Panama</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Usa</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>china</a></div></div> -->

@@ -1,24 +1,71 @@
 [
     {
         "pais": "Panamá",
-        "coordena": [
-            45.43253953317171, 12.350561987425772
+        "coordena": [45.43253953317171, 12.350561987425772],
+        "image": "/images/paises/panama.jpg",
+        "imagenes_adicionales": [
+            "/images/panama1.jpg",
+            "/images/panama2.jpg",
+            "/images/panama3.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Panamá",
+                "info": "El Pabellón de Panamá profundiza en el impacto perdurable de la migración en las personas y su entorno a través de obras de cuatro artistas. Panamá, puente transcontinental, ha sido un centro de tránsito, comercio e intercambio cultural desde la prehistoria hasta la actualidad. Recientemente, ha acaparado la atención debido al peligroso viaje a través del «Tapón del Darién», una selva de 26.000 km2 que conecta Colombia y Panamá -atravesada por más de 500.000 migrantes y solicitantes de asilo sólo en 2023-, un viaje angustioso sin infraestructuras ni servicios, y sin seguridad frente a abusos, peligros o violencia. Los artistas revelan realidades ignoradas (a menudo casi invisibles), desde la exploración de Giana De Dier de la migración afroantillana a principios del siglo XX hasta las representaciones de Brooke Alfaro de seres humanos en viajes hostiles. Isabel De Obaldía sumerge al espectador en una instalación de dibujos y esculturas de vidrio, mientras que Cisco Merel reflexiona sobre la esquiva promesa de un futuro mejor a través del barro y el acero. Las obras de arte sirven como poderosos testimonios de las penurias soportadas en pos de una vida mejor. Este pabellón relaciona el arte con la actual crisis migratoria, incitando a la empatía con quienes se ven obligados a labrarse sus propios arduos viajes, de esos que dejan huellas indelebles en la tierra y en el cuerpo.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Panama Pavilion",
+                "info": "The Panama Pavilion delves into the enduring impact of migration on individuals and their surroundings through works by four artists. A transcontinental bridge, Panama has been a hub of transit, trade, and cultural exchange from prehistory to the present. Recently, it has gained attention due to the perilous journey through the “Darien Gap”, a 26,000km2 jungle connecting Colombia and Panama – crossed by over 500,000 migrants and asylum seekers in 2023 alone – a harrowing journey without infrastructure or services, and without security against abuse, danger or violence. The artists reveal overlooked realities (often all but rendered invisible), from Giana De Dier’s exploration of Afro-Antillean migration in the early 20th century, to Brooke Alfaro’s depictions of human beings on hostile journeys. Isabel De Obaldía immerses viewers in an installation of drawings and glass sculptures, while Cisco Merel reflects on the elusive promise of a better future through mud and steel. The artworks serve as powerful testimonies of the hardships endured in pursuit of a better life. This pavilion connects art and the current migration crisis, urging empathy for those who are forced to carve out their own arduous journeys—the kind that leave indelible traces on the land and on the body.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Traces: on the body and on the land"
     },
     {
         "pais": "Cuba",
-        "coordena": [
-            45.444910532983535, 12.337138081850181
+        "coordena": [45.444910532983535, 12.337138081850181],
+        "image": "/images/paises/cuba.jpg",
+        "imagenes_adicionales": [
+            "/images/cuba1.jpg",
+            "/images/cuba2.jpg",
+            "/images/cuba3.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
-    }
-    ,
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Cuba",
+                "info": "El telón es una cuestión de perspectiva: ¿desde qué posición y cómo entendemos lo que forma parte de nuestra realidad? Si tenemos en cuenta que estar fuera o dentro supone un núcleo heterogéneo de conocimientos históricos, filosóficos y geográficos. La exposición cuestiona, con un gesto poético, la responsabilidad que implica integrarse, (no) sentirse parte de algún lugar. Apunta a la suerte que todos tenemos en la evolución y en la selección natural, proceso representado en cambios, diversidad, diferencias sociales, raciales, étnicas, políticas y económicas, estableciendo un análisis de la realidad reflejado entre opuestos y niveles de sensibilidad: el nivel físico tangible y el nivel que se representa, que no es más que una alusión a nosotros mismos. Al fin y al cabo, aunque pensemos distinto, sintamos distinto y actuemos distinto, formamos parte de lo mismo.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Cuba Pavilion",
+                "info": "Curtain is a matter of perspective: from what position and how do we understand what is part of our reality? If we take into account that being outside or inside means a heterogeneous core of historical, philosophical and geographical knowledge. The exhibition questions, with a poetic gesture, the responsibility that implies to integrate, (not) to feel part of some place. It points out to the kind of luck that everyone has in the evolution and in the natural selection, process represented in changes, diversity, social, racial, ethnic, political and economic differences, establishing an analysis of reality reflected between opposites and levels of sensitivity: the tangible physical level and the level that is represented, which is nothing more than an allusion to ourselves. At the end of the day, although we think differently, feel differently and act differently, we are part of the same thing.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Curtain"
+    },
     {
         "pais": "Grenada",
-        "coordena": [
-            45.44264437554481, 12.335895094839524
+        "coordena": [45.44264437554481, 12.335895094839524],
+        "image": "/images/paises/grenada.jpg",
+        "imagenes_adicionales": [
+            "/images/grenada1.jpg",
+            "/images/grenada2.jpg",
+            "/images/grenada3.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Grenada",
+                "info": "Los artistas expuestos desarrollan la filosofía de un intelectual martiniqués, Édouard Glissant, sobre la identidad y las relaciones en el marco caribeño. En este sentido, Le discours antillais aparece como un texto paradigmático al describir a una población sin una identidad de raíz única, sino en perpetua transformación, mientras que las relaciones con las diferentes influencias y etnias aparecen como fundamentales para la evolución de la conciencia individual y colectiva. La interpretación glissantiana muestra cómo la relación y el movimiento generarían conocimiento, apertura al otro e intercambio mutuo, manteniendo al mismo tiempo el derecho a la opacidad, es decir, la propia singularidad inspirada en la coexistencia y la evolución continua. En línea con este pensamiento están las afirmaciones de Adriano Pedrosa, quien, en su descripción del tema Extranjeros por todas partes, subraya el sentido intrínseco de extranjería de los individuos, independientemente de la ubicación de cada uno. La extrañeza de cada uno se convierte, sin embargo, en comunidad en el momento en que uno «practica» el conocimiento -concepto opuesto a «tener» conocimiento- mediante la atención prestada a las relaciones entre las cosas o simplemente contando su experiencia en el contexto de una «correspondencia» recíproca (Tim Ingold), de modo que la comunidad implica un «darse juntos».",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Grenada Pavilion",
+                "info": "The artists on display elaborate on the philosophy of a Martinican intellectual, Édouard Glissant, concerning identity and relationships in the Caribbean framework. In this sense, Le discours antillais appears to be a paradigmatic text in describing a population without a single-root identity but rather in perpetual transformation, whereas relations with different influences and ethnic groups appear fundamental for the evolution of the individual and collective consciousness. The Glissantian interpretation shows how relationship and movement would generate knowledge, openness to the other and mutual exchange, while maintaining the right to opacity, meaning one’s own singularity inspired by coexistence and continuous evolution. In line with this thought are the statements of Adriano Pedrosa, who, in his description of the theme Foreigners Everywhere, emphasises the intrinsic sense of foreignness of individuals, regardless of one’s location. Everyone’s strangeness becomes, however, a community at the moment one “practices” knowledge — a concept opposed to “having” knowledge — through the attention paid to the relationships between things or simply by recounting their experience in the context of a reciprocal “correspondence” (Tim Ingold), so that community implies a “giving of self together”.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "No Man is an Island "
     }
 ]

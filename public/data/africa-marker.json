@@ -1,108 +1,288 @@
 [
     {
         "pais": "Benin",
-        "coordena": [
-            45.4348682179207,
-            12.349898097006415
+        "coordena": [45.4348682179207, 12.349898097006415],
+        "image": "/images/paises/benin.jpg",
+        "imagenes_adicionales": [
+            "/images/benin1.jpg",
+            "/images/benin2.jpg",
+            "/images/benin3.jpg"
         ],
-        "image": "/images/paises/usa.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Benín",
+                "info": "Everything Precious Is Fragile surge de una profunda exploración de las tradiciones yoruba Gė lė dė, abordando la fragilidad del mundo contemporáneo marcada por los desafíos ecológicos, los conflictos y las desigualdades sociales. En colaboración con los gobernantes tradicionales de Benín, el equipo curatorial dio forma al concepto del pabellón, abrazando humildemente la fragilidad y la naturaleza efímera de la existencia - para los seres humanos, las plantas, los animales. La filosofía de Gė lė dė desvela dimensiones ecológicas, políticas, culturales y sociales, celebrando el resurgimiento de la sabiduría indígena y destacando el papel vital de la mujer. Los artistas Hazoumè, Quenum, Akpo y Bello encarnan el ethos beninés, abogando por la regeneración y la [re]matriación, el retorno a la madre. El legado histórico de Benín y la reciente restitución de objetos culturales dan forma a la exposición. El pabellón vislumbra un futuro compasivo y desafía las percepciones de fragilidad y fortaleza. El pabellón del Arsenale incluye una biblioteca sobre el legado colonial, el conocimiento indígena, la representación africana y la pérdida de biodiversidad. Propone preguntas urgentes sobre la naturaleza material y filosófica de la fragilidad. ¿Es la fragilidad una fortaleza o una debilidad?",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Everything Precious Is Fragile",
+                "info": "Everything Precious Is Fragile emanates from a deep exploration of Yoruba Gė lė dė traditions, addressing the contemporary world’s fragility marked by ecological challenges, conflicts, and social inequalities. In collaboration with Benin’s traditional rulers, the curatorial team shaped the pavilion’s concept, humbly embracing fragility and the ephemeral nature of existence — for humans, plants, animals. Gė lė dė philosophy unveils ecological, political, cultural, and social dimensions, celebrating indigenous wisdom’s resurgence and highlighting women’s vital role. Artists Hazoumè, Quenum, Akpo, and Bello embody Beninese ethos, advocating regeneration and [re]matriation, the return to the mother. Benin’s historical legacy and recent restitution of cultural artefacts shape the exhibition. The pavilion envisions a compassionate future and challenges perceptions of fragility and strength. The Arsenale’s pavilion includes a library on colonial legacy, Indigenous knowledge, African representation, and biodiversity loss. It proposes urgent questions on the material and philosophical nature of fragility. Is fragility a strength or a weakness?",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Título de la Exhibición"
     },
     {
-        "pais": "Cemerún",
-        "coordena": [
-            45.44330727172999,
-            12.34011734549449
+        "pais": "Camerún",
+        "coordena": [45.44330727172999, 12.34011734549449],
+        "image": "/images/paises/cameroon.jpg",
+        "imagenes_adicionales": [
+            "/images/cameroon1.jpg",
+            "/images/cameroon2.jpg",
+            "/images/cameroon3.jpg"
         ],
-        "image": "/images/paises/canada.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Camerún",
+                "info": "El dicho latino «Nemo propheta in patria» significa el reto de obtener reconocimiento en el lugar de nacimiento. Por el contrario, es más probable que el reconocimiento se produzca en otro lugar, entre extraños. En este contexto, un profeta es alguien que suele destacar por su capacidad de percibir más allá de las normas convencionales. El arte siempre ha contribuido a derribar barreras y a difundir ideas más allá de las fronteras sociales y geográficas. El dicho encierra una verdad universal sobre las dificultades a las que se enfrentan los innovadores en su entorno nativo.En una Bienal dedicada a los extranjeros y sus diásporas, el Pabellón de Camerún mostrará a artistas cameruneses e internacionales, destacando su trabajo fuera de sus contextos nativos en un proyecto de visión más amplia. La iniciativa rinde homenaje a quienes han abandonado sus comunidades en busca de trabajo, atención y éxito en otros lugares, un fenómeno que se observa en todas las épocas y naciones.El Pabellón de Camerún, bautizado acertadamente como el «pabellón de las maravillas», presentará proyectos de artistas locales e internacionales, conmemorando la valentía de quienes persiguieron sus ideas al margen del reconocimiento local, aspirando a un ambicioso horizonte internacional. Será un espacio en el que se acogerán las diferencias como fuente de riqueza, fomentando un entorno integrador en el que nadie se sienta forastero.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Cameroon Pavilion",
+                "info": "The Latin saying “Nemo propheta in patria” signifies the challenge of gaining recognition in one’s birthplace. Conversely, recognition is more likely to occur elsewhere, among strangers. In this context, a prophet is someone often standing out for their ability to perceive beyond conventional norms. Art has consistently played a role in breaking down barriers, disseminating ideas across social and geographical boundaries. The saying encapsulates a universal truth about the difficulties innovators face in their native environment.In a Biennale dedicated to foreigners and their diasporas, the Cameroon Pavilion will showcase Cameroonian and international artists, highlighting their work outside their native contexts in a broader vision project. The initiative celebrates those who have left their communities in pursuit of work, attention, and success elsewhere — a phenomenon witnessed across eras and nations.The Cameroon Pavilion, aptly named the “pavilion of wonders”, will feature projects by local and international artists, commemorating the courage of those who pursued their ideas independently of local recognition, aspiring to an ambitious international horizon. It will be a space where differences are embraced as a source of richness, fostering an inclusive environment where no one feels like an outsider.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Nemo propheta in patria"
     },
     {
         "pais": "Egipto",
-        "coordena": [
-            45.42887236721131,
-            12.358047409971245
+        "coordena": [45.42887236721131, 12.358047409971245],
+        "image": "/images/paises/egypt.jpg",
+        "imagenes_adicionales": [
+            "/images/egypt1.jpg",
+            "/images/egypt2.jpg",
+            "/images/egypt3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Egipto",
+                "info": "El artista egipcio Wael Shawky trabaja con el cine, la escultura, la performance y el dibujo para examinar e invertir las nociones comunes de identidad nacional y religiosa mediante la refundición de los puntos de vista existentes de la historia. Caracterizada por una investigación rigurosa, la práctica de Shawky se basa en su profunda relación con la historia y el patrimonio cultural del mundo árabe. Su obra parte de la premisa de que la historia es un registro de secuencias representadas subjetivamente en lugar de hechos indiscutibles, que él plantea para crear escenificaciones e interpretaciones elaboradamente coreografiadas de acontecimientos históricos. En El Araba El Madfuna (2012), unos niños rinden homenaje a una antigua ciudad arqueológica y a las mitologías que la rodean, mientras que en Cabaret Crusades (2013) los enfrentamientos medievales entre musulmanes y cristianos se convierten en una trilogía homérica contada desde una perspectiva árabe. En su nueva película musical para el Pabellón Egipcio, Drama 1882, Shawky continúa con su práctica continuada de las interpretaciones históricas. Tomando como punto de partida el año 1882 y la revolución Urabi de Egipto (1879-1882) contra el dominio imperial, la épica puesta en escena musical reorienta la lente narrativa sobre la dramática secuencia de acontecimientos que comenzó con una pelea en un café, estalló en disturbios y terminó con un bombardeo a gran escala de Alejandría por las fuerzas británicas y la histórica batalla de Tel El Kebir. ",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Egypt Pavilion",
+                "info": "Egyptian artist Wael Shawky works across film, sculpture, performance and drawing to examine and invert common notions of national and religious identity by recasting existing viewpoints of history. Characterized by rigorous research, Shawky’s practice is rooted in his deep relationship to the history and cultural heritage of the Arab world. His work premises history to be a record of subjectively depicted sequences rather than indisputable facts, which he posits to create elaborately choreographed re-stagings and interpretations of historic events. In El Araba El Madfuna (2012), children come to pay homage to an ancient archaeological city and its surrounding mythologies, while in Cabaret Crusades (2013) medieval clashes between Muslims and Christians become a Homeric trilogy retold from an Arab perspective. In his new musical film for the Egyptian Pavilion, Drama 1882, Shawky continues his ongoing practice of historical renditions. Taking the year 1882, and Egypt’s seminal Urabi revolution (1879–1882) against imperial rule as a starting point, the epic musical staging recasts the narrative lens on the dramatic sequence of events that began with a café fight, erupted into riots, and ended in a full- scale bombardment of Alexandria by British forces and the historic Battle of Tel El Kebir. ",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Drama 1882    -   دراما ١٨٨٢"
     }
     ,
     {
         "pais": "Etiopía",
-        "coordena": [
-            45.43499908053881,
-            12.345474800810631
+        "coordena": [45.43499908053881, 12.345474800810631],
+        "image": "/images/paises/ethiopia.jpg",
+        "imagenes_adicionales": [
+            "/images/ethiopia1.jpg",
+            "/images/ethiopia2.jpg",
+            "/images/ethiopia3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Etiopía",
+                "info": "Tesfaye Urgessa colecciona «cosas» y las coloca en un «sótano» conceptual, imágenes diminutas, grandes ideas, una mano, un torso, unos pies torneados, una canción. Es un espacio eterno de objetos e ideas preciosas. «El sótano es donde guardas lo que es importante para ti».En Prejuicio y pertenencia, Tesfaye Urgessa pinta varios lienzos al mismo tiempo, digamos cinco o diez. «Miro mis cuadros y luego me imagino en qué cuadro podría funcionar esta determinada imagen en particular, así que lo intento en un lienzo, a veces funciona y continúo y otras veces no funciona y tengo que destruirlo». Se mueve por el estudio de un lienzo a otro buscando «la reacción química» para iniciar una «reacción en cadena».Esta exposición surge de los trece años que pasó en Alemania, ayudando en la traducción en campos de inmigrantes: «La gente tiende a pensar que en mis lienzos pinto víctimas, pero es completamente distinto. Las figuras encierran todo tipo de emociones, tanto fragilidad como confianza. Es la figura presentada sin ningún juicio. Es decir esto es lo que soy, esto es lo que soy».En Prejudice and Belonging Urgessa «no sigue las leyes naturales», sino las leyes de la pintura. Sus figuras no se definen por sus cicatrices, sino por la increíble capacidad de curarse.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Ethiopia Pavilion",
+                "info": "Tesfaye Urgessa collects “things” and places them in a conceptual “basement”, tiny images, large ideas, a hand, a torso, turned feet, a song. It is an eternal space of precious objects and ideas. “The basement is where you keep what is important to you”.In Prejudice and Belonging Tesfaye Urgessa paints a number of canvases at the same time, say five or ten. “I look at my paintings and then kind of imagine in which painting this particular certain image might work, so I try on one canvas, sometimes it works and I continue and sometimes it doesn’t work and I have to destroy it.” He moves around the studio from one canvas to the other seeking “the chemical reaction” to initiate a “chain reaction”.This exhibition arises over the thirteen years he spent in Germany, helping with translation in immigration camps: “People tend to think I am painting victims in my canvases but it’s completely different. The figures hold all kinds of emotions, fragility as well as confidence. It is the figure presented without any judgement. It is saying this is who I am, this is what I am.”In Prejudice and Belonging Urgessa is “not following natural laws” but the laws of painting. His figures are not defined by their scars but by the incredible ability to heal.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Prejudice and Belonging"
     }
     ,
     {
         "pais": "Costa de Marfil",
-        "coordena": [
-            45.43015036483647,
-            12.326205171230388
+        "coordena": [45.43015036483647, 12.326205171230388],
+        "image": "/images/paises/costamarfil.jpg",
+        "imagenes_adicionales": [
+            "/images/costamarfil1.jpg",
+            "/images/costamarfil2.jpg",
+            "/images/costamarfil3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Costa de Marfil",
+                "info": "No significa nada si no tiene ese swing.Duke Ellington Costa de Marfil es una parte de África que a su vez es una parte del mundo. Su identidad, desde la independencia, se ha construido sobre un panafricanismo amplio y asumido. Una bandera nacional no debe encerrarse en una identidad fija, sino en torno a una lengua común. En Venecia, el lenguaje común es el arte y cada grupo o individuo lo adapta a través de formas idiomáticas no siempre fáciles de traducir, pero comprensibles en estas singularidades. Este es el lenguaje que la creación artística trata de captar. En su intento de expresar lo indecible. ¿Sintieron desesperación los africanos deportados a América y otros lugares cuando se dieron cuenta de que el camino del retorno se les cerraba para siempre? Tal vez. Pero transformaron su desesperación y la pérdida de la «lengua materna» en un acto de absoluta resiliencia: la nota azul, que les permitía expresar ese color particular que faltaba en el sistema occidental. Es lo que permite cantar la soledad y la fatiga de la vida, pero también la esperanza. Es la nota que permitió a los africanos sobrevivir y vivir.En nuestra época contemporánea, en la que el Otro es condenado al ostracismo en todas partes, es esta fuerza feroz e inalienable, esta lucha intacta por la esperanza, lo que pretendemos activar a través del Pabellón de Costa de Marfil.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Ivory Coast Pavilion",
+                "info": "It don’t mean a thing, if it ain’t got that swing.Duke Ellington Ivory Coast is a part of Africa which itself is a part of the world. Its identity, since independence, has been built on a broad and assumed pan-Africanism. A national flag should not be locked into a fixed identity but around a common language. In Venice, the common language is art and each group or individual adapts it through idiomatic forms which are not always easy to translate, but which can be understood in these singularities. This is the language that artistic creation seeks to capture. In its attempt to express the unspeakable.Did Africans deported to the Americas and elsewhere feel despair when they realized that the path of return was forever closed to them? Maybe. But they transformed their despair and the loss of the “mother tongue” into an act of absolute resilience: the blue note, which allowed them to express this particular colour that was missing from the western system. It is what allows us to sing solitude and the fatigue of life but also hope. It is the note that allowed Africans to survive and live.In our contemporary times, where the Other is ostracized everywhere, it is this fierce and inalienable strength, this intact strive for hope that we intend to activate through the Ivorian Pavilion.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "The Blue Note"
     }
     ,
     {
         "pais": "Nigeria",
-        "coordena": [
-            45.433458137542665,
-            12.324290912023539
+        "coordena": [45.433458137542665, 12.324290912023539],
+        "image": "/images/paises/nigeria.jpg",
+        "imagenes_adicionales": [
+            "/images/nigeria1.jpg",
+            "/images/nigeria2.jpg",
+            "/images/nigeria3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Nigeria",
+                "info": "Nigeria Imaginary explora el papel tanto de los grandes momentos de la historia de Nigeria -momentos de optimismo- como de la Nigeria de la mente: una Nigeria que podría ser y que aún está por ser. Presentando diferentes perspectivas e ideas construidas, recuerdos y nostalgias de Nigeria, Nigeria Imaginary aprovecha una lente intergeneracional y diaspórica para imaginar una Nigeria para el futuro. Estas voces se articulan a través de diversos medios, desde la pintura, la fotografía y la escultura hasta la RA, el sonido y el cine.Yinka Shonibare CBE RA explora la Expedición a Benín de 1897 y presenta una nueva forma de entender los objetos saqueados, mientras que Toyin Ojih Odutola reimagina un nuevo mundo en torno a la Casa Mbari. Onyeka Igwe y Abraham O. Oghobase exploran la resaca colonial y cuestionan el futuro de este legado, mientras que Tunji Adeniyi-Jones recurre a la historia del modernismo nigeriano para evocar un futuro histórico-artístico alternativo. Fatimah Tuggar presenta una visión utópica de una nueva Nigeria y Ndidi Dike evalúa la intersección entre las protestas EndSARS 2020 en Nigeria y el movimiento mundial Black Lives Matter. Por último, Precious Okoyomon nos invita a un estado de ensoñación, situándonos en las mentes y perspectivas de nigerianos contemporáneos para que podamos reimaginar Nigeria con ellos.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Nigeria Pavilion",
+                "info": "Nigeria Imaginary explores the role of both great moments in Nigeria’s history – moments of optimism – and the Nigeria of the mind—a Nigeria that could be and is yet to be. Presenting different perspectives and constructed ideas, memories, and nostalgias of Nigeria, Nigeria Imaginary leverages an intergenerational and diasporic lens to imagine a Nigeria for the future. These voices are articulated via diverse mediums, from painting, photography, and sculpture, to AR, sound, and film.Yinka Shonibare CBE RA explores the Benin Expedition of 1897 and presents a new way to understand the looted objects, whereas Toyin Ojih Odutola reimagines a new world centred around the Mbari House. Onyeka Igwe and Abraham O. Oghobase explore the colonial hangover and question the future of this legacy whilst Tunji Adeniyi-Jones looks to the history of Nigerian modernism to evoke an alternative art-historical future. Fatimah Tuggar presents a utopic vision for a new Nigeria and Ndidi Dike assesses the intersection between the 2020 EndSARS protests in Nigeria and the global movement of Black Lives Matter. Finally, Precious Okoyomon invites us into a dream state, placing us into the minds and perspectives of contemporary Nigerians so we can reimagine Nigeria with them.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Nigeria Imaginary"
     }
     ,
     {
         "pais": "Senegal",
-        "coordena": [
-            45.43338362171533,
-            12.353416808956823
+        "coordena": [45.43338362171533, 12.353416808956823],
+        "image": "/images/paises/senegal.jpg",
+        "imagenes_adicionales": [
+            "/images/senegal1.jpg",
+            "/images/senegal2.jpg",
+            "/images/senegal3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Senegal",
+                "info": "El Pabellón de Senegal explora las diversas dimensiones de la identidad africana, celebrando la riqueza cultural del país a través del arte contemporáneo. Las obras presentadas son un reflejo de la historia, las tradiciones y los cambios sociales de Senegal, con un enfoque especial en la conexión entre la tradición oral y los medios modernos. La exposición invita a una reflexión profunda sobre la identidad africana en un mundo globalizado y la influencia de las culturas africanas en la escena artística contemporánea.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Senegal Pavilion",
+                "info": "For its first-ever participation at Biennale Arte, Senegal chose to feature Franco-Senegalese artist Alioune Diagne. Born and trained in Senegal, Diagne has developed his unique technique of “unconscious signs”, small modules that cluster together to form a coherent figurative image. Socially engaged, he has been using this complex sign process to create dynamic paintings depicting daily life scenes in Senegal as well as the major world challenges, from ecology to gender equality, racism, and the notions of transmission and heritage.The project, titled Bokk – Bounds, conceived together with curator Massamba Mbaye, is a response to the theme of Biennale Arte 2024, Foreigners Everywhere. In Wolof, Bokk means “what is shared”, “held in common”, as well as family ties.A selection of paintings together forming a 4x12m puzzle-like display calls to unity and connection. Emerging from the works, hints at contemporary disasters stand in stark contrast to the joyful life scenes about the education of children, the legacy of traditions, and the sense of community.At the centre of the piece, a traditional canoe wrapped in a Senegalese-made textile painted by the artist echoes humankind’s history marked by major migration waves, foreshadowing climate change’s future migratory phenomena.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Bokk - Bounds"
     }
     ,
     {
         "pais": "República de Seychelles",
-        "coordena": [
-            45.43340101862532,
-            12.3541853354585
+        "coordena": [45.43340101862532, 12.3541853354585],
+        "image": "/images/paises/seychelles.jpg",
+        "imagenes_adicionales": [
+            "/images/seychelles1.jpg",
+            "/images/seychelles2.jpg",
+            "/images/seychelles3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de República de Seychelles",
+                "info": "El Pabellón de Seychelles presenta la obra de cuatro artistas seychellenses: Jude Ally, Ryan Chetty, Danielle Freakley y Juliette Zelime (alias Jadez), y explora cuestiones de identidad nacional, cultural y social.Jude Ally presenta obras de técnica mixta sobre lienzo. El concepto de esta instalación se relaciona con la manera en que las personas de las sociedades se encuentran a menudo atrapadas en la irrelevancia debido a las numerosas, frecuentes y rápidas transiciones de la sociedad.Ryan Chetty expone un homenaje a la nación de las Seychelles y a su pueblo. Celebra la génesis de nuestra nación, hogar de individuos diversos y sorprendentes que proceden de multitud de orígenes raciales y étnicos.Danielle Freakley invita a la gente a comunicarse a través de un nuevo modo de habla sobre esculturas del continente submarino de las Seychelles. Se distribuyen cintas al público con instrucciones sobre cómo participar en este modo de conversación.Jadez explora el concepto del Efecto Piñata - Adaptarse o perecer, que explora la ideología asociada a la migración en busca de libertad, tranquilidad y mejores pastos.En conjunto, las obras abordan cuestiones de estereotipos y clichés estilísticos, categorización y determinación de estatus, y sistemas lingüísticos informales.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Seychelles Pavilion",
+                "info": "The Seychelles Pavilion features the work of four Seychellois artists: Jude Ally, Ryan Chetty, Danielle Freakley and Juliette Zelime (aka Jadez), and explores issues of national, cultural and social identity.Jude Ally presents mixed media works on canvas. The concept for this installation relates to the manner in which people within societies are frequently stranded in irrelevance due to society’s many, frequent and rapid transitions.Ryan Chetty exhibits an homage to the Seychelles nation and its people. It celebrates the genesis of our nation, which is home to diverse, striking individuals who hail from a multitude of racial and ethnic backgrounds.Danielle Freakley invites people to communicate through a new speech mode on sculptures of the Seychelles’ underwater continent. Ribbons are distributed to audiences with further instructions on how to participate in this conversation mode.Jadez explores the concept of The Piñata Effect – Adapt or Perish, which explores the ideology associated with migration in the search for freedom, peace of mind and better pastures.Collectively, the artworks address issues of stereotyping and stylistic clichés, categorisation and status determination, and informal language systems.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Pala"
     }
     ,
     {
-        "pais": "Súdafrica",
-        "coordena": [
-            45.43419903961713,
-            12.355401732655242
+        "pais": "Sudáfrica",
+        "coordena": [45.43419903961713, 12.355401732655242],
+        "image": "/images/paises/sudafrica.jpg",
+        "imagenes_adicionales": [
+            "/images/sudafrica1.jpg",
+            "/images/sudafrica2.jpg",
+            "/images/sudafrica3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Sudáfrica",
+                "info": "La nueva instalación sonora Dinokana (2024) de MADEYOULOOK explora temas como el desplazamiento de tierras y aguas, la soberanía y la rehabilitación. Centrándose en las estrategias perennes de reparación de las relaciones rotas con la tierra, los artistas consideran el simbolismo de la planta de la resurrección, que, en la muerte aparente, se reanima al recibir agua para llamar la atención sobre cómo dos comunidades en el norte de Sudáfrica han abordado los ciclos de pérdida y reparación.MADEYOULOOK señala diversas historias que han controlado el modo en que los pueblos negros e indígenas acceden a su entorno para examinar la instrumentalización de los recursos naturales como formas de captura y alienación.MADEYOULOOK contempla la capacidad política y social del agua y recurre a ella como infraestructura de reparación. La instalación multicanal inmersiva combina el sonido de canciones tradicionales sobre la lluvia, la cosecha y la adivinación del agua con fragmentos de entrevistas a cultivadores y trabajadores de la tierra de distintas generaciones y comunidades para considerar las formas cíclicas e insistentes de reconstitución entre generaciones.Se invita a los visitantes a habitar la instalación como un santuario de descanso y refugio. Dinokana se desarrolla en un intervalo de 30 minutos, con 20 minutos de actividad sonora, seguidos de un intermedio de 10 minutos.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "South Africa Pavilion",
+                "info": "MADEYOULOOK’s newly commissioned sound installation Dinokana (2024) explores themes of land and water displacement, sovereignty and rehabilitation. Focusing on perennial strategies of repairing severed relationships to the land, the artists consider the symbolism of the resurrection plant, which, in apparent death, reanimates upon receiving water to draw attention to how two communities in the north of South Africa have approached cycles of loss and repair.MADEYOULOOK signals various histories that have controlled how Black and indigenous peoples access their surroundings to examine the instrumentalisation of natural resources as forms of capture and alienation.MADEYOULOOK contemplates the political and social capacity of water and draws on it as an infrastructure of repair. The immersive multi-channel installation marries sound comprising traditional songs about rain, harvest, and water divination with snippets of interviews with growers and land-workers from different generations and communities to consider the cyclical and insistent cross- generational forms of reconstitution.Visitors are invited to inhabit the installation as a sanctuary of rest and refuge. Dinokana runs on a 30-minute interval, with 20 minutes of sonic activity, followed by a 10-minute intermission.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Quiet Ground"
     }
     ,
     {
         "pais": "Tanzania",
-        "coordena": [
-            45.441804279555065,
-            12.334442489328147
+        "coordena": [45.441804279555065, 12.334442489328147],
+        "image": "/images/paises/tanzania.jpg",
+        "imagenes_adicionales": [
+            "/images/tanzania1.jpg",
+            "/images/tanzania2.jpg",
+            "/images/tanzania3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Tanzania",
+                "info": "A Flight in Reverse Mirrors consta de cuatro habitaciones imaginarias, cada una representativa de una época de la historia de Tanzania: desde finales del siglo XIX hasta las dos primeras décadas del siglo XXI, pasando por un futuro/presente descontextualizado. Las habitaciones, en diálogo especular, culminan con la transformación de la última en un espíritu invisible, simbolizado por una polilla, en metafórico vuelo a través de las otras tres, concluyendo su viaje en un proceso cíclico de muerte y renacimiento. Las obras expuestas -pinturas, xilografías, instalaciones site-specific- exploran los temas del viaje, la migración, el nomadismo y las transformaciones impuestas por los cambios medioambientales.El pabellón investiga los orígenes del concepto del «Otro». Tanzania, una de las «Cunas de la Humanidad», ofrece un punto de vista privilegiado de las primeras relaciones entre el ser humano y la naturaleza. Más tarde, el Arlequín se desarrolló como arquetipo de mediador entre estos dos reinos, encarnando híbridos entre el hombre y Dios, y acabando por identificarse con las castas sacerdotales. Surgieron entonces conceptos de diversidad y conflicto, y un sentido de pertenencia y exclusión.Hoy, este papel crucial de mediadores puede confiarse a los artistas, que, como nuestros antepasados, comunicarán su propio pasado al «Otro», compartirán el presente y anticiparán el futuro.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Tanzania Pavilion",
+                "info": "A Flight in Reverse Mirrors consists of four imaginary rooms, each representative of an era in the history of Tanzania: from the late 19th to the first two decades of the 21st century, and on to a decontextualised future/present. The rooms, in specular dialogue, culminate in the transformation of the last one into an invisible spirit, symbolised by a moth, in metaphorical flight through the other three, concluding its journey in a cyclical process of death and rebirth. The exhibited works – paintings, woodcuts, site-specific installations – explore themes of travel, migration, nomadism, and the transformations imposed by environmental changes.The pavilion investigates the origins of the concept of the “Other”. One the “Cradles of Humanity”, Tanzania provides a privileged vantage point to the earliest relationships between humans and nature. Later, the Trickster was developed as an archetype of mediator between these two realms, embodying hybrids between man and God—and eventually identifying with the priestly castes. Concepts of diversity, and conflict, and a sense of belonging and exclusion arose then.Today, this crucial role of mediators can be entrusted to artists, who, like our ancestors, will communicate their own past to the “Other”, share the present, and anticipate the future.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "A Flight in Reverse Mirrors"
     }
     ,
     {
         "pais": "Uganda",
-        "coordena": [
-            45.43540664658178,
-            12.346753879459024
+        "coordena": [45.43540664658178, 12.346753879459024],
+        "image": "/images/paises/uganda.jpg",
+        "imagenes_adicionales": [
+            "/images/uganda1.jpg",
+            "/images/uganda2.jpg",
+            "/images/uganda3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Uganda",
+                "info": "Wan Acel le invita a desclasificar el arte a través de la obra de un grupo diverso de treinta y un artistas intergeneracionales. Trabajando tanto individual como colectivamente, examinan sus contextos de producción artística, cuestionando las narrativas predominantes que sirven para construir y mantener jerarquías de creación artística.Los títulos, Wan Acel | Tuli Bamu | Turibamwe, procedentes de lenguas habladas en el resto de África, son representativos de los orígenes sin fronteras de los artistas que exponen.A través de exploraciones de la memoria colectiva, Wan Acel revela y ofrece un caleidoscopio íntimo y multisensorial de materialidad y artesanía.Le invitamos a preguntarse: «¿Cómo estás?» en lugar de «¿Quién eres?, ¿Por qué estás aquí?».Library of Weaving (LOW), del Artisan Weavers Collective, consiste en patrones de tejido y formas encontradas en esteras y cestería expuestas a modo de catálogo enciclopédico.Los artistas individuales del pabellón son: Sanaa Gateja, José Hendo, Taga Nuwagaba, Xenson Ssenkaaba y Odur Ronald. Sus obras se componen de cuentas de papel reciclado, tela de corteza, bambú, trajes de novia reciclados, caucho y acuarelas. Algunas de estas obras forman parte de un desfile coreografiado por Venecia en el que participa el público.A través de Wan Acel, propongo que nos digamos, unos a otros, en humanidad compartida:¡Bienvenido!¡Tú perteneces!",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Uganda Pavilion",
+                "info": "Wan Acel invites you to de-classify art through the work of a diverse group of thirty-one intergenerational artists. Working both individually and in a collective, they examine their contexts of art production, interrogating prevailing narratives that serve to construct and maintain hierachies of art creation.The titles, Wan Acel | Tuli Bamu | Turibamwe, from languages spoken in wider Africa, are representative of the borderless origins of the exhibiting artists.Through explorations of collective memory, Wan Acel reveals and offers an intimate, multi-sensory kaleidoscope of materiality and artisanship.We invite you to ask: “How are you?” instead of “Who are you!?, Why are you here!?”Library of Weaving (LOW), by the Artisan Weavers Collective, consists of patterns of weaving and shapes found in mats and basketry exhibited as an encyclopedic catalogue.The individual artists of the pavillion are: Sanaa Gateja, Jose Hendo, Taga Nuwagaba, Xenson Ssenkaaba, and Odur Ronald. Their works are composed of recycled paperbeads, barkcloth, bamboo, upcycled wedding gowns, rubber and watercolours. Some of these works form part of a choreographed audience-participatory parade through Venice.Through Wan Acel, I propose that we say, one to the other, in shared humanity:Welcome here!You belong!",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Wan Acel | Tuli Bamu | Turibamwe | We Are One"
     }
     ,
     {
         "pais": "Zimbabwe",
-        "coordena": [
-            45.43408780914301,
-            12.345227432013933
+        "coordena": [45.43408780914301, 12.345227432013933],
+        "image": "/images/paises/zimbabwe.jpg",
+        "imagenes_adicionales": [
+            "/images/zimbabwe1.jpg",
+            "/images/zimbabwe2.jpg",
+            "/images/zimbabwe3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Zimbabwe",
+                "info": "El Pabellón de Zimbabue en la 60ª Exposición Internacional de Arte aprovecha el concepto de kududunuka. Kududunuka se convierte en una exploración de ideas sobre el desmoronamiento del mundo. La exposición puede leerse como una reflexión sobre la reimaginación de un futuro potencial. Trata de ser infiel a las ideas impuestas sobre el tiempo, la geografía, el espacio, la identidad, la nacionalidad, la humanidad, la migración y la flexibilidad del paisaje siempre cambiante de lo que llamamos hogar. Nos encontramos en la cúspide de un impacto secular de la acción humana. Esta exposición ofrece un espacio para la reflexión, la construcción de lo que aún no existe y la mirada hacia un nuevo horizonte.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Zimbabwe Pavilion",
+                "info": "The Zimbabwe Pavilion at the 60th International Art Exhibition harnesses the concept of kududunuka. Kududunuka becomes an exploration of ideas of the unravelling of the world. The exhibition can be read as thinking about reimagining a potential future. It hearkens to being unfaithful to imposed ideas of time, geography, space, identity, nationhood, humanity, migration, and the suppleness of the ever-changing landscape of what we call home. We stand on the cusp of centuries-old impact of human action. This exhibition provides a space for reflection, building what does not exist yet and looking towards a new horizon.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Undone"
     }
 ]
 

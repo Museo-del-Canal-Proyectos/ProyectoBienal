@@ -1,27 +1,72 @@
 [
     {
         "pais": "Estados Unidos",
-        "coordena": [
-            45.428753563539786,
-            12.358673305849361
+        "coordena": [45.428753563539786, 12.358673305849361],
+        "image": "/images/paises/usa.jpg",
+        "imagenes_adicionales": [
+            "/images/usa1.jpg",
+            "/images/usa2.jpg",
+            "/images/usa3.jpg"
         ],
-        "image": "/images/paises/usa.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Estados Unidos",
+                "info": "Jeffrey Gibson ha forjado una práctica interdisciplinar y un lenguaje visual híbrido que se nutre de historias americanas, indígenas y queer, con referencias a subculturas populares, literatura y tradiciones artísticas globales. Gibson, miembro de la Mississippi Band of Choctaw Indians y descendiente de cherokees, creció en los principales centros urbanos de Estados Unidos, Alemania y Corea, experiencias que le han servido de base para su trabajo. En su obra, la estética intertribal, los abalorios, los tejidos y los objetos encontrados de los dos últimos siglos se mezclan con los lenguajes visuales del modernismo global. Su uso de patrones y geometrías abstractas se enfrenta a la cromofobia del arte contemporáneo. Su práctica refleja las vibrantes realidades de las comunidades indígenas de Estados Unidos, una forma de crítica cultural que aborda historias complejas en lugar de borrarlas.Con esculturas multimedia de nueva producción, pinturas de técnica mixta, murales específicos para el lugar, una instalación de vídeo multicanal y una amplia instalación exterior, el espacio en el que colocarme transforma el Pabellón de Estados Unidos en una encarnación de la visión radicalmente integradora de Gibson para el futuro: un espacio en el que el arte indígena y un amplio espectro de expresiones e identidades culturales son fundamentales para la experiencia estadounidense.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "United States Pavilion",
+                "info": "Jeffrey Gibson has forged an interdisciplinary practice and hybrid visual language that draws from American, Indigenous, and queer histories, with references to popular subcultures, literature, and global artistic traditions. A member of the Mississippi Band of Choctaw Indians and of Cherokee descent, Gibson grew up in major urban centers in the United States, Germany, and Korea— experiences that inform his practice. In his work, intertribal aesthetics, beadwork, textiles, and found objects from the past two centuries commingle with the visual languages of global modernism. His use of pattern and abstract geometries confronts the chromophobia of contemporary art. His practice reflects the vibrant realities of Indigenous communities in the United States, a form of cultural critique that engages with complex histories rather than erasing them.With newly produced multimedia sculptures, mixed-media paintings, site-specific murals, a multichannel video installation, and an extensive exterior installation, the space in which to place me transforms the U.S. Pavilion into an embodiment of Gibson’s radically inclusive vision for the future: a space in which Indigenous art and a broad spectrum of cultural expressions and identities are central to the American experience.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Jeffrey Gibson: the space in which to place me"
     },
     {
-        "pais": "Canada",
-        "coordena": [
-            45.42887236721131,
-            12.358047409971245
+        "pais": "Canadá",
+        "coordena": [45.42887236721131, 12.358047409971245],
+        "image": "/images/paises/canada.jpg",
+        "imagenes_adicionales": [
+            "/images/canada1.jpg",
+            "/images/canada2.jpg",
+            "/images/canada3.jpg"
         ],
-        "image": "/images/paises/canada.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Canadá",
+                "info": "Kapwani Kiwanga es un artista multidisciplinar interesado en las formas de poder: sus historias suprimidas y sus efectos cotidianos. El artista transforma el Pabellón de Canadá mediante una instalación escultórica específica en el interior y el exterior del edificio, convirtiéndolo en un retablo a gran escala. Las formas cambian, disolviendo las distinciones entre interior y exterior. A medida que uno se desplaza por la arquitectura en espiral, ésta se despliega, multiplicando las perspectivas.La instalación se compone principalmente de conterie (cuentas de semillas), empleadas históricamente como moneda y objeto de intercambio. Las conterie se dispersaron por el mundo desde la isla veneciana de Murano y se incorporaron a diversas culturas materiales. Kiwanga utiliza estas diminutas unidades de vidrio para construir lo monumental a partir de lo minúsculo, y cada cuenta actúa como testigo de transacciones pasadas que cambiaron el paisaje socioeconómico del siglo XVI y posteriores. La obra aborda la historia, a menudo destructiva, del comercio y cómo el intercambio de estas cuentas dio forma al mundo. También se incluyen otros materiales relacionados con el comercio de conteras. Se elevan desde el suelo del pabellón hasta las paredes y se derraman por el patio. Al encontrarse con las cuentas, formalizan un lugar de intercambio que incita a reflexionar sobre cuestiones de valor, estética y relaciones económicas mundiales",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Canada Pavilion",
+                "info": "Kapwani Kiwanga is a multi-disciplinary artist concerned with forms of power: their suppressed histories and quotidian effects. The artist transforms the Canada Pavilion by way of a site- specific sculptural installation on the building’s interior and exterior, turning it into a large-scale tableau. Shapes shift, dissolving distinctions between inside and outside. As one moves through the coil-like architecture, it unfolds, multiplying perspectives.The installation principally consists of conterie (seed beads), historically employed as both currency and items of exchange. Conterie were dispersed globally from the Venetian island of Murano and incorporated into various material cultures. Kiwanga uses these tiny glass units to construct the monumental out of the minute, each bead acting as a witness to past transactions that changed the socioeconomic landscape of the sixteenth century and beyond. The work addresses the often-destructive history of commerce and how the trade of these beads shaped the world. Other materials related to the trade of conterie are also included. They rise from the pavilion’s floor onto the walls and spill out into the courtyard. As they meet the beads, they formalise a place of exchange, prompting reflection on issues of value, aesthetics, and global economic relations.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Trinket"
     },
     {
-        "pais": "Mexico",
-        "coordena": [
-            45.434200976949576,
-            12.354940678453188
+        "pais": "México",
+        "coordena": [45.434200976949576, 12.354940678453188],
+        "image": "/images/paises/mexico.jpg",
+        "imagenes_adicionales": [
+            "/images/mexico1.jpg",
+            "/images/mexico2.jpg",
+            "/images/mexico3.jpg"
         ],
-        "image": "/images/paises/mexico.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de México",
+                "info": "En 2019, Erick Meyenberg, artista mexicano de ascendencia alemana y libanesa, reunió a la familia Doda en torno a una mesa en la campiña italiana. La familia había emigrado a Italia más de treinta años antes desde Albania, integrándose sin perder sus lazos culturales y tradiciones, y dando lugar a otra identidad: la del extranjero. Una condición que lleva intrínseco el dolor de la pérdida y el retorno constante e irremediable al recuerdo de lo que nunca volverá a ser. El artista es testigo de la evolución de los hábitos personales, adquiridos y dejados atrás: formas de honrar, amar y echar de menos que son universales en sus singularidades.De ese registro y diálogo constante con Gentian Doda surge esta instalación cuatro años después.En el centro del Pabellón de México encontramos una mesa, enmarcada por pares de biombos esquineros que muestran a la familia reunida en torno a esa otra mesa. El escenario evoca poéticamente el desplazamiento del emigrante y, al mismo tiempo, el arraigo que puede representar un almuerzo compartido. Cuando «la tierra», nuestro lugar de origen o crianza, queda lejos o se convierte en un imposible, la comida y la música se convierten en portadoras y creadoras de pertenencia, trascendiendo las fronteras físicas y simbólicas trazadas por los humanos.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Mexico Pavilion",
+                "info": "In 2019, Erick Meyenberg, a Mexican artist of German and Lebanese descent, gathered the Doda family around a table in the Italian countryside. The family had migrated to Italy over thirty years earlier from Albania, integrating without losing their cultural ties and traditions, and giving rise to another identity: that of the foreigner. A condition that carries intrinsic the pain of loss and the constant and irremediable return to the memory of what will never be again. The artist bears witness to the evolution of personal habits, both acquired and left behind: ways of honouring, loving, and missing that are universal in their singularities.It is from that record and constant dialogue with Gentian Doda that this installation emerges four years later.At the centre of the Mexican Pavilion we find a table, framed by pairs of corner screens showing the family gathered around that other table. The setting poetically evokes the displacement of the migrant and, at the same time, the rootedness that a shared lunch can represent. When “the land”, our place of origin or upbringing, is far away or becomes an impossibility, food and music become bearers and creators of belonging, transcending the physical and symbolic boundaries outlined by humans.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "As  we marched away, we were always coming back"
     }
 ]
 

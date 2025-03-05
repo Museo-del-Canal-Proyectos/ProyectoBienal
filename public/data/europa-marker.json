@@ -1,153 +1,613 @@
 [
-   {
-        "pais": "<p style='text-align:center'><b>Arsenale</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Albania</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Islandia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Irlanda</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Italia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Latvia</a></div></div>",
-        "coordena": [
-            45.437002, 12.317188
-        ],
-        "image": "/images/paises/españa.webp"
-    },
-    {
-        "pais": "Luxenburgo",
-        "coordena": [
-            45.43336961234824, 12.35388904872533
-        ],
-        "image": "/images/paises/francia.jpg"
-    },
-    {
-        "pais": "Malta",
-        "coordena": [45.43337687015619, 12.353792712559104],
-        "image": "/images/paises/alemania.webp"
-    },
-    {
-        "pais": "Ucrania",
-        "coordena": [45.43331981528366, 12.354733603077687],
-        "image":"/images/paises/polonia.jpg"
-    },
-    {
-        "pais": "<p style='text-align:center'><b>Giardine de la Bienalle</b></p><div class='row' style='width:300px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Austria</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Republica Checa</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Dinamarca</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Gran Bretaña</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Hungría</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Finlandia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Francia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Alemania</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Grecia</a></div></div>",
-        "coordena": [45.42887236721131, 12.358047409971245
-
+  {
+    "pais": "<p style='text-align:center'><b>Arsenale</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Albania</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Islandia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Irlanda</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Italia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Latvia</a></div></div>",
+    "coordena": [45.437002, 12.317188],
+    "image": "/images/paises/españa.webp"
+  },
+  {
+    "pais": "Luxemburgo",
+    "coordena": [45.43336961234824, 12.35388904872533],
+    "image": "/images/paises/francia.jpg",
+    "imagenes_adicionales": [
+      "/images/lux1.jpg",
+      "/images/lux2.jpg",
+      "/images/lux3.jpg"
     ],
-        "image":"/images/paises/suiza.webp"
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Luxemburgo",
+        "info": "El proyecto del Pabellón de Luxemburgo desafía la noción de autoría artística individual presentando una colección de obras en las que los artistas renuncian al ego en favor de una profunda investigación de la creatividad común a través del medio sonoro. El título, A Comparative Dialogue Act, resume la naturaleza de este experimento: una exploración de diversos lenguajes sonoros y una contemplación del diálogo más allá de lo visual, en el mundo inmersivo del sonido como herramienta de negociación. Cuatro residencias que tendrán lugar a lo largo de la Bienal transforman el pabellón en un espacio de producción donde cada investigación individual contribuirá a un cuerpo de trabajo compartido. El pabellón se concibe como una infraestructura para la transmisión del sonido. La tecnología se utiliza para desarrollar un experimento local que investiga la transmisión del conocimiento y el trabajo en curso. La noción de apertura no se vincula aquí a la ausencia de límites, sino más bien a la apropiación de «lo otro» y su contribución a escenarios colectivos y abiertos. A través del potencial transformador del sonido como medio para cultivar la conexión y el entendimiento, esta exposición pretende trascender los límites establecidos por perspectivas singulares de lo que el sonido puede prestar a los actos de interpretar, distorsionar y apropiarse.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Luxembourg Pavilion",
+        "info": "The Luxembourg Pavilion project challenges the notion of individual artistic authorship by presenting a collection of works in which artists renounce their ego in favor of an in-depth exploration of collective creativity through sound. The title, A Comparative Dialogue Act, encapsulates the essence of this experiment: an exploration of various sonic languages and a contemplation of dialogue beyond the visual, in the immersive world of sound as a tool for negotiation. Four residencies throughout the Biennale will transform the pavilion into a production space where each individual investigation contributes to a shared body of work. The pavilion is conceived as an infrastructure for sound transmission. Technology is used to develop a local experiment that investigates the transmission of knowledge and ongoing work. The notion of openness here is not linked to the absence of boundaries but rather to the appropriation of 'the other' and its contribution to collective and open scenarios. Through the transformative potential of sound as a medium for fostering connection and understanding, this exhibition aims to transcend the limits set by singular perspectives on what sound can lend to acts of interpretation, distortion, and appropriation.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais": "Belgica",
-        "coordena": [45.42958441974432, 12.357700294665218],
-        "image":"/images/paises/dinamarca.jpg"
+    "exhibicion": "A Comparative Dialogue Act"
+  },
+  {
+    "pais": "Malta",
+    "coordena": [45.43337687015619, 12.353792712559104],
+    "image": "/images/paises/alemania.webp",
+    "imagenes_adicionales": [
+      "/images/malta1.jpg",
+      "/images/malta2.jpg",
+      "/images/malta3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Malta",
+        "info": "Matthew Attard investiga la versatilidad del dibujo contemporáneo, explorando su naturaleza performativa y temporal, generando intersecciones entre los ámbitos físico y digital. Attard comparte la autoría de su arte con un rastreador ocular, una avanzada herramienta científica de la que se han apropiado recientemente las empresas. Para el artista, el eye-tracker es una extensión de sí mismo, que le ofrece una plataforma para explorar el territorio híbrido entre humanos y máquinas: un colaborador inteligente en la producción de arte contemporáneo. En I Will Follow the Ship, entrelaza aún más el dibujo digital con la imaginería histórica. El pabellón se despliega como una exploración del legado y los significados de los grafitis de barcos, humildes dibujos y motivos exvotos encontrados en las fachadas de las capillas de Malta. Los significados de estos dibujos anónimos resuenan hoy en día, cuando la tecnología informática e Internet han impulsado la emancipación artística de las masas y desbancado a los tradicionales centros de poder locales. Se establece así un paralelismo entre estas incisiones en piedra y el dibujo digital contemporáneo. En el pabellón, los barcos cautivan al público, permitiendo la interacción digital y el pensamiento especulativo compartido. Se metamorfosean en símbolos de esperanza y descubren verdades ocultas que subyacen bajo las previsiones, las emociones y las convicciones.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Malta Pavilion",
+        "info": "Matthew Attard explores the versatility of contemporary drawing, investigating its performative and temporal nature while generating intersections between the physical and digital realms. Attard shares authorship of his art with an eye-tracker, an advanced scientific tool recently appropriated by corporations. For the artist, the eye-tracker is an extension of himself, offering a platform to explore the hybrid territory between humans and machines—an intelligent collaborator in the production of contemporary art. In *I Will Follow the Ship*, he further intertwines digital drawing with historical imagery. The pavilion unfolds as an exploration of the legacy and meanings of ship graffiti—humble drawings and ex-voto motifs found on the facades of Malta’s chapels. The meanings of these anonymous drawings still resonate today, as computing technology and the internet have empowered mass artistic emancipation, dismantling traditional local centers of power. This establishes a parallel between these stone engravings and contemporary digital drawing. In the pavilion, ships captivate audiences, allowing for digital interaction and shared speculative thought. They metamorphose into symbols of hope, uncovering hidden truths that lie beneath expectations, emotions, and beliefs.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais": "Paises Bajos",
-        "coordena": [45.429754019672664, 12.358044794685096],
-        "image":"/images/paises/turquia.jpg"
+    "exhibicion": "I Will Follow the Ship"
+  },
+  {
+    "pais": "Ucrania",
+    "coordena": [45.43331981528366, 12.354733603077687],
+    "image": "/images/paises/polonia.jpg",
+    "imagenes_adicionales": [
+      "/images/ucrania1.jpg",
+      "/images/ucrania2.jpg",
+      "/images/ucrania3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Ucrania",
+        "info": "La fabricación de redes es tanto una práctica de la vida real como una metáfora. Personas de Ucrania y del extranjero, a menudo desconocidos, se reúnen para tejer redes de camuflaje. Es una práctica impulsada por la tragedia, pero también puede funcionar como terapia u ocasión social. Es el epítome de la autoorganización, la horizontalidad y la acción conjunta, y un medio de emancipación. Katya Buchatska creó *Best Wishes* trabajando con quince artistas neurodiversos en un intento de replantearse las convenciones de los saludos y los deseos y explorar las transformaciones del lenguaje. La obra de Oleksandr Burlaka encarna las prácticas tradicionales del tejido casero, características de la cultura ucraniana, al tiempo que sirve de telón de fondo a las narraciones de otros sobre experiencias personales y cataclismos recientes. *Civiles. Invasion*, de Andrii Rachynskyi y Daniil Revkovskyi, presenta vídeos de archivo recopilados de fuentes abiertas, grabados por civiles antes y durante la invasión rusa. *Comfort Work*, de Andrii Dostliev y Lia Dostlieva, ironiza sobre los estereotipos y las expectativas que se ciernen sobre los refugiados en Europa, creando de forma lúdica un espacio seguro para que los ucranianos con experiencia de desplazamiento reclamen su protagonismo. En diálogo con *Foreigners Everywhere* de esta Bienal, el Pabellón de Ucrania aborda el tema de la alteridad a través de diversas experiencias personales de guerra, emigración e integración social.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Ukraine Pavilion",
+        "info": "The making of nets is both a real-life practice and a metaphor. People from Ukraine and abroad, often strangers, gather to weave camouflage nets. It is a practice driven by tragedy but can also serve as therapy or a social occasion. It epitomizes self-organization, horizontality, collective action, and a means of emancipation. Katya Buchatska created *Best Wishes* by working with fifteen neurodiverse artists in an attempt to rethink the conventions of greetings and wishes and explore the transformations of language. Oleksandr Burlaka’s work embodies traditional home-weaving practices characteristic of Ukrainian culture while serving as a backdrop for narratives of others about personal experiences and recent cataclysms. *Civilians. Invasion*, by Andrii Rachynskyi and Daniil Revkovskyi, presents archival footage collected from open sources, filmed by civilians before and during the Russian invasion. *Comfort Work*, by Andrii Dostliev and Lia Dostlieva, ironically addresses stereotypes and expectations surrounding refugees in Europe, playfully creating a safe space for displaced Ukrainians to reclaim their agency. In dialogue with *Foreigners Everywhere* at this Biennale, the Ukraine Pavilion addresses the theme of otherness through various personal experiences of war, migration, and social integration.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais": "Países nórdicos (Suecia, Finlandia, Noruega)",
-        "coordena": [45.42864467838947,12.358208523251184],
-        "image":"/images/paises/austria.webp"
+    "exhibicion": "Trabajo en red"
+  },
+  {
+    "pais": "<p style='text-align:center;'><b>Giardine de la Bienalle</b></p><div class='row' style='width:300px;text-align:justiffy; '><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Austria</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Republica Checa</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Dinamarca</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Gran Bretaña</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Hungría</a></div><div class='col-6' style='margin-right:0;'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Finlandia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Francia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Alemania</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Grecia</a></div></div>",
+    "coordena": [45.42887236721131, 12.358047409971245],
+    "image": "/images/paises/suiza.webp"
+  },
+  {
+    "pais": "Bélgica",
+    "coordena": [45.42958441974432, 12.357700294665218],
+    "image": "/images/paises/dinamarca.jpg",
+    "imagenes_adicionales": [
+      "/images/belgica1.jpg",
+      "/images/belgica2.jpg",
+      "/images/belgica3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Bélgica",
+        "info": "Mezcla de arte, comisariado, arquitectura, tipografía y cartografía, el colectivo (*Denicolai & Provoost, Antoinette Jattiot, Nord, Spec uloos*) desplaza el formato tradicional de exposición a través de sus sucesivos capítulos y su potencial ficticio. Los miembros del colectivo están vinculados por colaboraciones a largo plazo y por su papel de intermediarios y críticos dentro y fuera del campo del arte, desde el que interrogan la forma en que vemos las organizaciones colectivas, populares y alternativas y sus modos de compartir. *Petticoat Government* es un escenario multidisciplinar basado en gigantes folclóricos existentes en diversas comunidades de Bélgica, Francia y España. Los viajes performativos en dirección a Italia, pasando por el paso de Resia el 9 de marzo de 2024 y regresando a Charleroi y Dunkerque en 2025, inyectan una alegre perturbación en la realidad utilizando la variedad de juegos de escala y tensiones entre lo humano y lo no humano, el paisaje y la arquitectura, las fronteras y su transgresión. A diferencia de una obra cerrada, el Pabellón belga se imagina como un lugar de paso, con una perspectiva caleidoscópica. A través del lugar concedido a la oralidad y a la co-construcción de historias, y de la puesta en escena aérea y sonora «sobre el suelo» de las gigantescas figuras, se interroga sobre el origen de las mitologías contemporáneas y de las historias centenarias.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Belgium Pavilion",
+        "info": "A blend of art, curating, architecture, typography, and cartography, the collective (*Denicolai & Provoost, Antoinette Jattiot, Nord, Spec uloos*) shifts the traditional exhibition format through its successive chapters and fictional potential. The members of the collective are connected by long-term collaborations and their role as intermediaries and critics within and outside the field of art, questioning how we perceive collective, popular, and alternative organizations and their modes of sharing. *Petticoat Government* is a multidisciplinary setting based on existing folkloric giants from various communities in Belgium, France, and Spain. The performative journeys towards Italy, passing through the Resia Pass on March 9, 2024, and returning to Charleroi and Dunkirk in 2025, inject joyful disruption into reality by using a variety of scale games and tensions between human and non-human, landscape and architecture, borders, and their transgression. Unlike a closed work, the Belgian Pavilion is imagined as a place of passage, offering a kaleidoscopic perspective. Through the role given to orality and the co-construction of stories, and the aerial and sound staging of gigantic figures ‘on the ground,’ it questions the origins of contemporary mythologies and age-old narratives.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais": "Polonia",
-        "coordena": [45.428597397522054,12.359872656499483],
-        "image":"/images/paises/ucrania.webp"
+    "exhibicion": "Petticoat Government"
+  },
+  {
+    "pais": "Países Bajos",
+    "coordena": [45.429754019672664, 12.358044794685096],
+    "image": "/images/paises/turquia.jpg",
+    "imagenes_adicionales": [
+      "/images/paisesbajos1.jpg",
+      "/images/paisesbajos2.jpg",
+      "/images/paisesbajos3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de los Países Bajos",
+        "info": "El *Cercle d'Art des Travailleurs de Plantation Congolaise* (CATPC) es un colectivo de artistas de trabajadores de plantaciones congoleñas, con sede en Lusanga, en el corazón de la República Democrática del Congo, en una plantación que fue propiedad de la multinacional británico-holandesa Unilever. CATPC responsabiliza a empresas como estas de explotar sus bosques y sociedades, causando pobreza extrema y destruyendo la biodiversidad. Desde 2014, mediante la creación y venta de obras de arte en el extranjero, CATPC ha estado recomprando sus tierras ancestrales y transformándolas en agroforestales biodiversos. CATPC sostiene que las instituciones artísticas deberían darse cuenta de que sus edificios y programas están financiados por las mismas empresas que explotan la mano de obra de las plantaciones. Por eso, en 2017, CATPC -junto con el artista holandés Renzo Martens- inauguró el *Cubo Blanco*, un centro de arte ubicado en el mismo centro de donde se obtuvieron los ingresos para financiar cubos blancos en todo el mundo. Para la *Biennale Arte 2024*, CATPC presenta nuevas esculturas tanto en el *Pabellón Holandés* como en el *Cubo Blanco*. Además, el *Pabellón Holandés* presenta la performance cinematográfica *El juicio del Cubo Blanco*. La escultura ancestral *Balot* desempeña un papel central en ambas exposiciones. Para CATPC, esta estatua de madera, realizada en 1931, tiene un gran significado, ya que conecta el pasado con el presente.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Netherlands Pavilion",
+        "info": "The *Cercle d'Art des Travailleurs de Plantation Congolaise* (CATPC) is a collective of plantation worker artists from the Congo, based in Lusanga, at the heart of the Democratic Republic of the Congo, on a plantation that once belonged to the British-Dutch multinational Unilever. CATPC holds companies like these accountable for exploiting their forests and societies, causing extreme poverty and destroying biodiversity. Since 2014, through the creation and sale of artworks abroad, CATPC has been buying back their ancestral lands and transforming them into biodiverse agroforests. CATPC argues that art institutions should recognize that their buildings and programs are funded by the same corporations that exploit plantation labor. That is why, in 2017, CATPC—together with Dutch artist Renzo Martens—opened the *White Cube*, an art center located at the very site where profits were extracted to finance white cubes around the world. For the *Biennale Arte 2024*, CATPC presents new sculptures both at the *Dutch Pavilion* and the *White Cube*. Additionally, the *Dutch Pavilion* features the film performance *The Trial of the White Cube*. The ancestral sculpture *Balot* plays a central role in both exhibitions. For CATPC, this wooden statue, created in 1931, holds great significance as it connects the past with the present.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Rumania",
-        "coordena": [45.428366762314944, 12.359821216299538],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "El juicio del Cubo Blanco"
+  },
+  {
+    "pais": "Países Nórdicos (Suecia, Finlandia, Noruega)",
+    "coordena": [45.42864467838947, 12.358208523251184],
+    "image": "/images/paises/austria.webp",
+    "imagenes_adicionales": [
+      "/images/paises_nordicos1.jpg",
+      "/images/paises_nordicos2.jpg",
+      "/images/paises_nordicos3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de los Países Nórdicos",
+        "info": "La *Ópera de Altersea* es una instalación audiovisual, un drama donde una búsqueda épica en el mar sugiere las implicaciones existenciales del desplazamiento y la pertenencia. El proyecto ha sido concebido y conceptualizado por el artista *Lap-See Lam* (Suecia) y realizado en colaboración con el compositor experimental *Tze Yeung Ho* (Noruega) y el artista textil *Kholod Hawash* (Finlandia). En el centro de la historia se encuentra la figura mitológica cantonesa *Lo Ting*—mitad pez, mitad hombre—y su anhelo de volver a su antigua vida en *Fragrant Harbour*. Trabajando con tecnología contemporánea y referencias y técnicas tradicionales, la práctica generativa de *Lap-See Lam* reivindica y complica a la vez la noción de patrimonio cultural. La partitura, compuesta por *Tze Yeung Ho*, fusiona ornamentación barroca e instrumentos inesperados en melodías melancólicas, intercaladas con canciones de cuna y poesía que se inspiran en el origen multilingüe de los artistas. Las obras textiles de *Kholod Hawash* forman una instalación escultórica en el pabellón. En el espíritu de las *Red Boat Troupes*, la compañía itinerante que popularizó la ópera cantonesa en el siglo XIX, *The Altersea Opera* oscila entre lo real y lo imaginario mientras narra una historia de pérdida generacional y experiencia diaspórica, y negocia el deseo de quedarse con la necesidad de seguir adelante.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Nordic Countries Pavilion",
+        "info": "*The Altersea Opera* is an audiovisual installation, a drama where an epic sea quest suggests the existential implications of displacement and belonging. The project was conceived and conceptualized by artist *Lap-See Lam* (Sweden) and created in collaboration with experimental composer *Tze Yeung Ho* (Norway) and textile artist *Kholod Hawash* (Finland). At the heart of the story is the mythological Cantonese figure *Lo Ting*—half fish, half man—and his longing to return to his former life in *Fragrant Harbour*. Working with contemporary technology as well as traditional references and techniques, *Lap-See Lam’s* generative practice both reclaims and complicates the notion of cultural heritage. The score, composed by *Tze Yeung Ho*, fuses Baroque ornamentation and unexpected instruments into melancholic melodies, interwoven with lullabies and poetry inspired by the artists’ multilingual origins. *Kholod Hawash’s* textile works form a sculptural installation within the pavilion. In the spirit of the *Red Boat Troupes*, the traveling company that popularized Cantonese opera in the 19th century, *The Altersea Opera* oscillates between reality and imagination as it tells a story of generational loss and diasporic experience, negotiating the desire to stay with the necessity to move forward.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Serbia",
-        "coordena": [45.428366762314944, 12.360124386918976],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "La Ópera de Altersea"
+  },
+  {
+    "pais": "Polonia",
+    "coordena": [45.428597397522054, 12.359872656499483],
+    "image": "/images/paises/ucrania.webp",
+    "imagenes_adicionales": [
+      "/images/polonia1.jpg",
+      "/images/polonia2.jpg",
+      "/images/polonia3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Polonia",
+        "info": "Repeat After Me II es un retrato colectivo de testigos de la guerra de Ucrania. Los protagonistas de dos películas de 2022 y 2024 son civiles refugiados de guerra que hablan de la guerra recordada a través de los sonidos de las armas de fuego, y luego invitan al público a repetir después de ellos. Los artistas utilizan un formato de karaoke. El acompañamiento aquí no son canciones de éxito: son disparos, misiles, aullidos y explosiones, y las letras son descripciones de armas mortales. Es la banda sonora de una guerra que los testigos intentan recrear. La capacidad de reconocer estos sonidos puede salvarles la vida, y se nos invita a aprender el lenguaje de sus experiencias. El público puede repetir los sonidos de las armas o retirarse al espacio seguro diseñado para parecerse a un bar de karaoke. Sin embargo, no se trata de un bar cualquiera, como los que conocemos: es un karaoke de instrucción que pronostica un futuro aún más militarizado. Este espectro permanecerá con nosotros mientras se acepten las políticas imperialistas nacionalistas como parte de un compromiso diplomático.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Poland Pavilion",
+        "info": "Repeat After Me II is a collective portrait of witnesses of the war in Ukraine. The protagonists of two films from 2022 and 2024 are civilian war refugees who speak about the war remembered through the sounds of gunfire and then invite the audience to repeat after them. The artists use a karaoke format. The accompaniment here is not hit songs: it is gunshots, missiles, howls, and explosions, with lyrics that describe deadly weapons. It is the soundtrack of a war that witnesses attempt to recreate. The ability to recognize these sounds can save lives, and we are invited to learn the language of their experiences. The audience can either repeat the sounds of the weapons or retreat to the safe space designed to resemble a karaoke bar. However, this is not just any karaoke bar as we know it: it is an instructional karaoke that predicts an even more militarized future. This specter will remain with us as long as nationalist imperialist policies are accepted as part of diplomatic engagement.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Eslovaquia",
-        "coordena": [45.42831564485238, 12.35861185444196],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "Repeat after me II"
+  },
+  {
+    "pais": "Rumania",
+    "coordena": [45.428366762314944, 12.359821216299538],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/rumania1.jpg",
+      "/images/rumania2.jpg",
+      "/images/rumania3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Rumania",
+        "info": "El proyecto de Șerban Savu para el Pabellón de Rumania y la Nueva Galería del Instituto Cultural Rumano consiste en pinturas y mosaicos inspirados en el realismo socialista. En lugar de rebatirlos o desmantelarlos, Savu reorganiza los tropos revolucionarios -de trabajadores unidos por aspiraciones políticas y los ritmos coreográficos de la construcción del futuro- para captar la realidad sin adornos de un limbo histórico, momentos de suspensión, perplejidad e inercia como microcosmos de cambios o crisis sociales más amplios. En el pabellón, una instalación monumental en forma de políptico reúne unos 40 cuadros en un estudio polifacético de una escena social cada vez más vacía de significados compartidos, donde las distintas ideologías erigen sus escenografías y emiten sus proclamas. Una instalación arquitectónica presenta maquetas en las que se exhiben mosaicos que divergen de las metáforas y tonalidades que el medio transmite en entornos religiosos, o en las cosmogonías del trabajo en las que destaca la fabricación socialista de mosaicos. En la otra sede del proyecto, uno de estos mosaicos se realiza a escala monumental. Además, el estudio de diseño gráfico Atelier Brenda, con sede en Bruselas, responde al proyecto de Savu con obras textuales y visuales que reflexionan sobre la abstracción del trabajo como fundamento de la definición de un yo capitalista.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Romania Pavilion",
+        "info": "Șerban Savu’s project for the Romania Pavilion and the New Gallery of the Romanian Cultural Institute consists of paintings and mosaics inspired by socialist realism. Instead of refuting or dismantling them, Savu reorganizes the revolutionary tropes—of workers united by political aspirations and the choreographed rhythms of building the future—to capture the unembellished reality of a historical limbo, moments of suspension, perplexity, and inertia as microcosms of broader social changes or crises. In the pavilion, a monumental polyptych installation gathers around 40 paintings in a multifaceted study of a social scene increasingly devoid of shared meanings, where different ideologies construct their stage sets and issue their proclamations. An architectural installation presents models showcasing mosaics that diverge from the metaphors and tones traditionally conveyed in religious settings or in the socialist cosmogonies of labor-driven mosaics. At the project’s other venue, one of these mosaics is executed on a monumental scale. Additionally, the Brussels-based graphic design studio Atelier Brenda responds to Savu’s project with textual and visual works reflecting on the abstraction of labor as the foundation for defining a capitalist self.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"España",
-        "coordena": [45.42938260398585, 12.357487890295552],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "What Work Is"
+  },
+  {
+    "pais": "Serbia",
+    "coordena": [45.428366762314944, 12.360124386918976],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/serbia1.jpg",
+      "/images/serbia2.jpg",
+      "/images/serbia3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Serbia",
+        "info": "El título de la exposición, Exposition coloniale, recuerda las consecuencias de la era colonial. Este contexto histórico sienta las bases para la exploración de Denić de las ramificaciones contemporáneas del colonialismo y el impacto continuo de la división y subyugación de pueblos y culturas. En el mundo actual, los temas de la usurpación, la división y el control siguen siendo pertinentes, no solo en el ámbito de la política y las finanzas, sino también en el de los valores y principios humanos básicos. Gracias a su importante y premiada experiencia artística en el teatro, Denić utilizó sus habilidades para ahondar en cuestiones complejas y acuciantes. Las intrincadas estructuras y los conglomerados espaciales están impregnados de las ansiedades de la sociedad en la que existen. Actúan como recuerdos sociales, capturando la esencia de la estancia humana y reflejando la sensibilidad perdida y la intimidad de nuestras interacciones en ellos. Al emplear la inversión simbólica dentro de la exposición, desafía a los espectadores, colocándolos en una situación en la que deben reexaminar su comprensión de la dinámica del poder, el consumismo y las múltiples realidades amargas del estado actual de las cosas; encontrándose personalmente, como extranjero, como artista profesionalmente desplazado de forma permanente a Alemania y a las zonas de habla alemana, donde ha estado trabajando durante las últimas décadas.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Serbia Pavilion",
+        "info": "The title of the exhibition, Exposition coloniale, recalls the consequences of the colonial era. This historical context lays the foundation for Denić’s exploration of the contemporary ramifications of colonialism and the ongoing impact of the division and subjugation of peoples and cultures. In today’s world, issues of usurpation, division, and control remain pertinent—not only in politics and finance but also in basic human values and principles. With his extensive and award-winning experience in theater, Denić employs his skills to delve into complex and pressing issues. The intricate structures and spatial conglomerates are imbued with the anxieties of the societies they exist within. They act as social memories, capturing the essence of human presence and reflecting the lost sensitivity and intimacy of our interactions. By using symbolic inversion within the exhibition, he challenges viewers, placing them in a position where they must reexamine their understanding of power dynamics, consumerism, and the harsh multiple realities of the present state of affairs; finding himself personally as a foreigner, as a professional artist permanently displaced to Germany and German-speaking regions, where he has been working for the past decades.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Suiza",
-        "coordena": [45.42874782187958, 12.357106944287006],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "Exposition coloniale"
+  },
+  {
+    "pais": "República Eslovaca",
+    "coordena": [45.42831564485238, 12.35861185444196],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/eslovaquia1.jpg",
+      "/images/eslovaquia2.jpg",
+      "/images/eslovaquia3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de la República Eslovaca",
+        "info": "El mundo que queremos es un mundo en el que quepan muchos mundos.-Isabelle Fremeaux y Jay Jordan, We Are 'Nature Defending Itself'. Las protestas civiles han hecho historia. Necesitamos estas historias transformadoras con héroes valientes que triunfan contra todo pronóstico y crean un nuevo mito. En Floating Arboretum, Oto Hudec trabaja con un archivo de historias, relatando un esfuerzo colectivo de activistas para evitar la deforestación. El propio artista ha participado en varias protestas. Creemos que Floating Arboretum puede despertar la imaginación transformadora e inspirarnos en nuestra vida cotidiana. Incluso los árboles de los Giardini están amenazados por el cambio climático. Oto pide su rescate y el de los árboles amenazados de todo el mundo. Contempla un arboreto, santuario simbólico de los árboles amenazados por la expansión humana, y concibe un futuro distópico para salvarlos en un arboreto (ficticio). Diferentes líneas temporales se cruzan aquí, las protestas contra la deforestación, la tala mundial de árboles, la crisis climática y el rescate distópico imaginario. Los árboles están pintados por Oto Hudec directamente sobre la fachada del pabellón. El mural va acompañado de una instalación de un barco con una escultura de una semilla de pino de Arolla, especie en peligro autóctona de Eslovaquia.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Slovak Republic Pavilion",
+        "info": "The world we want is a world that can hold many worlds. -Isabelle Fremeaux and Jay Jordan, We Are 'Nature Defending Itself'. Civil protests have made history. We need these transformative stories with brave heroes who triumph against all odds and create a new myth. In Floating Arboretum, Oto Hudec works with an archive of stories, recounting a collective effort by activists to prevent deforestation. The artist himself has participated in several protests. We believe Floating Arboretum can awaken transformative imagination and inspire us in our daily lives. Even the trees in the Giardini are threatened by climate change. Oto calls for their rescue and for that of endangered trees worldwide. He envisions an arboretum, a symbolic sanctuary for trees threatened by human expansion, and conceives a dystopian future to save them in a (fictional) arboretum. Different timelines intersect here—protests against deforestation, global tree felling, the climate crisis, and the imagined dystopian rescue. The trees are painted by Oto Hudec directly onto the pavilion’s facade. The mural is accompanied by an installation of a boat with a sculpture of a Swiss pine seed, an endangered species native to Slovakia.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Bosnia-Herzegovina",
-        "coordena": [45.43620873831049, 12.343123528064927],
-        "image":"/images/paises/venecia.jpg"
-    }
-    ,
-    {
-        "pais":"Bulgaria",
-        "coordena": [45.42943768591823, 12.326561919761213],
-        "image":"/images/paises/venecia.jpg"
-    }
-    ,
-    {
-        "pais":"Croacia",
-        "coordena": [45.44234205528422,  12.341054698289787],
-        "image":"/images/paises/venecia.jpg"
-    }
-    ,
-    {
-        "pais":"Chipre",
-        "coordena": [45.42874782187958, 12.348506538936247],
-        "image":"/images/paises/venecia.jpg"
-    }
-    ,
-    {
-        "pais":"Estonia",
-        "coordena": [45.446725705837316, 12.319199062084786],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "Floating Arboretum"
+  },
+  {
+    "pais": "España",
+    "coordena": [45.42938260398585, 12.357487890295552],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/espana1.jpg",
+      "/images/espana2.jpg",
+      "/images/espana3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de España",
+        "info": "La extensa investigación de Sandra Gamarra Heshiki se manifiesta en nuevas obras basadas en pinturas que pertenecen al patrimonio nacional de las colecciones de arte españolas desde la época colonial hasta la Ilustración. Cada pieza investiga la ausencia de narrativas decoloniales dentro de los museos, revelando las representaciones sesgadas de colonizadores y colonizados. Dentro de este campo de estudio, la sociología, la política, la historia del arte y la biología se entrelazan para ofrecer una reinterpretación en la que las consecuencias de la historia, demasiado a menudo ignoradas, conectan con el racismo, la migración y el extractivismo actuales en relación tanto con la crisis ecológica como con la museológica.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Spain Pavilion",
+        "info": "Sandra Gamarra Heshiki's extensive research manifests in new works based on paintings that belong to Spain's national heritage, spanning from the colonial period to the Enlightenment. Each piece investigates the absence of decolonial narratives within museums, revealing the biased representations of colonizers and the colonized. Within this field of study, sociology, politics, art history, and biology intertwine to offer a reinterpretation in which the consequences of history—too often ignored—connect with contemporary racism, migration, and extractivism in relation to both the ecological and museological crises.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Georgia",
-        "coordena": [45.43324419956426, 12.332580863955908],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "Sandra Gamarra Heshiki: Decolonial Reinterpretations"
+  },
+  {
+    "pais": "Suiza",
+    "coordena": [45.42874782187958, 12.357106944287006],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/suiza1.jpg",
+      "/images/suiza2.jpg",
+      "/images/suiza3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Suiza",
+        "info": "El Pabellón Suizo, tal como lo concibió el artista suizo-brasileño Guerreiro do Divino Amor, juega con la lógica nacional de la auto-representación festiva a través de la cultura, que estuvo en el origen mismo de los pabellones nacionales en los Giardini della Biennale hace más de un siglo. Investigador apasionado, curioso documentalista con una imaginación barroca y onírica, y extraordinario constructor de mundos, Guerreiro do Divino Amor nos invita a reírnos con espíritu benévolo de nuestro chovinismo y de esos clichés con los que representamos el mundo y a nosotros mismos. Esta última actitud nos parece de fundamental importancia en un período de creciente polarización de la política y de oposiciones radicales como el que vivimos actualmente. Dividida en dos partes, el Milagro de Helvetia y Roma Talismano, la exposición Civilizaciones Superiores presenta los capítulos sexto y séptimo de la saga monumental Atlas Mundial Superficcional, en la que el artista lleva trabajando 20 años. De naturaleza alegórica y alcance potencialmente infinito, su atlas apunta -con aguda ironía y aparente ligereza- a cuestiones políticas cruciales, como el manejo del poder y el imaginario colectivo por parte de los medios de comunicación, el sistema financiero y la religión.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Switzerland Pavilion",
+        "info": "The Switzerland Pavilion, as conceived by Swiss-Brazilian artist Guerreiro do Divino Amor, plays with the national logic of festive self-representation through culture, which was at the very origin of the national pavilions in the Giardini della Biennale over a century ago. A passionate researcher, curious documentarian with a baroque and dreamlike imagination, and an extraordinary world-builder, Guerreiro do Divino Amor invites us to laugh benevolently at our own chauvinism and the clichés with which we represent the world and ourselves. This attitude seems fundamentally important in a period of increasing political polarization and radical oppositions like the one we are experiencing today. Divided into two parts, The Miracle of Helvetia and Roma Talismano, the exhibition Superior Civilizations presents the sixth and seventh chapters of the monumental saga World Atlas Superfictional, which the artist has been working on for 20 years. Allegorical in nature and with potentially infinite scope, his atlas—through sharp irony and apparent lightness—addresses crucial political issues, such as the management of power and collective imagination by the media, the financial system, and religion.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Santa Sede",
-        "coordena": [45.42634272617983, 12.321729910174623],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "Super Superior Civilizations "
+  },
+  {
+    "pais": "Bosnia-Herzegovina",
+    "coordena": [45.43620873831049, 12.343123528064927],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/bosnia1.jpg",
+      "/images/bosnia2.jpg",
+      "/images/bosnia3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Bosnia-Herzegovina",
+        "info": "Es una eterna necesidad humana conocer el mundo que nos rodea mediante la categorización, la organización, el cálculo. Así es como el mar se divide en latitudes y longitudes, coordenadas que se dibujan con líneas regulares en las cartas náuticas en forma de cuadrantes; las distancias en el mar se miden en millas náuticas, la velocidad se expresa en nudos y la dirección del movimiento se determina con una brújula. La rosa de los vientos también está relacionada con esto, y los vientos son la mayor ayuda y la mayor amenaza del hombre en el mar. El hombre le tomó la medida al mar. En la tradición literaria, Fernand Braudel y Predrag Matvejević describieron el Mediterráneo y definieron el interior de la costa como un lugar permanente del espíritu mediterráneo. Este proyecto pretende afirmar la identidad mediterránea y marítima de Bosnia y Herzegovina. Al mismo tiempo, los elementos metálicos que componen el conjunto escultórico se forjaron en Kreševo, que es el corazón de la tradición milenaria de herrería de Bosnia y Herzegovina. Así, el mar conectó la costa y el interior.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Bosnia and Herzegovina Pavilion",
+        "info": "It is a perpetual human need to understand the world around us through categorization, organization, and measurement. This is how the sea is divided into latitudes and longitudes, coordinates drawn with regular lines on nautical charts in the form of quadrants; distances at sea are measured in nautical miles, speed is expressed in knots, and the direction of movement is determined with a compass. The wind rose is also related to this, as winds are both humanity’s greatest aid and its greatest threat at sea. Humanity has measured the sea. In literary tradition, Fernand Braudel and Predrag Matvejević described the Mediterranean and defined the inland coast as a permanent place of the Mediterranean spirit. This project aims to affirm the Mediterranean and maritime identity of Bosnia and Herzegovina. At the same time, the metal elements that make up the sculptural ensemble were forged in Kreševo, which is the heart of Bosnia and Herzegovina's thousand-year-old blacksmithing tradition. Thus, the sea connects the coast and the interior.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Kosovo",
-        "coordena": [45.43276521584447, 12.349905522718611],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "The Measure of the Sea"
+  },
+  {
+    "pais": "Bulgaria",
+    "coordena": [45.42943768591823, 12.326561919761213],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/bulgaria1.jpg",
+      "/images/bulgaria2.jpg",
+      "/images/bulgaria3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Bulgaria",
+        "info": "The Neighbours es una instalación multimedia que ahonda en los recuerdos reprimidos de los supervivientes de la violencia política durante la época comunista de Bulgaria (1945-1989). Utiliza objetos encontrados, vídeo y sonido para narrar las historias de quienes padecieron campos de trabajos forzados y prisiones. A partir de extensas investigaciones y entrevistas, la instalación reimagina los espacios de las entrevistas, invitando al público a ser testigo de estos recuerdos. La exposición presenta tres salas simbólicas: la sala de estar para los que comparten abiertamente sus experiencias, el dormitorio para los que callan por miedo y la cocina para los que no recuerdan o nunca tuvieron la oportunidad de hablar. Al utilizar el lenguaje de la ausencia, la instalación fomenta el recuerdo como resistencia contra el olvido. Proyecciones de vídeo, sonidos ambientales y objetos recuperados de los campos conectan el mundo material de los campos con el hogar, poniendo de relieve cómo los recuerdos traumáticos se infiltran en la vida cotidiana. The Neighbours sirve de conmovedor monumento conmemorativo y de examen crítico del impacto duradero de la violencia política, subrayando el papel esencial del arte a la hora de abordar realidades complejas y promover la reflexión y la curación.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Bulgaria Pavilion",
+        "info": "The Neighbours is a multimedia installation that delves into the repressed memories of survivors of political violence during Bulgaria’s communist era (1945-1989). Using found objects, video, and sound, it narrates the stories of those who endured forced labor camps and prisons. Based on extensive research and interviews, the installation reimagines interview spaces, inviting the audience to bear witness to these memories. The exhibition presents three symbolic rooms: the living room for those who openly share their experiences, the bedroom for those who remain silent out of fear, and the kitchen for those who do not remember or never had the chance to speak. By using the language of absence, the installation fosters remembrance as resistance against forgetting. Video projections, ambient sounds, and recovered objects from the camps connect the material world of the camps with the home, highlighting how traumatic memories seep into everyday life. The Neighbours serves as a poignant memorial and a critical examination of the lasting impact of political violence, emphasizing the essential role of art in addressing complex realities and promoting reflection and healing.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Lituania",
-        "coordena": [45.435566519512335, 12.346171046687077],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "The Neighbours"
+  },
+  {
+    "pais": "Croacia",
+    "coordena": [45.44234205528422, 12.341054698289787],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/croacia1.jpg",
+      "/images/croacia2.jpg",
+      "/images/croacia3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Croacia",
+        "info": "El proyecto de Vlatka Horvat para el Pabellón Croata - By the Means at Hand - es a la vez una exposición dinámica y acumulativa de obras de arte de un gran grupo de artistas internacionales que viven «como extranjeros», que reflexionan sobre cuestiones y urgencias de la experiencia de la diáspora, y un intercambio convincente, íntimo, social y performativo entre ellos. El pabellón también funciona como estudio temporal de Horvat durante la bienal. Horvat ha invitado a un gran número de artistas que viven en la diáspora en distintos países a participar con ella en una serie de intercambios recíprocos de obras de arte y otros materiales, que se enviarán entre Venecia y otros lugares por medios improvisados: a través de varios amigos, viajeros y desconocidos que se convertirán en mensajeros informales del proyecto. El proyecto se basa en los principios de solidaridad, lucha compartida, apoyo mutuo y amistad, requisitos indispensables para coexistir con los demás y elementos clave de la caja de herramientas de quienes viven «en tierras extranjeras». El proyecto también apunta a otros temas más amplios, como la logística alternativa, la producción espontánea de relaciones sociales, las economías informales y de regalo, y la idea de confianza.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Croatia Pavilion",
+        "info": "Vlatka Horvat’s project for the Croatian Pavilion - By the Means at Hand - is both a dynamic and cumulative exhibition of artworks by a large group of international artists living ‘as foreigners’, reflecting on the urgencies and issues of diaspora experiences, and a compelling, intimate, social, and performative exchange between them. The pavilion also functions as Horvat’s temporary studio during the biennale. Horvat has invited a large number of artists living in diaspora across different countries to participate with her in a series of reciprocal exchanges of artworks and other materials, which will be sent between Venice and other locations by improvised means—through various friends, travelers, and strangers who will act as informal messengers for the project. The project is based on the principles of solidarity, shared struggle, mutual support, and friendship—essential requirements for coexisting with others and key elements of the toolbox of those living ‘in foreign lands’. The project also addresses broader themes such as alternative logistics, the spontaneous production of social relationships, informal and gift economies, and the idea of trust.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Montenegro",
-        "coordena": [45.43883648617929, 12.342816884771885],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "By the Means at Hand"
+  },
+  {
+    "pais": "Chipre",
+    "coordena": [45.42874782187958, 12.348506538936247],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/chipre1.jpg",
+      "/images/chipre2.jpg",
+      "/images/chipre3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Chipre",
+        "info": "En un camino de grava bordeado de flores silvestres a la salida de una calle tranquila... una furgoneta negra aparcada busca dispositivos personales a su alrededor para enviar una imagen en miniatura de la cuenta de una persona fallecida recientemente. Con la leyenda «OMG, ¿has visto esto?», llega a tres conocidos desprevenidos. Incrédulo, el primer destinatario muerde el anzuelo y hace clic en el enlace. El segundo no ve la notificación y se ahoga en un mar de desechos informativos. El tercero -que ya no es amigo del «remitente» y no sabe que ha fallecido- ve el mensaje y opta por no responder, convirtiéndolo en un fantasma... Así continúa nuestra historia de fantasmas, y así resuena: ¿A qué lado de la pantalla se encuentra el fantasma? Con esta pregunta, Lower Levant Company, Endrosia Collective y Haig Aivazian eluden la procedencia supersticiosa de los fantasmas, especulando en cambio sobre las formas sociotécnicas y materiales actuales del ghosting. Junto a modos difractados de espectatoriedad, un «espacio de trabajo en vigilia» revive la labor de invigilancia, invisible en la industria del arte, para albergar un espacio de reflexión y recuerdo. La exposición propone el ghosting como un acto paradójico de repliegue y persistencia. Esta forma de vigilancia requiere un ajuste de la atención; una recalibración de los sentidos.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Cyprus Pavilion",
+        "info": "On a gravel path lined with wildflowers at the end of a quiet street... a parked black van scans for personal devices nearby to send a thumbnail image from the account of a recently deceased person. With the caption 'OMG, have you seen this?', it reaches three unsuspecting acquaintances. Disbelieving, the first recipient takes the bait and clicks the link. The second does not see the notification and drowns in a sea of informational waste. The third—who is no longer friends with the 'sender' and does not know they have passed—sees the message and chooses not to respond, turning them into a ghost... Thus, our ghost story continues, and so it resonates: On which side of the screen is the ghost? With this question, Lower Levant Company, Endrosia Collective, and Haig Aivazian sidestep the superstitious origins of ghosts, instead speculating on the sociotechnical and material forms of ghosting today. Alongside diffracted modes of spectatorship, a 'vigil workspace' revives the unseen labor of invigilation in the art industry, creating a space for contemplation and remembrance. The exhibition proposes ghosting as a paradoxical act of withdrawal and persistence. This form of surveillance requires an adjustment of attention; a recalibration of the senses.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Macedonia del Norte",
-        "coordena": [45.4366092416918, 12.322919598069422],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "On a wildflower-lined gravel track off a quiet thoroughfare"
+  },
+  {
+    "pais": "Estonia",
+    "coordena": [45.446725705837316, 12.319199062084786],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/estonia1.jpg",
+      "/images/estonia2.jpg",
+      "/images/estonia3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Estonia",
+        "info": "En su proyecto expositivo, la pintora Iva Lulashi evoca la «teoría del vaso de agua», que se remonta al periodo prerrevolucionario ruso y está vinculada a la pensadora feminista Alexandra Kollontai (1872-1952). La teoría se basa en la idea de una revolución sexual, en la que los impulsos se perciben como una necesidad que hay que satisfacer con la despreocupación con la que se bebe un vaso de agua. El amor, el sexo y el deseo pueden hacer o deshacer nuestras vidas. La obra de Iva Lulashi gira en torno a estos temas universales eternamente revolucionarios, capaces de trascender diferencias y superar fronteras, no sólo geográficas. Las imágenes de sus cuadros están tomadas de fotogramas de películas y vídeos, sugieren situaciones vinculadas al acto erótico y están pobladas principalmente por cuerpos femeninos. Su estilo mezcla la tradición pictórica albanesa con la italiana y veneciana. Los espacios del pabellón se han creado siguiendo el plano arquitectónico estilizado y simplificado de la casa-estudio de la artista. Los visitantes podrán admirar sus obras entre los espacios en los que nacen y viven, entre la intimidad, el voyeurismo y la crítica institucional. Nacida en Albania, Iva Lulashi se formó como pintora en Venecia asistiendo a la Academia de Bellas Artes local.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Estonian Pavilion",
+        "info": "In her exhibition project, painter Iva Lulashi evokes the 'glass of water theory,' which dates back to the pre-revolutionary Russian period and is linked to feminist thinker Alexandra Kollontai (1872-1952). The theory is based on the idea of a sexual revolution, in which impulses are perceived as a need to be satisfied with the same ease as drinking a glass of water. Love, sex, and desire can make or break our lives. Iva Lulashi's work revolves around these eternally revolutionary universal themes, capable of transcending differences and overcoming borders, not only geographic ones. The images in her paintings are taken from film frames and videos, suggesting situations linked to the erotic act and predominantly populated by female bodies. Her style blends Albanian painting traditions with Italian and Venetian influences. The pavilion’s spaces have been designed following a stylized and simplified architectural plan of the artist’s home-studio. Visitors can admire her works within the very spaces where they are conceived and live, oscillating between intimacy, voyeurism, and institutional critique. Born in Albania, Iva Lulashi trained as a painter in Venice, attending the local Academy of Fine Arts.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Portugal",
-        "coordena": [45.431949832823534, 12.32972608072301],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "Hora lupi"
+  },
+  {
+    "pais": "Georgia",
+    "coordena": [45.43324419956426, 12.332580863955908],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/georgia1.jpg",
+      "/images/georgia2.jpg",
+      "/images/georgia3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Georgia",
+        "info": "El Arte de Ver - Estados de Astronomía es un proyecto de colaboración presentado por comisarios y artistas georgianos y franceses. Expone 65 Maximiliana o la práctica ilegal de la astronomía, una obra de 1964 del artista, poeta y editor georgiano Ilia Zdanevich (1894-1975) y Max Ernst (1891-1976), junto con sus archivos relacionados. El libro de arte está dedicado a Wilhelm Ernst Tempel (1821-1889), astrónomo y litógrafo alemán, conocido por su enfoque poco convencional y sensual de la astronomía, que fue pasado por alto por sus contemporáneos debido a su falta de formación académica.La comisaria Julia Marchand (Francia) y el comisario de investigación asociado David Koroshinadze (Georgia) han elaborado un original concepto de archivo vivo para presentar la historia del libro de arte, que dio vida al lenguaje del cosmos. Los artistas franceses Rodrigue De Ferluc y Juliette George han creado un mobiliario único inspirado en la tipografía de Iliazd en Maximiliana para establecer una identidad visual y espacial de la exposición. El artista georgiano Nika Koplatadze reinterpreta Maximiliana a través de una lente de arte contemporáneo en una serie de libros de artista basados en sus lecturas de mapas estelares y otros temas cósmicos. Además, el videoarte de Grigol Nodia, titulado Lonely Planet, lleva al espectador a un viaje meditativo en busca de un ritmo inocente.",
+        "descripcion": "Exploración artística de la astronomía y la historia a través de la obra de Ilia Zdanevich y Max Ernst."
+      },
+      "en": {
+        "titulo": "Georgian Pavilion",
+        "info": "The Art of Seeing - States of Astronomy is a collaborative project presented by Georgian and French curators and artists. It showcases 65 Maximiliana or the Illegal Practice of Astronomy, a 1964 work by Georgian artist, poet, and publisher Ilia Zdanevich (1894-1975) and Max Ernst (1891-1976), along with related archives. The art book is dedicated to Wilhelm Ernst Tempel (1821-1889), a German astronomer and lithographer known for his unconventional and sensual approach to astronomy, which was overlooked by his contemporaries due to his lack of academic training.Curator Julia Marchand (France) and associate research curator David Koroshinadze (Georgia) have developed an original concept of a living archive to present the history of the art book, which brought the language of the cosmos to life. French artists Rodrigue De Ferluc and Juliette George have created unique furniture inspired by Iliazd's typography in Maximiliana to establish a visual and spatial identity for the exhibition. Georgian artist Nika Koplatadze reinterprets Maximiliana through a contemporary art lens in a series of artist books based on his readings of star maps and other cosmic themes. Additionally, Grigol Nodia's video art piece, titled Lonely Planet, takes the viewer on a meditative journey in search of an innocent rhythm.",
+        "descripcion": "Artistic exploration of astronomy and history through the work of Ilia Zdanevich and Max Ernst."
+      }
     },
-    {
-        "pais":"San Marino",
-        "coordena": [45.43702750340916, 12.344984788121565],
-        "image":"/images/paises/venecia.jpg"
+    "exhibicion": "The Art of Seeing - States of Astronomy"
+  },
+  {
+    "pais": "Santa Sede",
+    "coordena": [45.42634272617983, 12.321729910174623],
+    "image": "/images/paises/venecia.jpg",
+    "info": "El pabellón de la Santa Sede en la Bienal de Venecia presenta una nueva realidad al abrir la cárcel de mujeres de Venecia, en la Giudecca, para debatir sobre arte, poesía, humanidad y cuidado. Titulado Con i miei occhi (Con mis ojos), el pabellón toma su nombre de un poema que conecta textos sagrados y poesía isabelina, simbolizando la unión entre ver y tocar.El pabellón desafía las convenciones artísticas y carcelarias, entrelazando proyectos pragmáticos con la creatividad de mundos paralelos, en línea con el diálogo promovido por el Papa Francisco. Las palabras e imágenes de presas, artistas y poetas narran la historia del lugar, con visitantes acompañados por presas-conferenciantes. El proyecto ofrece nuevas visiones de las dinámicas sociales y artísticas, desafiando prejuicios y reflexionando sobre las estructuras de poder en el arte y las instituciones.",
+    "imagenes_adicionales": [
+      "/images/ss1.jpg",
+      "/images/ss2.jpg",
+      "/images/ss3.jpg"
+    ],
+
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Luxemburgo",
+        "info": "El pabellón de la Santa Sede presenta una realidad nueva e inédita para la Bienal de Venecia gracias a la apertura física y conceptual de la cárcel de mujeres de Venecia, en la Giudecca, donde el objeto de debate será el arte, la poesía, la humanidad y el cuidado.El título Con i miei occhi (Con mis ojos) está tomado de un fragmento de poesía que se hace eco de un antiguo texto sagrado y de un poema isabelino. «No te amo con mis ojos» (Shakespeare, Soneto 141) resuena con 42:5 del Libro de Job: «ahora mis ojos te ven». Un fundido cruzado, que poco a poco se convierte en una acción en la que ver es sinónimo de tocar, de la mirada, de abrazar con el ojo, haciendo que la vista y la percepción dialoguen entre sí.Todo en el pabellón es el resultado de una energía que desafía las convenciones artísticas y carcelarias, donde los proyectos pragmáticos se entrelazan con la creatividad de mundos habitualmente paralelos y ajenos entre sí, en consonancia con el diálogo polifacético propuesto por el Papa Francisco.Palabras e imágenes se unen de la mano de las presas, artistas y poetas que contribuyen a la narración artística e histórica del lugar, donde los visitantes estarán acompañados por presas-conferenciantes. El proyecto abre visiones novedosas e inesperadas de las dinámicas sociales y artísticas, desafiando prejuicios y convenciones, reflexionando sobre las estructuras de poder dentro del arte y dentro de las instituciones.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Luxembourg Pavilion",
+        "info": "The Holy See pavilion presents a new and unprecedented reality for the Venice Biennale thanks to the physical and conceptual opening of Venice’s women’s prison on the Giudecca, where the object of discussion will be art, poetry, humanity, and caring.The title Con i miei occhi (With my eyes) is taken from a fragment of poetry that echoes an ancient sacred text and an Elizabethan poem. “I do not love thee with mine eyes” (Shakespeare, Sonnet 141) resonates with 42:5 of the Book of Job: “now mine eye seeth thee”. A cross-fade, gradually becoming an action where seeing is synonymous with touching, with the gaze, embracing with the eye, bringing sight and perception into a dialogue with each other.Everything in the pavilion is the result of an energy that defies artistic and prison conventions, where pragmatic projects intertwine with the creativity of usually parallel worlds that are foreign to each other, in keeping with the multifaceted dialogue proposed by Pope Francis.Words and images are brought together by the female prisoners, artists and poets who contribute to the artistic and historical narration of the place, where visitors will be accompanied by female prisoners–conferencers. The project opens up novel and unexpected visions of social and artistic dynamics, defying prejudice and convention, reflecting on the power structures within art and within institutions.",
+        "descripcion": "Exhibit Name: "
+      }
     },
-    {
-        "pais":"Eslovenia",
-        "coordena": [45.43218695558332, 12.354500979164161],
-        "image":"/images/paises/venecia.jpg"
-    }
-    
+    "exhibicion": "Con i miei occhi"
+  },
+
+  {
+    "pais": "Kosovo",
+    "coordena": [45.43276521584447, 12.349905522718611],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/kosovo1.jpg",
+      "/images/kosovo2.jpg",
+      "/images/kosovo3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Kosovo",
+        "info": "La instalación escultórica The Echoing Silences of Metal and Skin aborda la feminización del trabajo y la desigualdad laboral. Investigando la desindustrialización conjunta de la economía y la desregulación del mercado laboral, Doruntina Kastrati se encuentra con las formas (im)materiales del empleo precario en las industrias ligeras tras la guerra de Kosovo de 1999. El trabajo de género en industrias como la producción de alimentos ha hecho a las mujeres económicamente vulnerables y las ha empujado a los márgenes políticos. El proyecto de Kastrati se centra en las experiencias de doce trabajadoras de una fábrica de delicias turcas de Prizren, la segunda ciudad más grande de Kosovo y ciudad natal de la artista. En parte porque las empleadas de la fábrica realizan su trabajo de pie, casi un tercio de ellas se someten a operaciones de prótesis de rodilla. Los objetos metálicos que se les implantan en las rodillas son huellas de las largas horas que trabajan por un salario bajo. La instalación de Kastrati consiste en esculturas de metal modeladas a partir de las cáscaras de diferentes frutos secos que se utilizan como ingredientes en las delicias turcas. Cargadas de significado simbólico, al tiempo que aluden al alejamiento de las mujeres de clase trabajadora, las partes constituyentes del pabellón honran las narraciones en primera persona y crean asociaciones incisivas.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Kosovo Pavilion",
+        "info": "The sculptural installation The Echoing Silences of Metal and Skin addresses the feminization of labor and labor inequality. Investigating the joint deindustrialization of the economy and deregulation of the labor market, Doruntina Kastrati encounters the (im)material forms of precarious employment in light industries following the Kosovo War of 1999. Gendered labor in industries such as food production has made women economically vulnerable and pushed them to the political margins. Kastrati's project focuses on the experiences of twelve workers at a Turkish delight factory in Prizren, Kosovo’s second-largest city and the artist's hometown. Partly because factory employees perform their work standing, nearly a third of them undergo knee prosthesis surgeries. The metal objects implanted in their knees serve as imprints of the long hours they work for low wages. Kastrati's installation consists of metal sculptures modeled after the shells of different nuts used as ingredients in Turkish delights. Loaded with symbolic meaning while alluding to the displacement of working-class women, the pavilion’s constituent parts honor firsthand narratives and create incisive associations.",
+        "descripcion": "Exhibit Name: "
+      }
+    },
+    "exhibicion": "The Echoing Silences of Metal and Skin"
+  },
+  {
+    "pais": "Lituania",
+    "coordena": [45.435566519512335, 12.346171046687077],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/lituania1.jpg",
+      "/images/lituania2.jpg",
+      "/images/lituania3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Lituania",
+        "info": "Este proyecto reúne las distintas experiencias de artistas pertenecientes a dos generaciones y explora la inflamación de los cuerpos (post)humanos en las condiciones económicas y sociales actuales. Las pinturas de Marija Teresė Rožanskaitė y una instalación escultórica de Pakui Hardware (con la ayuda del dúo de arquitectos Išora x Lozuraitytė) están conectadas por temas de medicina y hospitales, así como por paisajes naturales, cósmicos e industriales. Las esculturas de aluminio fundido y vidrio de Pakui Hardware parecen sistemas nerviosos agrandados y órganos hinchados. Se moldearon sobre tierra quemada (los elementos de aluminio) y se les dio forma en un calor sofocante (los elementos de vidrio). En los cuadros de Rožanskaitė, enfermedades anónimas, quirófanos estériles y consultas médicas, ensamblajes de temática visceral y objetos maquinales irradian una inflamación crónica de la carne cósmica. Así, en este delirante postpaisaje, resulta difícil distinguir entre lo que se atribuye a la naturaleza y lo que se considera una creación humana. Objetos que remiten a sistemas corporales humanos en estado de inflamación, arquitectura, un paisaje postnatural de tierra plástica, luz y otras tecnologías se funden en un tecnoorganismo híbrido unificado.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Lithuania Pavilion",
+        "info": "This project brings together the diverse experiences of artists from two generations and explores the inflammation of (post)human bodies under current economic and social conditions. The paintings of Marija Teresė Rožanskaitė and a sculptural installation by Pakui Hardware (with the assistance of the architectural duo Išora x Lozuraitytė) are connected by themes of medicine and hospitals, as well as natural, cosmic, and industrial landscapes. Pakui Hardware's cast aluminum and glass sculptures resemble enlarged nervous systems and swollen organs. They were molded over burnt earth (the aluminum elements) and shaped in scorching heat (the glass elements). In Rožanskaitė’s paintings, anonymous diseases, sterile operating rooms, and medical consultations, along with visceral-themed assemblages and mechanical objects, radiate a chronic inflammation of cosmic flesh. Thus, in this delirious post-landscape, it becomes difficult to distinguish between what belongs to nature and what is considered a human creation. Objects resembling inflamed human body systems, architecture, a post-natural landscape of plastic earth, light, and other technologies merge into a unified techno-organic hybrid.",
+        "descripcion": "Exhibit Name: "
+      }
+    },
+    "exhibicion": "Post-Human Inflammation"
+  },
+  {
+    "pais": "Montenegro",
+    "coordena": [45.43883648617929, 12.342816884771885],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/montenegro1.jpg",
+      "/images/montenegro2.jpg",
+      "/images/montenegro3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Montenegro",
+        "info": "El proyecto de Darja Bajagić, titulado It Takes an Island to Feel This Good, comisariado por Ana Simona Zelenović y organizado por el Museo de Arte Contemporáneo de Montenegro, presenta una reflexión crítica sobre la cultura de la memoria colectiva y nuestra relación con el patrimonio histórico compartido. La artista reflexiona sobre estos temas a través de la pintura y la escultura, centrándose en la compleja y multidimensional historia de la isla montenegrina de Mamula. Su fuerte, construido en 1853 por el general austrohúngaro Lazar Mamula, fue convertido en campo de concentración por las fuerzas fascistas del Reino de Italia de Benito Mussolini durante la Segunda Guerra Mundial; y fue revitalizado con la ayuda de inversiones extranjeras como hotel de lujo a partir de 2015. Las obras de Bajagić combinan material de archivo con distintivas intervenciones referenciales y simbólicas. Su práctica, impulsada por la investigación, investiga nuestra recepción, percepción y experiencia de las imágenes y otras representaciones visuales, negociando la ausencia o presencia de su(s) correspondiente(s) contexto(s) histórico(s) o social(es), o ambos. Mediante la experimentación con la construcción y circulación de sistemas simbólicos de significado, la artista explora cómo se genera el sentido a través de la visualización y cómo las opiniones cobran fuerza en una sociedad contemporánea basada en la imagen.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Montenegro Pavilion",
+        "info": "Darja Bajagić's project, titled It Takes an Island to Feel This Good, curated by Ana Simona Zelenović and organized by the Museum of Contemporary Art of Montenegro, presents a critical reflection on the culture of collective memory and our relationship with shared historical heritage. The artist explores these themes through painting and sculpture, focusing on the complex and multidimensional history of the Montenegrin island of Mamula. Its fortress, built in 1853 by Austro-Hungarian General Lazar Mamula, was turned into a concentration camp by the fascist forces of Benito Mussolini's Kingdom of Italy during World War II; in 2015, it was revitalized with foreign investments as a luxury hotel. Bajagić’s works combine archival material with distinctive referential and symbolic interventions. Her research-driven practice examines our reception, perception, and experience of images and other visual representations, negotiating the absence or presence of their corresponding historical or social contexts, or both. Through experimentation with the construction and circulation of symbolic meaning systems, the artist explores how meaning is generated through visualization and how opinions gain strength in an image-based contemporary society.",
+        "descripcion": "Exhibit Name: "
+      }
+    },
+    "exhibicion": "It Takes an Island to Feel This Good"
+  },
+  {
+    "pais": "Macedonia del Norte",
+    "coordena": [45.4366092416918, 12.322919598069422],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/macedonia1.jpg",
+      "/images/macedonia2.jpg",
+      "/images/macedonia3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Macedonia del Norte",
+        "info": "El concepto de Inter spem et metum, desarrollado por Slavica Janešlieva a través de su panóptico conceptual-visual, nos insta a enfrentarnos a la noción de alteridad/distinción, al sentimiento de ser un extraño, el que está presente en todas partes: en mí, en ti, en ellos, en nosotros. Nos desafía con la aceptación o no aceptación de etiquetas distintas a las familiares y ordinarias para las masas; englobando diferencias basadas en el género, la orientación sexual, la apariencia, el porte, la actitud, la enfermedad, la nacionalidad, la religión, la lengua, la orientación política... ¿Cuántas veces nos hemos sentido «otros», «extraños», marginados de un determinado entorno? Justificadamente o no, nos hemos estigmatizado, nos hemos impuesto la autocensura y la autocrítica, sintiéndonos inadecuados ante las expectativas que el otro tiene de nosotros, ¡pero también las nuestras hacia nosotros mismos! Ser diferente conlleva un potencial de transformación. Al igual que en la selección natural, la mutación aumenta tanto la probabilidad de un fracaso como la aparición de una nueva variante, muy superior a su predecesora. Depende de cada uno de nosotros encontrar el cisne que llevamos dentro.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "North Macedonia Pavilion",
+        "info": "The concept of Inter spem et metum, developed by Slavica Janešlieva through her conceptual-visual panopticon, urges us to confront the notion of otherness/distinction—the feeling of being a stranger, a presence that exists everywhere: in me, in you, in them, in us. It challenges us with the acceptance or rejection of labels different from those familiar to the masses, encompassing differences based on gender, sexual orientation, appearance, demeanor, attitude, illness, nationality, religion, language, political orientation... How many times have we felt like 'others,' 'strangers,' marginalized within a particular environment? Justified or not, we have stigmatized ourselves, imposed self-censorship and self-criticism, feeling inadequate in the face of expectations—both from others and from ourselves! Being different carries a potential for transformation. Just as in natural selection, mutation increases both the likelihood of failure and the emergence of a new variant, superior to its predecessor. It is up to each of us to find the swan within.",
+        "descripcion": "Exhibit Name: "
+      }
+    },
+    "exhibicion": "Inter spem et metum"
+  },
+  {
+    "pais": "Portugal",
+    "coordena": [45.431949832823534, 12.32972608072301],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/portugal1.jpg",
+      "/images/portugal2.jpg",
+      "/images/portugal3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Portugal",
+        "info": "El espacio expositivo Invernadero facilita la experimentación y la reflexión y se basa en cuatro acciones: JARDÍN (Instalación, Espacio y Tiempo), ARCHIVO VIVO (Movimiento, Sonido y Performance), ESCUELAS (Educación, Historia y Revolución), ASAMBLEAS (Público y Comunidades). Greenhouse fusiona escultura, escenario, instalación y espacios de montaje en un «jardín criollo» en el Palazzo Franchetti. El equipo curatorial y artístico -un artista visual, un investigador y un coreógrafo- organiza acciones colectivas, utilizando la pedagogía, el sonido y el movimiento, para reflexionar sobre la relación entre naturaleza, ecología y política. Desafiando las hegemonías curatoriales al salvar las dicotomías entre comisarios y artistas, pensamiento y práctica, ser humano y naturaleza, el jardín se convierte en un espacio para la diversidad y la interacción. Greenhouse se pregunta cómo el suelo, la tierra y las fronteras conectan con la política contemporánea del cuerpo, en particular el cuerpo migrante. Explora cómo la integración de la tierra en procesos de liberación y autodescubrimiento puede fomentar ecologías del cuidado. Invernadero se centra en el suelo como elemento transversal que porta no sólo la memoria de las transformaciones geomorfológicas, sino también la violencia del Imperio, las huellas de quienes lo atravesaron y sus historias de resistencia, diferencia y liberación.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Portugal Pavilion",
+        "info": "The exhibition space Greenhouse facilitates experimentation and reflection, based on four actions: GARDEN (Installation, Space, and Time), LIVING ARCHIVE (Movement, Sound, and Performance), SCHOOLS (Education, History, and Revolution), ASSEMBLIES (Public and Communities). Greenhouse merges sculpture, stage, installation, and assembly spaces into a 'Creole garden' at Palazzo Franchetti. The curatorial and artistic team—comprising a visual artist, a researcher, and a choreographer—organizes collective actions, using pedagogy, sound, and movement to reflect on the relationship between nature, ecology, and politics. Challenging curatorial hegemonies by bridging the gaps between curators and artists, thought and practice, human and nature, the garden becomes a space for diversity and interaction. Greenhouse questions how soil, land, and borders connect with contemporary body politics, particularly the migrant body. It explores how integrating the land into processes of liberation and self-discovery can foster ecologies of care. Greenhouse focuses on the soil as a transversal element that carries not only the memory of geomorphological transformations but also the violence of Empire, the traces of those who traversed it, and their histories of resistance, difference, and liberation.",
+        "descripcion": "Exhibit Name: "
+      }
+    },
+    "exhibicion": "Greenhouse"
+  },
+  {
+    "pais": "San Marino",
+    "coordena": [45.43702750340916, 12.344984788121565],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/san_marino1.jpg",
+      "/images/san_marino2.jpg",
+      "/images/san_marino3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de San Marino",
+        "info": "El tema curatorial de la Bienal Arte 2024, Extranjeros por todas partes, implica la noción filosófica de «Homo Migrans»: la suposición de que ser humano es migrar, moverse físicamente, cambiar mentalmente y atravesar culturas e identidades. Y lo mismo ocurre con el universo visual de la obra de Eddie Martínez. Como pintor, Martínez ha permitido que su obra migre formal y conceptualmente desde el legado del dibujo automático y la abstracción practicada por el grupo CoBrA hasta su distintiva visión de la figuración caricaturesca posterior a Philip Guston y, por último, su inusual revisión de diversos géneros artísticos históricos como la naturaleza muerta y el retrato. Su práctica experimental y nómada está en constante cambio, desplegando diferentes medios (óleo, esmalte, pintura en aerosol, collage, objetos encontrados y más) como si siempre estuviera tratando de hacer su lenguaje visual extraño a sí mismo. Nomader resume la relación peripatética de Martínez con las formas y las ideas, pasando del dibujo a la escultura y a la pintura, de la figuración a la abstracción y viceversa. Este neologismo sugiere tanto la itinerancia de un «nómada» como un juego fonético con la pronunciación americana que suena como «no matter». Ambos significados resuenan en la obra y en la aceptación por parte del artista de los significados abiertos que sugieren sus imágenes.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "San Marino Pavilion",
+        "info": "The curatorial theme of the 2024 Art Biennale, Strangers Everywhere, involves the philosophical notion of 'Homo Migrans': the assumption that to be human is to migrate, to move physically, to change mentally, and to traverse cultures and identities. The same applies to the visual universe of Eddie Martínez’s work. As a painter, Martínez has allowed his work to formally and conceptually migrate from the legacy of automatic drawing and the abstraction practiced by the CoBrA group to his distinctive take on post-Philip Guston caricature-like figuration and, finally, his unusual revision of various historical artistic genres such as still life and portraiture. His experimental and nomadic practice is in constant flux, deploying different media (oil, enamel, spray paint, collage, found objects, and more) as if he were always trying to make his visual language foreign to himself. Nomader encapsulates Martínez’s peripatetic relationship with forms and ideas, shifting from drawing to sculpture and painting, from figuration to abstraction and back again. This neologism suggests both the wandering of a 'nomad' and a phonetic play on the American pronunciation that sounds like 'no matter.' Both meanings resonate within his work and in the artist’s embrace of the open-ended meanings that his images suggest.",
+        "descripcion": "Exhibit Name: "
+      }
+    },
+    "exhibicion": "Nomader"
+  },
+  {
+    "pais": "Eslovenia",
+    "coordena": [45.43218695558332, 12.354500979164161],
+    "image": "/images/paises/venecia.jpg",
+    "imagenes_adicionales": [
+      "/images/eslovenia1.jpg",
+      "/images/eslovenia2.jpg",
+      "/images/eslovenia3.jpg"
+    ],
+    "traducciones": {
+      "es": {
+        "titulo": "Pabellón de Eslovenia",
+        "info": "Garden Secret for You se introduce en el contexto histórico de Venecia como un cuerpo extraño, un elemento ajeno e inesperado. Una entidad enigmática con un exterior muy específico, que habla de sí misma, relatando la historia de su entrada en la esfera del arte, al tiempo que (indirectamente) se dirige a algo más. Garden Secret for You es a la vez un objeto escultórico y funcional, una pieza arquitectónica que actúa como una especie de pabellón nacional esloveno clandestino. El objeto, que es a la vez una entidad abstracta y estética y un objeto utilizable, es un nómada paradigmático que pasa de un registro a otro, funciona simultáneamente en diferentes sistemas y se resiste a reducirse a un contexto o significado concreto. De este modo representa sincrónicamente un paralelismo insólito con lo que constituye el centro del paradigma del arte: es un objeto ajeno a sí mismo, alienando como consecuencia la experiencia de todo aquel que se encuentra con él. Garden Secret for You habla de la extranjería constitutiva que está en el centro de la práctica del arte, tanto en su creación como en su experiencia. Al experimentarlo, el visitante debe convertirse en algo o alguien distinto, igual que el objeto en cuestión, un extraño para sí mismo, capaz de soportar la tentadora tarea de la ambivalencia.",
+        "descripcion": "Nombre de la Exhibición: "
+      },
+      "en": {
+        "titulo": "Slovenian Pavilion",
+        "info": "Garden Secret for You enters the historical context of Venice as a foreign body, an alien and unexpected element. An enigmatic entity with a very specific exterior, it speaks of itself, telling the story of its entry into the art sphere while (indirectly) addressing something more. Garden Secret for You is both a sculptural and functional object, an architectural piece that acts as a kind of clandestine Slovenian national pavilion. The object, simultaneously an abstract and aesthetic entity and a usable structure, is a paradigmatic nomad that shifts between registers, functions across different systems, and resists being reduced to a single context or meaning. In this way, it synchronously represents an unusual parallel to the core paradigm of art: it is an object foreign to itself, thereby alienating the experience of everyone who encounters it. Garden Secret for You speaks of the constitutive foreignness at the heart of art practice, both in its creation and in its experience. When engaging with it, the visitor must become something or someone different—just like the object itself— a stranger to oneself, capable of enduring the alluring task of ambivalence.",
+        "descripcion": "Exhibit Name: "
+      }
+    },
+    "exhibicion": "Garden Secret For You"
+  }
 ]

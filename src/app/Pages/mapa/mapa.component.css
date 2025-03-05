@@ -18,5 +18,17 @@
   filter: brightness(0) saturate(100%) invert(61%) sepia(41%) saturate(4513%) hue-rotate(324deg) brightness(100%) contrast(101%);
 }
 
+.parent {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3px;
+}
+  
+.div1 {
+  grid-column: span 7 / span 7;
+  grid-row: span 2 / span 2;
+}
+
 
 

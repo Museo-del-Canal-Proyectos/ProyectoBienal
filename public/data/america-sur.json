@@ -1,10 +1,26 @@
 [
     {
         "pais": "Argentina",
-        "coordena": [
-            45.4348682179207, 12.349898097006415
+        "coordena": [45.4348682179207, 12.349898097006415],
+        "image": "/images/paises/argentina.jpg",
+        "imagenes_adicionales": [
+            "/images/argentina1.jpg",
+            "/images/argentina2.jpg",
+            "/images/argentina3.jpg"
         ],
-        "image": "/images/paises/colombia.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Argentina",
+                "info": "En Hope the Doors Collapse, Luciana Lamothe entrelaza piezas de madera y tuberías, personas y estructuras, y mutabilidad y permanencia para crear espacios dentro de espacios que modulan formas de violencia y cuidado en un tenso equilibrio de cuerpos interdependientes. La obra establece la materia como principio de lo real para efectuar una serie de cambios en los métodos tradicionales de construcción y en las relaciones que establecemos con nuestro entorno y entre nosotros. La artista amplía su investigación sobre las funciones, limitaciones y potencialidades de los materiales y sus interacciones con la arquitectura para subvertir algunos de sus imperativos. La maraña de acero y madera nos sitúa así en un entorno cuyas fuerzas materiales manifiestan su agencia y erosionan la ontología antropocéntrica de la modernidad. Cada una de las cuatro esculturas sirve de espacio envolvente y habitable que propone una forma diferente de concebir nuestra conexión con el mundo material. Contienen tanto formas de cuidado como de agresión que aparecen en los cortes, tajos, ensamblajes y giros necesarios para que la obra mantenga su forma: una serie de heridas y suturas que reconocen el peso de siglos de condicionamientos sociales, espaciales y materiales. El enredo de la obra enuncia una ecología en la que cuerpos, objetos y estructuras fracturan las fronteras que separan cultura y naturaleza, lo humano y lo no humano, para imaginar alianzas materiales para otras formas posibles de convivencia.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Argentina Pavilion",
+                "info": "In Hope the Doors Collapse, Luciana Lamothe intertwines pieces of wood and pipes, people and structures, and mutability and permanence to create spaces inside spaces that modulate forms of violence and care in a tense balance of interdependent bodies. The work establishes matter as the principle of the real to effect a series of changes in traditional construction methods and in the relationships we form with our environments and with each other. The artist extends her research into the functions, limitations, and potentials of materials and their interactions with architecture to subvert some of its imperatives. The tangle of steel and wood thus positions us in an environment whose material forces manifest their agency and erode the anthropocentric ontology of modernity. Each of the four sculptures serves as an enveloping and habitable space proposing a different way of conceiving our connection with the material world. They contain both forms of care and aggression that appear in the cuts, slashes, assemblages, and twists required for the work to maintain its shape: a series of wounds and sutures that recognize the weight of centuries of social, spatial, and material conditioning. The work’s entanglement enunciates an ecology in which bodies, objects, and structures fracture the borders separating culture and nature, human and non-human, to imagine material alliances for other possible ways of living together.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Hope the Doors Collapse"
     },
     {
         "pais": "<p style='text-align:center'><b>Giardine de la Bienalle</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Bolivia</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Brasil</a><br></div></div>",
@@ -15,30 +31,94 @@
     },
     {
         "pais": "Perú",
-        "coordena": [
-            45.43336981823697, 12.35339234018924
+        "coordena": [45.43336981823697, 12.35339234018924],
+        "image": "/images/paises/peru.jpg",
+        "imagenes_adicionales": [
+            "/images/peru1.jpg",
+            "/images/peru2.jpg",
+            "/images/peru3.jpg"
         ],
-        "image": "/images/paises/peru.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Perú",
+                "info": "Desde hace más de una década, el fotógrafo Roberto Huarcaya recorre Perú creando fotogramas monumentales que -en la confluencia de la fotografía, la instalación y el land art- cuestionan nuestra manera de (re)presentar nuestro entorno. Frente a las tendencias tecnófilas actuales, Huarcaya reivindica un oficio que reúne elementos heterogéneos (luz, polvo, agua, plantas, insectos) sobre una superficie fotosensible para suscitar huellas (imágenes). Este enfoque orgánico y experimental del proceso creativo permite a Huarcaya reconocer la existencia como incierta (ajena) y cuestionar la posición de poder que la cultura occidental ha asumido sobre el mundo, devolviendo al cosmos parte de su agencia perdida.Huellas cósmicas es una instalación que, a través del ensamblaje de las obras (un fotograma, una escultura y una composición musical) y de los elementos estructurales y ambientales del pabellón, sitúa al espectador en un espacio/tiempo experiencial indeterminado, desafiando sus hábitos de atención. Así, Huellas cósmicas es, más que una propuesta artística representacional (no habla de esto o aquello), performativa; opera como un refugio ritual inmersivo y transitivo para despertar la conciencia, avivar la imaginación y fomentar la meditación, invitando a los espectadores a reevaluar su entorno adoptando una postura sensible y no instrumental.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Peru Pavilion",
+                "info": "For more than a decade, photographer Roberto Huarcaya has roamed Peru, creating monumental photograms that – in the junction of photography, installation and land art – question our way of (re)presenting our environment. Countering present technophile trends, Huarcaya claims a craft that brings together heterogeneous elements (light, dust, water, plants, insects) on a photosensitive surface to elicit traces (images). This organic, experimental approach to the creative process allows Huarcaya to acknowledge existence as uncertain (foreign) and question the position of power Western culture has assumed on/over the world, returning to the cosmos some of its lost agency.Huellas cósmicas (Cosmic Traces) is an installation that, through the assemblage of the works (a photogram, a sculpture and a musical composition) and the pavilion’s structural and environmental elements, places spectators in an undetermined experiential space/time, challenging their attention habits. Thus, Huellas cósmicas is, rather than a representational artistic proposal (it does not talk about this or that), performative; it operates as an immersive, transitive ritual haven to spark awareness, stoke the imagination and encourage meditation, inviting spectators to reassess their environment taking a sensitive, non-instrumental stance.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Huellas cósmicas"
     },
     {
         "pais": "Chile",
-        "coordena": [
-            45.43786725326498, 12.350463531128801
+        "coordena": [45.43786725326498, 12.350463531128801],
+        "image": "/images/paises/chile.jpg",
+        "imagenes_adicionales": [
+            "/images/chile1.jpg",
+            "/images/chile2.jpg",
+            "/images/chile3.jpg"
         ],
-        "image": "/images/paises/chile.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Chile",
+                "info": "En las próximas décadas, los gobiernos se enfrentarán al reto de abordar los problemas asociados a la construcción arcaica de la nación utilizando herramientas contemporáneas. A pesar de una sólida arquitectura intelectual europea que defiende la organización territorial, el nacionalismo sigue siendo una patología política que obstaculiza la evolución de nuestra civilización. En el siglo XX, la nación sigue siendo un «artefacto» cultural que sostiene la imaginación y la emoción. Valeria Montti Colque, nacida en 1978 en Estocolmo, formó parte del compromiso institucional de Suecia con el gobierno de Salvador Allende. Su obra consiste en entidades indistinguibles, cuerpos collage y subjetividades mixtas que crean objetos animados, en constante viaje y desplazamiento. El término «cosmonación» del antropólogo Michel S. Laguerre sugiere que las comunidades diaspóricas mantienen sus relaciones con sus tierras ancestrales a través de materiales, afectos y caminos espirituales, viviendo en una cosmonación que unifica lugares geográficamente distantes.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Chile Pavilion",
+                "info": "In the coming decades, governments will face the challenge of addressing the problems associated with the archaic construction of the nation using contemporary tools. Despite a solid European intellectual architecture defending territorial organization, nationalism remains a political patología that hinders the evolution of our civilization. In the 20th century, the nation remains a cultural 'artefact' that sustains imagination and emotion. Valeria Montti Colque, born in 1978 in Estocolmo, was part of the institutional commitment of Suecia with the Salvador Allende government. Her work consists of indistinguishable entities, collaged bodies, and mixed subjetivities that create animated objects, constantly traveling and traveling. Anthropologist Michel S. Laguerre's term cosmonación suggests that diaspóric communities maintain their relationships with their ancestral lands through materials, affections, and spiritual paths, living in a cosmonación that unifies geographically distant places.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Cosmonación"
     },
     {
         "pais": "Uruguay",
-        "coordena": [
-            45.4286566383587, 12.358860927183024
+        "coordena": [45.4286566383587, 12.358860927183024],
+        "image": "/images/paises/uruguay.jpg",
+        "imagenes_adicionales": [
+            "/images/uruguay1.jpg",
+            "/images/uruguay2.jpg",
+            "/images/uruguay3.jpg"
         ],
-        "image": "/images/paises/uruguay.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Uruguay",
+                "info": "El Pabellón de Uruguay está representado por el artista Eduardo Cardozo, con el proyecto Latente, una instalación inmersiva que busca crear un acto relacional entre dos pintores a distancia: el uruguayo Cardozo y el veneciano Tintoretto. Este diálogo consta de tres momentos: el desnudo, la pared del taller de Cardozo, trasladada a Venecia mediante la técnica del stacco; la vestimenta, una interpretación que el artista uruguayo hace de uno de los bocetos del Paraíso de Tintoretto; y el velo, una tela cosida a partir de los retazos de gasa utilizados para trasladar las paredes del taller. Se genera así un contrapunto entre Uruguay e Italia, el sur y el norte, entre la obra de Cardozo y su reinterpretación del cuadro de Tintoretto.La sala está envuelta en una atmósfera estática o silenciosa, donde confluyen cierta calidez -propia de lo que nos es familiar- con un aire desmoronado y decadente que deja entrever el paso del tiempo. Es el tiempo del encuentro, del diálogo, como es el tiempo de la reflexión interna, del diálogo con uno mismo. En este acto relacional que Cardozo nos propone, es tanto lo que aprende y sabe de Tintoretto y de Venecia como lo que descubre de sí mismo, en si se reconoce o no en el diálogo con el otro.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Uruguay Pavilion",
+                "info": "The Uruguay Pavilion is represented by the artist Eduardo Cardozo, with the project Latent, an immersive installation that seeks to create a relational act between two painters from a distance: the Uruguayan Cardozo and the Venetian Tintoretto. This dialogue consists of three moments: the nude, the wall of Cardozo’s workshop, transferred to Venice through the stacco technique; the vestment, an interpretation that the Uruguayan artist makes of one of the sketches for Tintoretto’s Paradise; and the veil, a fabric sewn from the scraps of gauze used to transfer the atelier walls. Thus, a counterpoint is generated between Uruguay and Italy, south and north, between Cardozo’s work and his reinterpretation of Tintoretto’s painting.The room is enveloped in a static or quiet atmosphere, where a certain warmth – typical of what is familiar to us – converges with a crumbling and decadent air that allows a glimpse of the passage of time. This is the time of encounter, of dialogue, just as it is the time of internal reflection, of dialogue with oneself. In this relational act that Cardozo proposes to us, it is both what he learns and knows about Tintoretto and Venice and what he discovers about himself, in whether he recognizes himself or not in the dialogue with the other.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Latent"
     },
     {
         "pais": "Venezuela",
-        "coordena": [
-            45.42850019965845, 12.357470050416058
+        "coordena": [45.42850019965845, 12.357470050416058],
+        "image": "/images/paises/venezuela.jpg",
+        "imagenes_adicionales": [
+            "/images/venezuela1.jpg",
+            "/images/venezuela2.jpg",
+            "/images/venezuela3.jpg"
         ],
-        "image": "/images/paises/brazil.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Venezuela",
+                "info": "Este proyecto es un homenaje al maestro del arte cinético y sociólogo del arte en La Sorbona con más de 70 años de investigación y producción artística nacional e internacional defendiendo el componente cultural del arte en la sociedad. En un plano bidimensional, su propuesta se centra en el estudio de la luz, el color y la forma en una dimensión de ilusiones ópticas. En este espacio «fragmenta» y deconstruye el espectro cromático a través de una secuencia procesada por diferentes medios, para invitar al espectador a reflexionar e interactuar con los efectos visuales. Cada obra constituye una instalación innovadora concebida ad hoc. Las obras integran las diversas investigaciones del artista sobre la luz, parte esencial de su pensamiento artístico y de su lenguaje visual. La exposición utiliza nuevos medios y tecnologías para crear una experiencia inmersiva, participativa y sensorial, reuniendo algunos de los conceptos del artista: el efecto de la doble exposición; la inestabilidad óptica; la luz fragmentada; el entorno de la actividad cromática; la luz y el color en el nuevo milenio. Tres obras que se comunican entre lo analógico del arte-participativo, el entorno cinético y el arte digital. Se trata de un encuentro con la experiencia física de la luz y el color a través de interacciones dinámicas.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Venezuela Pavilion",
+                "info": "This project is a tribute to the master of kinetic art and sociologist of art at La Sorbonne with over 70 years of national and international research and artistic production defending the cultural component of art in society. On a two- dimensional level, his proposal focuses on the study of light, colour, and form in a dimension of optical illusions. In this space he “fragments” and deconstructs the chromatic spectrum through a sequence processed by different means, to invite the viewer to reflect and interact with the visual effects. Each artwork constitutes an innovative installation conceived ad hoc. The artworks integrate the artist’s diverse research on light, an essential part of his artistic thought and visual language. The exhibition uses new means and technologies to create an immersive, participative, and sensory experience by putting together some of the artist’s concepts: the effect of double exposure; optical instability; fragmented light; the environment of colour activity; light and colour in the new millennium. Three artworks that communicate between the analogic of the art-participatory, the kinetic environment, and digital art. It is an encounter with the physical experience of light and colour through dynamic interactions.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Participatory Experience. Juvenal Ravelo"
     }
 ]
