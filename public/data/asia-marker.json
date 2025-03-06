@@ -1,31 +1,91 @@
 [
     {
         "pais": "Armenia",
-        "coordena": [
-            45.429119831480634, 12.334157181983352
+        "coordena": [45.429119831480634, 12.334157181983352],
+        "image": "/images/paises/armenia.jpg",
+        "imagenes_adicionales": [
+            "/images/armenia1.jpg",
+            "/images/armenia2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Armenia",
+                "info": "La exposición Eco en el Pabellón Nacional de la República de Armenia, conceptualizada por la artista armenia afincada en París Nina Khemchyan, fusiona la herencia armenia medieval con principios espirituales universales, reconsiderados en el ámbito de lo desconocido. Presenta dos obras principales, profundamente interconectadas. Influenciada por Mesrop Mashtots, creador del alfabeto armenio y figura cultural clave, la obra de Khemchyan refleja un profundo compromiso con su legado. Un elemento crucial es su encuentro con el cantante Hasmik Baghdasaryan-Dolukhanyan, cuyas interpretaciones de los sharakans (cantos sagrados de arrepentimiento) del siglo V de Mashtots inspiraron la creación de once esferas de cerámica azul, cada una adornada con incrustaciones doradas con los textos de estos cantos. Estas esferas, junto con la actuación a capella de Baghdasaryan-Dolukhanyan, combinan la escultura con la música, transformando las palabras en códigos visuales. La exposición también incluye los Siete Pecados Capitales de Khemchyan, un rollo de papel de 50 metros dividido en segmentos que representan cada pecado, utilizando tinta negra sobre papel blanco para simbolizar la dicotomía moral. Esta obra invita a la reflexión meditativa, complementando el proyecto Eco en la exploración de los temas del pecado humano y la redención espiritual, especialmente esenciales y vitales hoy en día.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Armenia Pavilion",
+                "info": "The Echo exhibition at the National Pavilion of the Republic of Armenia, conceptualized by Paris-based Armenian artist Nina Khemchyan, melds Medieval Armenian heritage with universal spiritual principles, reconsidered in the realm of nowness. It features two main artworks, deeply interconnected. Influenced by Mesrop Mashtots, the creator of the Armenian alphabet and a key cultural figure, Khemchyan’s work reflects a profound engagement with his legacy. A crucial element is her encounter with singer Hasmik Baghdasaryan- Dolukhanyan, whose renditions of Mashtots’ fifth-century sharakans (sacred chants of repentance) inspired the creation of eleven blue ceramic spheres, each adorned with golden incrustations featuring the texts of these chants. These spheres, alongside Baghdasaryan-Dolukhanyan’s a capella performance, blend sculpture with music, transforming words into visual codes. The exhibition also includes Khemchyan’s Seven Deadly Sins, a 50-metre paper roll divided into segments representing each sin, using black ink on white paper to symbolize moral dichotomy. This work invites meditative reflection, complementing the Echo project in exploring themes of human sin and spiritual redemption, which are especially essential and vital nowadays.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Echo"
     },
     {
         "pais": "Bangladesh",
-        "coordena": [
-            45.441590726849334, 12.330640317472959
+        "coordena": [45.441590726849334, 12.330640317472959],
+        "image": "/images/paises/bangladesh.jpg",
+        "imagenes_adicionales": [
+            "/images/bangladesh1.jpg",
+            "/images/bangladesh2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Bangladesh",
+                "info": "El Contacto es un proyecto expositivo ambientado en las salas del Spazio START de Venecia, que narra la historia de un posible aterrizaje alienígena en la Tierra, y su impacto sobre los humanos en un futuro imaginario. A través de pinturas, fotografías e instalaciones, la exposición invita al público a reflexionar sobre quiénes son realmente los diferentes, ofreciendo elementos de reflexión sobre el concepto de diversidad, una cuestión que lleva tanto tiempo preocupando a la humanidad. En este futuro imaginario, la humanidad se ve empujada a darse cuenta de que en el cosmos hay seres aún más diferentes que los humanos entre sí. En las dos primeras salas de la exposición hay pinturas de artistas bengalíes que exploran el tema de la diversidad entre los hombres y los ovnis a través de lenguajes tanto abstractos como figurativos; en la última sala hay obras de artistas italianos, coreanos, ucranianos y alemanes que abordan el tema de la exposición no sólo a través de sus obras, pinturas, esculturas e instalaciones, sino también a través de sus diferentes nacionalidades. Este recorrido visual nos invita así a reflexionar sobre la posibilidad de convivencia entre individuos diferentes, pero todos unidos por su pertenencia al planeta Tierra y al universo.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Bangladesh Pavilion",
+                "info": "The Contact is an exhibition project set in the rooms of Spazio START in Venice, which tells the story of a possible alien landing on Earth, and its impact on humans in an imaginary future. Through paintings, photographs and installations, the exhibition invites the public to reflect on who the different really are, offering food for thought on the concept of diversity, an issue that has been troubling humanity for so long. In this imaginary future, mankind is pushed to realise that there are even more different beings in the cosmos than humans are to each other. In the first two rooms of the exhibition there are paintings by Bengali artists who explore the theme of diversity between men and UFOs through both abstract and figurative languages; in the last room there are works by Italian, Korean, Ukrainian and German artists who address the theme of the exhibition not only through their works, paintings, sculptures and installations, but also through their different nationalities. This visual journey thus invites us to reflect on the possibility of coexistence between different individuals, but all united by their belonging to planet Earth and the universe.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "The Contact"
     },
     {
         "pais": "China",
-        "coordena": [
-            45.4348682179207, 12.349898097006415
+        "coordena": [45.4348682179207, 12.349898097006415],
+        "image": "/images/paises/china.jpg",
+        "imagenes_adicionales": [
+            "/images/china1.jpg",
+            "/images/china2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de China",
+                "info": "El carácter «集» representa a tres pájaros posados en un solo árbol. Como verbo, abarca significados como reunir, converger, juntar o congregar. Como sustantivo, «集» puede traducirse por «Atlas», una colección de arte, reliquias culturales o conocimientos recopilados en un documento. El doble significado de «集» se emplea para subrayar el concepto de integración.Hemos elegido el carácter chino «集» como nombre de la exposición, que encarna la convergencia de un espectro diverso que abarca diferentes razas, creencias, identidades, ideas, propósitos, orígenes y culturas a escala mundial.En el último medio siglo, el discurso de la «diferencia», la dicotomía entre sujeto y objeto y la oposición entre «el yo» y «el otro» han sido objeto de gran atención, lo que ha dado lugar a continuos conflictos y enfrentamientos. Hoy, cuando la humanidad se enfrenta al deterioro de las condiciones ecológicas externas y a los retos internos de «extranjeros por todas partes», esta exposición pretende facilitar un cambio de paradigma -de la «diferencia» a la «coexistencia»- reactivando y difundiendo la sabiduría arraigada en la cultura tradicional china, que aboga por la «armonía en la diversidad», la «coexistencia armoniosa» y la «belleza compartida».",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "China Pavilion",
+                "info": "The character “集” depicts three birds perched on a single tree. As a verb, it encompasses meanings including to gather, converge, collect, or assemble. As a noun, “集” can be translated as “Atlas” — a collection of art, cultural relics, or knowledge compiled into a document. The dual meanings of “集” are employed to underscore the concept of integration.We have chosen the Chinese character “集” as the exhibition name, which embodies the convergence of a diverse spectrum encompassing different races, beliefs, identities, ideas, purposes, backgrounds, and cultures on a global scale.In the past half century, there has been a significant focus on the discourse of “difference”, the dichotomy of subject and object, and the opposition between “the self” and “the other”, leading to ongoing conflicts and confrontations. Today, as humanity grapples with deteriorating external ecological conditions and the internal challenges of “foreigners everywhere”, this exhibition seeks to facilitate a paradigm shifting — from “difference” to “coexistence” — by reactivating and disseminating the wisdom embedded in traditional Chinese culture, which advocates for 'harmony in diversity', 'harmonious coexistence', and 'shared beauty'.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Atlas: Harmony in Diversity"
     },
     {
-        "pais": "Iran",
-        "coordena": [
-            45.43347659734883, 12.328354245308999
+        "pais": "Irán",
+        "coordena": [45.43347659734883, 12.328354245308999],
+        "image": "/images/paises/iran.jpg",
+        "imagenes_adicionales": [
+            "/images/iran1.jpg",
+            "/images/iran2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Irán",
+                "info": "En nuestra exposición, nos hemos esforzado por trascender las fronteras e invitar a los espectadores a ser testigos de la unidad de la humanidad. Unas veces a través de arreglos que sitúan al público en diferentes contextos, otras mediante tecnología de realidad virtual que desafía los límites físicos, y ocasionalmente a través de obras de arte visual que expresan de forma innovadora y creativa nuevas narrativas sobre este tema. Sin embargo, todo esto no representa más que un pequeño rincón del arte de los artistas iraníes que han hecho añicos fronteras y muros, transmitiendo un mensaje de los herederos de la civilización de ocho mil años de Irán, sentados en los muros de la antigua Venecia.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Iran Pavilion",
+                "info": "In our exhibition, we have endeavoured to transcend borders and invite spectators to witness the unity of humanity. Sometimes achieved through arrangements that place the audience in different contexts, other times through virtual reality technology that challenges physical boundaries, and occasionally through visual artworks that innovatively and creatively express fresh narratives on this subject. However, all these represent merely a small corner of the artistry of Iranian artists who have shattered borders and walls, conveying a message from the heirs of the eight-thousand-year-old civilization of Iran, seated on the walls of ancient Venice.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Of One Essence is the Human Race"
     },
     {
         "pais": "<p style='text-align:center'><b>Giardine de la Bienalle</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Israel</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Korea</a><br></div></div>",
@@ -36,72 +96,222 @@
     },
     {
         "pais": "Japón",
-        "coordena": [
-            45.42819347009835, 12.357993487171164
+        "coordena": [45.42819347009835, 12.357993487171164],
+        "image": "/images/paises/japon.jpg",
+        "imagenes_adicionales": [
+            "/images/japon1.jpg",
+            "/images/japon2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Japón",
+                "info": "Conocida por sus instalaciones y esculturas centradas en «acontecimientos» que cambian según las condiciones de su entorno, la exposición de Yuko Mohri y comisariada por Sook-Kyung Lee llena el pabellón de sonido, luz, movimiento y olor.Inspirada en los esfuerzos ad hoc que se ven en las estaciones de metro de Tokio para detener las fugas de agua, Moré Moré (Fugas) creará fugas artificialmente y luego intentará arreglarlas, improvisando con una variedad de enseres domésticos disponibles en Venecia para construir esculturas cinéticas. En un mundo donde las inundaciones afectan al medio ambiente, y especialmente en Venecia, una ciudad azotada por una inundación una vez cada cincuenta años, la última en 2019, Moré Moré resonará con una amplia gama de temas.Decomposition genera sonidos y luz insertando electrodos en frutas y convirtiendo su humedad en señales eléctricas. El estado interno de las frutas cambia constantemente, modulando el tono del zumbido y la intensidad de la luz mientras empiezan a emitir un dulce olor a descomposición, disolviéndose o marchitándose. Con un título que etimológicamente significa «colocar juntos (com+pose)», la exposición se pregunta qué significa para las personas estar y trabajar juntas en un mundo que se enfrenta a múltiples crisis globales. Paradójicamente, la crisis hace aflorar la mayor creatividad, inspirada en las ingeniosas medidas de los trabajadores del metro contra las fugas de agua.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Japan Pavilion",
+                "info": "Known for her installations and sculptures centred on “events” that change with conditions such as their environment, the exhibition by Yuko Mohri and curated by Sook-Kyung Lee fills the pavilion with sound, light, movement, and smell.Inspired by ad hoc efforts seen in Tokyo subway stations to stop water leaks, Moré Moré (Leaky) will artificially create leaks and then attempt to fix them, improvising with a variety of household goods available in Venice to construct kinetic sculpture. In a world where floods affect the environment, and especially in Venice, a city hit by a flood once every fifty years, the last one in 2019, Moré Moré will resonate with a wide range of issues.Decomposition generates sounds and light by inserting electrodes into fruits and converting their moisture into electric signals. The fruits’ internal state shifts constantly, modulating the pitch of the drone and the intensity of the light while they start emitting a sweet smell of decay, dissolving or withering. With a title that etymologically signifies “to place together (com+pose)”, the exhibition asks what it means for people to be and work together in a world facing multiple global crises. Paradoxically, the crisis brings out the greatest creativity — inspired by the subway workers’ resourceful measures against water leak.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Compose"
     },
     {
-        "pais": "Libano",
-        "coordena": [
-            45.4348682179207, 12.349898097006415
+        "pais": "Líbano",
+        "coordena": [45.4348682179207, 12.349898097006415],
+        "image": "/images/paises/libano.jpg",
+        "imagenes_adicionales": [
+            "/images/libano1.jpg",
+            "/images/libano2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Líbano",
+                "info": "El Pabellón libanés invitó a la artista Mounira Al Solh a crear un puente entre el mito y la realidad. Su instalación multimedia A Dance with her Myth -que combina pintura, dibujo, escultura, bordado y vídeo- sumerge a los visitantes en la antigua Fenicia a través de modernas técnicas plásticas y visuales.La instalación de Al Solh tiene su origen en un relato mítico: el rapto de la princesa Europa en una playa de la ciudad de Tiro por el dios Zeus, que adoptó la forma de un toro blanco. Revisitar relatos mitológicos permite la reflexión crítica y la aparición de perspectivas alternativas.El viaje que Al Solh nos invita a recorrer, siguiendo los pasos de la princesa Europa, conduce a la realización de un destino femenino, liberado de la influencia de los «dioses», que abraza el papel y las responsabilidades típicamente asociados a los hombres sin estar sometido a ellos, y al tiempo que aspira a un estado diferente del ser.La reinterpretación del mito por Al Solh crea un espacio retórico y visual que celebra la emancipación, la libertad, la igualdad, el compromiso y la solidaridad. El Pabellón Libanés presenta esta exposición al público, con el objetivo de alimentar la conciencia social y política colectiva a través del poder transformador del arte.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Lebanon Pavilion",
+                "info": "The Lebanese Pavilion invited artist Mounira Al Solh to create a bridge between myth and reality. Her multimedia installation A Dance with her Myth – combining painting, drawing, sculpture, embroidery, and video – plunges visitors in ancient Phoenicia through modern plastic and visual techniques.Al Solh’s installation is rooted in a mythical tale: the abduction of Princess Europa on a beach of the city of Tyre by the god Zeus, who took the form of a white bull. Revisiting mythological tales allows critical reflection and the emergence of alternative perspectives.The journey that Al Solh invites us to pursue, following in the footsteps of Princess Europa, leads to the realisation of a feminine destiny, liberated from the influence of the “Gods”—one that embraces the role and responsibilities typically associated with men without being subjected to them, and whilst aspiring to a different state of being.Al Solh’s reinterpretation of the myth creates a rhetorical and visual space celebrating emancipation, freedom, equality, commitment, and solidarity. The Lebanese Pavilion presents this exhibition to the public, aiming to nurture the collective social and political awareness through the transformative power of art.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "A Dance with her Myth"
     },
     {
         "pais": "Mongolia",
-        "coordena": [
-            45.43316960432097, 12.351581851612451
+        "coordena": [45.43316960432097, 12.351581851612451],
+        "image": "/images/paises/mongolia.jpg",
+        "imagenes_adicionales": [
+            "/images/mongolia1.jpg",
+            "/images/mongolia2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Mongolia",
+                "info": "La exposición Descubrir el presente desde el futuro, de Ochirbold Ayurzana, en el Pabellón de Mongolia, explora los niveles más profundos de la conciencia a través de instalaciones escultóricas interactivas. Inspiradas en la deidad budista Citipati, estas esculturas, incluida la calavera de tres ojos, sirven para recordar la impermanencia de la vida, fomentan la transformación espiritual y simbolizan la búsqueda de la conciencia superior y la iluminación en el budismo.La instalación interactiva -en Castello 2127/A, frente a la entrada principal del Arsenale- invita a los visitantes a explorar el tema del «Extraño dentro de mí mismo», e interactuar y dar forma a sus propios viajes de conciencia.El artista mongol Ochirbold Ayurzana, nacido en 1976, lleva desde 2014 explorando los cambios sociales y de comportamiento en el mundo globalizado a través de su concepto artístico de «Conciencia». Cuestionándose cómo evoluciona la conciencia en medio del diluvio de información, crea obras de reflexión social y crítica que se exponen internacionalmente y permiten a los espectadores formarse sus propias interpretaciones.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Mongolia Pavilion",
+                "info": "The exhibition Discovering the Present from the Future by Ochirbold Ayurzana in the Mongolian Pavilion explores the deeper levels of consciousness through interactive sculpture installations. Inspired by the Buddhist deity Citipati, these sculptures, including the three- eyed skull, serve as reminders of the impermanence of life, fostering spiritual transformation and symbolising the search for higher consciousness and enlightenment in Buddhism.The interactive installation – at Castello 2127/A, opposite the main entrance to the Arsenale – invites visitors to explore the theme of the “Stranger within Myself”, and interact and shape their own journeys of consciousness.Mongolian artist Ochirbold Ayurzana, born in 1976, has been exploring societal and behavioural changes in the globalised world through his artistic concept of “Consciousness” since 2014. Questioning how consciousness evolves amid the deluge of information, he creates socially and critically reflective works exhibited internationally, allowing viewers to form their individual interpretations.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Discovering the Present from the Future"
     },
     {
-        "pais": "Oman",
-        "coordena": [
-            45.434026887604276, 12.345549520239533
+        "pais": "Omán",
+        "coordena": [45.434026887604276, 12.345549520239533],
+        "image": "/images/paises/oman.jpg",
+        "imagenes_adicionales": [
+            "/images/oman1.jpg",
+            "/images/oman2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Omán",
+                "info": "Omán, encrucijada de civilizaciones durante siglos, despliega su rica historia a través del recorrido del Pabellón de Omán en la Bienal de este año. Bajo el título Malath - Haven, la exposición explora el legado multicultural de Omán, en consonancia con el tema Foreigners Everywhere. Artistas de diversas procedencias convergen para encapsular la esencia del crisol histórico de Omán.Malath - Haven se inspira en el núcleo mismo de Omán: un santuario para marineros, comerciantes e inmigrantes. Reflejando la tradición del país de dar cobijo y sustento a los que vienen de tierras lejanas, la exposición invita a los visitantes a un viaje sensorial y artístico.El tema central de la exposición, «Malath», se manifiesta a través de diversos medios artísticos, invitando al espectador a un viaje culinario. En ella, la comida sirve como símbolo de unidad, destacando cómo las recetas familiares encapsulan la esencia de las raíces de cada uno. Como Omán ha acogido históricamente a los viajeros, Malath recrea esta hospitalidad, animando a los visitantes a participar en una exploración única de la diversidad cultural del país.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Oman Pavilion",
+                "info": "Oman, a crossroads of civilisations for centuries, unfolds its rich history through the Omani Pavilion’s journey in this year’s Biennale. Titled Malath – Haven, the exhibition explores Oman’s multicultural legacy, aligning with the theme of Foreigners Everywhere. Artists, representing diverse backgrounds, converge to encapsulate the essence of Oman’s historical melting pot.Malath – Haven draws inspiration from Oman’s very core—a sanctuary for sailors, merchants, and immigrants. Mirroring the country’s tradition of providing shelter and sustenance to those from distant lands, the exhibition beckons visitors on a sensory and artistic voyage.The exhibition’s central theme, “Malath”, manifests through various artistic mediums, inviting viewers on a culinary journey. Here, food serves as a symbol of unity, emphasising how family recipes encapsulate the essence of one’s roots. As Oman historically welcomed travellers, Malath recreates this hospitality, encouraging visitors to partake in a unique exploration of the country’s cultural diversity.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Malath - Haven "
     },
     {
         "pais": "Filipinas",
-        "coordena": [
-            45.4332963037345, 12.354875884239053
+        "coordena": [45.4332963037345, 12.354875884239053],
+        "image": "/images/paises/filipinas.jpg",
+        "imagenes_adicionales": [
+            "/images/filipinas1.jpg",
+            "/images/filipinas2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Filipinas",
+                "info": "El Pabellón de Filipinas presenta el proyecto en solitario de Mark Salvatus Sa kabila ng tabing lamang sa panahong ito / Waiting just behind the curtain of this age. A través de una obra de vídeo de nuevo encargo, una puesta en escena textil, esculturas de piedra de fibra de vidrio y la reelaboración de una obra ya existente, Salvatus explora las etnoecologías del monte Banahaw, una montaña boscosa de tres picos situada en la frontera entre Laguna y Quezón, y Lucban, la ciudad natal del artista. Salvatus prospecta la centralidad del monte Banahaw en la vida cultural de Lucban, desde una revolución que pretendía animar a los nativos a cultivar su propia forma vernácula de discernimiento religioso; una historia de bandas de música y músicos; y una película de misterio y alegría, hasta la propia práctica de Salvatus de ensamblaje y salvamento que revela un espíritu planetario compartido. Este proyecto es un proscenio en el que la vitalidad mística de la montaña se materializa a través de una puesta en escena de sonido, luz y esculturas de piedra; en el que se comparten historias de la rica cultura de la música de las comunidades circundantes que ha animado y que la animan; y en el que se hacen palpables, innegables, las reverberaciones de su lugar en constelaciones más amplias de vida revolucionaria y política en un esquema planetario de cosas.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Philippines Pavilion",
+                "info": "The Philippine Pavilion presents Mark Salvatus’ solo project Sa kabila ng tabing lamang sa panahong ito / Waiting just behind the curtain of this age. Through a newly commissioned video work, a mise-en-scène of textile, fibreglass stone sculptures, and a reworking of an existing artwork, Salvatus explores the ethno-ecologies of Mt. Banahaw, a three-peaked forested mountain located on the boundary between Laguna and Quezon, and Lucban, the artist’s hometown. Salvatus prospects the centrality of Mt. Banahaw in the cultural life of Lucban, from a revolution that aimed to encourage the native folk to cultivate their own vernacular way of religious discernment; a history of marching bands and musicians; and a film of mystery and joy—to Salvatus’ very own practice of assembly and salvaging that discloses a shared planetary spirit. This project is a proscenium in which the mystical vitality of the mountain is made material through a mise-en-scène of sound, light, and stone sculptures; where stories of the rich culture of the music of its surrounding communities that it has enlivened and that enlivens it are shared; and, where the reverberations of its place in vaster constellations of revolutionary and political life in a planetary scheme of things are rendered palpable, undeniable.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Sa Kabila Ng Tabing Lamang Sa Panahong Ito / Waiting Just Behind The Curtain Of This Age"
     },
     {
         "pais": "Arabia Saudita",
-        "coordena": [
-            45.43330968478806, 12.355121202408126
+        "coordena": [45.43330968478806, 12.355121202408126],
+        "image": "/images/paises/arabia_saudita.jpg",
+        "imagenes_adicionales": [
+            "/images/arabia_saudita1.jpg",
+            "/images/arabia_saudita2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Arabia Saudita",
+                "info": "La instalación de Manal AlDowayan, Shifting Sands: Una canción de batalla, se inspira en la evolución del papel de la mujer en la esfera pública de Arabia Saudí y en su continuo camino para reafirmar su lugar y remodelar las narrativas que históricamente las han definido.En Shifting Sands: A Battle Song, se invita a los visitantes a serpentear por un laberinto de elementos escultóricos a gran escala, como pétalos de seda estampada, que toman su forma de la «rosa del desierto», un cristal que suele encontrarse en las arenas del desierto saudí. La superficie de estas esculturas está serigrafiada con textos escritos sobre las mujeres saudíes, una cacofonía de opiniones de los medios de comunicación, que han tenido un profundo impacto en su percepción y oscurecido su propia autorrepresentación.Sin embargo, en el centro de la obra se produce un cambio. Aquí, las mujeres saudíes se proclaman audazmente. A través de una serie de talleres participativos, Manal AlDowayan ha ofrecido a las mujeres y niñas saudíes una plataforma para hacer valer sus propias voces, lanzando un grito de valentía y solidaridad.En palabras de AlDowayan: «Espero que esta obra anime a las mujeres a mirar dentro de sí mismas y a apoyarse en su comunidad de mujeres, para encontrar su voz y su espacio dentro de este nuevo capítulo de la historia, gran parte del cual aún no está escrito».",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Saudi Arabia Pavilion",
+                "info": "Manal AlDowayan’s installation, Shifting Sands: A Battle Song, is inspired by the evolving role of women in Saudi Arabia’s public sphere and their ongoing journey to assert their place and to reshape the narratives that have historically defined them.In Shifting Sands: A Battle Song, visitors are invited to wind their way through a maze of large-scale, printed silk, petal- like sculptural elements that take their forms from the “desert rose”, a crystal commonly found in Saudi Arabia’s desert sands. The surface of these sculptures is silkscreened with texts written about Saudi women, a cacophony of media opinions, that have had a profound impact on their perception and obscured their own self-representation.Yet, at the centre of the work, a shift occurs. Here, Saudi women boldly proclaim themselves. Through a series of participatory workshops, Manal AlDowayan has offered Saudi women and girls a platform to assert their own voices, setting forth a rallying cry of courage and solidarity.In AlDowayan’s words: “I hope this artwork will encourage women to look within themselves and to lean on their community of women, to find their voice and their space within this new chapter in history, much of which is still unwritten”.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Shifting Sands: A Battle Song"
     },
     {
         "pais": "Singapur",
-        "coordena": [
-            45.433522796845075, 12.353794874413293
+        "coordena": [45.433522796845075, 12.353794874413293],
+        "image": "/images/paises/singapur.jpg",
+        "imagenes_adicionales": [
+            "/images/singapur1.jpg",
+            "/images/singapur2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Singapur",
+                "info": "En Seeing Forest, el artista Robert Zhao Renhui ofrece una evocadora exploración de los bosques secundarios, zonas boscosas que han vuelto a crecer sobre terrenos previamente alterados por el desarrollo humano. Estas zonas se han convertido en el umbral entre los bosques primarios inalterados y los entornos urbanos desarrollados.Basada en varios años de observaciones acumuladas, la exposición explora la polifacética vida de los bosques secundarios de Singapur, así como los múltiples mundos que encierran, encapsulando las historias de asentamiento, colonización, migración y coexistencia mutua entre especies del paisaje.A través de un conjunto de vídeo e instalaciones escultóricas, Seeing Forest explora las historias menos conocidas y los momentos de aparente dependencia entre la sociedad humana y la naturaleza. La presentación revela cómo estos espacios de transición pueden ofrecer puntos de intersección para la historia, la sostenibilidad y el descubrimiento, al tiempo que sugiere que el borde de una ciudad -especialmente una tan cuidadosamente planificada- puede ser la frontera más intensa que existe.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Singapore Pavilion",
+                "info": "In Seeing Forest, artist Robert Zhao Renhui offers an evocative exploration of secondary forests—forested areas that have regrown over land previously disturbed by human development. These areas have become the threshold between undisturbed primary forests and developed urban environments.Rooted in several years of accumulated observations, the exhibition explores the multifaceted life of Singapore’s secondary forests, as well as the manifold worlds within them, encapsulating the landscape’s histories of settlement, colonisation, migration and mutual co-existence amongst species.Through an assemblage of video and sculptural installations, Seeing Forest explores the lesser-seen stories and moments of apparent dependence between human society and nature. The presentation reveals how these transitional spaces can offer points of intersection for history, sustainability, and discovery, while suggesting that the edge of a city – especially one that is so carefully planned – may be the most intense frontier in existence.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Seeing forest"
     },
     {
         "pais": "Timor",
-        "coordena": [
-            45.437137264692424, 12.333573386726012
+        "coordena": [45.437137264692424, 12.333573386726012],
+        "image": "/images/paises/timor.jpg",
+        "imagenes_adicionales": [
+            "/images/timor1.jpg",
+            "/images/timor2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Timor",
+                "info": "Al regresar a su tierra natal tras el fin de la ocupación indonesia (1975-1999), la artista Maria Madeira durmió en un dormitorio con marcas rojas en las paredes a la altura de las rodillas; pronto supo que los indonesios habían obligado a las mujeres timorenses a pintarse los labios y besar las paredes.Madeira rinde homenaje a estas mujeres en su instalación específica empapando las paredes con gotas de pintura y nuez de betel que parecen sangre. Trabaja con tais, el tejido tradicional de Timor Oriental hecho por mujeres. Madeira, impregnada de dolor y angustia, esparce tierra roja de su lugar de nacimiento en Timor Oriental sobre los tais, el lienzo y el suelo, impregnando la obra de dolor y recuerdos. Madeira funde influencias ancestrales, artesanía tradicional y preocupaciones contemporáneas por la difícil situación de los sin voz.Durante los días de inauguración de la Bienal Arte 2024, Madeira besa las paredes con marcas de pintalabios mientras canta canciones tradicionales de su pueblo en lengua indígena tetun, incluida la inquietante canción timorense Ina Lou, que significa literalmente «Querida Madre Tierra».Una película de la actuación de Madeira se presenta junto a su vasto cuadro que completa el ciclo de Kiss and Don't Tell. El activismo cultural de Madeira, un acto de resistencia, supervivencia y resiliencia, rinde homenaje a las mujeres de Timor Oriental ofreciéndoles esperanza y curación.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Timor Pavilion",
+                "info": "Returning to her homeland after the end of the Indonesian occupation (1975-1999), artist Maria Madeira slept in a bedroom with red markings along the walls at knee height; she soon learned that the Indonesians had forced Timorese women to wear lipstick and kiss the walls.Madeira honours these women in her site-specific installation by drenching the walls in drips of paint and betel nut that resemble blood. She works with tais, the traditional textile from Timor- Leste woven by women. Redolent with pain and anguish, Madeira smears red earth from her birthplace in Timor- Leste onto tais, canvas and floor, imbuing the work with sorrow and memories. Madeira melds ancestral influences, traditional crafts and contemporary concerns for the plight of the voiceless.During the opening days of the Biennale Arte 2024, Madeira kisses the walls with lipstick markings while singing traditional songs from her village in the Indigenous language Tetun, including the haunting Timorese song Ina Lou, literally meaning “Dear Mother Earth”.A film of Madeira’s performance is presented alongside her vast painting completing the cycle of Kiss and Don’t Tell. An act of resistance, survival and resilience, Madeira’s cultural activism pays homage to the women of Timor- Leste by offering hope and healing.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Kiss and Don´t Tell"
     },
     {
         "pais": "Emiratos Árabes Unidos",
-        "coordena": [
-            45.43341830206674, 12.353090906456947
+        "coordena": [45.43341830206674, 12.353090906456947],
+        "image": "/images/paises/emiratos_arabes_unidos.jpg",
+        "imagenes_adicionales": [
+            "/images/emiratos1.jpg",
+            "/images/emiratos2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Emiratos Árabes Unidos",
+                "info": "El artista Abdullah Al Saadi es trotamundos, cronista, cartógrafo, poeta, descifrador, alquimista, portador de recuerdos y narrador de historias. Para el Pabellón de los EAU, su exposición individual presenta ocho obras realizadas en sus viajes por el desierto y propone examinar su proceso creativo en relación con las prácticas de los poetas árabes de hace siglos. Durante sus viajes, Al Saadi empieza a dibujar, pintar o escribir cuando se siente inmerso en la naturaleza. Del mismo modo, los poetas árabes clásicos describían esta inmersión como el proceso previo a la composición de sus poemas.Desde hace más de cuarenta años, Al Saadi crea narraciones singularmente subjetivas. Mediante un proceso de archivo asiduo, guarda sus mapas, piedras, pergaminos y dibujos en cajas de hojalata de diversas formas y tamaños. A su vez, los guarda en grandes cofres metálicos como cajas del tesoro, numerados, fechados y codificados, como si estuviera creando y preservando una memoria colectiva para el futuro. Se invita a los visitantes a experimentar el mundo del artista, en una recreación performativa de sus rituales de manifestación y desaparición, de recuerdo y olvido.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "United Arab Emirates Pavilion",
+                "info": "Artist Abdullah Al Saadi is a wanderer, chronicler, cartographer, poet, decipherer, alchemist, memory carrier, and storyteller. For the UAE Pavilion, his solo exhibition features eight artworks that were produced on his journeys in the wilderness and proposes to look at his creative process in relation to the practices of Arab poets centuries ago. During his journeys, Al Saadi starts to draw, paint or write once he feels immersed in nature. Similarly, classical Arab poets described this immersion as the process leading up to the composition of their poems.For over forty years, Al Saadi has been creating singularly subjective narratives. Through a process of assiduous archiving, he keeps his maps, stones, scrolls, and drawings in tin boxes of various shapes and sizes. In turn, they are stored in big metal chests like treasure boxes, numbered, dated, and coded, as if he is creating and preserving a collective memory for the future. Visitors are invited to experience the artist’s world, in a performative re-enactment of his studio rituals of manifestation and disappearance, of remembrance and forgetting.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Abdullah Al Saadi: Sites of Memory, Sites of Amnesia"
     },
     {
-        "pais": "Uzbekistan",
-        "coordena": [
-            45.43358294665779, 12.353677726606458
+        "pais": "Uzbekistán",
+        "coordena": [45.43358294665779, 12.353677726606458],
+        "image": "/images/paises/uzbekistan.jpg",
+        "imagenes_adicionales": [
+            "/images/uzbekistan1.jpg",
+            "/images/uzbekistan2.jpg"
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "traducciones": {
+            "es": {
+                "titulo": "Pabellón de Uzbekistán",
+                "info": "¿Cómo interpretamos la pertenencia? ¿Cómo encarnamos el carácter de «extranjero»? La artista de la diáspora uzbeka Aziza Kadyri explora las experiencias de las mujeres centroasiáticas y cómo reimaginan sus identidades en el proceso de migración. En un teatro deconstruido entre bastidores, los trajes se convierten en esculturas junto a obras audiovisuales creadas en colaboración con el colectivo Qizlar de Tashkent, basadas en relatos de mujeres que exploran los recuerdos corporales y la relación entre el cuerpo y su entorno. La instalación vincula el bordado uzbeko suzani y la generación de imágenes por IA, desvelando los prejuicios de la IA y su impacto global en los recuerdos compartidos. Durante su estancia en el espacio, se invita al espectador a encarnar tanto al observador como al observado, pasando de un estado de exposición a otro, cambios perceptibles únicamente para los espectadores que se encuentran más allá de este espacio de performance accidental.",
+                "descripcion": "Nombre de la Exhibición: "
+            },
+            "en": {
+                "titulo": "Uzbekistan Pavilion",
+                "info": "How do we perform belonging? How do we embody the character of a “foreigner”? Uzbek diaspora artist Aziza Kadyri explores the experiences of Central Asian women and how they reimagine their identities in the process of migration. In a deconstructed theatre backstage, costumes become sculptures alongside audiovisual work co-created with Tashkent-based Qizlar Collective, rooted in women’s narratives, exploring embodied memories and the relationship between the body and its environment. The installation links Uzbek Suzani embroidery and AI image generation, unveiling AI’s biases and its global impact on shared memories. While in the space, the viewer is invited to embody both the observer and the observed, shifting between states of exposure—changes perceptible only to the onlookers beyond this space of accidental performance.",
+                "descripcion": "Exhibit Name: "
+            }
+        },
+        "exhibicion": "Don´t miss the cue"
     }
 ]
