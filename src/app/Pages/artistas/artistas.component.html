@@ -1,0 +1,106 @@
+<div
+  style="
+    width: 1920px;
+    height: 1080px;
+   
+    border: solid 10px black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../../../../public/images/bg_Home2.png);"
+>
+  <br />
+  <div class="container" transition-style="in:square:hesitate">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4" style="font-weight: 800;font-size: 40px;color: white;">{{this.titulo}}</h1>
+        <!-- <p class="lead" style="word-spacing: 5px">
+          <b style="font-weight: 700">Comisionado:</b> Blendi Gonxhja, Minister
+          of Economy, Culture and Innovation
+          <b style="font-weight: 700">Curador:</b> Antonio Grulli
+          <b style="font-weight: 700">Artista:</b> Iva Lulashi
+          <b style="font-weight: 700">Lugar:</b> Arsenale
+        </p> -->
+      </div>
+    </div>
+  </div>
+  <br />
+  <div class="container">
+   
+ <!-- <p style="text-align: center;"> <img [src]="cargarImg" style="height: 300px;"> </p>  -->
+
+    <p style="font-style: italic;color: white;font-size: 30px;">
+   {{this.texto}}
+      
+    </p>
+    <div class="row">
+      <div class="parent" >
+        <div class="div1">
+          <img
+            src="/images/Artista1.jpg"
+            class="diseno" (click)="ACNUR()"
+              /><p style="font-size: 25px;font-weight: 800;text-align: center;color: white;">BROOKE ALFARO</p>
+        </div>
+        <div class="div1">
+          <img
+            src="/images/Artista5.jpg"
+            class="diseno" (click)="UNFPA()"
+           /><p style="font-size: 25px;font-weight: 800;text-align: center;color: white;">ISABEL DE OBALDIA</p>
+        </div>
+        <div class="div1">
+          <img
+            src="/images/Artista3.jpg"
+            class="diseno" (click)="UNICEF()"
+          /><p style="font-size: 25px;font-weight: 800;text-align: center;color: white;">CISCO MEREL</p>
+        </div>
+        <div class="div1">
+          <img
+            src="/images/Artista2.jpg"
+            class="diseno" (click)="OIM()"
+          /><p style="font-size: 25px;font-weight: 800;text-align: center;color: white;">GIANA DE DIER</p>
+        </div>
+      </div>
+
+      <button
+        class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+        style="
+          border-radius: 50px;
+          width: 100px;
+          height: 100px;
+          font-size: 40px;
+          font-weight: 700;
+          position: absolute;
+          left: 100px;
+          top: 950px;
+          z-index: 1;
+          background-color: black;
+          color: white;
+        "
+        routerLink="/"
+      >
+        <i class="fa-solid fa-circle-chevron-left"></i>
+      </button>
+
+      <button
+        class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+        style="
+          border-radius: 50px;
+          width: 100px;
+          height: 100px;
+          font-size: 40px;
+          font-weight: 700;
+          position: absolute;
+          right: 100px;
+          top: 950px;
+          z-index: 1;
+          background-color: black;
+          color: white;
+        "
+        routerLink="/"
+      >
+        <i class="fa-solid fa-home"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- <p style='text-align:center'><b>Giardine de la Bienalle</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Panama</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Usa</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>china</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'> Panama</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Usa</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>china</a></div></div> -->
+
+

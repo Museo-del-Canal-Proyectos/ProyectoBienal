@@ -43,7 +43,27 @@ body{
 } */
 
 
+.swal2-popup {
+  width: 1280px !important;
+  height: 720px !important;
+  max-width: none !important; /* Elimina cualquier restricción de tamaño */
+}
 
+/* Puedes personalizar más elementos dentro del popup, como el título, el contenido, etc. */
+.swal2-title {
+  font-size: 30px; /* Ajusta el tamaño del título si lo deseas */
+}
+
+.swal2-content {
+  font-size: 25px; /* Ajusta el tamaño del contenido */
+  text-align: justify;
+  
+}
+
+.swal2-image {
+  width: 200px; /* Tamaño personalizado de la imagen */
+  height: 200px;
+}
 
 
      
