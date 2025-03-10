@@ -20,6 +20,7 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Kith and kin"
+        "exhibicion": "Kith and kin",
+        "url":"Australia <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/australia`)'></div> "
     }
 ]

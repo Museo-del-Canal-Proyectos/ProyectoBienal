@@ -10,27 +10,27 @@ export class ServiceJsonService {
   constructor(public http: HttpClient) {}
 
   getPuntoGlobal(): Observable<Datos[]> {
-    const url = '/data/marker.json';
+    const url = 'data/marker.json';
     return this.http.get<Datos[]>(url);
   }
 
   getPuntosEuropa(): Observable<Datos[]> {
-    const url = '/data/europa-marker.json';
+    const url = 'data/europa-marker.json';
     return this.http.get<Datos[]>(url);
   }
 
   getPuntosAmericaDelNorte(): Observable<Datos[]> {
-    const url = '/data/america-norte.json';
+    const url = 'data/america-norte.json';
     return this.http.get<Datos[]>(url);
   }
 
   getPuntosCentroAmerica(): Observable<Datos[]> {
-    const url = '/data/centro-america.json';
+    const url = 'data/centro-america.json';
     return this.http.get<Datos[]>(url);
   }
 
   getPuntosAmericaDelSur(): Observable<Datos[]> {
-    const url = '/data/america-sur.json';
+    const url = 'data/america-sur.json';
     return this.http.get<Datos[]>(url);
   }
 
