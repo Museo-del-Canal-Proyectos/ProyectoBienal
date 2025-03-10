@@ -1,18 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
 import * as L from 'leaflet';
 import { Router } from '@angular/router';
-
 import { ServiceJsonService } from '../../service/service-json.service';
 import { DataService } from '../../service/data.service';
 import Swal from 'sweetalert2';
+import { Browser } from '@capacitor/browser';
+
 @Component({
   selector: 'app-mapa',
   imports: [],
   templateUrl: './mapa.component.html',
-  styleUrl: './mapa.component.css'
+  styleUrl: './mapa.component.css',
+  schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 
+
 export class MapaComponent {
+  sesionStorage: any;
   variable: any;
   paises: any[] = [];  // Guardamos los países que obtenemos del servicio
   selectedPais: any;  // Guardamos el país seleccionado
@@ -76,9 +80,8 @@ export class MapaComponent {
   }
 
 
-
   constructor(private router: Router, public service: ServiceJsonService,
-    private dataService: DataService) { }
+   private dataService: DataService) { }
 
   private map!: L.Map | undefined;//Objeto a la libreria de Leaflet referente 
   private initMap(): void { //Funcion contenedora de la libreria para creacion del mapa
@@ -96,7 +99,7 @@ export class MapaComponent {
 
     //creacion de icono personalizable region de america
     var icons = L.icon({
-      iconUrl: '/images/location-sharp.svg',
+      iconUrl: 'images/location-sharp.svg',
       iconSize: [30, 30]
     })
     //crreacion de icono personalizable region de europa
@@ -109,12 +112,13 @@ export class MapaComponent {
       icon: icons,
       draggable: false,
     }).addTo(this.map)
-      .bindPopup("Panamá", { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })
+      .bindPopup("Panamá <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/panama-republic`)'></div> ", { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })
       .openPopup();
 
-    panama.on('click',  () => {
-      this.dataService.setCountryData(this.dataPanama);
-      this.router.navigate(['/bienal']);
+    panama.on('click', () => {
+      // this.dataService.setCountryData(this.dataPanama);
+      //this.router.navigate(['/bienal']);
+     
     });
     // var panama = L.marker([45.4323754, 12.3501436], {//creamos el marcador con las coordenadas
     //   icon: icons,//referenciamos el icono que se va a usar
@@ -139,7 +143,7 @@ export class MapaComponent {
     //funciones de los datos de los markers de Europa
   }
   ngOnInit(): void {
-
+  
 
   }
   //cargar el mapa despues de que se crea la vista del html mejora rendimiento.
@@ -155,12 +159,15 @@ export class MapaComponent {
 
   //funcion para mostrar modal con imagenes usando libreria Sweetalert2
   //esta opcion s
-  modalImages(images: any) {
+  async modalExplorer(url: any) {
     // Swal.fire({
-    //   imageUrl: images,//parametro de variable que se recibe
-    //   imageHeight: 250,//tamaño
-    //   imageAlt: "A tall image"// referencia de la imagen  ¿
+    //  html:`<div id="content">Cargando contenido...</div>`,
+    //  width: '100%',
+    //  position:'top-right',
+    //  backdrop:false
     // });
+   this.sesionStorage = sessionStorage.setItem('url', url);
+   console.log(this.sesionStorage);
   }
 
 
@@ -180,7 +187,7 @@ export class MapaComponent {
             draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
           });
           this.grupoGlobal.addLayer(markers);
-          markers.bindPopup(element.pais, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+          markers.bindPopup(element.pais, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })//.openPopup();
         })
       });
       this.grupoGlobal.addTo(map);
@@ -239,13 +246,13 @@ export class MapaComponent {
           // Este evento es el que se dispara al hacer clic en el marcador
           markers.on('click', () => {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
-            this.dataService.setCountryData(element);
-            this.router.navigate(['/bienal']);
+            // this.dataService.setCountryData(element);
+            // this.router.navigate(['/bienal']);
 
 
           });
 
-          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })//.openPopup();
         })
       });
       this.grupoEuropa.addTo(map);
@@ -299,13 +306,13 @@ export class MapaComponent {
 
           markers.on('click', () => {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
-            this.dataService.setCountryData(element);
-            this.router.navigate(['/bienal']);
+            // this.dataService.setCountryData(element);
+            // this.router.navigate(['/bienal']);
 
 
           });
 
-          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })//.openPopup();
         })
       });
       this.grupoAmericaDelNorte.addTo(map);
@@ -359,10 +366,10 @@ export class MapaComponent {
 
           markers.on('click', () => {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
-            this.dataService.setCountryData(element);
-            this.router.navigate(['/bienal']);
+            // this.dataService.setCountryData(element);
+            // this.router.navigate(['/bienal']);
           });
-          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })//.openPopup();
         })
       });
       this.grupoAfrica.addTo(map);
@@ -407,7 +414,7 @@ export class MapaComponent {
       this.service.getPuntosOceania().subscribe((data) => {//for de iteracion por los elementos que se encuentran en el json
         data.forEach((element: any) => {
           //icon:icono,
-          var html = element.pais
+          var html = element.url;
           var markers = L.marker(element.coordena, {//creamos el marcador con las coordenadas
             icon: icons,//referenciamos el icono que se va a usar
             draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
@@ -416,13 +423,13 @@ export class MapaComponent {
 
           markers.on('click', () => {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
-            this.dataService.setCountryData(element);
-            this.router.navigate(['/bienal']);
-
+            // this.dataService.setCountryData(element);
+            // this.router.navigate(['/bienal']);
+            console.log(element.url);
 
           });
 
-          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })//.openPopup();
         })
       });
       this.grupoOceania.addTo(map);
@@ -476,13 +483,13 @@ export class MapaComponent {
 
           markers.on('click', () => {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
-            this.dataService.setCountryData(element);
-            this.router.navigate(['/bienal']);
+            // this.dataService.setCountryData(element);
+            // this.router.navigate(['/bienal']);
 
 
           });
 
-          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })//.openPopup();
         })
       });
       this.grupoAsia.addTo(map);
@@ -536,13 +543,13 @@ export class MapaComponent {
 
           markers.on('click', () => {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
-            this.dataService.setCountryData(element);
-            this.router.navigate(['/bienal']);
+            // this.dataService.setCountryData(element);
+            // this.router.navigate(['/bienal']);
 
 
           });
 
-          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })//.openPopup();
         })
       });
       this.grupoCentroAmerica.addTo(map);
@@ -599,12 +606,12 @@ export class MapaComponent {
 
           markers.on('click', () => {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
-            this.dataService.setCountryData(element);
-            this.router.navigate(['/bienal']);
+            // this.dataService.setCountryData(element);
+            // this.router.navigate(['/bienal']);
           });
 
 
-          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false }).openPopup();
+          markers.bindPopup(html, { autoClose: false, closeOnClick: false, closeOnEscapeKey: true, closeButton: false })//.openPopup();
         });
       });
       this.grupoAmericaDelSur.addTo(map);//anexamos puntos al grupo en el mapa
@@ -646,7 +653,7 @@ export class MapaComponent {
   americaNorte(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: '/images/location-sharp.svg',
+      iconUrl: 'images/location-sharp.svg',
       iconSize: [20, 20]
     })
     this.dataPuntosAmericaDelNorte(icons, this.map);
@@ -656,7 +663,7 @@ export class MapaComponent {
   centroAmerica(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: '/images/location-sharp.svg',
+      iconUrl: 'images/location-sharp.svg',
       iconSize: [20, 20]
     })
     this.dataPuntosCentroAmerica(icons, this.map);
@@ -666,7 +673,7 @@ export class MapaComponent {
   americaDelSur(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: '/images/location-sharp.svg',
+      iconUrl: 'images/location-sharp.svg',
       iconSize: [20, 20]
     })
     this.dataPuntosAmericaDelSur(icons, this.map);
@@ -677,7 +684,7 @@ export class MapaComponent {
   europa(event: any) {
     this.cambiarColor(event);
     var iconsEAuropa = L.icon({
-      iconUrl: '/images/placeholder.png',
+      iconUrl: 'images/placeholder.png',
       iconSize: [30, 30]
     })
     this.dataPuntosEuropa(iconsEAuropa, this.map);
@@ -687,7 +694,7 @@ export class MapaComponent {
   africa(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: '/images/location-sharp.svg',
+      iconUrl: 'images/location-sharp.svg',
       iconSize: [20, 20]
     })
     this.dataPuntosAfrica(icons, this.map);
@@ -697,7 +704,7 @@ export class MapaComponent {
   asia(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: '/images/location-sharp.svg',
+      iconUrl: 'images/location-sharp.svg',
       iconSize: [20, 20]
     })
     this.dataPuntosAsia(icons, this.map);
@@ -706,7 +713,7 @@ export class MapaComponent {
   oceania(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: '/images/location-sharp.svg',
+      iconUrl: 'images/location-sharp.svg',
       iconSize: [20, 20]
     })
     this.dataPuntosOceania(icons, this.map);
@@ -721,7 +728,6 @@ export class MapaComponent {
 
 
   //Función Todos los marcadores
-
   // activarMrcadores(event: any) {
   //   this.cambiarColor(event);
   //   var icons = L.icon({
@@ -730,9 +736,6 @@ export class MapaComponent {
   //   })
   //   this.dataPuntos(icons,this.map);
   // }
-
-
-
 
 
   onMarkerClick(): void {
