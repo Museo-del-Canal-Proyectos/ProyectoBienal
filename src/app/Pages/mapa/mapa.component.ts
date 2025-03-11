@@ -1,10 +1,11 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
 import * as L from 'leaflet';
-import { Router } from '@angular/router';
+import { Router,RouterModule } from '@angular/router';
+
 import { ServiceJsonService } from '../../service/service-json.service';
 import { DataService } from '../../service/data.service';
 import Swal from 'sweetalert2';
-import { Browser } from '@capacitor/browser';
+//import { Browser } from '@capacitor/browser';
 
 @Component({
   selector: 'app-mapa',
@@ -698,6 +699,10 @@ export class MapaComponent {
       iconSize: [20, 20]
     })
     this.dataPuntosAfrica(icons, this.map);
+  }
+
+  retornar(){
+    this.router.navigate(['/']);
   }
 
 

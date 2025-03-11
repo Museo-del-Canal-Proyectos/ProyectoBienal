@@ -1,5 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+  font-family: 'Helvetica2';
+  src: url('assets/fonts/Helvetica/HelveticaNeueLight.otf') format('truetype');
+
+  
+}
 
 body{
     background-image: url('assets/Home/bg_Home2.png');
@@ -66,5 +72,22 @@ body{
 }
 
 
+
+
      
 
+.custom-title {
+  font-family: 'Helvetica2';/* Cambia esta fuente a la que prefieras */
+  font-size: 24px; /* Ajusta el tamaño de la fuente */
+  color: white;
+}
+
+.custom-popup {
+  font-family:'Helvetica2'; /* Cambia esta fuente a la que prefieras */
+  font-size: 18px; /* Ajusta el tamaño de la fuente */
+ 
+}
+
+.custom-image {
+  border-radius: 50%;
+}
