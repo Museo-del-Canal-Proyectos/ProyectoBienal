@@ -85,6 +85,8 @@ body{
 .custom-popup {
   font-family:'Helvetica2'; /* Cambia esta fuente a la que prefieras */
   font-size: 18px; /* Ajusta el tamaño de la fuente */
+  color: white;
+  font-weight: 700;
  
 }
 

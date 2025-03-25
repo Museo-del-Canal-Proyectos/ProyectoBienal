@@ -19,7 +19,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Echo"
+        "exhibicion": "Echo",
+        "url":"Armenia <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/armenia-republic`)'></div> "
     },
     {
         "pais": "Bangladesh",
@@ -41,7 +42,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "The Contact"
+        "exhibicion": "The Contact",
+        "url":"Bangladesh <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/bangladesh-people%E2%80%99s-republic`)'></div> "
     },
     {
         "pais": "China",
@@ -63,7 +65,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Atlas: Harmony in Diversity"
+        "exhibicion": "Atlas: Harmony in Diversity",
+        "url":"Australia <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/china-people%E2%80%99s-republic`)'></div> "
     },
     {
         "pais": "Irán",
@@ -85,14 +88,16 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Of One Essence is the Human Race"
+        "exhibicion": "Of One Essence is the Human Race",
+        "url":"Irán<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/iran-islamic-republic`)'></div> "
     },
     {
         "pais": "<p style='text-align:center'><b>Giardine de la Bienalle</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Israel</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Korea</a><br></div></div>",
         "coordena": [
             45.42887236721131, 12.358047409971245
         ],
-        "image": "/images/paises/guatemala.jpg"
+        "image": "/images/paises/guatemala.jpg",
+    "url":"<p style='text-align:center; font-weight:800'>Giardini de la Bienalle <br></p><div class='parent3' style='display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; text-align: center;font-size: 12px; width:200px'><div class='div3'>Israel <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/israel`)'></div> <div class='div3'>North Korea <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/korea-republic`)'></div></div>"
     },
     {
         "pais": "Japón",
@@ -114,7 +119,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Compose"
+        "exhibicion": "Compose",
+        "url":"Japón <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/japan`)'></div> "
     },
     {
         "pais": "Líbano",
@@ -136,7 +142,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "A Dance with her Myth"
+        "exhibicion": "A Dance with her Myth",
+        "url":"Líbano<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/lebanon`)'></div> "
     },
     {
         "pais": "Mongolia",
@@ -158,7 +165,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Discovering the Present from the Future"
+        "exhibicion": "Discovering the Present from the Future",
+        "url":"Mongolia <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/mongolia`)'></div> "
     },
     {
         "pais": "Omán",
@@ -180,7 +188,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Malath - Haven "
+        "exhibicion": "Malath - Haven ",
+        "url":"Omán <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/oman-sultanate`)'></div> "
     },
     {
         "pais": "Filipinas",
@@ -202,7 +211,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Sa Kabila Ng Tabing Lamang Sa Panahong Ito / Waiting Just Behind The Curtain Of This Age"
+        "exhibicion": "Sa Kabila Ng Tabing Lamang Sa Panahong Ito / Waiting Just Behind The Curtain Of This Age",
+        "url":"Filipinas<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/philippines`)'></div> "
     },
     {
         "pais": "Arabia Saudita",
@@ -224,7 +234,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Shifting Sands: A Battle Song"
+        "exhibicion": "Shifting Sands: A Battle Song",
+        "url":"Arabia Saudita<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/saudi-arabia`)'></div> "
     },
     {
         "pais": "Singapur",
@@ -246,7 +257,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Seeing forest"
+        "exhibicion": "Seeing forest",
+        "url":"Singapur<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/singapore`)'></div> "
     },
     {
         "pais": "Timor",
@@ -268,7 +280,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Kiss and Don´t Tell"
+        "exhibicion": "Kiss and Don´t Tell",
+        "url":"Timor <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/timor-leste-democratic-republic`)'></div> "
     },
     {
         "pais": "Emiratos Árabes Unidos",
@@ -290,7 +303,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Abdullah Al Saadi: Sites of Memory, Sites of Amnesia"
+        "exhibicion": "Abdullah Al Saadi: Sites of Memory, Sites of Amnesia",
+        "url":"Emiratos Árabes Unidos <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/united-arab-emirates`)'></div> "
     },
     {
         "pais": "Uzbekistán",
@@ -312,6 +326,7 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Don´t miss the cue"
+        "exhibicion": "Don´t miss the cue",
+        "url":"Uzbekistan <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/uzbekistan-republic`)'></div> "
     }
 ]

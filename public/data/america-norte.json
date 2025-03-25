@@ -20,7 +20,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Jeffrey Gibson: the space in which to place me"
+        "exhibicion": "Jeffrey Gibson: the space in which to place me",
+         "url":"Estados Unidos<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/united-states-america`)'></div> "
     },
     {
         "pais": "Canadá",
@@ -43,7 +44,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Trinket"
+        "exhibicion": "Trinket",
+         "url":"Canada<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/canada`)'></div> "
     },
     {
         "pais": "México",
@@ -66,7 +68,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "As  we marched away, we were always coming back"
+        "exhibicion": "As  we marched away, we were always coming back",
+         "url":"Mexico<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/mexico`)'></div> "
     }
 ]
 

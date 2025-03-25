@@ -236,7 +236,8 @@ export class MapaComponent {
       this.service.getPuntosEuropa().subscribe((data) => {//for de iteracion por los elementos que se encuentran en el json
         data.forEach((element: any) => {
           //icon:icono,
-          var html = element.pais;
+          // var html = element.pais;
+          var html = element.url;
           var markers = L.marker(element.coordena, {//creamos el marcador con las coordenadas
             icon: icons,//referenciamos el icono que se va a usar
             draggable: false,//desactivamos funcion de agarrar los marcadores de localizacion
@@ -298,7 +299,7 @@ export class MapaComponent {
       this.service.getPuntosAmericaDelNorte().subscribe((data) => {//for de iteracion por los elementos que se encuentran en el json
         data.forEach((element: any) => {
           //icon:icono,
-          var html = element.pais
+          var html = element.url;
           var markers = L.marker(element.coordena, {//creamos el marcador con las coordenadas
             icon: icons,//referenciamos el icono que se va a usar
             draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
@@ -358,7 +359,7 @@ export class MapaComponent {
       this.service.getPuntosAfrica().subscribe((data) => {//for de iteracion por los elementos que se encuentran en el json
         data.forEach((element: any) => {
           //icon:icono,
-          var html = element.pais
+          var html = element.url;
           var markers = L.marker(element.coordena, {//creamos el marcador con las coordenadas
             icon: icons,//referenciamos el icono que se va a usar
             draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
@@ -475,7 +476,7 @@ export class MapaComponent {
       this.service.getPuntosAsia().subscribe((data) => {//for de iteracion por los elementos que se encuentran en el json
         data.forEach((element: any) => {
           //icon:icono,
-          var html = element.pais
+          var html = element.url;
           var markers = L.marker(element.coordena, {//creamos el marcador con las coordenadas
             icon: icons,//referenciamos el icono que se va a usar
             draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
@@ -535,7 +536,7 @@ export class MapaComponent {
       this.service.getPuntosCentroAmerica().subscribe((data) => {//for de iteracion por los elementos que se encuentran en el json
         data.forEach((element: any) => {
           //icon:icono,
-          var html = element.pais
+          var html = element.url;
           var markers = L.marker(element.coordena, {//creamos el marcador con las coordenadas
             icon: icons,//referenciamos el icono que se va a usar
             draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
@@ -598,7 +599,8 @@ export class MapaComponent {
         this.dataGroupAmericaDelSur = data;
         data.forEach((element: any) => {
           //icon:icono,
-          var html = element.pais
+          // var html = element.pais
+          var html = element.url;
           var markers = L.marker(element.coordena, {//creamos el marcador con las coordenadas
             icon: icons,//referenciamos el icono que se va a usar
             draggable: false,//desactivamnos funcion de agarrar los marcadores de localizacion
@@ -609,6 +611,9 @@ export class MapaComponent {
             // Usando SweetAlert para mostrar el nombre del país y cualquier otra información
             // this.dataService.setCountryData(element);
             // this.router.navigate(['/bienal']);
+
+            console.log(element.url);
+         
           });
 
 

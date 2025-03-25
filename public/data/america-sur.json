@@ -20,9 +20,11 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Hope the Doors Collapse"
+        "exhibicion": "Hope the Doors Collapse",
+        "url":"Argentina<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/argentina`)'></div> "
     },
     {
+
         "pais": "<p style='text-align:center'><b>Giardine de la Bienalle</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Bolivia</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Brasil</a><br></div></div>",
         "coordena": [
             45.42887236721131, 12.358047409971245
@@ -50,7 +52,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Huellas cósmicas"
+        "exhibicion": "Huellas cósmicas",
+        "url":"Peru <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/peru`)'></div> "
     },
     {
         "pais": "Chile",
@@ -73,7 +76,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Cosmonación"
+        "exhibicion": "Cosmonación",
+         "url":"Chile <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/chile`)'></div> "
     },
     {
         "pais": "Uruguay",
@@ -96,7 +100,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Latent"
+        "exhibicion": "Latent",
+        "url":"Uruguay <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/uruguay`)'></div> "
     },
     {
         "pais": "Venezuela",
@@ -119,6 +124,7 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Participatory Experience. Juvenal Ravelo"
+        "exhibicion": "Participatory Experience. Juvenal Ravelo",
+           "url":"Venezuela <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/venezuela`)'></div> "
     }
 ]

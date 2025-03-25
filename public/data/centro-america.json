@@ -17,10 +17,11 @@
             "en": {
                 "titulo": "Cuba Pavilion",
                 "info": "Curtain is a matter of perspective: from what position and how do we understand what is part of our reality? If we take into account that being outside or inside means a heterogeneous core of historical, philosophical and geographical knowledge. The exhibition questions, with a poetic gesture, the responsibility that implies to integrate, (not) to feel part of some place. It points out to the kind of luck that everyone has in the evolution and in the natural selection, process represented in changes, diversity, social, racial, ethnic, political and economic differences, establishing an analysis of reality reflected between opposites and levels of sensitivity: the tangible physical level and the level that is represented, which is nothing more than an allusion to ourselves. At the end of the day, although we think differently, feel differently and act differently, we are part of the same thing.",
-                "descripcion": "Exhibit Name: "
+                "descripcion": "Exhibit Name:"
             }
         },
-        "exhibicion": "Curtain"
+        "exhibicion": "Curtain",
+       "url":"Cuba <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/cuba`)'></div> "
     },
     {
         "pais": "Grenada",
@@ -43,6 +44,7 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "No Man is an Island "
+        "exhibicion": "No Man is an Island ",
+         "url":"Grenada<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/grenada`)'></div> "
     }
 ]

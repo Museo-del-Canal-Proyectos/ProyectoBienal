@@ -20,7 +20,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Título de la Exhibición"
+        "exhibicion": "Título de la Exhibición",
+        "url":"Benin <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/benin-republic`)'></div> "
     },
     {
         "pais": "Camerún",
@@ -43,7 +44,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Nemo propheta in patria"
+        "exhibicion": "Nemo propheta in patria",
+        "url":"Camerún <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/cameroon-republic`)'></div> "
     },
     {
         "pais": "Egipto",
@@ -66,7 +68,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Drama 1882    -   دراما ١٨٨٢"
+        "exhibicion": "Drama 1882    -   دراما ١٨٨٢",
+        "url":"Egipto <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/egypt`)'></div> "
     }
     ,
     {
@@ -90,7 +93,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Prejudice and Belonging"
+        "exhibicion": "Prejudice and Belonging",
+        "url":"Etiopía <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/ethiopia`)'></div> "
     }
     ,
     {
@@ -114,7 +118,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "The Blue Note"
+        "exhibicion": "The Blue Note",
+        "url":"Costa de Marfil <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/ivory-coast`)'></div> "
     }
     ,
     {
@@ -138,7 +143,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Nigeria Imaginary"
+        "exhibicion": "Nigeria Imaginary",
+        "url":"Nigeria <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/nigeria`)'></div> "
     }
     ,
     {
@@ -162,7 +168,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Bokk - Bounds"
+        "exhibicion": "Bokk - Bounds",
+        "url":"Senegal <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/senegal`)'></div> "
     }
     ,
     {
@@ -186,7 +193,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Pala"
+        "exhibicion": "Pala",
+        "url":"Seychelles <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/seychelles-republic`)'></div> "
     }
     ,
     {
@@ -210,7 +218,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Quiet Ground"
+        "exhibicion": "Quiet Ground",
+        "url":"Sudáfrica <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/south-africa-republic`)'></div> "
     }
     ,
     {
@@ -234,7 +243,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "A Flight in Reverse Mirrors"
+        "exhibicion": "A Flight in Reverse Mirrors",
+        "url":"Tanzania <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/tanzania-united-republic`)'></div> "
     }
     ,
     {
@@ -258,7 +268,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Wan Acel | Tuli Bamu | Turibamwe | We Are One"
+        "exhibicion": "Wan Acel | Tuli Bamu | Turibamwe | We Are One",
+        "url":"Uganda <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/uganda`)'></div> "
     }
     ,
     {
@@ -282,7 +293,8 @@
                 "descripcion": "Exhibit Name: "
             }
         },
-        "exhibicion": "Undone"
+        "exhibicion": "Undone",
+        "url":"Zimbabwe <br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/zimbabwe-republic`)'></div> "
     }
 ]
 

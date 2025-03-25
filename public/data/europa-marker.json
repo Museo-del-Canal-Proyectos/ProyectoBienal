@@ -2,7 +2,9 @@
   {
     "pais": "<p style='text-align:center'><b>Arsenale</b></p><div class='row' style='width:200px'><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Albania</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Islandia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Irlanda</a></div><div class='col-6'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Italia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Latvia</a></div></div>",
     "coordena": [45.437002, 12.317188],
-    "image": "/images/paises/españa.webp"
+    "image": "/images/paises/españa.webp",
+        "url":"<p style='text-align:center; font-weight:800'>Arsenale <br></p><div class='parent4' style='display: grid; grid-template-columns: repeat(2, 5fr); gap: 5px; text-align: left;font-size: 12px; width:180px'><div class='div4' style='display: flex; align-items: center; gap: 15px;'>Islandia <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/iceland`)' ></div> <div class='div4' style='display: flex; align-items: center; gap: 5px;'>Irlanda <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/ireland`)'></div><div class='div4' style='display: flex; align-items: center; gap: 30px;'>Italia <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/italy`)'></div> <div class='div4' style='display: flex; align-items: center; gap: 10px;'>Latvia <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/latvia`)'></div><div class='div4' style='display: flex; align-items: center; gap: 15px;'>Albania <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/albania`)'></div>"
+
   },
   {
     "pais": "Luxemburgo",
@@ -25,7 +27,8 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "A Comparative Dialogue Act"
+    "exhibicion": "A Comparative Dialogue Act",
+    "url":"Luxemburgo<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/luxembourg-grand-duchy`)'></div> "
   },
   {
     "pais": "Malta",
@@ -48,7 +51,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "I Will Follow the Ship"
+    "exhibicion": "I Will Follow the Ship",
+    "url":"Malta<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/malta`)'></div> "
+
   },
   {
     "pais": "Ucrania",
@@ -71,12 +76,16 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Trabajo en red"
+    "exhibicion": "Trabajo en red",
+    "url":"Ucrania<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/ukraine`)'></div> "
+
   },
   {
     "pais": "<p style='text-align:center;'><b>Giardine de la Bienalle</b></p><div class='row' style='width:300px;text-align:justiffy; '><div class='col-6'> <img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Austria</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Republica Checa</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Dinamarca</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Gran Bretaña</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Hungría</a></div><div class='col-6' style='margin-right:0;'><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'><a href='https://leafletjs.com/reference.html#tooltip'>Finlandia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Francia</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.nintendo.com/us/'>Alemania</a><br><img  src='/images/location-sharp.svg' style='width: 20px; height: 20px;'>&nbsp;<a href='https://www.labiennale.org/en/art/2024/albania'>Grecia</a></div></div>",
     "coordena": [45.42887236721131, 12.358047409971245],
-    "image": "/images/paises/suiza.webp"
+    "image": "/images/paises/suiza.webp",
+    "url":"<p style='text-align:center; font-weight:800'>Giardini de la Bienalle <br></p><div class='parent4' style='display: grid; grid-template-columns: repeat(2, 5fr); gap: 5px; text-align: left;font-size: 12px; width:250px'><div class='div4' style='display: flex; align-items: center; gap: 25px;'>Austria <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/austria`)' ></div> <div class='div4' style='display: flex; align-items: center; gap: 5px;'>Republica Checa <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/czech-republic`)'></div><div class='div4' style='display: flex; align-items: center; gap: 5px;'>Dinamarca <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/denmark`)'></div> <div class='div4' style='display: flex; align-items: center; gap: 25px;'>Gran Bretaña <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/great-britain`)'></div><div class='div4' style='display: flex; align-items: center; gap: 20px;'>Hungria <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/hungary`)'></div> <div class='div4' style='display: flex; align-items: center; gap: 50px;'>Finlandia <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/finland`)'></div><div class='div4' style='display: flex; align-items: center; gap: 20px;'>Francia<img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/france`)'></div> <div class='div4' style='display: flex; align-items: center; gap: 48px;'>Alemania <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/germany`)'></div><div class='div4' style='display: flex; align-items: center; gap: 25px;'>Grecia <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/greece`)'></div></div>"
+
   },
   {
     "pais": "Bélgica",
@@ -99,7 +108,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Petticoat Government"
+    "exhibicion": "Petticoat Government",
+    "url":"Bélgica<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/belgium`)'></div> "
+
   },
   {
     "pais": "Países Bajos",
@@ -122,7 +133,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "El juicio del Cubo Blanco"
+    "exhibicion": "El juicio del Cubo Blanco",
+    "url":"Países Bajos<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/netherlands`)'></div> "
+
   },
   {
     "pais": "Países Nórdicos (Suecia, Finlandia, Noruega)",
@@ -145,7 +158,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "La Ópera de Altersea"
+    "exhibicion": "La Ópera de Altersea",
+    "url":"Países Nórdicos<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/nordic-countries-sweden-finland-norway`)'></div> "
+
   },
   {
     "pais": "Polonia",
@@ -168,7 +183,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Repeat after me II"
+    "exhibicion": "Repeat after me II",
+    "url":"Polonia<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/poland`)'></div> "
+
   },
   {
     "pais": "Rumania",
@@ -191,7 +208,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "What Work Is"
+    "exhibicion": "What Work Is",
+    "url":"Rumania<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/romania`)'></div> "
+
   },
   {
     "pais": "Serbia",
@@ -214,7 +233,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Exposition coloniale"
+    "exhibicion": "Exposition coloniale",
+    "url":"Serbia<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/serbia`)'></div> "
+
   },
   {
     "pais": "República Eslovaca",
@@ -237,7 +258,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Floating Arboretum"
+    "exhibicion": "Floating Arboretum",
+    "url":"Eslovaquia<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/slovak-republic`)'></div> "
+
   },
   {
     "pais": "España",
@@ -260,7 +283,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Sandra Gamarra Heshiki: Decolonial Reinterpretations"
+    "exhibicion": "Sandra Gamarra Heshiki: Decolonial Reinterpretations",
+    "url":"España<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/spain`)'></div> "
+
   },
   {
     "pais": "Suiza",
@@ -283,7 +308,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Super Superior Civilizations "
+    "exhibicion": "Super Superior Civilizations ",
+    "url":"Suiza<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/switzerland`)'></div> "
+
   },
   {
     "pais": "Bosnia-Herzegovina",
@@ -306,7 +333,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "The Measure of the Sea"
+    "exhibicion": "The Measure of the Sea",
+    "url":"Boznia-Herzegovina<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/boznia-herzegovina`)'></div> "
+
   },
   {
     "pais": "Bulgaria",
@@ -329,7 +358,8 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "The Neighbours"
+    "exhibicion": "The Neighbours",
+    "url":"Bulgaria<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/bulgaria`)'></div> "
   },
   {
     "pais": "Croacia",
@@ -352,7 +382,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "By the Means at Hand"
+    "exhibicion": "By the Means at Hand",
+    "url":"Croacia<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/croatia`)'></div> "
+
   },
   {
     "pais": "Chipre",
@@ -375,7 +407,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "On a wildflower-lined gravel track off a quiet thoroughfare"
+    "exhibicion": "On a wildflower-lined gravel track off a quiet thoroughfare",
+    "url":"Chipre<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/cyprus-republic`)'></div> "
+
   },
   {
     "pais": "Estonia",
@@ -398,7 +432,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Hora lupi"
+    "exhibicion": "Hora lupi",
+    "url":"Estonia<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/estonia`)'></div> "
+
   },
   {
     "pais": "Georgia",
@@ -421,7 +457,9 @@
         "descripcion": "Artistic exploration of astronomy and history through the work of Ilia Zdanevich and Max Ernst."
       }
     },
-    "exhibicion": "The Art of Seeing - States of Astronomy"
+    "exhibicion": "The Art of Seeing - States of Astronomy",
+    "url":"Georgia<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/georgia`)'></div> "
+
   },
   {
     "pais": "Santa Sede",
@@ -446,7 +484,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Con i miei occhi"
+    "exhibicion": "Con i miei occhi",
+    "url":"Santa Sede<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/holy-see`)'></div> "
+
   },
 
   {
@@ -470,7 +510,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "The Echoing Silences of Metal and Skin"
+    "exhibicion": "The Echoing Silences of Metal and Skin",
+    "url":"Kosovo<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/kosovo-republic`)'></div> "
+
   },
   {
     "pais": "Lituania",
@@ -493,7 +535,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Post-Human Inflammation"
+    "exhibicion": "Post-Human Inflammation",
+    "url":"Lituania<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/lithuania`)'></div> "
+
   },
   {
     "pais": "Montenegro",
@@ -516,7 +560,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "It Takes an Island to Feel This Good"
+    "exhibicion": "It Takes an Island to Feel This Good",
+    "url":"Montenegro<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/montenegro`)'></div> "
+
   },
   {
     "pais": "Macedonia del Norte",
@@ -539,7 +585,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Inter spem et metum"
+    "exhibicion": "Inter spem et metum",
+    "url":"Macedonia del Norte<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/north-macedonia-republic`)'></div> "
+
   },
   {
     "pais": "Portugal",
@@ -562,7 +610,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Greenhouse"
+    "exhibicion": "Greenhouse",
+    "url":"Portugal<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/portugal`)'></div> "
+
   },
   {
     "pais": "San Marino",
@@ -585,7 +635,9 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Nomader"
+    "exhibicion": "Nomader",
+    "url":"San Marino<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/san-marino-republic`)'></div> "
+
   },
   {
     "pais": "Eslovenia",
@@ -608,6 +660,8 @@
         "descripcion": "Exhibit Name: "
       }
     },
-    "exhibicion": "Garden Secret For You"
+    "exhibicion": "Garden Secret For You",
+    "url":"Eslovenia<br><div style='text-align: center;'><img  width='20px' height='20px' src='icons/globe-internet.svg'  onclick='activar(`https://www.labiennale.org/en/art/2024/eslovenia-republic`)'></div> "
+
   }
 ]

@@ -64,3 +64,17 @@
 .subtitulo{
   font-family: 'Helvetica3';
 }
+
+
+
+.parent3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 0px;
+}
+  
+.div3 {
+  grid-column: span 2 / span 2;
+}
+
