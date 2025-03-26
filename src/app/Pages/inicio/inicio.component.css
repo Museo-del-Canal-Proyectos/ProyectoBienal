@@ -9,6 +9,10 @@
   font-weight: normal;
 }
 
+
+
+
+
 @font-face {
   font-family: 'Helvetica2';
   src: url('../../../assets/fonts/Helvetica/HelveticaNeueLight.otf') format('truetype');
@@ -19,6 +23,13 @@
 @font-face {
   font-family: 'Helvetica3';
   src: url('../../../assets/fonts/Helvetica/HelveticaNeueHeavy.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica4';
+  src: url('../../../assets/fonts/Helvetica/HelveticaNeueItalic.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
 }
@@ -159,3 +170,25 @@ swiper-slide .text {
   font-size: 20px;
   cursor: pointer;
 }
+
+
+.otrotxt{
+  font-family: 'Helvetica4';/* Cambia esta fuente a la que prefieras */
+  color: white;
+}
+
+.parent5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 8px;
+}
+  
+.div5 {
+  grid-column: span 2 / span 2;
+}
+  
+
+
+
+

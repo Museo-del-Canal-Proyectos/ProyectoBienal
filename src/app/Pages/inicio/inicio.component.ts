@@ -22,13 +22,13 @@ export class InicioComponent {
 
   brooke(){
     Swal.fire({
-      text: "Brooke Alfaro, uno de los artistas más destacados de Panamá, se dio a conocer inicialmente por sus imágenes de figuras realistas pintadas en un tono surrealista e irreverente, en obras creadas con admirable habilidad académica. Realizó su primera exposición individual en 1979, a la que han seguido innumerables muestras tanto en Panamá como en el extranjero. Hacia 1990, sus cuadros -que a menudo se burlaban de temas religiosos o políticos- se poblaron de aglomeraciones de figuras humanas, normalmente en barcos hacinados, en el mar, en selvas u otros entornos naturales, a menudo amenazadores. Desde principios de este siglo, Alfaro amplió sus esfuerzos artísticos para incluir la producción de obras en vídeo, que le valieron múltiples galardones, entre ellos el primer premio del Primer Concurso Latinoamericano de Videoarte, celebrado en Washington D.C. en 2003. Además de artista, Brooke Alfaro es activista social y medioambiental, centrado principalmente en la educación y la ecología.",
+      text: "Uno de los más admirados artistas panameños, Brooke Alfaro se dio a conocer inicialmente como pintor de figuras de aspecto real, pero de tono surrealista e irreverente, ejecutadas con una admirable técnica académica. Tuvo su primera exposición individual en 1979, a la que siguieron un sinnúmero de muestras tanto en Panamá como en el exterior. Hacia 1990, sus pinturas –que a menudo se burlaban de temas religiosos o políticos-- se poblaron con aglomeraciones de figuras humanas, usualmente en embarcaciones atiborradas, en el mar, en selvas u otros ambientes naturales, a menudo amenazantes. Desde principios de este siglo, Alfaro expandió su campo artístico para incluir la producción de obras de video, que lo hicieron merecedor de múltiples galardones, incluyendo el primer premio en el I Concurso de Videoarte de América Latina en Washington, D.C. en 2003. Además de artista, Brooke Alfaro es un activista social y ambiental, enfocado sobre todo en la educación y la ecología.  ",
       imageUrl: "images/Artista1.jpg",
       imageWidth: 300,
       imageHeight: 300,
       imageAlt: "Custom image",
       background: 'url(images/background_swal.png)', // Cambia esta URL a la de tu imagen de fondo
-      confirmButtonText: 'Cerrar',
+      confirmButtonText: '<i class="fa-solid fa-rectangle-xmark" style="font-size:25px"></i>',
       customClass: {
         title: 'custom-title',
         popup: 'custom-popup', // Clase para el contenido del popup
@@ -40,13 +40,13 @@ export class InicioComponent {
 
   Cisco(){
     Swal.fire({
-      text: "La obra de Cisco Merel revela una interpretación de temas como el arte popular, la arquitectura y los contrastes sociales, en llamativas instalaciones y pinturas abstractas de formas geométricas y colores intensos, que realiza con la incorporación de arcilla, pigmentos y acero inoxidable. Estudió Bellas Artes en Panamá y en talleres y residencias internacionales en Nueva York, París y Leipzig. Durante más de diez años colaboró con el Taller Carlos Cruz Díez de Ciudad de Panamá. Ha presentado más de quince exposiciones individuales en Panamá y en el extranjero desde 2005. Merel crea pinturas y esculturas, de pequeño y gran formato, tanto para espacios privados como públicos, utilizando una variedad de materiales que van desde el lienzo y la madera hasta los polímeros sintéticos. En sus obras logra reinterpretar experiencias cotidianas a través de colores, formas y sensaciones que generan reflexiones sobre los sistemas y situaciones sociales de nuestro tiempo.",
+      text: "La obra de Cisco Merel revela una interpretación de temas como el arte popular, la arquitectura y los contrastes sociales, en impactantes instalaciones y pinturas abstractas –de formas geométricas y colores intensos-- que produce con la incorporación del barro, los pigmentos y el acero inoxidable. Estudió artes plásticas en Panamá y en talleres internacionales y residencias en Nueva York, París y Leipzig. Por más de diez años, colaboró con el taller del reconocido maestro Carlos Cruz Diez en la ciudad de Panamá. Ha presentado más de quince exposiciones individuales en Panamá y el exterior desde 2005. Merel crea pinturas y esculturas, tanto pequeñas como de gran formato para espacios públicos, con diversos materiales desde el lienzo y la madera hasta los polímeros sintéticos. En sus obras, logra reinterpretar experiencias cotidianas a través de colores, formas y sensaciones que generan reflexiones sobre los sistemas y situaciones socioculturales de nuestros tiempos. ",
       imageUrl: "images/Artista3.jpg",
       imageWidth: 300,
       imageHeight: 300,
       imageAlt: "Custom image",
       background: 'url(images/background_swal.png)', // Cambia esta URL a la de tu imagen de fondo
-      confirmButtonText: 'Cerrar',
+      confirmButtonText: '<i class="fa-solid fa-rectangle-xmark" style="font-size:25px"></i>',
       customClass: {
         title: 'custom-title',
         popup: 'custom-popup', // Clase para el contenido del popup
@@ -57,13 +57,13 @@ export class InicioComponent {
 
  Giana(){
   Swal.fire({
-    text: "La artista panameña Giana De Dier explora la representación de la población afrodescendiente a través de dibujos y collages que construye con información y materiales de archivos históricos, historias orales y recuerdos familiares, así como con fotos que ella toma y la apropiación de fotografías antiguas. Se enfoca en representaciones de mujeres de origen caribeño, armando escenarios imaginarios para rememorar la resiliencia de los migrantes antillanos que llegaron al país para la construcción del canal y dar testimonio de su contribución a la conformación de la identidad panameña. De Dier estudió Artes Visuales en la Universidad de Panamá. Luego de su primera participación en una muestra colectiva en 2009, y su primera individual en 2014, ha expuesto en una docena de ocasiones en Panamá, Italia y Estados Unidos. En 2022, fue invitada a la prestigiosa 58ª Carnegie International en Pittsburgh y en 2023, fue ganadora de la primera residencia artística en el Museo del Canal Interoceánico de Panamá.",
+    text: "La artista panameña Giana De Dier explora la representación de la población afrodescendiente a través de dibujos y collages que construye con información y materiales de archivos históricos, historias orales y recuerdos familiares, así como con fotos que ella toma y la apropiación de fotografías antiguas. Se enfoca en representaciones de mujeres de origen caribeño, armando imaginarios para rememorar la resiliencia de los migrantes antillanos que llegaron al país para la construcción del canal y dar testimonio de su contribución a la conformación de la identidad panameña. De Dier estudió Artes Visuales en la Universidad de Panamá. Luego de su primera participación en una muestra colectiva en 2009, y su primera individual en 2014, ha expuesto en una docena de ocasiones en Panamá y el exterior. En 2022, fue invitada a la prestigiosa 58ª Carnegie International en Pittsburgh. En 2023, fue seleccionada para residencias artísticas en el Museo del Canal Interoceánico de Panamá, así como en la Delfina Foundation de Londres. ",
     imageUrl: "images/Artista2.jpg",
     imageWidth: 300,
     imageHeight: 300,
     imageAlt: "Custom image",
     background: 'url(images/background_swal.png)', // Cambia esta URL a la de tu imagen de fondo
-    confirmButtonText: 'Cerrar',
+    confirmButtonText: '<i class="fa-solid fa-rectangle-xmark" style="font-size:25px"></i>',
     customClass: {
       title: 'custom-title',
       popup: 'custom-popup', // Clase para el contenido del popup
@@ -74,13 +74,13 @@ export class InicioComponent {
 
 Isabel(){
   Swal.fire({
-    text: "Aunque inicialmente se formó en diseño gráfico y cinematografía, la admirada artista panameña Isabel De Obaldía es conocida por sus dibujos, pinturas, esculturas y vídeos. Ha expuesto durante cuatro décadas en numerosas exposiciones individuales y colectivas en Panamá, Europa y Estados Unidos. En 1989, época de agitación política en Panamá, creó obras memorables de protesta contra la dictadura. En los años 90, descubrió la escultura en vidrio, un medio en el que ha obtenido reconocimiento por sus extraordinarias piezas de gran tamaño, normalmente de figuras masculinas, animales salvajes, torsos y cabezas. Desde 1997 expone en la galería Mary-Anne Martin Fine Art de Nueva York, y recientemente, en 2022, fue invitada a la 58ª Carnegie International, la segunda bienal más antigua del mundo. Tanto en sus obras bidimensionales como en las de vidrio, De Obaldía expresa una notable preocupación por el mundo natural, así como por los seres humanos y sus circunstancias sociopolíticas, a menudo difíciles.",
+    text: "Reconocida como dibujante, pintora, escultora y videasta, y entrenada en diseño gráfico y cinematografía, la artista panameña Isabel De Obaldía ha expuesto a lo largo de cuatro décadas en numerosas muestras individuales y colectivas tanto en Panamá como en Europa y Estados Unidos. En 1989, con motivo de los problemas políticos en su país, creó memorables obras de protesta contra la dictadura. En los años noventa, descubrió la práctica de la escultura en vidrio, medio en el que ha alcanzado reconocimiento por sus extraordinarias piezas de gran tamaño, usualmente de figuras masculinas, animales salvajes, torsos y cabezas. Desde 1997, expone con la galería Mary-Anne Martin Fine Art y recientemente, en 2022, fue invitada a la 58ª Carnegie International, la segunda bienal más antigua del mundo. Tanto en sus obras bidimensionales como en sus piezas fundidas en vidrio, De Obaldía expresa una notable preocupación por el mundo natural, así como por el ser humano y sus circunstancias sociopolíticas.  ",
     imageUrl: "images/Artista5.jpg",
     imageWidth: 300,
     imageHeight: 300,
     imageAlt: "Custom image",
     background: 'url(images/background_swal.png)', // Cambia esta URL a la de tu imagen de fondo
-    confirmButtonText: 'Cerrar',
+    confirmButtonText: '<i class="fa-solid fa-rectangle-xmark" style="font-size:25px"></i>',
     customClass: {
       title: 'custom-title',
       popup: 'custom-popup', // Clase para el contenido del popup

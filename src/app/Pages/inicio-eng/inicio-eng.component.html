@@ -1,0 +1,829 @@
+<swiper-container
+  style="
+    --swiper-navigation-color: white;
+    --swiper-pagination-color: white;
+    --swiper-navigation-size: 60px;
+    --swiper-pagination-bullet-size: 40px;
+    --swiper-pagination-bullet-opacity: 5; /* Ajusta la opacidad (0 = transparente, 1 = sólido) */
+    
+    
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-bullet-inactive-color: #ff5a5a;; 
+    --background-color: red ;
+
+  "
+  class="mySwiper"
+  speed="600"
+  parallax="true"
+  pagination="true"
+  pagination-clickable="true"
+  navigation="true"
+>
+  <div
+    slot="container-start"
+    class="parallax-bg"
+    style="
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(images/bg_Home2.png);
+    "
+    data-swiper-parallax="-23%"
+  ></div>
+  <swiper-slide>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div data-swiper-parallax="-100">
+      <div
+        style="width: 1200px; display: grid; place-items: center; margin: auto"
+      >
+        <p class="otrotxt" style="text-align: center; font-size: 35px">
+          Swipe your finger across the screen to explore the topics you can
+          explore further. Tap on the image of the topic that interests you. You
+          can return by pressing the
+          <i class="fa-solid fa-angle-left"></i> or go back to the beginning of
+          this experience by tapping the
+          <i class="fa-solid fa-house"></i> located at the bottom of the
+          screen.​
+        </p>
+      </div>
+      <div>
+        <p style="text-align: center">
+          <button
+            type="button"
+            class="btn btn-success titulo"
+            style="
+              width: 400px;
+              font-size: 40px;
+              font-weight: 700;
+              border: 1px solid transparent;
+              font-weight: 700;
+              border-radius: 2em;
+              box-shadow: 0 0 10px 5px black;
+              background-color: #ff5a5a;
+            "
+            routerLink="/"
+          >
+            ESP <i class="fa-solid fa-language"></i>
+          </button>
+          &nbsp;
+          <button
+            type="button"
+            class="btn btn-success titulo"
+            style="
+              width: 400px;
+              font-size: 40px;
+              font-weight: 700;
+              border: 1px solid transparent;
+              font-weight: 700;
+              border-radius: 2em;
+              box-shadow: 0 0 10px 5px black;
+              background-color: black;
+            "
+            routerLink="/inicio_eng"
+          >
+            ENG <i class="fa-solid fa-language"></i>
+          </button>
+        </p>
+      </div>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br /><br /><br /><br /><br /><br />Thinking about the Panama
+      Pavilion​
+    </div>
+
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px">
+        For Panama's first pavilion at the Venice Art Biennale, the curators of
+        the project focused their research on the migratory phenomenon
+        experienced by our continent, with a particular emphasis on Panama and
+        the Darien Jungle, through which thousands of people cross daily . Watch
+        this video in which both curators discuss the origin of their curatorial
+        proposal and reflect on the significance of bringing this message to the
+        world's most important art event
+      </p>
+      <!-- <button
+        type="button"
+        class="btn btn-success titulo"
+        style="
+          width: 400px;
+          font-size: 40px;
+          font-weight: 700;
+          border: 1px solid transparent;
+          font-weight: 700;
+          border-radius: 2em;
+          box-shadow: 0 0 10px 5px black;
+          background-color: #ff5a5a;
+        "
+        routerLink="./mapa"
+      >
+        Ver en el mapa <i class="fa-regular fa-map"></i>
+      </button> -->
+    </div>
+  </swiper-slide>
+
+  <!-- La Bienal de Arte de Venecia -->
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br /><br />
+      The Venice Biennale
+    </div>
+
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px">
+        Since its inception in 1895, the Venice Biennale has emerged as one of
+        the most prestigious and enduring contemporary art exhibitions globally.
+        This biennial event convenes artists, curators, and critics from around
+        the world to showcase and discuss the most innovative and impactful
+        trends in contemporary art. Over its long history, the Biennale has
+        mirrored and served as a platform for the diverse cultural, political,
+        and social currents that have shaped our world, transforming Venice into
+        a vibrant global cultural and artistic hub. Every two years, the
+        Venice Biennale appoints a curator or a curatorial committee to define
+        the concept and overall direction of this major cultural event. Their
+        role is to create the “International Exhibition,” which forms the
+        centerpiece of the Biennale and features works by artists from across
+        the globe.
+      </p>
+
+      <p class="d-inline-flex gap-1 titulo">
+        <a
+          class="btn btn-success"
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+          style="background-color: #ff5a5a;color: white;font-size: 30px;font-weight: 700;
+          border: 1px solid transparent;
+          font-weight: 700;
+          border-radius: 2em;
+          box-shadow: 0 0 10px 5px black;
+          background-color: #ff5a5a;width: 400px;"
+        >
+          Read more 
+        </a>
+      </p>
+
+      <div
+        class="collapse"
+        id="collapseExample"
+        style="position: absolute; left: 900px; width: 800px"
+      >
+        <div class="card card-body" style="background-color: transparent">
+          <br /><br /><br />
+          <p class="text" style="text-align: justify; font-size: 20px">
+            While the majority of artists are contemporary and active, some
+            exhibitions may also include works by deceased or lesser-known
+            figures, depending on the curator’s vision, contributing to a more
+            nuanced historical perspective on art.​ While the International
+            Exhibition is centered around the concept defined by its curators,
+            participating countries with their national pavilions are not
+            required to adhere to this central theme. The 60th Biennale saw the
+            participation of around 87 countries from all continents, each
+            presenting a locally curated exhibition based on the work of chosen
+            curators or organizers from their home countries, with national
+            government endorsement. ​
+          </p>
+        </div>
+      </div>
+      <br />
+      <img
+        src="images/bg_Home2.png"
+        style="
+          height: 500px;
+          width: 800px;
+          position: absolute;
+          top: -100px;
+          left: 900px;
+        "
+      />
+      <!-- <button
+      type="button"
+      class="btn btn-success titulo"
+      style="
+        width: 400px;
+        font-size: 40px;
+        font-weight: 700;
+        border: 1px solid transparent;
+        font-weight: 700;
+        border-radius: 2em;
+        box-shadow: 0 0 10px 5px black;
+        background-color: #ff5a5a;
+      "
+      routerLink="./mapa"
+    >
+      Ver en el mapa <i class="fa-regular fa-map"></i>
+    </button> -->
+    </div>
+  </swiper-slide>
+  <!-- Fin del Tema -->
+
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br /><br /><br /><br /><br />Foreigners everywhere
+    </div>
+
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px">
+        For the 60th Venice Biennale, held in 2024, Brazilian curator Adriano
+        Pedrosa chose the theme “Stranieri Ovunque - Foreigners Everywhere.”
+        This edition delves into the themes of migration, identity, and the
+        sense of displacement in a globalized world. The title is inspired by a
+        series of neon pieces created in 2004 by the Claire Fontaine collective,
+        which has addressed racism and xenophobia in Turin. This theme now
+        serves as the guiding principle of the Venetian exhibition, inviting
+        viewers to reflect on the concept of “foreigner” not just in
+        geographical terms, but also in cultural, social, and personal contexts.
+        ​ ​ The 60th Venice Biennale thus explores the complexities of identity
+        and otherness, illustrating how the sense of belonging can dissolve when
+        we acknowledge that, at some point and in some way, we are all
+        foreigners. ​
+      </p>
+      <!-- <button
+        type="button"
+        class="btn btn-success titulo"
+        style="
+          width: 400px;
+          font-size: 40px;
+          font-weight: 700;
+          border: 1px solid transparent;
+          font-weight: 700;
+          border-radius: 2em;
+          box-shadow: 0 0 10px 5px black;
+          background-color: #ff5a5a;
+        "
+        routerLink="/ong"
+      >
+        Conocer más <i class="fa-solid fa-shoe-prints"></i>
+      </button> -->
+    </div>
+
+    <div class="parent">
+      <div class="div1">
+        <img
+          src="images/bg_Home2.png"
+          style="height: 550px; width: 850px; position: absolute; top: 100px"
+        />
+      </div>
+    </div>
+
+    <!-- <div class="parent">
+      <div class="div1">
+        <img
+          src="images/pasan/001.png"
+          style="height: 250px; width: 250px"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        />
+      </div>
+      <div class="div1">
+        <img
+          src="images/pasan/002.png"
+          style="height: 250px; width: 250px"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal2"
+        />
+      </div>
+      <div class="div1">
+        <img
+          src="images/pasan/003.png"
+          style="height: 250px; width: 250px"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal3"
+        />
+      </div>
+
+      <div class="div1">
+        <img
+          src="images/pasan/004.png"
+          style="height: 250px; width: 250px"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal4"
+        />
+      </div>
+      <div class="div1">
+        <img
+          src="images/pasan/005.png"
+          style="height: 250px; width: 250px"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal5"
+        />
+      </div>
+      <div class="div1">
+        <img
+          src="images/pasan/006.png"
+          style="height: 250px; width: 250px"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal6"
+        />
+      </div>
+
+      <div class="div1">
+        <img
+          src="images/pasan/007.png"
+          style="height: 250px; width: 250px"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal7"
+        />
+      </div>
+      <div class="div1">
+        <img
+          src="images/pasan/008.png"
+          style="height: 250px; width: 250px"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal8"
+        />
+      </div>
+      <div class="div1">
+        <img
+          src="images/pasan/009.png"
+          style="height: 250px; width: 250px"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal9"
+        />
+      </div>
+    </div> -->
+  </swiper-slide>
+
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br /><br /><br />
+      <p style="font-size: 35px">
+        Panama: A Historic Debut at​ <br />
+        the Venice Biennale
+      </p>
+    </div>
+
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px; font-weight: 400">
+        Panama's debut at the 60th Venice Biennale marks a significant milestone
+        in the country’s cultural history. Driven by the ambition to make
+        Panama’s voice heard in the global art dialogue, this participation
+        celebrates the nation’s cultural richness through the works of four
+        leading contemporary artists: Brooke Alfaro, Isabel De Obaldia, Giana De
+        Dier, and Cisco Merel. ​ ​ Titled “Traces: In the Body and in the Land,”
+        the Panamanian pavilion’s exhibition centers on the theme of migration.
+        Panama, since its existence as an isthmus, has been shaped by the
+        movement and presence of diverse peoples. Our pavilion reflects the
+        enduring impact of migration on individuals and their surroundings. This
+        theme, highly relevant both locally and globally, resonates deeply with
+        the central focus of the Venice Biennale. ​ ​ This participation not
+        only aims to integrate Panama into the international art conversation
+        but also seeks to lay the groundwork for future national exhibitions,
+        establishing Panama as a significant contributor to the global art
+        dialogue. ​ ​<br /><br />
+        <i style="font-size: 20px"
+          >Click on the images to see his biography
+         </i>
+      </p>
+      <!-- <button
+        type="button"
+        class="btn btn-success"
+        style="
+          width: 400px;
+          font-size: 30px;
+          font-weight: 700;
+          border: 1px solid transparent;
+          font-weight: 700;
+          border-radius: 2em;
+          box-shadow: 0 0 10px 5px black;
+          background-color: #ff5a5a;
+        "
+        routerLink="./mapa"
+      >
+        Conoce a los artistas <i class="fa-solid fa-book-open"></i>
+      </button> -->
+    </div>
+
+    <div class="parent2">
+      <div class="div1">
+        <img
+          src="images/Artista1.jpg"
+          (click)="brooke()"
+          style="height: 350px; width: 350px"
+        />
+      </div>
+      <div class="div1">
+        <img
+          src="images/Artista3.jpg"
+          (click)="Cisco()"
+          style="height: 350px; width: 350px"
+        />
+      </div>
+      <div class="div1">
+        <img
+          src="images/Artista2.jpg"
+          (click)="Giana()"
+          style="height: 350px; width: 350px"
+        />
+      </div>
+      <div class="div1">
+        <img
+          src="images/Artista5.jpg"
+          (click)="Isabel()"
+          style="height: 350px; width: 350px"
+        />
+      </div>
+    </div>
+  </swiper-slide>
+  <!-- Otros Pabellones -->
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br /><br /><br /><br /><br /><br />Explore here the other National
+      Pavilions
+    </div>
+
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px">
+        Explore this interactive map, where you will find a summary of the 88
+        national pavilions that participated in the 60th Art Biennale, located
+        in Arsenale, Giardini, and other venues across the various islands that
+        make up the city of Venice.
+      </p>
+      <button
+        type="button"
+        class="btn btn-success titulo"
+        style="
+          width: 400px;
+          font-size: 40px;
+          font-weight: 700;
+          border: 1px solid transparent;
+          font-weight: 700;
+          border-radius: 2em;
+          box-shadow: 0 0 10px 5px black;
+          background-color: #ff5a5a;
+        "
+        routerLink="./mapa"
+      >
+        View map 
+      </button>
+    </div>
+  </swiper-slide>
+  <!-- Otros Pabellones -->
+
+  <!-- Otros artistas Panameños -->
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br /><br />Other Panamanian artists who<br> participated in the
+      Venice Art Biennial
+    </div>
+
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px">
+        In addition to the four artists who represented the country in the
+        Panama Pavilion, three Panamanian artists enriched the curatorial
+        approach created by Adriano Pedrosa in the main exhibition and by the
+        curatorial team of the Bolivia Pavilion in their national pavilion as
+        international guests:
+      </p>
+
+      <p style="font-size: 20px">
+        <b style="font-weight: 800">Main exhibition, Arsenale.</b><br />
+        Antonio José Guzmán (with Iva Jankovick)<br>Project: Orbital Mechanics, from
+        the Electric Dub Station series. 2024 Textile, audio and performance
+        installation
+        <button type="button" class="btn titulo" style="background-color: #ff5a5a;color: white;font-size: 30px;font-weight: 700;
+        border: 1px solid transparent;
+        font-weight: 700;
+        border-radius: 2em;
+        box-shadow: 0 0 10px 5px black;
+        background-color: #ff5a5a;width: 400px;" onclick="activar('https://www.labiennale.org/en/art/2024/nucleo-contemporaneo/antonio-jose-guzman-iva-jankovic')">
+          Read the description</button
+        >​ <br /><br />
+        <b style="font-weight: 800">
+          Bolivian Pavilion, Giardini (inside the Russian Pavilion)</b
+        ><br />​Projects: La fuga de niños rojos and Tiempo de
+        transformaciones. Acrylic painting on canvas and diptych in mixed media
+        on wood respectively.​ <br /><br /><b style="font-weight: 800"
+          >Humberto Vélez</b
+        >​ <br />​Project: The Last Builder and El mago, black and white films
+        in super 8.  ​<button type="button" class="btn titulo" style="background-color: #ff5a5a;color: white;font-size: 30px;font-weight: 700;
+        border: 1px solid transparent;
+        font-weight: 700;
+        border-radius: 2em;
+        box-shadow: 0 0 10px 5px black;
+        background-color: #ff5a5a;width: 400px;" onclick="activar('https://www.labiennale.org/en/art/2024/bolivia-plurinational-state')">
+          Read the description
+        </button>
+      </p>
+    </div>
+  </swiper-slide>
+  <!-- Otros Artistas Panameños -->
+
+  <!-- Migración por el Darién -->
+
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br /><br /><br />Migration in the Darién: 
+    </div>
+
+    <div class="subtitle" data-swiper-parallax="-200" style="font-weight: 700">
+      data and Humanitarian
+      Responses​
+    </div>
+
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px">
+        The Darién crossing is one of the most dangerous migration routes in the
+        world. In 2023, over 520,000 people undertook this journey, including
+        more than 113,000 children. The lack of infrastructure, exposure to
+        violence, and extreme precariousness make this a high-risk route.​ ​
+        Organizations such as UNICEF, UNHCR, and other humanitarian agencies are
+        working in the region to provide vital assistance: access to clean
+        water, medical care, psychosocial support, and protection for the most
+        vulnerable populations, particularly women, children, and adolescents.​
+        ​ Through data collection and the implementation of programs in the
+        region, these organizations aim not only to respond to the immediate
+        crisis but also to raise awareness of the factors driving migration and
+        the urgent needs of those crossing the Darién.​ ​
+        <br />
+        <i>Learn more about their work and how you can support.</i>
+      </p>
+
+      <button
+        type="button"
+        class="btn btn-success titulo"
+        style="
+          width: 400px;
+          font-size: 30px;
+          font-weight: 700;
+          border: 1px solid transparent;
+          font-weight: 700;
+          border-radius: 2em;
+          box-shadow: 0 0 10px 5px black;
+          background-color: #ff5a5a;
+        "
+        routerLink="./ong"
+      >
+      Read more 
+      </button>
+    </div>
+  </swiper-slide>
+  <!-- Migración por el Darién -->
+  <!-- Catalogo -->
+  <swiper-slide>
+    <div
+      class="title"
+      data-swiper-parallax="-300"
+      style="font-weight: 800; font-family: Arial, Helvetica, sans-serif"
+    >
+      <br /><br /><br /><br /><br /><br />Catalog
+    </div>
+
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px; font-weight: 400">
+        The catalog of an art exhibition is an important document that highlights critical thinking, research, and the strategies of reflection and communication developed around a curatorial project. In this section, you can explore the catalog of the Panama Pavilion at the 60th Venice Art Biennale. The publication is available at the museum shop.​
+      </p>
+      <!-- <button
+        type="button"
+        class="btn btn-success titulo"
+        style="
+          width: 400px;
+          font-size: 40px;
+          font-weight: 700;
+          border: 1px solid transparent;
+          font-weight: 700;
+          border-radius: 2em;
+          box-shadow: 0 0 10px 5px black;
+          background-color: #ff5a5a;
+        "
+        routerLink="./mapa"
+      >
+        Ver el Cátalogo <i class="fa-solid fa-book-open"></i>
+      </button> -->
+
+      <p style="position: absolute; left: 110%; top: -190%">
+        <iframe
+          height="600"
+          width="1020"
+          src="https://experienciasmuseodelcanal.org/bienalcatalogo/index.html"
+        ></iframe>
+      </p>
+    </div>
+  </swiper-slide>
+</swiper-container>
+
+<!-- Primer Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="text-align: center">
+        <img src="images/pasan/001.png" style="height: 500px" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Segundo Modal -->
+<div
+  class="modal fade"
+  id="exampleModal2"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel2"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="text-align: center">
+        <img src="images/pasan/002.png" style="height: 500px" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tercer Modal -->
+<div
+  class="modal fade"
+  id="exampleModal3"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel3"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="text-align: center">
+        <img src="images/pasan/003.png" style="height: 500px" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cuarto Modal -->
+<div
+  class="modal fade"
+  id="exampleModal4"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel4"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="text-align: center">
+        <img src="images/pasan/004.png" style="height: 500px" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Quinto Modal -->
+<div
+  class="modal fade"
+  id="exampleModal5"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel5"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="text-align: center">
+        <img src="images/pasan/005.png" style="height: 500px" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sexto Modal -->
+<div
+  class="modal fade"
+  id="exampleModal6"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel6"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="text-align: center">
+        <img src="images/pasan/006.png" style="height: 500px" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Septimo Modal -->
+<div
+  class="modal fade"
+  id="exampleModal7"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel7"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="text-align: center">
+        <img src="images/pasan/007.png" style="height: 500px" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Octavo Modal -->
+<div
+  class="modal fade"
+  id="exampleModal8"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel8"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="text-align: center">
+        <img src="images/pasan/008.png" style="height: 500px" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Noveno Modal -->
+<div
+  class="modal fade"
+  id="exampleModal9"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel9"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="text-align: center">
+        <img src="images/pasan/009.png" style="height: 500px" />
+      </div>
+    </div>
+  </div>
+</div>
