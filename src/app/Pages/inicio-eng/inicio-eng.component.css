@@ -187,4 +187,13 @@
   .div5 {
     grid-column: span 2 / span 2;
   }
-    
+  video::-webkit-media-controls {
+    display: none !important;
+  }
+  
+  /* En Firefox, ocultar los controles es más difícil y no funciona con CSS directamente */
+  video::-moz-media-controls {
+    display: none !important;
+  }
+  
+  

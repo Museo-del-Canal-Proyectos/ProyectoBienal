@@ -157,8 +157,10 @@ swiper-slide .text {
 .custom-popup {
   font-family:'Helvetica2'; /* Cambia esta fuente a la que prefieras */
   font-size: 18px; /* Ajusta el tamaño de la fuente */
- 
+
 }
+
+
 
 .custom-image {
   border-radius: 50%;
@@ -189,6 +191,14 @@ swiper-slide .text {
 }
   
 
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+/* En Firefox, ocultar los controles es más difícil y no funciona con CSS directamente */
+video::-moz-media-controls {
+  display: none !important;
+}
 
 
 

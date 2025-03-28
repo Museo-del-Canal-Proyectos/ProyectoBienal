@@ -95,3 +95,19 @@ body{
 }
 
 
+.custom-confirm-btn {
+  position: absolute;   /* Posiciona el botón de manera absoluta */
+  top: 20px;            /* Ajusta la distancia desde la parte superior */
+  right: 20px;          /* Ajusta la distancia desde la parte derecha */
+  background-color: transparent;  /* Fondo transparente */
+  border: none;         /* Sin borde */
+  padding: 10px 15px;    /* Espaciado dentro del botón */
+  color: #ff5a5a         /* Color del texto/icono */
+}
+
+.custom-confirm-btn i {
+  font-size: 40px;      /* Tamaño del icono */
+  color: #ff5a5a;         /* Color del icono */
+}
+
+

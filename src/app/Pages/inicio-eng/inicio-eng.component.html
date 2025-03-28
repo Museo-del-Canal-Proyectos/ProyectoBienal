@@ -101,6 +101,25 @@
         proposal and reflect on the significance of bringing this message to the
         world's most important art event
       </p>
+
+      <img
+      src="images/bg_Home4.png"
+      style="
+        height: 500px;
+        width: 900px;
+        position: absolute;
+        top: -250px;
+        left: 850px;
+      "
+      (click)="playVideo()"
+    />
+    <div *ngIf="showVideo" class="video-container">
+      <video #videoPlayer class="video">
+        <source src="videos/000.mp4" type="video/mp4" />
+        Tu navegador no soporta el video.
+      </video>
+    </div>
+    
       <!-- <button
         type="button"
         class="btn btn-success titulo"
@@ -453,7 +472,7 @@
           box-shadow: 0 0 10px 5px black;
           background-color: #ff5a5a;
         "
-        routerLink="./mapa"
+        routerLink="/mapa"
       >
         View map 
       </button>
@@ -574,7 +593,7 @@
       <p style="text-align: justify; font-size: 20px; font-weight: 400">
         The catalog of an art exhibition is an important document that highlights critical thinking, research, and the strategies of reflection and communication developed around a curatorial project. In this section, you can explore the catalog of the Panama Pavilion at the 60th Venice Art Biennale. The publication is available at the museum shop.​
       </p>
-      <!-- <button
+      <button
         type="button"
         class="btn btn-success titulo"
         style="
@@ -587,12 +606,13 @@
           box-shadow: 0 0 10px 5px black;
           background-color: #ff5a5a;
         "
-        routerLink="./mapa"
+       data-bs-toggle="modal"
+       data-bs-target="#exampleModal10"
       >
-        Ver el Cátalogo <i class="fa-solid fa-book-open"></i>
-      </button> -->
+        Ver el Cátalogo
+      </button>
 
-      <p style="position: absolute; left: 110%; top: -190%">
+      <p style="position: absolute; left: 110%; top: -140%">
         <iframe
           height="600"
           width="1020"
@@ -823,6 +843,34 @@
       </div>
       <div class="modal-body" style="text-align: center">
         <img src="images/pasan/009.png" style="height: 500px" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div
+  class="modal fade"
+  id="exampleModal10"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel10"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close" style="background-color: white;"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <iframe
+          src="https://experienciasmuseodelcanal.org/bienalcatalogo/index.html" style="width: 100%; height: 90%; border: none;"
+        ></iframe>
       </div>
     </div>
   </div>
