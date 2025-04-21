@@ -6,13 +6,12 @@ import { CommonModule } from '@angular/common';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import Swal from 'sweetalert2'; // Importa la librería SweetAlert2 para modales
 
-import { NgImageSliderModule } from 'ng-image-slider'; // Importa el módulo de ng-image-slider
 
 
 declare var $: any;
 @Component({
   selector: 'app-ong',
-  imports: [RouterModule, CommonModule,NgImageSliderModule,],
+  imports: [RouterModule, CommonModule],
   templateUrl: './ong.component.html',
   styleUrl: './ong.component.css',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
@@ -49,7 +48,7 @@ export class OngComponent {
 
   ACNUR() {
     document.getElementById('btn-acnur')?.click();
-    this.videoAcnur="videos/video2.mp4";
+    this.videoAcnur="videos/video1.mp4";
     document.getElementById('video')?.setAttribute('src', this.videoAcnur);
 
   }

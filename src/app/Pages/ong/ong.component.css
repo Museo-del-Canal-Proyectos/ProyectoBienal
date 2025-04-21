@@ -117,7 +117,7 @@
   top: 180px;
   left: 0px;
   font-size: 20px;
-
+font-family: Helvetica2;
   font-weight: 550;
 }
 
@@ -125,6 +125,7 @@
 #p-uhcr-title{
   position: relative;
   top: 166px;
+  font-family: Helvetica;
 }
 
 #img-uhcr{
