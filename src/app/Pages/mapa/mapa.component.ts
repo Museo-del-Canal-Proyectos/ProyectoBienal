@@ -659,8 +659,8 @@ export class MapaComponent {
   americaNorte(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: 'images/location-sharp.svg',
-      iconSize: [20, 20]
+      iconUrl: 'images/placeholder.png',
+      iconSize: [30, 30]
     })
     this.dataPuntosAmericaDelNorte(icons, this.map);
   }
@@ -669,8 +669,8 @@ export class MapaComponent {
   centroAmerica(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: 'images/location-sharp.svg',
-      iconSize: [20, 20]
+      iconUrl: 'images/placeholder.png',
+      iconSize: [30, 30]
     })
     this.dataPuntosCentroAmerica(icons, this.map);
 
@@ -679,8 +679,8 @@ export class MapaComponent {
   americaDelSur(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: 'images/location-sharp.svg',
-      iconSize: [20, 20]
+      iconUrl: 'images/placeholder.png',
+      iconSize: [30, 30]
     })
     this.dataPuntosAmericaDelSur(icons, this.map);
 
@@ -700,8 +700,8 @@ export class MapaComponent {
   africa(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: 'images/location-sharp.svg',
-      iconSize: [20, 20]
+      iconUrl: 'images/placeholder.png',
+      iconSize: [30, 30]
     })
     this.dataPuntosAfrica(icons, this.map);
   }
@@ -714,8 +714,8 @@ export class MapaComponent {
   asia(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: 'images/location-sharp.svg',
-      iconSize: [20, 20]
+      iconUrl: 'images/placeholder.png',
+      iconSize: [30, 30]
     })
     this.dataPuntosAsia(icons, this.map);
   }
@@ -723,8 +723,8 @@ export class MapaComponent {
   oceania(event: any) {
     this.cambiarColor(event);
     var icons = L.icon({
-      iconUrl: 'images/location-sharp.svg',
-      iconSize: [20, 20]
+      iconUrl: 'images/placeholder.png',
+      iconSize: [30, 30]
     })
     this.dataPuntosOceania(icons, this.map);
   }

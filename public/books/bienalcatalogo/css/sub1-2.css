@@ -1,0 +1,9 @@
+.contenedor-parte1{
+    position: relative;
+    left: 7px;
+    text-align: center;
+    margin:10px;
+    height: 96%;
+    border: 1px solid white;
+    width:76%;
+  }

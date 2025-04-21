@@ -1,3 +1,3 @@
-function activar(message) {
-    alert(message);
+function activar(message,w,h) {
+    alert( `Activar ${message}${w} ${h}`);
 }
