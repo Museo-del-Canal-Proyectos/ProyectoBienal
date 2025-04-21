@@ -22,7 +22,8 @@ export class OngComponent {
 
 
   videoAcnur= '';
-
+  videoUNFPA= '';
+  videoOIM= '';
 
   titulo: string = 'ACNUR - Agencia de la ONU para los refugiados'
   texto: string = 'En Darién, el ACNUR apoya la respuesta del Gobierno de Panamá en las Estaciones Temporales de Recepción Migratoria (ETRMs) y las comunidades de acogida proporcionando espacios seguros y protección frente a las duras condiciones climáticas, servicios básicos de salud y salud mental, así como proporcionando información sobre los riesgos del viaje. El ACNUR ofrece apoyo legal a las personas con necesidades de protección internacional, remitiendo a las personas que requieren asistencia especializada a las instituciones pertinentes, así como proporcionando información sobre el sistema de asilo en Panamá, ayudando a los necesitados con su solicitud de estatuto de refugiado. El ACNUR también apoya a las comunidades indígenas en Darién, facilitando talleres y programas para fortalecer y promover la cohesión social y la convivencia pacífica.'
@@ -63,20 +64,31 @@ export class OngComponent {
 
   
 
-  UNFPA() {
-    this.cargarImg = this.images[1];
-    this.titulo = this.titulos[1]
-    this.texto = this.textos[1]
+  UNFPA( video?: boolean) {
+    document.getElementById('btn-unfpa')?.click();
+    this.videoUNFPA="videos/video1.mp4";
+    document.getElementById('videoUNFPA')?.setAttribute('src', this.videoUNFPA);
   }
+
+  UNFPAClose( video?: boolean ) {
+    this.videoUNFPA="";
+    document.getElementById('videoUNFPA')?.setAttribute('src', "");
+  }
+
 
   UNICEF() {
    document.getElementById('btn-unicef')?.click();
   }
 
-  OIM() {
-    this.cargarImg = this.images[3];
-    this.titulo = this.titulos[3]
-    this.texto = this.textos[3]
+  OIM(video?: boolean) {
+    document.getElementById('btn-oim')?.click();
+    this.videoOIM="videos/video1.mp4";
+    document.getElementById('videoOIM')?.setAttribute('src', this.videoOIM);
+  }
+
+  OIMClose( video?: boolean ) {
+    this.videoOIM="";
+    document.getElementById('videoOIM')?.setAttribute('src', "");
   }
 
 
