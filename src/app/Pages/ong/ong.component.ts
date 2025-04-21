@@ -22,6 +22,8 @@ export class OngComponent {
 
 
   videoAcnur= '';
+  videoUNFPA= '';
+  videoOIM= '';
   videoUnicef= '';
 
   titulo: string = 'ACNUR - Agencia de la ONU para los refugiados'
@@ -63,11 +65,17 @@ export class OngComponent {
 
   
 
-  UNFPA() {
-    this.cargarImg = this.images[1];
-    this.titulo = this.titulos[1]
-    this.texto = this.textos[1]
+  UNFPA( video?: boolean) {
+    document.getElementById('btn-unfpa')?.click();
+    this.videoUNFPA="videos/video1.mp4";
+    document.getElementById('videoUNFPA')?.setAttribute('src', this.videoUNFPA);
   }
+
+  UNFPAClose( video?: boolean ) {
+    this.videoUNFPA="";
+    document.getElementById('videoUNFPA')?.setAttribute('src', "");
+  }
+
 
   UNICEF() {
    document.getElementById('btn-unicef')?.click();
@@ -80,10 +88,15 @@ export class OngComponent {
     document.getElementById('videoUnicef')?.setAttribute('src', "");
   }
 
-  OIM() {
-    this.cargarImg = this.images[3];
-    this.titulo = this.titulos[3]
-    this.texto = this.textos[3]
+  OIM(video?: boolean) {
+    document.getElementById('btn-oim')?.click();
+    this.videoOIM="videos/video1.mp4";
+    document.getElementById('videoOIM')?.setAttribute('src', this.videoOIM);
+  }
+
+  OIMClose( video?: boolean ) {
+    this.videoOIM="";
+    document.getElementById('videoOIM')?.setAttribute('src', "");
   }
 
 
