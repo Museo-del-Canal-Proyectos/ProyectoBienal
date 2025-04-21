@@ -21,10 +21,10 @@ export class OngComponent {
 
 
 
-  videoAcnur= '';
-  videoUNFPA= '';
-  videoOIM= '';
-  videoUnicef= '';
+  videoAcnur = '';
+  videoUNFPA = '';
+  videoOIM = '';
+  videoUnicef = '';
 
   titulo: string = 'ACNUR - Agencia de la ONU para los refugiados'
   texto: string = 'En Darién, el ACNUR apoya la respuesta del Gobierno de Panamá en las Estaciones Temporales de Recepción Migratoria (ETRMs) y las comunidades de acogida proporcionando espacios seguros y protección frente a las duras condiciones climáticas, servicios básicos de salud y salud mental, así como proporcionando información sobre los riesgos del viaje. El ACNUR ofrece apoyo legal a las personas con necesidades de protección internacional, remitiendo a las personas que requieren asistencia especializada a las instituciones pertinentes, así como proporcionando información sobre el sistema de asilo en Panamá, ayudando a los necesitados con su solicitud de estatuto de refugiado. El ACNUR también apoya a las comunidades indígenas en Darién, facilitando talleres y programas para fortalecer y promover la cohesión social y la convivencia pacífica.'
@@ -48,54 +48,54 @@ export class OngComponent {
     'La Organización Internacional para las Migraciones (OIM), en coordinación con socios del Sistema de Naciones Unidas y de sociedad civil, contribuye a los esfuerzos del Estado panameño en la respuesta a los movimientos mixtos que ingresan por la selva del Darién, brindando asistencia humanitaria vital a personas migrantes en condiciones de vulnerabilidad en tránsito, a través de la distribución de alimentos y artículos esenciales no alimentarios (NFIs), la prestación de servicios de salud, incluido el apoyo psicosocial y de salud mental, y la entrega de medicamentos y suministros médicos, así como servicios de protección. La OIM también apoya la mejora y rehabilitación de las Estaciones Temporales de Recepción de Migrantes (ETRMs), facilita las actividades de desarrollo de capacidades en materia de Coordinación y Gestión de Campamentos (CCCM, por sus siglas en inglés), y colidera y apoya mecanismos interagenciales e interinstitucionales de coordinación en materia de migración en diferentes niveles.'
   ]
 
-  ACNUR( video?: boolean ) {
+  ACNUR(video?: boolean) {
     document.getElementById('btn-acnur')?.click();
-    this.videoAcnur="videos/video1.mp4";
+    this.videoAcnur = "videos/video1.mp4";
     document.getElementById('videoAcnur')?.setAttribute('src', this.videoAcnur);
-    
+
   }
 
-  ACNURClose( video?: boolean ) {
-    this.videoAcnur="";
+  ACNURClose(video?: boolean) {
+    this.videoAcnur = "";
     document.getElementById('videoAcnur')?.setAttribute('src', "");
   }
 
 
 
 
-  
 
-  UNFPA( video?: boolean) {
+
+  UNFPA(video?: boolean) {
     document.getElementById('btn-unfpa')?.click();
-    this.videoUNFPA="videos/video1.mp4";
+    this.videoUNFPA = "videos/video1.mp4";
     document.getElementById('videoUNFPA')?.setAttribute('src', this.videoUNFPA);
   }
 
-  UNFPAClose( video?: boolean ) {
-    this.videoUNFPA="";
+  UNFPAClose(video?: boolean) {
+    this.videoUNFPA = "";
     document.getElementById('videoUNFPA')?.setAttribute('src', "");
   }
 
 
   UNICEF() {
-   document.getElementById('btn-unicef')?.click();
-   this.videoUnicef="videos/unicef.mp4";
-   document.getElementById('videoUnicef')?.setAttribute('src', this.videoUnicef);
+    document.getElementById('btn-unicef')?.click();
+    this.videoUnicef = "videos/unicef.mp4";
+    document.getElementById('videoUnicef')?.setAttribute('src', this.videoUnicef);
   }
 
   UNICEFClose() {
-    this.videoUnicef="";
+    this.videoUnicef = "";
     document.getElementById('videoUnicef')?.setAttribute('src', "");
   }
 
   OIM(video?: boolean) {
     document.getElementById('btn-oim')?.click();
-    this.videoOIM="videos/video1.mp4";
+    this.videoOIM = "videos/video1.mp4";
     document.getElementById('videoOIM')?.setAttribute('src', this.videoOIM);
   }
 
-  OIMClose( video?: boolean ) {
-    this.videoOIM="";
+  OIMClose(video?: boolean) {
+    this.videoOIM = "";
     document.getElementById('videoOIM')?.setAttribute('src', "");
   }
 
@@ -139,10 +139,10 @@ export class OngComponent {
       confirmButtonColor: '#ffffff', // Color del fondo del botón
       backdrop: 'rgba(0, 0, 0, 0.9)',
 
-      customClass:{
+      customClass: {
         confirmButton: 'custom-confirm-btn',
         closeButton: 'custom-close-btn', // Clase personalizada para el botón de cierre
-        
+
       },
     });
 
