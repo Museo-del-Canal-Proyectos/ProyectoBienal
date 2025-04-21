@@ -3,8 +3,6 @@
 @font-face {
   font-family: 'Helvetica2';
   src: url('assets/fonts/Helvetica/HelveticaNeueLight.otf') format('truetype');
-
-  
 }
 
 body{
@@ -23,31 +21,6 @@ body{
 .leaflet-right .leaflet-control {
     display: none !important;
 }
-
-
-
-/* .leaflet-container {
-  cursor: default !important;
-}
-
-.leaflet-marker-icon {
-  cursor: default !important;
-}
-
-.leaflet-control {
-  cursor: default !important;
-}
- */
-
-
-
- 
- /* .leaflet-popup-content-wrapper {
-  padding: 0.5px !important;
-  text-align: left ;
-  border-radius: 12px;
-} */
-
 
 .swal2-popup {
   width: 1280px !important;
@@ -70,11 +43,6 @@ body{
   width: 200px; /* Tamaño personalizado de la imagen */
   height: 200px;
 }
-
-
-
-
-     
 
 .custom-title {
   font-family: 'Helvetica2';/* Cambia esta fuente a la que prefieras */

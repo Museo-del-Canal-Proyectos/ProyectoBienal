@@ -135,14 +135,16 @@ export class InicioComponent {
       text: "", // Texto del modal 
       background: 'url(images/Artista_ESP/IsabelEspanol.jpg)', // Fondo del modal
       confirmButtonText: '<i class="fa-solid fa-rectangle-xmark"></i>', // Texto y icono del botón de confirmación
-      confirmButtonColor: '#ffffff', // Color del fondo del botón
-      backdrop: 'rgba(0, 0, 0, 0.9)',
+      confirmButtonColor: '#ffffff', // Color del fondo del botón,
+       backdrop: 'rgba(0, 0, 0, 0.9)',
       customClass: {
         title: 'custom-title', 
         popup: 'custom-popup', 
         image: 'custom-image',
+        
         confirmButton: 'custom-confirm-btn',
-        closeButton: 'custom-close-btn' // Clase personalizada para el botón de cierre
+        closeButton: 'custom-close-btn' // Clase personalizada para el botón de cierre,
+        
       },
     });
   }
