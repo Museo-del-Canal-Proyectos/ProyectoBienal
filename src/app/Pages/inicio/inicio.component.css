@@ -94,7 +94,7 @@ swiper-slide .text {
 .parent2 {
   position: absolute;
   top: 150px;
-  left: 1080px;
+  left: 1031px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -201,5 +201,21 @@ video::-moz-media-controls {
   display: none !important;
 }
 
+
+#pabellon{
+
+  margin-top: 90px !important;
+
+}
+
+#catalogoID{
+  margin-top: 90px !important;
+}
+
+.svgExpand{
+  width: 40px;
+  height: 40px;
+ 
+}
 
 

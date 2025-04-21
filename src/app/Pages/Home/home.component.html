@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<body  style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+url(images/buccaners.png);
+filter: brightness(0.8);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+overflow: hidden;  
+height: 1920px;  ">
+    <div class="container text-center">
+        
+        <div class="row align-items-start">
+            <div class="col" id="mapa">
+               <button class="btn btn-primary" id="btn-mapa" (click)="map()">
+                <h1 id="mapa-h">Mapa</h1>
+               </button>
+            </div>
+            <div class="col" id="contenido">
+              <button class="btn btn-primary" id="btn-contenido" (click)="bienal()">
+                <h1 id="contenido-h">La Bienal de Venecia</h1>
+              </button>
+            </div>
+            <div class="col" id="ong">
+              <button class="btn btn-primary" id="btn-ong" (click)=" migracionDarien()">
+                <h1 id="contenido-h">Migración en el Darién</h1>
+              </button>
+            </div>
+        </div>
+    </div>
+
+    <button
+    type="button"
+    class="btn btn-success titulo" id="btnEsp-h"
+    style="
+      width: 400px;
+      font-size: 40px;
+      font-weight: 700;
+      border: 1px solid transparent;
+      font-weight: 700;
+      border-radius: 2em;
+      box-shadow: 0 0 10px 5px black;
+      background-color: black;
+      width: 250px;
+      height: 70px;
+    "
+    routerLink=""
+  >
+    ESP
+  </button>
+  &nbsp;
+  <button
+    type="button"
+    class="btn btn-success titulo" id="btnEng-h"
+    style="
+      width: 400px;
+      font-size: 40px;
+      font-weight: 700;
+      border: 1px solid transparent;
+      font-weight: 700;
+      border-radius: 2em;
+      box-shadow: 0 0 10px 5px black;
+      background-color: #ff5a5a;
+      width: 250px;
+      height: 70px;
+    "
+    routerLink=""
+  >
+    ENG 
+  </button>
+
+
+</body>
+</html>

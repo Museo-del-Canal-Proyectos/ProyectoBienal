@@ -23,9 +23,18 @@ export class InicioComponent {
   showVideo: boolean = false; // Variable para controlar la visibilidad del video
 
   constructor(private cdr: ChangeDetectorRef) {} // Inyecta el ChangeDetectorRef para detectar cambios manualmente
-
+   dataVideo: any ;
   // Función para iniciar la reproducción del video
-  playVideo() {
+  playVideo(video?: any) {
+
+   if(video =='videos/video2.mp4'){
+    this.dataVideo=video;
+     
+   }else{
+    this.dataVideo=video;
+   }
+
+
     this.showVideo = true; // Muestra el video
     this.cdr.detectChanges(); // Fuerza la actualización de la vista
 

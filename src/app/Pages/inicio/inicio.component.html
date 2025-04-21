@@ -1,5 +1,23 @@
-<swiper-container
-  style="
+
+<button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg" style="
+          border-radius: 50px;
+          width: 100px;
+          height: 100px;
+          font-size: 40px;
+          font-weight: 700;
+          right: 70px;
+          top: 940px;
+          background-color: black;
+          color: white;
+          position: fixed;
+          z-index: 100;
+        " routerLink="/"
+        >
+  <i class="fa-solid fa-home"></i>
+</button>
+
+
+<swiper-container style="
     --swiper-navigation-color: white;
     --swiper-pagination-color: white;
     --swiper-navigation-size: 60px;
@@ -9,40 +27,28 @@
     --swiper-pagination-bullet-inactive-opacity: 1;
     --swiper-pagination-bullet-inactive-color: #ff5a5a;
     --background-color: red;
-  "
-  class="mySwiper"
-  speed="600"
-  parallax="true"
-  pagination="true"
-  pagination-clickable="true"
-  navigation="true"
->
-  <div
-    slot="container-start"
-    class="parallax-bg"
-    style="
+  " class="mySwiper" speed="600" parallax="true" pagination="true" pagination-clickable="true" navigation="true">
+  
+  <div slot="container-start" class="parallax-bg" style="
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(images/buccaners.png);
       filter: brightness(50%);
-    "
-    data-swiper-parallax="-23%"
-  ></div>
+    " data-swiper-parallax="-23%">
+    </div>
   <swiper-slide>
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <div data-swiper-parallax="-100">
-      <div
-        style="width: 1200px; display: grid; place-items: center; margin: auto"
-      >
+      <div style="width: 1200px; display: grid; place-items: center; margin: auto">
         <p class="otrotxt" style="text-align: center; font-size: 35px">
-          Desliza tu dedo sobre la pantalla para explorar los diferentes temas
-          en los que podrías profundizar. Pulsa con el dedo sobre la imagen con
-          el tema de tu interés. Puedes regresar oprimiendo
+          Explora diferentes temas deslizando tu dedo sobre la pantalla. Pulsa sobre la imagen del tema que te interese
+          para profundizar. Regresa oprimiendo el icono de la flecha
           <i class="fa-solid fa-angle-left"></i> o regresar al inicio de esta
-          experiencia tocando <i class="fa-solid fa-house"></i> ubicado en la
-          parte inferior de la pantalla.
+          o vuelve al inicio tocando el icono de la casa <i class="fa-solid fa-house"></i> en la parte inferior de la
+          pantalla.
         </p>
+        
       </div>
-      <div>
+      <!-- <div>
         <p style="text-align: center">
           <button
             type="button"
@@ -56,8 +62,10 @@
               border-radius: 2em;
               box-shadow: 0 0 10px 5px black;
               background-color: black;
+              width: 250px;
+              height: 70px;
             "
-            routerLink="/"
+            routerLink=""
           >
             ESP
           </button>
@@ -74,46 +82,66 @@
               border-radius: 2em;
               box-shadow: 0 0 10px 5px black;
               background-color: #ff5a5a;
+              width: 250px;
+              height: 70px;
             "
             routerLink="/inicio_eng"
           >
             ENG 
           </button>
         </p>
-      </div>
+      </div> -->
     </div>
   </swiper-slide>
+
+
   <swiper-slide>
     <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br /><br /><br /><br /><br /><br /><br />Pensar el Pabellón de Panamá
+      <br> Pensar el Pabellón de Panamá
     </div>
-
-    <div class="text" data-swiper-parallax="-100">
-      <p style="text-align: justify; font-size: 20px">
+    <div class="text" data-swiper-parallax="-100" id="texto video">
+      <p style="text-align: justify; font-size: 15px">
         Para el primer pabellón de Panamá en la Bienal de Arte de Venecia las
         curadoras del proyecto enfocaron su investigación en el fenómeno
         migratorio que experimenta nuestro continente con énfasis en Panamá, por
         donde miles de personas transitaban diariamente a través de la selva
         darienita. Mira este video en el que ambas comentan el origen de su
         propuesta curatorial y reflexionan sobre la importancia de que este
-        mensaje llegara al evento de arte más importante del mundo. ​
+        mensaje llegara al evento de arte más importante del mundo. 
       </p>
-
-
-      <img
-        src="images/bg_Home4.png"
-        style="
-          height: 500px;
-          width: 900px;
+      <img src="images/bg_Home4.png" style="
+          height: 350px;
+          width: 800px;
           position: absolute;
-          top: -250px;
+          top: -56px;
           left: 850px;
-        "
-        (click)="playVideo()"
-      />
+        " (click)="playVideo('videos/video1.mp4')" />
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+        <br> Pensar el Pabellón de Panamá
+      </div>
+      <div class="text" data-swiper-parallax="-100" id="texto video">
+        <p style="text-align: justify; font-size: 15px">
+          Para el primer pabellón de Panamá en la Bienal de Arte de Venecia las
+          curadoras del proyecto enfocaron su investigación en el fenómeno
+          migratorio que experimenta nuestro continente con énfasis en Panamá, por
+          donde miles de personas transitaban diariamente a través de la selva
+          darienita. Mira este video en el que ambas comentan el origen de su
+          propuesta curatorial y reflexionan sobre la importancia de que este
+          mensaje llegara al evento de arte más importante del mundo. ​
+        </p>
+      </div>
+      <img src="images/bg_Home4.png" style="
+            height: 350px;
+            width: 800px;
+            position: absolute;
+            top:456px;
+            left: 850px;
+          " 
+          (click)="playVideo('videos/video2.mp4')"/>
       <div *ngIf="showVideo" class="video-container">
         <video #videoPlayer class="video">
-          <source src="videos/000.mp4" type="video/mp4" />
+          <source src="{{dataVideo}}" type="video/mp4" />
           Tu navegador no soporta el video.
         </video>
       </div>
@@ -140,30 +168,52 @@
 
   <!-- La Bienal de Arte de Venecia -->
   <swiper-slide>
-    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800" id="bienal">
       <br /><br /><br />La bienal de Arte de Venecia​
     </div>
 
     <div class="text" data-swiper-parallax="-100">
-      <p style="text-align: justify; font-size: 20px">
+      <p style="text-align: justify; font-size: 20px;">
         Desde su inauguración en 1895, la Bienal de Arte de Venecia se ha
         establecido como una de las exposiciones de arte contemporáneo más
         prestigiosas y antiguas del mundo. Este evento bianual reúne a artistas,
         curadores y críticos de todos los rincones del globo para presentar y
         discutir las tendencias más innovadoras y significativas del arte
-        contemporáneo. A través de su historia, la bienal ha sido un reflejo y
+        contemporáneo.
+        <br><br>
+        A través de su historia, la bienal ha sido un reflejo y
         una plataforma de las diversas corrientes culturales, políticas y
         sociales que han moldeado nuestro mundo, proporcionando un espacio de
         diálogo y confrontación de ideas, transformando Venecia en un epicentro
-        cultural y artístico global. Cada dos años, la Bienal de Venecia nombra
+        cultural y artístico global.
+        <br><br>
+        Cada dos años, la Bienal de Venecia nombra
         a un(a) curador(a), o a un comité curatorial, para definir el concepto y
         dirección general de esta gran celebración cultural. Es su
         responsabilidad crear lo que es conocido como la “Exposición
         Internacional”, a la que se invitan artistas de todas partes del mundo a
         una muestra que marca el eje principal del evento.
-      </p>
 
-      <p class="d-inline-flex gap-1 titulo">
+      </p>
+      <div class=" card-body" style="background-color: transparent">
+        <p class="text" style="text-align: justify; font-size: 20px">
+          En la mayoría de los casos, se trata de artistas contemporáneos,
+          activos, pero, en otros, según la misión del curador(a), se han
+          mostrado obras de figuras fallecidas o casi desconocidas, pero que
+          contribuyen a una más completa visión histórica del arte. Aunque
+          la exposición internacional la muestra principal de la Bienal de
+          Venecia se basa en el concepto central definido por sus curadores
+          invitados, cabe destacar que los países que participan en la Bienal
+          con sus pabellones nacionales no necesariamente tienen que seguir
+          esa línea conceptual. Esta 60 Bienal contó con la participación de
+          unos 87 países de todos los continentes, cada uno de los cuales
+          envió una exposición coordinada localmente, en base al trabajo de
+          curadores u organizadores escogidos por los países de origen,
+          siempre con el aval de sus gobiernos nacionales​.
+        </p>
+      </div>
+      <!-- <p class="d-inline-flex gap-1 titulo">
+        <br>
         <a
           class="btn"
           data-bs-toggle="collapse"
@@ -181,25 +231,25 @@
             border-radius: 2em;
             box-shadow: 0 0 10px 5px black;
             background-color: #ff5a5a;
-            width: 400px;
+            width: 250px;
+            height: 63px;
+            position: absolute;
+            left: 165px;
           "
         >
           Leer más
         </a>
-      </p>
+      </p> -->
 
-      <div
-        class="collapse"
-        id="collapseExample"
-        style="position: absolute; left: 900px; width: 800px"
-      >
-        <div class="card card-body" style="background-color: transparent">
+      <div class="collapse" id="collapseExample" style="position: absolute; left: 900px; width: 800px;
+        top: 435px;">
+        <!-- <div class=" card-body" style="background-color: transparent">
           <p class="text" style="text-align: justify; font-size: 20px">
             En la mayoría de los casos, se trata de artistas contemporáneos,
             activos, pero, en otros, según la misión del curador(a), se han
             mostrado obras de figuras fallecidas o casi desconocidas, pero que
-            contribuyen a una más completa visión histórica del arte. ​ ​ Aunque
-            la exposición internacional –la muestra principal-- de la Bienal de
+            contribuyen a una más completa visión histórica del arte. Aunque
+            la exposición internacional la muestra principal de la Bienal de
             Venecia se basa en el concepto central definido por sus curadores
             invitados, cabe destacar que los países que participan en la Bienal
             con sus pabellones nacionales no necesariamente tienen que seguir
@@ -209,19 +259,17 @@
             curadores u organizadores escogidos por los países de origen,
             siempre con el aval de sus gobiernos nacionales​
           </p>
-        </div>
+        </div> -->
       </div>
       <br />
-      <img
-        src="images/bg_Home2.png"
-        style="
-          height: 500px;
+      <img src="images/picture/02.jpg" style="
+          height: 470px;
           width: 900px;
           position: absolute;
-          top: -100px;
+          top: -53px;
           left: 850px;
-        "
-      />
+          border-radius: 2%;
+        " />
       <!-- <button
       type="button"
       class="btn btn-success titulo"
@@ -246,17 +294,19 @@
   <!-- Extranjeros en todas partes -->
 
   <swiper-slide>
-    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br /><br /><br /><br /><br /><br />Extranjeros por todas partes
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 700;">
+      <br /><br /><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extranjeros por todas partes
     </div>
 
     <div class="text" data-swiper-parallax="-100">
-      <p style="text-align: justify; font-size: 20px">
+      <p style="text-align: justify; font-size: 20px; position:absolute; left: 150px;">
         Para la 60ª Bienal de Arte de Venecia, celebrada en 2024, el curador
         brasileño Adriano Pedrosa escogió el título de "Stranieri Ovunque-
-        Extranjeros en todas partes". Esta edición explora las dinámicas de la
+        Extranjeros en todas partes".<br><br>
+        Esta edición explora las dinámicas de la
         migración, la identidad y el sentimiento de no pertenencia en un mundo
-        globalizado. El título deriva de una serie de piezas de neón iniciadas
+        globalizado.<br>
+        El título deriva de una serie de piezas de neón iniciadas
         en 2004 por el colectivo Claire Fontaine, que luchó en Turín contra el
         racismo y la xenofobia y que ahora conforma el lema de la muestra
         veneciana donde Pedrosa invita a los espectadores a reflexionar sobre el
@@ -288,10 +338,8 @@
 
     <div class="parent">
       <div class="div1">
-        <img
-          src="images/bg_Home2.png"
-          style="height: 550px; width: 850px; position: absolute; top: 100px"
-        />
+        <img src="images/picture/04.jpg"
+          style="height: 470px; width: 528px; position: absolute; top: 86px; border-radius: 2%;left: 150px;" />
       </div>
     </div>
 
@@ -374,9 +422,8 @@
   </swiper-slide>
 
   <swiper-slide>
-    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br /><br /><br /><br />
-      <p style="font-size: 35px">
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800;">
+      <p style="font-size: 35px" id="pabellon">
         Panamá: por primera vez en la <br />
         Bienal de Arte de Venecia
       </p>
@@ -386,24 +433,26 @@
       <p style="text-align: justify; font-size: 20px; font-weight: 400">
         La participación de Panamá en la 60ª edición de la Bienal de Arte de
         Venecia representa un hito significativo en la historia cultural del
-        país. Motivada por el deseo de insertar la voz panameña en el diálogo
+        país.
+        <br>
+        Motivada por el deseo de insertar la voz panameña en el diálogo
         global sobre el arte y la identidad, esta participación tiene como
         objetivo celebrar la riqueza cultural de Panamá a través de cuatro de
         sus principales artistas contemporáneos Brooke Alfaro, Isabel De
-        Obaldia, Giana De Dier y Cisco Merel. ​ ​ Bajo el título de “Surcos: En
+        Obaldia, Giana De Dier y Cisco Merel. <br> <br>Bajo el título de “Surcos: En
         el cuerpo y en la tierra”, la exposición del pabellón panameño se enfoca
         en el tema migratorio. Panamá, desde que existe como istmo, ha sido
         moldeado por la llegada y paso de personas, y nuestro pabellón resuena
         como un eco de las huellas perdurables que la migración deja en las
-        personas y en su entorno. Este asunto, de gran pertinencia actualmente,
+        personas y en su entorno. <br><br>
+        Este asunto, de gran pertinencia actualmente,
         tanto en nuestro país como internacionalmente, coincidió de manera
         profunda con la temática central de la Bienal de Venecia. ​ ​ Esta
         participación no solo buscó integrar a nuestro país al discurso global,
         sino también establecer las bases para futuras participaciones
         nacionales, consolidando a Panamá como un actor valioso en el diálogo
         artístico mundial. ​<br /><br />
-        <i style="font-size: 20px"
-          >Puedes presionar las imagenes para ver su biografía
+        <i style="font-size: 20px">Puedes presionar las imagenes para ver su biografía.
         </i>
       </p>
       <!-- <button
@@ -427,39 +476,23 @@
 
     <div class="parent2">
       <div class="div1">
-        <img
-          src="images/Artista1.jpg"
-          (click)="brooke()"
-          style="height: 350px; width: 350px"
-        />
+        <img src="images/Artista1.jpg" (click)="brooke()" style="height: 350px; width: 350px; border-radius: 3%;" />
       </div>
       <div class="div1">
-        <img
-          src="images/Artista3.jpg"
-          (click)="Cisco()"
-          style="height: 350px; width: 350px"
-        />
+        <img src="images/Artista3.jpg" (click)="Cisco()" style="height: 350px; width: 350px;  border-radius: 3%;" />
       </div>
       <div class="div1">
-        <img
-          src="images/Artista2.jpg"
-          (click)="Giana()"
-          style="height: 350px; width: 350px"
-        />
+        <img src="images/Artista2.jpg" (click)="Giana()" style="height: 350px; width: 350px;  border-radius: 3%;" />
       </div>
       <div class="div1">
-        <img
-          src="images/Artista5.jpg"
-          (click)="Isabel()"
-          style="height: 350px; width: 350px"
-        />
+        <img src="images/Artista5.jpg" (click)="Isabel()" style="height: 350px; width: 350px;  border-radius: 3%;" />
       </div>
     </div>
   </swiper-slide>
   <!-- Panama por primera vez en la bienal -->
 
   <!-- Otros Pabellones -->
-  <swiper-slide>
+  <!-- <swiper-slide>
     <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
       <br /><br /><br /><br /><br /><br /><br />Explora aquí los otros
       Pabellones Nacionales​
@@ -490,7 +523,7 @@
         Ver el mapa
       </button>
     </div>
-  </swiper-slide>
+  </swiper-slide> -->
   <!-- Otros Pabellones -->
 
   <!-- Otros artistas Panameños -->
@@ -510,16 +543,13 @@
         Pabellón de Bolivia en su pabellón nacional (ubicado en el Pabellón de
         Rusia) como invitados internacionales:
       </p>
-
       <p style="font-size: 20px">
         <b style="font-weight: 800"> Exposición principal, Arsenale.</b><br />
         Antonio José Guzmán (con Iva Jankovick)<br />Proyecto: Orbital
         Mechanics, from the Electric Dub Station series. 2024 Instalación de
-        textiles , audio y performance<br />
-        <button
-          type="button"
-          class="btn titulo"
-          style="
+        textiles , audio y performance
+        <br><br>
+        <button type="button" class="btn titulo" style="
             background-color: #ff5a5a;
             color: white;
             font-size: 30px;
@@ -527,25 +557,19 @@
             border: 1px solid transparent;
             font-weight: 700;
             border-radius: 2em;
-            box-shadow: 0 0 10px 5px black;
+            box-shadow: 0 0 5px 5px black;
             background-color: #ff5a5a;
-            width: 400px;
+            width: 340px;
           "
-          onclick="activar('https://www.labiennale.org/en/art/2024/nucleo-contemporaneo/antonio-jose-guzman-iva-jankovic')"
-        >
-          Ver el proyecto</button
-        >​ <br /><br />
+          onclick="activar('https://www.labiennale.org/en/art/2024/nucleo-contemporaneo/antonio-jose-guzman-iva-jankovic',1075,1000)">
+          Ver el proyecto</button>​ <br /><br />
         <b style="font-weight: 800">
-          Pabellón de Bolivia, Giardini (al interior del Pabellón de Rusia)</b
-        ><br />​Oswaldo “Achu” De León Kantule<br />Proyectos: La fuga de niños
+          Pabellón de Bolivia, Giardini (al interior del Pabellón de Rusia)</b><br />​Oswaldo “Achu” De León
+        Kantule<br />Proyectos: La fuga de niños
         rojos y Tiempo de transformaciones Pintura en acrílico sobre tela y
-        díptico en técnica mixta sobre madera respectivamente.​ <br /><br /><b
-          style="font-weight: 800"
-          >Humberto Vélez</b
-        >​<br />​Proyecto: The Last Builder y El mago, filmes en blanco y negro
-        en super 8. ​<button
-          type="button"
-          style="
+        díptico en técnica mixta sobre madera respectivamente.​ <br /><br /><b style="font-weight: 800">Humberto
+          Vélez</b>​<br />​Proyecto: The Last Builder y El mago, filmes en blanco y negro
+        en super 8. <br><br> ​<button type="button" style="
             background-color: #ff5a5a;
             color: white;
             font-size: 30px;
@@ -556,10 +580,8 @@
             box-shadow: 0 0 10px 5px black;
             background-color: #ff5a5a;
             width: 400px;
-          "
-          class="btn titulo"
-          onclick="activar('https://www.labiennale.org/en/art/2024/bolivia-plurinational-state')"
-        >
+            width: 340px;
+          " class="btn titulo" onclick="activar('https://www.labiennale.org/en/art/2024/bolivia-plurinational-state',1075,1000)">
           Ver el proyecto
         </button>
       </p>
@@ -569,7 +591,7 @@
 
   <!-- Migración por el Darién -->
 
-  <swiper-slide>
+  <!-- <swiper-slide>
     <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
       <br /><br /><br /><br />Migración en el Darién:
     </div>
@@ -594,35 +616,28 @@
         de quienes transitan por el Darién.<br />
         <i>Conoce más sobre su trabajo y cómo puedes apoyar.</i>
       </p>
-
-      <button
-        type="button"
-        class="btn btn-success titulo"
-        style="
-          width: 400px;
+      <br>
+      <button type="button" class="btn btn-success titulo" style="
+          width: 250px;
           font-size: 30px;
-          font-weight: 700;
+          font-weight: 300;
           border: 1px solid transparent;
-          font-weight: 700;
           border-radius: 2em;
           box-shadow: 0 0 10px 5px black;
           background-color: #ff5a5a;
-        "
-        routerLink="./ong"
-      >
+          position: absolute;
+          left: 169px;
+        " routerLink="/ong">
         Ver más
       </button>
     </div>
-  </swiper-slide>
+  </swiper-slide> -->
   <!-- Migración por el Darién -->
   <!-- Catalogo -->
   <swiper-slide>
-    <div
-      class="title"
-      data-swiper-parallax="-300"
-      style="font-weight: 800; font-family: Arial, Helvetica, sans-serif"
-    >
-      <br /><br /><br /><br /><br /><br />Cátalogo
+    <div class="title" id="catalogoID" data-swiper-parallax="-300"
+      style="font-weight: 800; font-family: Arial, Helvetica, sans-serif;">
+      <br> Cátalogo
     </div>
 
     <div class="text" data-swiper-parallax="-100">
@@ -630,35 +645,35 @@
         El catálogo de una exposición de arte es un documento de gran
         importancia que pone en valor el pensamiento crítico, la investigación y
         las estrategias de reflexión y comunicación que se desarrollan alrededor
-        de un proyecto curatorial. En esta sección podrá revisar el catálogo del
+        de un proyecto curatorial.<br><br>En esta sección podrá revisar el catálogo del
         Pabellón de Panamá en la 60ª Bienal de Arte de Venecia. Publicación
         física disponible en la tienda del museo.
       </p>
-      <button
-        type="button"
-        class="btn btn-success titulo"
-        style="
-          width: 400px;
-          font-size: 40px;
+      <br>
+      <button type="button" class="btn btn-success titulo" style="
+          width: 250px;
+          font-size: 25px;
           font-weight: 700;
           border: 1px solid transparent;
-          font-weight: 700;
+          font-weight: 300;
           border-radius: 2em;
           box-shadow: 0 0 10px 5px black;
           background-color: #ff5a5a;
-        "
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal10"
-      >
+          position: absolute;
+          right: 243px;
+
+        " data-bs-toggle="modal" data-bs-target="#exampleModal10">
         Ver el Cátalogo
       </button>
 
-      <p style="position: absolute; left: 110%; top: -140%">
-        <iframe
+      <p style="position: absolute; left: 107%; top: -30%">
+        <!-- <iframe
           height="600"
           width="1020"
-          src="https://experienciasmuseodelcanal.org/bienalcatalogo/index.html"
-        ></iframe>
+          src="books/bienalcatalogo/index.html"
+        ></iframe> -->
+        <img src="images/picture/Portada.jpg" width="600px" height="800px"
+          style="position: absolute; left: 230px; border-radius: 2%;" />
       </p>
     </div>
   </swiper-slide>
@@ -667,22 +682,11 @@
 </swiper-container>
 
 <!-- Primer Modal -->
-<div
-  class="modal fade"
-  id="exampleModal"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel"
-  aria-hidden="true"
->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="text-align: center">
         <img src="images/pasan/001.png" style="height: 500px" />
@@ -692,22 +696,11 @@
 </div>
 
 <!-- Segundo Modal -->
-<div
-  class="modal fade"
-  id="exampleModal2"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel2"
-  aria-hidden="true"
->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="text-align: center">
         <img src="images/pasan/002.png" style="height: 500px" />
@@ -717,22 +710,11 @@
 </div>
 
 <!-- Tercer Modal -->
-<div
-  class="modal fade"
-  id="exampleModal3"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel3"
-  aria-hidden="true"
->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="text-align: center">
         <img src="images/pasan/003.png" style="height: 500px" />
@@ -742,22 +724,11 @@
 </div>
 
 <!-- Cuarto Modal -->
-<div
-  class="modal fade"
-  id="exampleModal4"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel4"
-  aria-hidden="true"
->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="text-align: center">
         <img src="images/pasan/004.png" style="height: 500px" />
@@ -767,22 +738,11 @@
 </div>
 
 <!-- Quinto Modal -->
-<div
-  class="modal fade"
-  id="exampleModal5"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel5"
-  aria-hidden="true"
->
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="text-align: center">
         <img src="images/pasan/005.png" style="height: 500px" />
@@ -792,22 +752,11 @@
 </div>
 
 <!-- Sexto Modal -->
-<div
-  class="modal fade"
-  id="exampleModal6"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel6"
-  aria-hidden="true"
->
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="text-align: center">
         <img src="images/pasan/006.png" style="height: 500px" />
@@ -817,22 +766,11 @@
 </div>
 
 <!-- Septimo Modal -->
-<div
-  class="modal fade"
-  id="exampleModal7"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel7"
-  aria-hidden="true"
->
+<div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="text-align: center">
         <img src="images/pasan/007.png" style="height: 500px" />
@@ -842,22 +780,11 @@
 </div>
 
 <!-- Octavo Modal -->
-<div
-  class="modal fade"
-  id="exampleModal8"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel8"
-  aria-hidden="true"
->
+<div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="text-align: center">
         <img src="images/pasan/008.png" style="height: 500px" />
@@ -867,22 +794,11 @@
 </div>
 
 <!-- Noveno Modal -->
-<div
-  class="modal fade"
-  id="exampleModal9"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel9"
-  aria-hidden="true"
->
+<div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel9" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="text-align: center">
         <img src="images/pasan/009.png" style="height: 500px" />
@@ -894,27 +810,15 @@
 <!-- Modal catalogo -->
 
 
-<div
-  class="modal fade"
-  id="exampleModal10"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel10"
-  aria-hidden="true"
->
+<div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel10" aria-hidden="true">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close" style="background-color: white;"
-        ></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+          style="background-color: white;"></button>
       </div>
       <div class="modal-body">
-        <iframe
-          src="https://experienciasmuseodelcanal.org/bienalcatalogo/index.html" style="width: 100%; height: 90%; border: none;"
-        ></iframe>
+        <iframe src="books/bienalcatalogo/index.html" style="width: 100%; height: 90%; border: none;"></iframe>
       </div>
     </div>
   </div>

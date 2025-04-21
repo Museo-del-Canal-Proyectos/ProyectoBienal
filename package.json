@@ -24,6 +24,7 @@
     "electron-builder": "^25.1.8",
     "leaflet": "^1.9.4",
     "nativescript": "^8.9.1",
+    "ng-image-slider": "^10.0.0",
     "ngx-electron": "^2.2.0",
     "rxjs": "~7.8.0",
     "sweetalert2": "^11.17.2",

@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../../../assets/fonts/Helvetica/HelveticaNeueBlack.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica2';
+    src: url('../../../assets/fonts/Helvetica/HelveticaNeueLight.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica3';
+    src: url('../../../assets/fonts/Helvetica/HelveticaNeueHeavy.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica4';
+    src: url('../../../assets/fonts/Helvetica/HelveticaNeueItalic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+#mapa {
+   /*border: 5px solid #000;*/
+   border-radius: 10px;
+   height: 850px;
+   margin-top: 80px;
+   width: 5%;
+  
+}
+
+#contenido {
+  /*border: 5px solid #000;*/
+   border-radius: 10px;
+   height: 850px;
+   margin-top: 80px;
+   width: 5%;
+}
+
+#ong {
+  /* border: 5px solid #000;*/
+   border-radius: 10px;
+   height: 950px;
+   margin-top: 80px;
+   width: 5%;
+}
+
+#contenido-h{
+    color: #fff;
+    font-family: "Helvetica";
+}
+
+#mapa-h{
+    color: #fff;
+    font-family: "Helvetica";
+}
+
+#ong-h{
+    color: #fff;
+    font-family: "Helvetica";
+}
+
+
+#btn-mapa{
+    position: relative;
+    top: 400px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    border-radius: 2em;
+    border-radius: 2em;
+    box-shadow: 0 0 10px 5px black;
+    background-color: #ff5a5a;
+    height: 100px;
+    width: 300px;
+    left: 397px;
+}
+
+#btn-contenido{
+    position: relative;
+    top: 400px;
+
+    border: 1px solid transparent;
+    font-weight: 900;
+    border-radius: 2em;
+    border-radius: 2em;
+    box-shadow: 0 0 10px 5px black;
+    background-color: #ff5a5a;
+    height: 100px;
+    width: 500px;
+    left: -607px;
+
+}
+
+#btn-ong{
+    position: relative;
+    top: 400px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    border-radius: 2em;
+    border-radius: 2em;
+    box-shadow: 0 0 10px 5px black;
+    background-color: #ff5a5a;
+    height: 100px;
+    width: 500px;
+    left: -10px;
+}
+
+#btnEsp-h{
+position: relative;
+top: -43px;
+left: 0px;
+right: 0px;
+left: 1380px;
+}
+
+
+#btnEng-h{
+position: relative;
+top: -43px;
+left: 0px;
+right: 0px;
+left: 1380px;
+}
+
