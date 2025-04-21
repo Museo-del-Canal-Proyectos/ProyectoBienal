@@ -6,12 +6,13 @@ import { CommonModule } from '@angular/common';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import Swal from 'sweetalert2'; // Importa la librería SweetAlert2 para modales
 
+import { NgImageSliderModule } from 'ng-image-slider'; // Importa el módulo de ng-image-slider
 
 
 declare var $: any;
 @Component({
   selector: 'app-ong',
-  imports: [RouterModule, CommonModule],
+  imports: [RouterModule, CommonModule,NgImageSliderModule,],
   templateUrl: './ong.component.html',
   styleUrl: './ong.component.css',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
@@ -21,7 +22,7 @@ export class OngComponent {
 
 
 
-
+  videoAcnur= '';
 
 
   titulo: string = 'ACNUR - Agencia de la ONU para los refugiados'
@@ -47,10 +48,14 @@ export class OngComponent {
   ]
 
   ACNUR() {
-    this.modal();
+    document.getElementById('btn-acnur')?.click();
+    this.videoAcnur="videos/video2.mp4";
+    document.getElementById('video')?.setAttribute('src', this.videoAcnur);
+
   }
 
 
+  
 
   UNFPA() {
     this.cargarImg = this.images[1];
@@ -70,29 +75,7 @@ export class OngComponent {
     this.texto = this.textos[3]
   }
 
-  data: any = `<div class="container">
-    <div class="row">
-        <div class="col-6 " style="text-align: justify;">
-            En Darién, el ACNUR apoya la respuesta del Gobierno de Panamá en las Estaciones Temporales de Recepción
-            Migratoria (ETRMs) y las comunidades de acogida proporcionando espacios seguros y protección frente a las
-            duras condiciones climáticas, servicios básicos de salud y salud mental, así como proporcionando información
-            sobre los riesgos del viaje. El ACNUR ofrece apoyo legal a las personas con necesidades de protección
-            internacional, remitiendo a las personas que requieren asistencia especializada a las instituciones
-            pertinentes, así como proporcionando información sobre el sistema de asilo en Panamá, ayudando a los
-            necesitados con su solicitud de estatuto de refugiado. El ACNUR también apoya a las comunidades indígenas en
-            Darién, facilitando talleres y programas para fortalecer y promover la cohesión social y la convivencia
-            pacífica.
-        </div>
-        <div class="col-6">
-       
 
-       
-        
-           
-
-        </div>
-    </div>
-</div>`;
 
   imageObject: Array<object> = [{
     image: 'images/unhcr/u1.jpg',
@@ -132,11 +115,10 @@ export class OngComponent {
       confirmButtonColor: '#ffffff', // Color del fondo del botón
       backdrop: 'rgba(0, 0, 0, 0.9)',
 
-      html: this.data,
-
-      customClass: {
+      customClass:{
         confirmButton: 'custom-confirm-btn',
-        closeButton: 'custom-close-btn' // Clase personalizada para el botón de cierre
+        closeButton: 'custom-close-btn', // Clase personalizada para el botón de cierre
+        
       },
     });
 

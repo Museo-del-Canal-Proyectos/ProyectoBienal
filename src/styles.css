@@ -110,4 +110,6 @@ body{
   color: #ff5a5a;         /* Color del icono */
 }
 
-
+.modal-backdrop {
+  display: none !important; /* Oculta el fondo borroso */
+}

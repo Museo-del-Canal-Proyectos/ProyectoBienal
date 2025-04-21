@@ -16,7 +16,6 @@ export const routes: Routes = [
     { path: 'bienal', component: BienalComponent },
     { path: 'artistas', component: ArtistasComponent },
     {path:'inicio_eng',component:InicioEngComponent},
-    
     {path:'**', component: InicioComponent}
 ];
 
