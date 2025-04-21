@@ -144,7 +144,7 @@ export class MapaComponent {
     //funciones de los datos de los markers de Europa
   }
   ngOnInit(): void {
-  
+    Swal.fire("SweetAlert2 is working!");
 
   }
   //cargar el mapa despues de que se crea la vista del html mejora rendimiento.

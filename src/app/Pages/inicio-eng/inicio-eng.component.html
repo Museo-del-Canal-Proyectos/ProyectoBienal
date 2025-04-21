@@ -1,3 +1,23 @@
+<button
+  class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+  style="
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    right: 70px;
+    top: 940px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 100;
+  "
+  routerLink="/home_eng"
+>
+  <i class="fa-solid fa-home"></i>
+</button>
+
 <swiper-container
   style="
     --swiper-navigation-color: white;
@@ -5,12 +25,10 @@
     --swiper-navigation-size: 60px;
     --swiper-pagination-bullet-size: 40px;
     --swiper-pagination-bullet-opacity: 5; /* Ajusta la opacidad (0 = transparente, 1 = sólido) */
-    
-    
-    --swiper-pagination-bullet-inactive-opacity: 1;
-    --swiper-pagination-bullet-inactive-color: #ff5a5a;; 
-    --background-color: red ;
 
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-bullet-inactive-color: #ff5a5a;
+    --background-color: red;
   "
   class="mySwiper"
   speed="600"
@@ -24,7 +42,8 @@
     class="parallax-bg"
     style="
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(images/buccaners.png); filter: brightness(50%);
+        url(images/buccaners.png);
+      filter: brightness(50%);
     "
     data-swiper-parallax="-23%"
   ></div>
@@ -35,16 +54,11 @@
         style="width: 1200px; display: grid; place-items: center; margin: auto"
       >
         <p class="otrotxt" style="text-align: center; font-size: 35px">
-          Swipe your finger across the screen to explore the topics you can
-          explore further. Tap on the image of the topic that interests you. You
-          can return by pressing the
-          <i class="fa-solid fa-angle-left"></i> or go back to the beginning of
-          this experience by tapping the
-          <i class="fa-solid fa-house"></i> located at the bottom of the
-          screen.​
+          Slide your finger across the screen to navigate through the available
+          topics, and tap on the one you would like to explore further.
         </p>
       </div>
-      <div>
+      <!-- <div>
         <p style="text-align: center">
           <button
             type="button"
@@ -57,11 +71,13 @@
               font-weight: 700;
               border-radius: 2em;
               box-shadow: 0 0 10px 5px black;
-              background-color: #ff5a5a;
+              background-color: black;
+              width: 250px;
+              height: 70px;
             "
-            routerLink="/"
+            routerLink=""
           >
-            ESP 
+            ESP
           </button>
           &nbsp;
           <button
@@ -75,51 +91,78 @@
               font-weight: 700;
               border-radius: 2em;
               box-shadow: 0 0 10px 5px black;
-              background-color: black;
+              background-color: #ff5a5a;
+              width: 250px;
+              height: 70px;
             "
             routerLink="/inicio_eng"
           >
             ENG 
           </button>
         </p>
-      </div>
+      </div> -->
     </div>
   </swiper-slide>
+
   <swiper-slide>
     <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br /><br /><br /><br /><br /><br /><br />Thinking about the Panama
-      Pavilion​
+      <br />
+      Titulo Provicional
     </div>
-
-    <div class="text" data-swiper-parallax="-100">
+    <div class="text" data-swiper-parallax="-100" id="texto video">
       <p style="text-align: justify; font-size: 20px">
-        For Panama's first pavilion at the Venice Art Biennale, the curators of
-        the project focused their research on the migratory phenomenon
-        experienced by our continent, with a particular emphasis on Panama and
-        the Darien Jungle, through which thousands of people cross daily . Watch
-        this video in which both curators discuss the origin of their curatorial
-        proposal and reflect on the significance of bringing this message to the
-        world's most important art event
+        For Panama's first pavilion at the Venice Biennale, the project's
+        curators focused their research on the migration phenomenon experienced
+        by our continent, with an emphasis on Panama, where thousands of people
+        traveled daily through the Darien jungle. Watch this video in which the
+        two discuss the origins of their curatorial proposal and reflect on the
+        importance of this message reaching the world's most important art
+        event.
       </p>
-
       <img
-      src="images/bg_Home4.png"
-      style="
-        height: 500px;
-        width: 900px;
-        position: absolute;
-        top: -250px;
-        left: 850px;
-      "
-      (click)="playVideo()"
-    />
-    <div *ngIf="showVideo" class="video-container">
-      <video #videoPlayer class="video">
-        <source src="videos/000.mp4" type="video/mp4" />
-        Tu navegador no soporta el video.
-      </video>
-    </div>
-    
+        src="images/AnaPlay.png"
+        style="
+          height: 350px;
+          width: 650px;
+          position: absolute;
+          top: -56px;
+          left: 950px;
+        "
+        (click)="playVideo('videos/video1.mp4')"
+      />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+        <br />
+        Titulo Provicional
+      </div>
+      <div class="text" data-swiper-parallax="-100" id="texto video">
+        <p style="text-align: justify; font-size: 20px">
+          Communicating effectively, in the broadest sense of the word, requires
+          a keen eye for observation and listening, and conveying the project
+          that made the Panama Pavilion possible to everyone required a team
+          committed to that goal. In this video, Luz Bonadies, Project and Media
+          Director, along with Mariana Núñez, the pavilion's graphic director,
+          share some key elements of their involvement in the Panama Pavilion.
+        </p>
+      </div>
+      <img
+        src="images/AnaPlay.png"
+        style="
+          height: 350px;
+          width: 650px;
+          position: absolute;
+          top: 456px;
+          left: 950px;
+        "
+        (click)="playVideo('videos/video2.mp4')"
+      />
+      <div *ngIf="showVideo" class="video-container">
+        <video #videoPlayer class="video">
+          <source src="{{ dataVideo }}" type="video/mp4" />
+          Tu navegador no soporta el video.
+        </video>
+      </div>
+
       <!-- <button
         type="button"
         class="btn btn-success titulo"
@@ -142,9 +185,13 @@
 
   <!-- La Bienal de Arte de Venecia -->
   <swiper-slide>
-    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br /><br /><br />
-      The Venice Biennale
+    <div
+      class="title"
+      data-swiper-parallax="-300"
+      style="font-weight: 800"
+      id="bienal"
+    >
+      <br /><br /><br />The Venice Biennale
     </div>
 
     <div class="text" data-swiper-parallax="-100">
@@ -153,67 +200,97 @@
         the most prestigious and enduring contemporary art exhibitions globally.
         This biennial event convenes artists, curators, and critics from around
         the world to showcase and discuss the most innovative and impactful
-        trends in contemporary art. Over its long history, the Biennale has
-        mirrored and served as a platform for the diverse cultural, political,
-        and social currents that have shaped our world, transforming Venice into
-        a vibrant global cultural and artistic hub. Every two years, the
-        Venice Biennale appoints a curator or a curatorial committee to define
-        the concept and overall direction of this major cultural event. Their
-        role is to create the “International Exhibition,” which forms the
-        centerpiece of the Biennale and features works by artists from across
-        the globe.
-      </p>
+        trends in contemporary art.
+        <br /><br />
+        Over its long history, the Biennale has mirrored and served as a
+        platform for the diverse cultural, political, and social currents that
+        have shaped our world, transforming Venice into a vibrant global
+        cultural and artistic hub.
 
-      <p class="d-inline-flex gap-1 titulo">
+        <br /><br />
+        Every two years, the Venice Biennale appoints a curator or a curatorial
+        committee to define the concept and overall direction of this major
+        cultural event. Their role is to create the “International Exhibition,”
+        which forms the centerpiece of the Biennale and features works by
+        artists from across the globe.
+      </p>
+      <div class="card-body" style="background-color: transparent">
+        <p class="text" style="text-align: justify; font-size: 20px">
+          While the majority of artists are contemporary and active, some
+          exhibitions may also include works by deceased or lesser-known
+          figures, depending on the curator’s vision, contributing to a more
+          nuanced historical perspective on art. While the International
+          Exhibition is centered around the concept defined by its curators,
+          participating countries with their national pavilions are not required
+          to adhere to this central theme. The 60th Biennale saw the
+          participation of around 87 countries from all continents, each
+          presenting a locally curated exhibition based on the work of chosen
+          curators or organizers from their home countries, with national
+          government endorsement.
+        </p>
+      </div>
+      <!-- <p class="d-inline-flex gap-1 titulo">
+        <br>
         <a
-          class="btn btn-success"
+          class="btn"
           data-bs-toggle="collapse"
           href="#collapseExample"
           role="button"
           aria-expanded="false"
           aria-controls="collapseExample"
-          style="background-color: #ff5a5a;color: white;font-size: 30px;font-weight: 700;
-          border: 1px solid transparent;
-          font-weight: 700;
-          border-radius: 2em;
-          box-shadow: 0 0 10px 5px black;
-          background-color: #ff5a5a;width: 400px;"
+          style="
+            background-color: #ff5a5a;
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+            border: 1px solid transparent;
+            font-weight: 700;
+            border-radius: 2em;
+            box-shadow: 0 0 10px 5px black;
+            background-color: #ff5a5a;
+            width: 250px;
+            height: 63px;
+            position: absolute;
+            left: 165px;
+          "
         >
-          Read more 
+          Leer más
         </a>
-      </p>
+      </p> -->
 
       <div
         class="collapse"
         id="collapseExample"
-        style="position: absolute; left: 900px; width: 800px"
+        style="position: absolute; left: 900px; width: 800px; top: 435px"
       >
-        <div class="card card-body" style="background-color: transparent">
-          <br /><br /><br />
+        <!-- <div class=" card-body" style="background-color: transparent">
           <p class="text" style="text-align: justify; font-size: 20px">
-            While the majority of artists are contemporary and active, some
-            exhibitions may also include works by deceased or lesser-known
-            figures, depending on the curator’s vision, contributing to a more
-            nuanced historical perspective on art.​ While the International
-            Exhibition is centered around the concept defined by its curators,
-            participating countries with their national pavilions are not
-            required to adhere to this central theme. The 60th Biennale saw the
-            participation of around 87 countries from all continents, each
-            presenting a locally curated exhibition based on the work of chosen
-            curators or organizers from their home countries, with national
-            government endorsement. ​
+            En la mayoría de los casos, se trata de artistas contemporáneos,
+            activos, pero, en otros, según la misión del curador(a), se han
+            mostrado obras de figuras fallecidas o casi desconocidas, pero que
+            contribuyen a una más completa visión histórica del arte. Aunque
+            la exposición internacional la muestra principal de la Bienal de
+            Venecia se basa en el concepto central definido por sus curadores
+            invitados, cabe destacar que los países que participan en la Bienal
+            con sus pabellones nacionales no necesariamente tienen que seguir
+            esa línea conceptual. Esta 60 Bienal contó con la participación de
+            unos 87 países de todos los continentes, cada uno de los cuales
+            envió una exposición coordinada localmente, en base al trabajo de
+            curadores u organizadores escogidos por los países de origen,
+            siempre con el aval de sus gobiernos nacionales​
           </p>
-        </div>
+        </div> -->
       </div>
       <br />
       <img
-        src="images/bg_Home2.png"
+        src="images/picture/02.jpg"
         style="
-          height: 500px;
-          width: 800px;
+          height: 570px;
+          width: 900px;
           position: absolute;
-          top: -100px;
-          left: 900px;
+          top: -53px;
+          left: 850px;
+          border-radius: 2%;
         "
       />
       <!-- <button
@@ -235,17 +312,28 @@
     </button> -->
     </div>
   </swiper-slide>
-  <!-- Fin del Tema -->
+  <!-- La Bienal de Arte de Venecia -->
+
+  <!-- Extranjeros en todas partes -->
 
   <swiper-slide>
-    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br /><br /><br /><br /><br /><br />Foreigners everywhere
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 700">
+      <br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Foreigners
+      everywhere
     </div>
 
     <div class="text" data-swiper-parallax="-100">
-      <p style="text-align: justify; font-size: 20px">
+      <p
+        style="
+          text-align: justify;
+          font-size: 20px;
+          position: absolute;
+          left: 150px;
+        "
+      >
         For the 60th Venice Biennale, held in 2024, Brazilian curator Adriano
-        Pedrosa chose the theme “Stranieri Ovunque - Foreigners Everywhere.”
+        Pedrosa chose the theme
+        <b>“Stranieri Ovunque - Foreigners Everywhere.”</b> <br /><br />
         This edition delves into the themes of migration, identity, and the
         sense of displacement in a globalized world. The title is inspired by a
         series of neon pieces created in 2004 by the Claire Fontaine collective,
@@ -253,10 +341,10 @@
         serves as the guiding principle of the Venetian exhibition, inviting
         viewers to reflect on the concept of “foreigner” not just in
         geographical terms, but also in cultural, social, and personal contexts.
-        ​ ​ The 60th Venice Biennale thus explores the complexities of identity
-        and otherness, illustrating how the sense of belonging can dissolve when
-        we acknowledge that, at some point and in some way, we are all
-        foreigners. ​
+        The 60th Venice Biennale thus explores the complexities of identity and
+        otherness in our time, illustrating how the sense of belonging can
+        dissolve when we acknowledge that, at some point and in some way, we are
+        all foreigners.
       </p>
       <!-- <button
         type="button"
@@ -280,8 +368,15 @@
     <div class="parent">
       <div class="div1">
         <img
-          src="images/bg_Home2.png"
-          style="height: 550px; width: 850px; position: absolute; top: 100px"
+          src="images/picture/04.jpg"
+          style="
+            height: 600px;
+            width: 500px;
+            position: absolute;
+            top: 86px;
+            border-radius: 2%;
+            left: 150px;
+          "
         />
       </div>
     </div>
@@ -366,9 +461,8 @@
 
   <swiper-slide>
     <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br /><br /><br /><br />
-      <p style="font-size: 35px">
-        Panama: A Historic Debut at​ <br />
+      <p style="font-size: 35px" id="pabellon">
+        Panama: A Historic Debut at<br />
         the Venice Biennale
       </p>
     </div>
@@ -376,24 +470,26 @@
     <div class="text" data-swiper-parallax="-100">
       <p style="text-align: justify; font-size: 20px; font-weight: 400">
         Panama's debut at the 60th Venice Biennale marks a significant milestone
-        in the country’s cultural history. Driven by the ambition to make
-        Panama’s voice heard in the global art dialogue, this participation
-        celebrates the nation’s cultural richness through the works of four
-        leading contemporary artists: Brooke Alfaro, Isabel De Obaldia, Giana De
-        Dier, and Cisco Merel. ​ ​ Titled “Traces: In the Body and in the Land,”
-        the Panamanian pavilion’s exhibition centers on the theme of migration.
-        Panama, since its existence as an isthmus, has been shaped by the
-        movement and presence of diverse peoples. Our pavilion reflects the
-        enduring impact of migration on individuals and their surroundings. This
-        theme, highly relevant both locally and globally, resonates deeply with
-        the central focus of the Venice Biennale. ​ ​ This participation not
-        only aims to integrate Panama into the international art conversation
-        but also seeks to lay the groundwork for future national exhibitions,
-        establishing Panama as a significant contributor to the global art
-        dialogue. ​ ​<br /><br />
+        in the country’s cultural history
+        <br />
+        Driven by the ambition to make Panama’s voice heard in the global art
+        dialogue, this participation celebrates the nation’s cultural richness
+        through the works of four leading contemporary artists: Brooke Alfaro,
+        Isabel De Obaldia, Giana De Dier, and Cisco Merel.
+        <br />
+        <br />Titled “Traces: In the Body and in the Land,” the Panamanian
+        pavilion’s exhibition centers on the theme of migration. Panama, since
+        its existence as an isthmus, has been shaped by the movement and
+        presence of diverse peoples. Our pavilion reflects the enduring impact
+        of migration on individuals and their surroundings. This theme, which is
+        currently <br /><br />
+        This participation not only aims to integrate Panama into the
+        international art conversation but also seeks to lay the groundwork for
+        future national exhibitions, establishing Panama as a significant
+        contributor to the global art dialogue. ​<br /><br />
         <i style="font-size: 20px"
-          >Click on the images to see his biography
-         </i>
+          >You can click on the images to see his biography.
+        </i>
       </p>
       <!-- <button
         type="button"
@@ -419,146 +515,48 @@
         <img
           src="images/Artista1.jpg"
           (click)="brooke()"
-          style="height: 350px; width: 350px"
+          style="height: 350px; width: 350px; border-radius: 3%"
         />
       </div>
       <div class="div1">
         <img
           src="images/Artista3.jpg"
           (click)="Cisco()"
-          style="height: 350px; width: 350px"
+          style="height: 350px; width: 350px; border-radius: 3%"
         />
       </div>
       <div class="div1">
         <img
           src="images/Artista2.jpg"
           (click)="Giana()"
-          style="height: 350px; width: 350px"
+          style="height: 350px; width: 350px; border-radius: 3%"
         />
       </div>
       <div class="div1">
         <img
           src="images/Artista5.jpg"
           (click)="Isabel()"
-          style="height: 350px; width: 350px"
+          style="height: 350px; width: 350px; border-radius: 3%"
         />
       </div>
     </div>
   </swiper-slide>
+  <!-- Panama por primera vez en la bienal -->
+
   <!-- Otros Pabellones -->
-  <swiper-slide>
+  <!-- <swiper-slide>
     <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br /><br /><br /><br /><br /><br /><br />Explore here the other National
-      Pavilions
+      <br /><br /><br /><br /><br /><br /><br />Explora aquí los otros
+      Pabellones Nacionales​
     </div>
 
     <div class="text" data-swiper-parallax="-100">
       <p style="text-align: justify; font-size: 20px">
-        Explore this interactive map, where you will find a summary of the 88
-        national pavilions that participated in the 60th Art Biennale, located
-        in Arsenale, Giardini, and other venues across the various islands that
-        make up the city of Venice.
+        Explora este mapa interactivo en donde encontrarás los 88 pabellones
+        nacionales que participaron en la 60ª Bienal de Arte, ubicados en el
+        Arsenale, el Giardini y otras locaciones en las distintas islas que
+        conforman la ciudad de Venecia.
       </p>
-      <button
-        type="button"
-        class="btn btn-success titulo"
-        style="
-          width: 400px;
-          font-size: 40px;
-          font-weight: 700;
-          border: 1px solid transparent;
-          font-weight: 700;
-          border-radius: 2em;
-          box-shadow: 0 0 10px 5px black;
-          background-color: #ff5a5a;
-        "
-        routerLink="/mapa"
-      >
-        View map 
-      </button>
-    </div>
-  </swiper-slide>
-  <!-- Otros Pabellones -->
-
-  <!-- Otros artistas Panameños -->
-  <swiper-slide>
-    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br /><br /><br />Other Panamanian artists who<br> participated in the
-      Venice Art Biennial
-    </div>
-
-    <div class="text" data-swiper-parallax="-100">
-      <p style="text-align: justify; font-size: 20px">
-        In addition to the four artists who represented the country in the
-        Panama Pavilion, three Panamanian artists enriched the curatorial
-        approach created by Adriano Pedrosa in the main exhibition and by the
-        curatorial team of the Bolivia Pavilion in their national pavilion as
-        international guests:
-      </p>
-
-      <p style="font-size: 20px">
-        <b style="font-weight: 800">Main exhibition, Arsenale.</b><br />
-        Antonio José Guzmán (with Iva Jankovick)<br>Project: Orbital Mechanics, from
-        the Electric Dub Station series. 2024 Textile, audio and performance
-        installation
-        <button type="button" class="btn titulo" style="background-color: #ff5a5a;color: white;font-size: 30px;font-weight: 700;
-        border: 1px solid transparent;
-        font-weight: 700;
-        border-radius: 2em;
-        box-shadow: 0 0 10px 5px black;
-        background-color: #ff5a5a;width: 400px;" onclick="activar('https://www.labiennale.org/en/art/2024/nucleo-contemporaneo/antonio-jose-guzman-iva-jankovic')">
-          Read the description</button
-        >​ <br /><br />
-        <b style="font-weight: 800">
-          Bolivian Pavilion, Giardini (inside the Russian Pavilion)</b
-        ><br />​Projects: La fuga de niños rojos and Tiempo de
-        transformaciones. Acrylic painting on canvas and diptych in mixed media
-        on wood respectively.​ <br /><br /><b style="font-weight: 800"
-          >Humberto Vélez</b
-        >​ <br />​Project: The Last Builder and El mago, black and white films
-        in super 8.  ​<button type="button" class="btn titulo" style="background-color: #ff5a5a;color: white;font-size: 30px;font-weight: 700;
-        border: 1px solid transparent;
-        font-weight: 700;
-        border-radius: 2em;
-        box-shadow: 0 0 10px 5px black;
-        background-color: #ff5a5a;width: 400px;" onclick="activar('https://www.labiennale.org/en/art/2024/bolivia-plurinational-state')">
-          Read the description
-        </button>
-      </p>
-    </div>
-  </swiper-slide>
-  <!-- Otros Artistas Panameños -->
-
-  <!-- Migración por el Darién -->
-
-  <swiper-slide>
-    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br /><br /><br /><br />Migration in the Darién: 
-    </div>
-
-    <div class="subtitle" data-swiper-parallax="-200" style="font-weight: 700">
-      data and Humanitarian
-      Responses​
-    </div>
-
-    <div class="text" data-swiper-parallax="-100">
-      <p style="text-align: justify; font-size: 20px">
-        The Darién crossing is one of the most dangerous migration routes in the
-        world. In 2023, over 520,000 people undertook this journey, including
-        more than 113,000 children. The lack of infrastructure, exposure to
-        violence, and extreme precariousness make this a high-risk route.​ ​
-        Organizations such as UNICEF, UNHCR, and other humanitarian agencies are
-        working in the region to provide vital assistance: access to clean
-        water, medical care, psychosocial support, and protection for the most
-        vulnerable populations, particularly women, children, and adolescents.​
-        ​ Through data collection and the implementation of programs in the
-        region, these organizations aim not only to respond to the immediate
-        crisis but also to raise awareness of the factors driving migration and
-        the urgent needs of those crossing the Darién.​ ​
-        <br />
-        <i>Learn more about their work and how you can support.</i>
-      </p>
-
       <button
         type="button"
         class="btn btn-success titulo"
@@ -572,55 +570,190 @@
           box-shadow: 0 0 10px 5px black;
           background-color: #ff5a5a;
         "
-        routerLink="./ong"
+        routerLink="./mapa"
       >
-      Read more 
+        Ver el mapa
       </button>
     </div>
+  </swiper-slide> -->
+  <!-- Otros Pabellones -->
+
+  <!-- Otros artistas Panameños -->
+  <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br />Other Panamanian artists at <br />
+      the Venice Biennale 2024
+    </div>
+
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px">
+        The 60th Art Biennial featured seven Panamanian artists. In addition to
+        the four artists who represented the country in the Panama Pavilion, a
+        collaborative work by Panamanian artist Antonio José Guzmán and
+        Amsterdambased artist Iva Jankovic was curated by Adriano Pedrosa for
+        the Biennial's main exhibition. Additionally, Panamanians Oswaldo "Achu"
+        De León Kantule and Humberto Vélez participated as guests in the
+        Bolivian Pavilion, which was installed in the Russian Pavilion building.
+      </p>
+      <p style="font-size: 20px">
+        <b style="font-weight: 800"> Main exhibition, Arsenale. </b><br />
+        Antonio José Guzmán (con Iva Jankovick)<br />Project: Orbital Mechanics,
+        from the Electric Dub Station series. 2024 Installation of textiles,
+        audio and performance <br /><br />
+        <button
+          type="button"
+          class="btn titulo"
+          style="
+            background-color: #ff5a5a;
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+            border: 1px solid transparent;
+            font-weight: 700;
+            border-radius: 2em;
+            box-shadow: 0 0 5px 5px black;
+            background-color: #ff5a5a;
+            width: 340px;
+          "
+          onclick="activar('https://www.labiennale.org/en/art/2024/nucleo-contemporaneo/antonio-jose-guzman-iva-jankovic',1075,1000)"
+        >
+        View project</button
+        >​ <br /><br />
+        <b style="font-weight: 800">
+          Bolivian Pavilion, Giardini. </b
+        ><br />​Oswaldo “Achu” De León Kantule<br />Proyect: The flight of red children and Land of transformations.
+        Painting on canvas and mixed media on wood, respectively<br /><br /><b
+          style="font-weight: 800"
+          >Humberto Vélez</b
+        >​<br />​Proyect: The last builder and The Magician (“El mago”).
+        Super 8 films.  <br /><br />
+        ​<button
+          type="button"
+          style="
+            background-color: #ff5a5a;
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+            border: 1px solid transparent;
+            font-weight: 700;
+            border-radius: 2em;
+            box-shadow: 0 0 10px 5px black;
+            background-color: #ff5a5a;
+            width: 400px;
+            width: 340px;
+          "
+          class="btn titulo"
+          onclick="activar('https://www.labiennale.org/en/art/2024/bolivia-plurinational-state',1075,1000)"
+        >
+          View proyect
+        </button>
+      </p>
+    </div>
   </swiper-slide>
+  <!-- Otros Artistas Panameños -->
+
+  <!-- Migración por el Darién -->
+
+  <!-- <swiper-slide>
+    <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
+      <br /><br /><br /><br />Migración en el Darién:
+    </div>
+    <div class="subtitle" data-swiper-parallax="-200" style="font-weight: 700">
+      datos y respuestas humanitarias
+    </div>
+    <br />
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px">
+        El cruce del Darién es una de las rutas migratorias más peligrosas del
+        mundo. En 2023, más de 520,000 personas emprendieron esta travesía,
+        incluyendo más de 113,000 niños y niñas. La falta de infraestructura, la
+        exposición a la violencia y la precariedad extrema hacen de este un
+        recorrido de alto riesgo.​ Organizaciones como UNICEF, ACNUR y otras
+        agencias humanitarias trabajan en la región para brindar asistencia
+        vital: acceso a agua potable, atención médica, apoyo psicosocial y
+        protección para las poblaciones más vulnerables, especialmente mujeres,
+        niños y adolescentes.​ A través de la recopilación de datos y la
+        implementación de programas en la región, estas organizaciones buscan no
+        solo responder a la crisis inmediata, sino también generar conciencia
+        sobre los factores que impulsan la migración y las necesidades urgentes
+        de quienes transitan por el Darién.<br />
+        <i>Conoce más sobre su trabajo y cómo puedes apoyar.</i>
+      </p>
+      <br>
+      <button type="button" class="btn btn-success titulo" style="
+          width: 250px;
+          font-size: 30px;
+          font-weight: 300;
+          border: 1px solid transparent;
+          border-radius: 2em;
+          box-shadow: 0 0 10px 5px black;
+          background-color: #ff5a5a;
+          position: absolute;
+          left: 169px;
+        " routerLink="/ong">
+        Ver más
+      </button>
+    </div>
+  </swiper-slide> -->
   <!-- Migración por el Darién -->
   <!-- Catalogo -->
   <swiper-slide>
     <div
       class="title"
+      id="catalogoID"
       data-swiper-parallax="-300"
       style="font-weight: 800; font-family: Arial, Helvetica, sans-serif"
     >
-      <br /><br /><br /><br /><br /><br />Catalog
+      <br />
+      Catalog
     </div>
 
     <div class="text" data-swiper-parallax="-100">
       <p style="text-align: justify; font-size: 20px; font-weight: 400">
-        The catalog of an art exhibition is an important document that highlights critical thinking, research, and the strategies of reflection and communication developed around a curatorial project. In this section, you can explore the catalog of the Panama Pavilion at the 60th Venice Art Biennale. The publication is available at the museum shop.​
+        The art exhibition catalog is a highly important document that highlights the critical thinking, research, and
+strategies of reflection and communication developed around a curatorial project. In this section, you can review
+the catalog for the Panama Pavilion at the 60th Venice Biennale. The physical publication is available in the
+museum ticket office.
       </p>
+      <br />
       <button
         type="button"
         class="btn btn-success titulo"
         style="
-          width: 400px;
-          font-size: 40px;
+          width: 250px;
+          font-size: 25px;
           font-weight: 700;
           border: 1px solid transparent;
-          font-weight: 700;
+          font-weight: 300;
           border-radius: 2em;
           box-shadow: 0 0 10px 5px black;
           background-color: #ff5a5a;
+          position: absolute;
+          right: 243px;
         "
-       data-bs-toggle="modal"
-       data-bs-target="#exampleModal10"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal10"
       >
-        Ver el Cátalogo
+      View catalog
       </button>
 
-      <p style="position: absolute; left: 110%; top: -140%">
-        <iframe
+      <p style="position: absolute; left: 107%; top: -30%">
+        <!-- <iframe
           height="600"
           width="1020"
-          src="https://experienciasmuseodelcanal.org/bienalcatalogo/index.html"
-        ></iframe>
+          src="books/bienalcatalogo/index.html"
+        ></iframe> -->
+        <img
+          src="images/picture/Portada.jpg"
+          width="600px"
+          height="800px"
+          style="position: absolute; left: 230px; border-radius: 2%"
+        />
       </p>
     </div>
   </swiper-slide>
+
+  <!-- Catalogo -->
 </swiper-container>
 
 <!-- Primer Modal -->
@@ -848,7 +981,7 @@
   </div>
 </div>
 
-
+<!-- Modal catalogo -->
 
 <div
   class="modal fade"
@@ -864,12 +997,14 @@
           type="button"
           class="btn-close"
           data-bs-dismiss="modal"
-          aria-label="Close" style="background-color: white;"
+          aria-label="Close"
+          style="background-color: white"
         ></button>
       </div>
       <div class="modal-body">
         <iframe
-          src="https://experienciasmuseodelcanal.org/bienalcatalogo/index.html" style="width: 100%; height: 90%; border: none;"
+          src="books/bienalcatalogo/index.html"
+          style="width: 100%; height: 90%; border: none"
         ></iframe>
       </div>
     </div>

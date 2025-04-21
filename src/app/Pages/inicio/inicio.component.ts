@@ -43,7 +43,7 @@ export class InicioComponent {
       if (this.videoPlayer) {
         const video = this.videoPlayer.nativeElement; // Accede al elemento video
 
-        video.muted = true; // Mutea el video
+        video.muted = false; // Mutea el video
         video.play(); // Inicia la reproducción del video
 
         // Detecta cuando el video ha terminado y llama a la función `closeVideo` para minimizar la pantalla completa

@@ -6,6 +6,7 @@ import { BienalComponent } from './Pages/bienal/bienal.component';
 import { ArtistasComponent } from './Pages/artistas/artistas.component';
 import { InicioEngComponent } from './Pages/inicio-eng/inicio-eng.component';
 import { HomeComponent } from './Pages/Home/home.component';
+import { HomeEngComponent } from './Pages/home-eng/home-eng.component';
 
 
 export const routes: Routes = [
@@ -16,6 +17,7 @@ export const routes: Routes = [
     { path: 'bienal', component: BienalComponent },
     { path: 'artistas', component: ArtistasComponent },
     {path:'inicio_eng',component:InicioEngComponent},
+    {path:'home_eng',component:HomeEngComponent},
     
     {path:'**', component: InicioComponent}
 ];

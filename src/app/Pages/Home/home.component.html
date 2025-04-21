@@ -18,17 +18,17 @@ height: 1920px;  ">
         
         <div class="row align-items-start">
             <div class="col" id="mapa">
-               <button class="btn btn-primary" id="btn-mapa" (click)="map()">
+               <button class="btn" id="btn-mapa" (click)="map()">
                 <h1 id="mapa-h">Mapa</h1>
                </button>
             </div>
             <div class="col" id="contenido">
-              <button class="btn btn-primary" id="btn-contenido" (click)="bienal()">
+              <button class="btn " id="btn-contenido" (click)="bienal()">
                 <h1 id="contenido-h">La Bienal de Venecia</h1>
               </button>
             </div>
             <div class="col" id="ong">
-              <button class="btn btn-primary" id="btn-ong" (click)=" migracionDarien()">
+              <button class="btn " id="btn-ong" (click)=" migracionDarien()">
                 <h1 id="contenido-h">Migración en el Darién</h1>
               </button>
             </div>
@@ -42,7 +42,7 @@ height: 1920px;  ">
       width: 400px;
       font-size: 40px;
       font-weight: 700;
-      border: 1px solid transparent;
+      border: 1px solid white;
       font-weight: 700;
       border-radius: 2em;
       box-shadow: 0 0 10px 5px black;
@@ -70,7 +70,7 @@ height: 1920px;  ">
       width: 250px;
       height: 70px;
     "
-    routerLink=""
+    (click)="home_eng()"
   >
     ENG 
   </button>

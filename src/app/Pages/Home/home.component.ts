@@ -27,5 +27,10 @@ export class HomeComponent {
     }
     
 
+    home_eng(lang?:string) {
+        this.router.navigate(["home_eng"]);
+    }
+    
+
  
 }
