@@ -46,12 +46,19 @@ export class OngComponent {
     'La Organización Internacional para las Migraciones (OIM), en coordinación con socios del Sistema de Naciones Unidas y de sociedad civil, contribuye a los esfuerzos del Estado panameño en la respuesta a los movimientos mixtos que ingresan por la selva del Darién, brindando asistencia humanitaria vital a personas migrantes en condiciones de vulnerabilidad en tránsito, a través de la distribución de alimentos y artículos esenciales no alimentarios (NFIs), la prestación de servicios de salud, incluido el apoyo psicosocial y de salud mental, y la entrega de medicamentos y suministros médicos, así como servicios de protección. La OIM también apoya la mejora y rehabilitación de las Estaciones Temporales de Recepción de Migrantes (ETRMs), facilita las actividades de desarrollo de capacidades en materia de Coordinación y Gestión de Campamentos (CCCM, por sus siglas en inglés), y colidera y apoya mecanismos interagenciales e interinstitucionales de coordinación en materia de migración en diferentes niveles.'
   ]
 
-  ACNUR() {
+  ACNUR( video?: boolean ) {
     document.getElementById('btn-acnur')?.click();
     this.videoAcnur="videos/video1.mp4";
-    document.getElementById('video')?.setAttribute('src', this.videoAcnur);
-
+    document.getElementById('videoAcnur')?.setAttribute('src', this.videoAcnur);
+    
   }
+
+  ACNURClose( video?: boolean ) {
+    this.videoAcnur="";
+    document.getElementById('videoAcnur')?.setAttribute('src', "");
+  }
+
+
 
 
   
@@ -63,9 +70,7 @@ export class OngComponent {
   }
 
   UNICEF() {
-    this.cargarImg = this.images[2];
-    this.titulo = this.titulos[2]
-    this.texto = this.textos[2]
+   document.getElementById('btn-unicef')?.click();
   }
 
   OIM() {
