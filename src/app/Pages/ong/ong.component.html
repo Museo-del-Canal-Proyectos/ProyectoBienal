@@ -95,7 +95,7 @@ height: 1920px;  ">
         <img src="images/log/ACNUR.png" alt="Ong" id="img-ong-1" (click)="ACNUR()" />&nbsp;&nbsp;&nbsp;
         <img src="images/log/OIM.png" alt="Ong" id="img-ong-2" />
         <img src="images/log/UNFPA.png" alt="Ong" id="img-ong-3" />&nbsp;&nbsp;&nbsp;
-        <img src="images/log/UNICEF.png" alt="Ong" id="img-ong-4" />
+        <img src="images/log/UNICEF.png" alt="Ong" id="img-ong-4" (click)="UNICEF()" />
         <img src="images/log/UNICEF.png" alt="Ong" id="img-ong-5" />
         <img src="images/log/UNICEF.png" alt="Ong" id="img-ong-6" />
       </div>
@@ -117,10 +117,10 @@ height: 1920px;  ">
 
 
         <!-- Modal body -->
-        <div class="modal-body" style="background-color: black;">
-          
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: black;font-size: 40px;background-color: white;position: absolute;right: 0px;"></button>
-         
+        <div class="modal-body" style="background-color: black;" >
+          <div (click)="ACNURClose()" >
+            <button  type="button"  id="element1Close" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: black;font-size: 40px;background-color: white;position: absolute;right: 0px;"></button>
+          </div>
           <div>
             <div class="container">
               
@@ -145,7 +145,7 @@ height: 1920px;  ">
                 </div>
                 <div class="col-6">
 
-                  <video src="{{videoAcnur}}" width="800px" height="800px" autoplay muted="false"></video>
+                  <video id="videoAcnur"  width="800px" height="800px" autoplay muted="false" loop="true"></video>
 
 
 
@@ -178,14 +178,249 @@ height: 1920px;  ">
 
         </div>
 
-        <!-- Modal footer -->
-
+    
 
       </div>
     </div>
   </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#element4" hidden="true"
+  id="btn-unicef">
+  Launch demo modal
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="element4">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+
+
+      <!-- Modal body -->
+      <div class="modal-body" style="background-color: black;" >
+        <div (click)="ACNURClose()" >
+          <button  type="button"  id="element4Close" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: black;font-size: 40px;background-color: white;position: absolute;right: 0px;"></button>
+        </div>
+        <div>
+          <div class="container">
+            
+
+            <h1 id="p-uhcr-title" style="color: white;">UNICEF </h1>
+            <div class="row">
+              <div class="col-6 " style="text-align: justify;color: white;" id="p-uhcr" >
+                UNICEF se esfuerza por construir sociedades e instituciones resilientes capaces de gestionar situaciones de riesgo y emergencias humanitarias,
+                 enfocándose especialmente en proteger los derechos de los niños, niñas y adolescentes, incluidos aquellos en contextos migratorios en Panamá. <br><br>
+                 Desde 2018, UNICEF ha implementado un Plan de Acción Humanitaria para esta población, trabajando en estrecha colaboración con otros organismos 
+                 internacionales y autoridades locales en sectores prioritarios como agua, higiene, saneamiento, salud y protección en la provincia de Darién.
+                  Además, lleva a cabo programas de atención psicosocial, monitorea los flujos migratorios de menores, ofrece asistencia técnica en protocolos de 
+                  protección infantil y desarrolla iniciativas contra la discriminación y la xenofobia, reforzando la importancia de los derechos de los niños 
+                  migrantes a través de campañas en redes sociales.
+              </div>
+              <div class="col-6">
+
+                <video id="videoAcnur"  width="800px" height="800px" autoplay muted="false" loop="true"></video>
+
+
+
+              </div>
+
+              <swiper-container 
+              
+              class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+              slides-per-view="3" style=" top: -120px; left: 69px; --swiper-navigation-color: white;
+              --swiper-pagination-color: white;
+              --swiper-navigation-size: 60px;
+              --swiper-pagination-bullet-size: 20px;
+              --swiper-pagination-bullet-opacity: 5; /* Ajusta la opacidad (0 = transparente, 1 = sólido) */
+          
+              --swiper-pagination-bullet-inactive-opacity: 1;
+              --swiper-pagination-bullet-inactive-color: #ff5a5a;
+              --background-color: red;"   navigation="true" >
+              <swiper-slide><img src="images/unhcr/u1.jpg" alt=""></swiper-slide>
+              <swiper-slide><img src="images/unhcr/u2.jpg" alt=""></swiper-slide>
+              <swiper-slide><img src="images/unhcr/u3.jpg" alt=""></swiper-slide>
+              <swiper-slide><img src="images/unhcr/u1.jpg" alt=""></swiper-slide>
+              <swiper-slide><img src="images/unhcr/u2.jpg" alt=""></swiper-slide>
+              <swiper-slide><img src="images/unhcr/u3.jpg" alt=""></swiper-slide>
+            
+            </swiper-container>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+  
+
+    </div>
+  </div>
+</div>
+  
 </body>
 
 </html>
