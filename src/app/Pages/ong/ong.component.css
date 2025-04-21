@@ -105,3 +105,34 @@
   top: -480px;
   left: 274px;
 }
+
+
+.modal-backdrop {
+  display: none !important; /* Oculta el fondo borroso */
+}
+
+
+#p-uhcr{
+  position: relative;
+  top: 180px;
+  left: 0px;
+  font-size: 20px;
+
+  font-weight: 550;
+}
+
+
+#p-uhcr-title{
+  position: relative;
+  top: 166px;
+}
+
+#img-uhcr{
+  position: relative;
+  top: -142px;
+  left: 167px;
+
+}
+
+
+
