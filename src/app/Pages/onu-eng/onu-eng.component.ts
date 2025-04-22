@@ -23,6 +23,7 @@ export class OnuEngComponent {
   videoOIM = '';
   videoUnicef = '';
   videoOnuMujeres='';
+  videoCruzRoja='';
 
   titulo: string = 'ACNUR - Agencia de la ONU para los refugiados'
   texto: string = 'En Darién, el ACNUR apoya la respuesta del Gobierno de Panamá en las Estaciones Temporales de Recepción Migratoria (ETRMs) y las comunidades de acogida proporcionando espacios seguros y protección frente a las duras condiciones climáticas, servicios básicos de salud y salud mental, así como proporcionando información sobre los riesgos del viaje. El ACNUR ofrece apoyo legal a las personas con necesidades de protección internacional, remitiendo a las personas que requieren asistencia especializada a las instituciones pertinentes, así como proporcionando información sobre el sistema de asilo en Panamá, ayudando a los necesitados con su solicitud de estatuto de refugiado. El ACNUR también apoya a las comunidades indígenas en Darién, facilitando talleres y programas para fortalecer y promover la cohesión social y la convivencia pacífica.'
@@ -53,7 +54,7 @@ export class OnuEngComponent {
 
   ACNUR(video?: boolean) {
     document.getElementById('btn-acnur')?.click();
-    this.videoAcnur = "videos/acnur.mp4";
+    this.videoAcnur = "videos/acnur2.mp4";
     document.getElementById('videoAcnur')?.setAttribute('src', this.videoAcnur);
 
   }
@@ -112,6 +113,17 @@ export class OnuEngComponent {
   ONUMUJERESClose(video?: boolean){
     this.videoOnuMujeres= "";
     document.getElementById('videoOnuMujeres')?.setAttribute('src', "");
+  }
+
+  CRUZ(video?: boolean){
+    document.getElementById('btn-onucruzroja')?.click();
+    this. videoCruzRoja= "videos/cruz.mp4";
+    document.getElementById('videoCruzRoja')?.setAttribute('src', this. videoCruzRoja);
+  }
+
+  CRUZClose(video?: boolean){
+    this.videoCruzRoja= "";
+    document.getElementById('videoCruzRoja')?.setAttribute('src', "");
   }
 
 
