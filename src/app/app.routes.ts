@@ -7,6 +7,7 @@ import { ArtistasComponent } from './Pages/artistas/artistas.component';
 import { InicioEngComponent } from './Pages/inicio-eng/inicio-eng.component';
 import { HomeComponent } from './Pages/Home/home.component';
 import { HomeEngComponent } from './Pages/home-eng/home-eng.component';
+import { OnuEngComponent } from './Pages/onu-eng/onu-eng.component';
 
 
 export const routes: Routes = [
@@ -18,7 +19,7 @@ export const routes: Routes = [
     { path: 'artistas', component: ArtistasComponent },
     {path:'inicio_eng',component:InicioEngComponent},
     {path:'home_eng',component:HomeEngComponent},
-    
+    {path:'onu_eng',component:OnuEngComponent},
     {path:'**', component: InicioComponent}
 ];
 

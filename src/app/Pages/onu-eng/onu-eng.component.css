@@ -1,0 +1,140 @@
+
+
+
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../../../assets/fonts/Helvetica/HelveticaNeueBlack.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  
+  
+  
+  
+  @font-face {
+    font-family: 'Helvetica2';
+    src: url('../../../assets/fonts/Helvetica/HelveticaNeueLight.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica3';
+    src: url('../../../assets/fonts/Helvetica/HelveticaNeueHeavy.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica4';
+    src: url('../../../assets/fonts/Helvetica/HelveticaNeueItalic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  
+  
+  
+  .title{
+    font-family: "Helvetica";
+    font-weight: normal;
+      font-style: normal;
+      
+  }
+  
+  
+  .text{
+    font-family: "Helvetica2";
+  
+  }
+  
+  .subtitle{
+    font-family: "Helvetica3";
+  }
+  
+  .titulo{
+    font-family: "Helvetica";
+    font-weight: normal;
+      font-style: normal;
+  }
+  
+  
+  #titulo-ong{
+    color: #fff;
+    font-size: 40px;
+  }
+  
+  #subtitulo-ong{
+    color:#fff;
+    font-size: 25px;;
+  }
+  
+  #texto-ong{
+    color:#fff;
+    font-weight: 550;
+    font-size: 25px;;
+  }
+  
+  #img-ong-col{
+    position: relative;
+    top:285px;
+    right: -30px;
+    display: inline-block;
+  }
+  
+  #img-ong-3{
+    position: relative;
+    top: 80px;
+  }
+  
+  #img-ong-4{
+    position: relative;
+    top: 80px;
+  }
+  
+  #img-ong-5{
+    position: relative;
+    top:-161px;
+    left: 514px;
+  }
+  
+  #img-ong-6{
+    position: relative;
+    top: -480px;
+    left: 274px;
+  }
+  
+  
+  .modal-backdrop {
+    display: none !important; /* Oculta el fondo borroso */
+  }
+  
+  
+  #p-uhcr{
+    position: relative;
+    top: 180px;
+    left: 0px;
+    font-size: 20px;
+  font-family: Helvetica2;
+    font-weight: 550;
+  }
+  
+  
+  #p-uhcr-title{
+    position: relative;
+    top: 166px;
+    font-family: Helvetica;
+  }
+  
+  #img-uhcr{
+    position: relative;
+    top: -142px;
+    left: 167px;
+  
+  }
+  
+  
+  
+  

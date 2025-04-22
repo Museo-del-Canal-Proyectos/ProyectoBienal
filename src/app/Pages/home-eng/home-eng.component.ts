@@ -23,7 +23,7 @@ export class HomeEngComponent {
     
 
     migracionDarien(lang?:string) {
-        this.router.navigate(["ong"]);
+        this.router.navigate(["onu_eng"]);
     }
 
     home_esp(lang?:string) {

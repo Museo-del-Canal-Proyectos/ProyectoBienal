@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ong</title>
+  </head>
+  <style>
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+
+  <body
+    style="
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(images/buccaners.png);
+      filter: brightness(0.8);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      overflow: hidden;
+      height: 1920px;
+    "
+  >
+    <button
+      class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+      style="
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        font-size: 40px;
+        font-weight: 700;
+        right: 70px;
+        top: 940px;
+        background-color: black;
+        color: white;
+        position: fixed;
+        z-index: 100;
+      "
+      (click)="inicio_eng()"
+    >
+      <i class="fa-solid fa-home"></i>
+    </button>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div
+            class="title"
+            data-swiper-parallax="-300"
+            style="font-weight: 800"
+            id="titulo-ong"
+          >
+            <br /><br /><br /><br />Migration in Darien
+          </div>
+          <div
+            class="subtitle"
+            data-swiper-parallax="-200"
+            style="font-weight: 700"
+            id="subtitulo-ong"
+          >
+          data and humanitarian responses
+          </div>
+          <br />
+          <div class="text" data-swiper-parallax="-100" id="texto-ong">
+            <p style="text-align: justify; font-size: 20px">
+                The Darién jungle crossing is one of the most dangerous migration routes in the world. In 2023, more than 520,000
+                people undertook this journey, including more than 113,000 children.
+              <br /><br />
+              The lack of infrastructure, exposure to
+violence, and extreme poverty make this a high-risk journey.
+Organizations such as UNICEF, UNHCR, and other humanitarian agencies worked in the region to provide
+lifesaving assistance: access to clean water, medical care, psychosocial support, and protection for the most
+vulnerable populations, especially women, children, and adolescents.
+Through data collection and program implementation in the region, these organizations sought not only to respond
+to the immediate crisis but also to raise awareness about the factors driving migration and the urgent needs of
+those transiting through Darién.
+ 
+<br>
+              <i
+                >Learn more about their work and how you can support them.</i
+              >
+            </p>
+            <br />
+          </div>
+        </div>
+        <div class="col-6" id="img-ong" id="img-ong-col">
+          <img
+            src="images/log/ACNUR.png"
+            alt="Ong"
+            id="img-ong-1"
+            (click)="ACNUR()"
+          />&nbsp;&nbsp;&nbsp;
+          <img
+            src="images/log/OIM.png"
+            alt="Ong"
+            id="img-ong-2"
+            (click)="OIM()"
+          />
+          <img
+            src="images/log/UNFPA.png"
+            alt="Ong"
+            id="img-ong-3"
+            (click)="UNFPA()"
+          />&nbsp;&nbsp;&nbsp;
+          <img
+            src="images/log/UNICEF.png"
+            alt="Ong"
+            id="img-ong-4"
+            (click)="UNICEF()"
+          />
+          <img src="images/log/CRUZ.png" alt="Ong" id="img-ong-5" />
+          <img
+            src="images/log/ONU.png"
+            alt="Ong"
+            id="img-ong-6"
+            (click)="ONUMUJERES()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#element1"
+      hidden="true"
+      id="btn-acnur"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- The Modal -->
+    <div class="modal" id="element1">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <!-- Modal Header -->
+
+          <!-- Modal body -->
+          <div class="modal-body" style="background-color: black">
+            <div (click)="ACNURClose()">
+              <button
+                type="button"
+                id="element1Close"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                style="
+                  color: black;
+                  font-size: 40px;
+                  background-color: white;
+                  position: absolute;
+                  right: 0px;
+                "
+              ></button>
+            </div>
+            <div>
+              <div class="container">
+                <h1 id="p-uhcr-title" style="color: white">ACNUR</h1>
+                <div class="row">
+                  <div
+                    class="col-6"
+                    style="text-align: justify; color: white"
+                    id="p-uhcr"
+                  >
+                    En Darién, el ACNUR apoya la respuesta del Gobierno de
+                    Panamá en las Estaciones Temporales de Recepción Migratoria
+                    (ETRMs) y las comunidades de acogida proporcionando espacios
+                    seguros y protección frente a las duras condiciones
+                    climáticas, servicios básicos de salud y salud mental, así
+                    como proporcionando información sobre los riesgos del viaje.
+                    <br /><br />
+                    El ACNUR ofrece apoyo legal a las personas con necesidades
+                    de protección internacional, remitiendo a las personas que
+                    requieren asistencia especializada a las instituciones
+                    pertinentes, así como proporcionando información sobre el
+                    sistema de asilo en Panamá, ayudando a los necesitados con
+                    su solicitud de estatuto de refugiado. El ACNUR también
+                    apoya a las comunidades indígenas en Darién, facilitando
+                    talleres y programas para fortalecer y promover la cohesión
+                    social y la convivencia pacífica.
+                  </div>
+                  <div class="col-6">
+                    <video
+                      id="videoAcnur"
+                      width="800px"
+                      height="800px"
+                      autoplay
+                      muted="false"
+                      loop="true"
+                    ></video>
+                  </div>
+
+                  <swiper-container
+                    class="mySwiper"
+                    pagination="true"
+                    pagination-clickable="true"
+                    space-between="30"
+                    slides-per-view="3"
+                    style="
+                      top: -120px;
+                      left: 69px;
+                      --swiper-navigation-color: white;
+                      --swiper-pagination-color: white;
+                      --swiper-navigation-size: 60px;
+                      --swiper-pagination-bullet-size: 20px;
+                      --swiper-pagination-bullet-opacity: 5; /* Ajusta la opacidad (0 = transparente, 1 = sólido) */
+
+                      --swiper-pagination-bullet-inactive-opacity: 1;
+                      --swiper-pagination-bullet-inactive-color: #ff5a5a;
+                      --background-color: red;
+                    "
+                    navigation="true"
+                  >
+                    <swiper-slide
+                      ><img src="images/unhcr/u1.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unhcr/u2.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unhcr/u3.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unhcr/u1.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unhcr/u2.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unhcr/u3.jpg" alt=""
+                    /></swiper-slide>
+                  </swiper-container>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#element2"
+      hidden="true"
+      id="btn-unfpa"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- The Modal -->
+    <div class="modal" id="element2">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <!-- Modal Header -->
+
+          <!-- Modal body -->
+          <div class="modal-body" style="background-color: black">
+            <div (click)="UNFPAClose()">
+              <button
+                type="button"
+                id="element2Close"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                style="
+                  color: black;
+                  font-size: 40px;
+                  background-color: white;
+                  position: absolute;
+                  right: 0px;
+                "
+              ></button>
+            </div>
+            <div>
+              <div class="container">
+                <h1 id="p-uhcr-title" style="color: white">UNFPA</h1>
+                <div class="row">
+                  <div
+                    class="col-6"
+                    style="text-align: justify; color: white"
+                    id="p-uhcr"
+                  >
+                    El Fondo de Población de las Naciones Unidas (UNFPA) en
+                    Panamá aborda la crisis humanitaria en Darién con un enfoque
+                    integral que incluye desarrollo humano, acción humanitaria y
+                    construcción de la paz, centrando sus esfuerzos en la salud
+                    sexual y reproductiva y la prevención de violencia de
+                    género. A través de este enfoque, más de 26 mil mujeres
+                    recibieron servicios de salud reproductiva y más de 33 mil
+                    se beneficiaron de información sobre prevención de violencia
+                    de género.<br /><br />
+                    Además, en colaboración con el Ministerio de Salud, el UNFPA
+                    inauguró la Casa Materna de Metetí para mejorar los
+                    servicios de salud materna y reducir la mortalidad, así como
+                    estableció el primer Centro de Atención Integral para
+                    sobrevivientes de violencia en Metetí. Entre 2023 y 2024, el
+                    proyecto manejó un presupuesto de 568 mil dólares y
+                    benefició a más de 59 mil mujeres y niñas, contribuyendo
+                    significativamente a salvar vidas.
+                  </div>
+                  <div class="col-6">
+                    <video
+                      id="videoUNFPA"
+                      width="800px"
+                      height="800px"
+                      autoplay
+                      muted="false"
+                      loop="true"
+                    ></video>
+                  </div>
+
+                  <swiper-container
+                    class="mySwiper"
+                    pagination="true"
+                    pagination-clickable="true"
+                    space-between="30"
+                    slides-per-view="3"
+                    style="
+                      top: -120px;
+                      left: 69px;
+                      --swiper-navigation-color: white;
+                      --swiper-pagination-color: white;
+                      --swiper-navigation-size: 60px;
+                      --swiper-pagination-bullet-size: 20px;
+                      --swiper-pagination-bullet-opacity: 5; /* Ajusta la opacidad (0 = transparente, 1 = sólido) */
+
+                      --swiper-pagination-bullet-inactive-opacity: 1;
+                      --swiper-pagination-bullet-inactive-color: #ff5a5a;
+                      --background-color: red;
+                    "
+                    navigation="true"
+                  >
+                    <swiper-slide
+                      ><img src="images/unfpa/unfpa1.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unfpa/unfpa2.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unfpa/unfpa3.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unfpa/unfpa1.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unfpa/unfpa2.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unfpa/unfpa3.jpg" alt=""
+                    /></swiper-slide>
+                  </swiper-container>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#element3"
+      hidden="true"
+      id="btn-oim"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- The Modal -->
+    <div class="modal" id="element3">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <!-- Modal Header -->
+
+          <!-- Modal body -->
+          <div class="modal-body" style="background-color: black">
+            <div (click)="OIMClose()">
+              <button
+                type="button"
+                id="element3Close"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                style="
+                  color: black;
+                  font-size: 40px;
+                  background-color: white;
+                  position: absolute;
+                  right: 0px;
+                "
+              ></button>
+            </div>
+            <div>
+              <div class="container">
+                <h1 id="p-uhcr-title" style="color: white">OIM</h1>
+                <div class="row">
+                  <div
+                    class="col-6"
+                    style="text-align: justify; color: white"
+                    id="p-uhcr"
+                  >
+                    La Organización Internacional para las Migraciones (OIM), en
+                    coordinación con socios del Sistema de Naciones Unidas y de
+                    sociedad civil, contribuye a los esfuerzos del Estado
+                    panameño en la respuesta a los movimientos mixtos que
+                    ingresan por la selva del Darién, brindando asistencia
+                    humanitaria vital a personas migrantes en condiciones de
+                    vulnerabilidad en tránsito, a través de la distribución de
+                    alimentos y artículos esenciales no alimentarios (NFIs), la
+                    prestación de servicios de salud, incluido el apoyo
+                    psicosocial y de salud mental, y la entrega de medicamentos
+                    y suministros médicos, así como servicios de protección.<br /><br />
+                    La OIM también apoya la mejora y rehabilitación de las
+                    Estaciones Temporales de Recepción de Migrantes (ETRMs),
+                    facilita las actividades de desarrollo de capacidades en
+                    materia de Coordinación y Gestión de Campamentos (CCCM, por
+                    sus siglas en inglés), y colidera y apoya mecanismos
+                    interagenciales e interinstitucionales de coordinación en
+                    materia de migración en diferentes niveles.
+                  </div>
+                  <div class="col-6">
+                    <video
+                      id="videoOIM"
+                      width="800px"
+                      height="800px"
+                      autoplay
+                      muted="false"
+                      loop="true"
+                    ></video>
+                  </div>
+
+                  <swiper-container
+                    class="mySwiper"
+                    pagination="true"
+                    pagination-clickable="true"
+                    space-between="30"
+                    slides-per-view="3"
+                    style="
+                      top: -120px;
+                      left: 69px;
+                      --swiper-navigation-color: white;
+                      --swiper-pagination-color: white;
+                      --swiper-navigation-size: 60px;
+                      --swiper-pagination-bullet-size: 20px;
+                      --swiper-pagination-bullet-opacity: 5; /* Ajusta la opacidad (0 = transparente, 1 = sólido) */
+
+                      --swiper-pagination-bullet-inactive-opacity: 1;
+                      --swiper-pagination-bullet-inactive-color: #ff5a5a;
+                      --background-color: red;
+                    "
+                    navigation="true"
+                  >
+                    <swiper-slide
+                      ><img src="images/oim/oim1.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/oim/oim2.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/oim/oim3.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/oim/oim4.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/oim/oim1.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/oim/oim2.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/oim/oim3.jpg" alt=""
+                    /></swiper-slide>
+                  </swiper-container>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#element4"
+      hidden="true"
+      id="btn-unicef"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- The Modal -->
+    <div class="modal" id="element4">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <!-- Modal Header -->
+
+          <!-- Modal body -->
+          <div class="modal-body" style="background-color: black">
+            <div (click)="UNICEFClose()">
+              <button
+                type="button"
+                id="element4Close"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                style="
+                  color: black;
+                  font-size: 40px;
+                  background-color: white;
+                  position: absolute;
+                  right: 0px;
+                "
+              ></button>
+            </div>
+            <div>
+              <div class="container">
+                <h1 id="p-uhcr-title" style="color: white">UNICEF</h1>
+                <div class="row">
+                  <div
+                    class="col-6"
+                    style="text-align: justify; color: white"
+                    id="p-uhcr"
+                  >
+                    UNICEF se esfuerza por construir sociedades e instituciones
+                    resilientes capaces de gestionar situaciones de riesgo y
+                    emergencias humanitarias, enfocándose especialmente en
+                    proteger los derechos de los niños, niñas y adolescentes,
+                    incluidos aquellos en contextos migratorios en Panamá.
+                    <br /><br />
+                    Desde 2018, UNICEF ha implementado un Plan de Acción
+                    Humanitaria para esta población, trabajando en estrecha
+                    colaboración con otros organismos internacionales y
+                    autoridades locales en sectores prioritarios como agua,
+                    higiene, saneamiento, salud y protección en la provincia de
+                    Darién. Además, lleva a cabo programas de atención
+                    psicosocial, monitorea los flujos migratorios de menores,
+                    ofrece asistencia técnica en protocolos de protección
+                    infantil y desarrolla iniciativas contra la discriminación y
+                    la xenofobia, reforzando la importancia de los derechos de
+                    los niños migrantes a través de campañas en redes sociales.
+                  </div>
+                  <div class="col-6">
+                    <video
+                      id="videoUnicef"
+                      width="800px"
+                      height="800px"
+                      autoplay
+                      muted="false"
+                      loop="true"
+                    ></video>
+                  </div>
+
+                  <swiper-container
+                    class="mySwiper"
+                    pagination="true"
+                    pagination-clickable="true"
+                    space-between="30"
+                    slides-per-view="3"
+                    style="
+                      top: -120px;
+                      left: 69px;
+                      --swiper-navigation-color: white;
+                      --swiper-pagination-color: white;
+                      --swiper-navigation-size: 60px;
+                      --swiper-pagination-bullet-size: 20px;
+                      --swiper-pagination-bullet-opacity: 5; /* Ajusta la opacidad (0 = transparente, 1 = sólido) */
+
+                      --swiper-pagination-bullet-inactive-opacity: 1;
+                      --swiper-pagination-bullet-inactive-color: #ff5a5a;
+                      --background-color: red;
+                    "
+                    navigation="true"
+                  >
+                    <swiper-slide
+                      ><img src="images/unicef/unicef1.webp" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unicef/unicef2.webp" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unicef/unicef3.webp" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unicef/unicef1.webp" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unicef/unicef2.webp" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/unicef/unicef3.webp" alt=""
+                    /></swiper-slide>
+                  </swiper-container>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#element5"
+      hidden="true"
+      id="btn-onuMujeres"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- The Modal -->
+    <div class="modal" id="element5">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <!-- Modal Header -->
+
+          <!-- Modal body -->
+          <div class="modal-body" style="background-color: black">
+            <div (click)="ONUMUJERESClose()">
+              <button
+                type="button"
+                id="element5Close"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                style="
+                  color: black;
+                  font-size: 40px;
+                  background-color: white;
+                  position: absolute;
+                  right: 0px;
+                "
+              ></button>
+            </div>
+            <div>
+              <div class="container">
+                <h1 id="p-uhcr-title" style="color: white">ONU MUJERES</h1>
+                <div class="row">
+                  <div
+                    class="col-6"
+                    style="text-align: justify; color: white;font-size: 16px;"
+                    id="p-uhcr"
+                  >
+                    El proyecto Trayectos de ONU Mujeres se enfoca en empoderar
+                    a mujeres afectadas por la crisis de movilidad humana en
+                    Centroamérica, donde el flujo sin precedentes de personas se
+                    debe a conflictos, cambios climáticos y otros factores. En
+                    los últimos quince años, el número de personas en estos
+                    flujos ha duplicado, siendo el 48.7% mujeres y niñas,
+                    quienes enfrentan riesgos como violencia de género,
+                    discriminación y tráfico humano. Con el apoyo del Gobierno
+                    de Japón, el proyecto se desarrolla en Costa Rica, Honduras
+                    y Panamá entre marzo de 2024 y febrero de 2025. Uno de los
+                    principales desafíos es la violencia que enfrentan las
+                    mujeres en su trayecto, incluyendo violencia sexual
+                    sistematizada y extorsión. El objetivo es que estas mujeres
+                    participen en iniciativas de cohesión social y se beneficien
+                    de servicios de protección de género. A través del programa,
+                    ONU Mujeres trabaja en fortalecer el liderazgo femenino y su
+                    acceso igualitario en medio de esta situación de movilidad
+                    mixta, alineándose con compromisos globales como la agenda
+                    de Mujeres, Paz y Seguridad. Se espera que el proyecto
+                    incremente la capacidad de los actores humanitarios para
+                    ofrecer servicios de protección de género, aumente el acceso
+                    de mujeres, niñas y personas LGBTIQ+ a estos servicios, y
+                    fortalezca las alianzas con grupos de mujeres y organismos
+                    de las Naciones Unidas. ONU Mujeres está comprometida con
+                    proteger y empoderar a mujeres y niñas en situaciones de
+                    crisis humanitaria y movilidad humana, asegurando respuestas
+                    que consideren sus necesidades específicas y promoviendo su
+                    liderazgo y acceso a servicios integrales de protección.
+                  </div>
+                  <div class="col-6">
+                    <video
+                      id="videoOnuMujeres"
+                      width="800px"
+                      height="800px"
+                      autoplay
+                      muted="false"
+                      loop="true"
+                    ></video>
+                  </div>
+
+                  <swiper-container
+                    class="mySwiper"
+                    pagination="true"
+                    pagination-clickable="true"
+                    space-between="30"
+                    slides-per-view="3"
+                    style="
+                      top: -120px;
+                      left: 69px;
+                      --swiper-navigation-color: white;
+                      --swiper-pagination-color: white;
+                      --swiper-navigation-size: 60px;
+                      --swiper-pagination-bullet-size: 20px;
+                      --swiper-pagination-bullet-opacity: 5; /* Ajusta la opacidad (0 = transparente, 1 = sólido) */
+
+                      --swiper-pagination-bullet-inactive-opacity: 1;
+                      --swiper-pagination-bullet-inactive-color: #ff5a5a;
+                      --background-color: red;
+                    "
+                    navigation="true"
+                  >
+                    <swiper-slide
+                      ><img src="images/onu/o1.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/onu/o2.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                      ><img src="images/onu/o3.jpg" alt=""
+                    /></swiper-slide>
+                    <swiper-slide
+                    ><img src="images/onu/o1.jpg" alt=""
+                  /></swiper-slide>
+                  <swiper-slide
+                    ><img src="images/onu/o2.jpg" alt=""
+                  /></swiper-slide>
+                  <swiper-slide
+                    ><img src="images/onu/o3.jpg" alt=""
+                  /></swiper-slide>
+                  
+                    
+                  </swiper-container>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
