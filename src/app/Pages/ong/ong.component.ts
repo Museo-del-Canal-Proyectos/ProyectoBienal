@@ -51,7 +51,7 @@ export class OngComponent {
 
   ACNUR(video?: boolean) {
     document.getElementById('btn-acnur')?.click();
-    this.videoAcnur = "videos/video1.mp4";
+    this.videoAcnur = "videos/acnur.mp4";
     document.getElementById('videoAcnur')?.setAttribute('src', this.videoAcnur);
 
   }
@@ -68,7 +68,7 @@ export class OngComponent {
 
   UNFPA(video?: boolean) {
     document.getElementById('btn-unfpa')?.click();
-    this.videoUNFPA = "videos/video1.mp4";
+    this.videoUNFPA = "videos/unfpa.mp4";
     document.getElementById('videoUNFPA')?.setAttribute('src', this.videoUNFPA);
   }
 
@@ -80,7 +80,7 @@ export class OngComponent {
 
   UNICEF() {
     document.getElementById('btn-unicef')?.click();
-    this.videoUnicef = "videos/video1.mp4";
+    this.videoUnicef = "videos/unicef.mp4";
     document.getElementById('videoUnicef')?.setAttribute('src', this.videoUnicef);
   }
 
@@ -91,7 +91,7 @@ export class OngComponent {
 
   OIM(video?: boolean) {
     document.getElementById('btn-oim')?.click();
-    this.videoOIM = "videos/video1.mp4";
+    this.videoOIM = "videos/oim.mp4";
     document.getElementById('videoOIM')?.setAttribute('src', this.videoOIM);
   }
 
@@ -103,7 +103,7 @@ export class OngComponent {
 
   ONUMUJERES(video?: boolean){
     document.getElementById('btn-onuMujeres')?.click();
-    this. videoOnuMujeres = "videos/video1.mp4";
+    this. videoOnuMujeres = "videos/onu.mp4";
     document.getElementById('videoOnuMujeres')?.setAttribute('src', this. videoOnuMujeres);
   }
 
