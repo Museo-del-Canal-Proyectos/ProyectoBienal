@@ -10,10 +10,10 @@ body{
     background-size: cover;
     background-repeat: repeat;
     overflow: hidden;
-    
+    user-select: none; /* Deshabilita la selección de texto en toda la página */
   }
 
-
+  
   .leaflet-control-attribution a{
     display: none !important;
 }
