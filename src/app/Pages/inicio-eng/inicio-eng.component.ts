@@ -1,10 +1,10 @@
-import { Component, ViewChild, CUSTOM_ELEMENTS_SCHEMA, ElementRef, ChangeDetectorRef } from '@angular/core';
+import { Component, ViewChild, CUSTOM_ELEMENTS_SCHEMA, ElementRef, ChangeDetectorRef, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 import { register } from 'swiper/element/bundle'; // Registra los elementos personalizados de Swiper
 import Swal from 'sweetalert2'; // Importa la librería SweetAlert2 para modales
 import { routes } from '../../app.routes'; // Rutas definidas de la aplicación
-
+declare var bootstrap: any;
 // register Swiper custom elements
 register();
 @Component({
@@ -16,9 +16,13 @@ register();
 })
 export class InicioEngComponent {
 
+
+
+  
+
   @ViewChild('videoPlayer', { static: false }) videoPlayer!: ElementRef<HTMLVideoElement>; // Obtiene una referencia al reproductor de video en el template
   showVideo: boolean = false; // Variable para controlar la visibilidad del video
-
+  @ViewChild('videoPlayer2') videoPlayer2!: ElementRef;
   constructor(private cdr: ChangeDetectorRef) {} // Inyecta el ChangeDetectorRef para detectar cambios manualmente
    dataVideo: any ;
   // Función para iniciar la reproducción del video
@@ -40,7 +44,7 @@ export class InicioEngComponent {
       if (this.videoPlayer) {
         const video = this.videoPlayer.nativeElement; // Accede al elemento video
 
-        video.muted = true; // Mutea el video
+        video.muted = false; // Mutea el video
         video.play(); // Inicia la reproducción del video
 
         // Detecta cuando el video ha terminado y llama a la función `closeVideo` para minimizar la pantalla completa
@@ -62,6 +66,39 @@ export class InicioEngComponent {
     }, 100); // El retraso de 100 ms es necesario para asegurar que el video esté listo
   }
 
+
+
+  ngAfterViewInit() {
+    const modalEl = document.getElementById('exampleModal');
+
+    modalEl?.addEventListener('shown.bs.modal', () => {
+      this.videoPlayer.nativeElement.play();
+    });
+
+    const modalEl2 = document.getElementById('exampleModal2');
+    modalEl2?.addEventListener('shown.bs.modal', () => {
+      this.videoPlayer2.nativeElement.play();
+    });
+  }
+
+  onVideoEnded() {
+    const video: HTMLVideoElement = this.videoPlayer.nativeElement;
+    video.pause();         // Pausa el video
+    video.currentTime = 0; // Reinicia el tiempo al inicio
+    const modalElement = document.getElementById('exampleModal');
+    const modalInstance = bootstrap.Modal.getInstance(modalElement);
+    modalInstance?.hide();
+  }
+
+  onVideoEnded2() {
+    const video: HTMLVideoElement = this.videoPlayer2.nativeElement;
+    video.pause();
+    video.currentTime = 0;
+
+    const modalElement = document.getElementById('exampleModal2');
+    const modalInstance = bootstrap.Modal.getInstance(modalElement);
+    modalInstance?.hide();
+  }
   // Función para cerrar el video y salir de pantalla completa
   closeVideo() {
     // Si estamos en pantalla completa, salimos de ella
@@ -71,6 +108,8 @@ export class InicioEngComponent {
     this.showVideo = false; // Oculta el video
     this.cdr.detectChanges(); // Fuerza la actualización de la vista
   }
+
+  
 
   // Función para mostrar un modal con la información de un artista (Brooke Alfaro)
   brooke() {

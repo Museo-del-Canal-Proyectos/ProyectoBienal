@@ -95,10 +95,10 @@
 
   <swiper-slide>
     <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-      <br> Titulo Provicional
+      <br> Equipo Curatorial
     </div>
     <div class="text" data-swiper-parallax="-100" id="texto video">
-      <p style="text-align: justify; font-size: 20px">
+      <p style="text-align: justify; font-size: 20px"><br><br>
         Para el primer pabellón de Panamá en la Bienal de Arte de Venecia las
         curadoras del proyecto enfocaron su investigación en el fenómeno
         migratorio que experimenta nuestro continente con énfasis en Panamá, por
@@ -114,37 +114,46 @@
           top: -56px;
           left: 950px;
           border-radius: 5px;
-        " (click)="playVideo('videos/video1.mp4')" />
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        "  data-bs-toggle="modal" data-bs-target="#exampleModal" />
+
+      <br><br><br><br><br><br><br><br><br><br><br>
       <div class="title" data-swiper-parallax="-300" style="font-weight: 800">
-        <br> Titulo Provicional
+        <br> 
       </div>
       <div class="text" data-swiper-parallax="-100" id="texto video">
         <p style="text-align: justify; font-size: 20px">
-          Para el primer pabellón de Panamá en la Bienal de Arte de Venecia las
-          curadoras del proyecto enfocaron su investigación en el fenómeno
-          migratorio que experimenta nuestro continente con énfasis en Panamá, por
-          donde miles de personas transitaban diariamente a través de la selva
-          darienita. Mira este video en el que ambas comentan el origen de su
-          propuesta curatorial y reflexionan sobre la importancia de que este
-          mensaje llegara al evento de arte más importante del mundo. ​
+          <br>  Comunicar adecuadamente es, en el sentido más amplio, un trabajo que requiere profundo sentido de la 
+observación y la escucha; y para transmitir a cada persona el proyecto que hizo posible el Pabellón de Panamá 
+fue necesario un equipo que estuviera comprometido con esa premisa. En este video, Luz Bonadies, directora de 
+proyecto y medios junto a Mariana Núñez, directora gráfica del pabellón, comparten algunos elementos clave de 
+su participación en el pabellón de Panamá. 
         </p>
+    
       </div>
-      <img src="images/bg_Home4.png" style="
+
+      <img src="images/CiudadPlay.png" style="
             height: 350px;
             width: 650px;
             position: absolute;
             top:456px;
             left: 950px;
             border-radius: 5px;
-          " 
-          (click)="playVideo('videos/video2.mp4')"/>
-      <div *ngIf="showVideo" class="video-container">
+          " data-bs-toggle="modal"
+  data-bs-target="#exampleModal2"
+          />
+
+
+      <!-- <div *ngIf="showVideo" class="video-container">
+        <button (click)="closeVideo()"  class="btn close-button">Cerrar</button>
+
         <video #videoPlayer class="video">
           <source src="{{dataVideo}}" type="video/mp4" />
           Tu navegador no soporta el video.
+
         </video>
-      </div>
+        
+
+      </div> -->
 
       <!-- <button
         type="button"
@@ -580,7 +589,7 @@
             width: 400px;
             width: 340px;
           " class="btn titulo" onclick="activar('https://www.labiennale.org/en/art/2024/bolivia-plurinational-state',1075,1000)">
-          Ver el proyecto
+          Ver el pabellón
         </button>
       </p>
     </div>
@@ -675,133 +684,140 @@
   </swiper-slide>
 
   <!-- Catalogo -->
+
+
+  <!-- Visitas -->
+  <swiper-slide>
+    <div class="title" id="catalogoID" data-swiper-parallax="-300"
+      style="font-weight: 800; font-family: Arial, Helvetica, sans-serif;">
+      <br>Libro de Visitas
+    </div>
+
+    <div class="text" data-swiper-parallax="-100">
+      <p style="text-align: justify; font-size: 20px; font-weight: 400">
+        Consulta aquí el libro de visitas del Pabellón de Panamá. 
+
+      </p>
+      <br>
+      <button type="button" class="btn btn-success titulo" style="
+          width: 250px;
+          font-size: 25px;
+          font-weight: 700;
+          border: 1px solid transparent;
+          font-weight: 300;
+          border-radius: 2em;
+          box-shadow: 0 0 10px 5px black;
+          background-color: #ff5a5a;
+          position: absolute;
+          right: 350px;
+
+        " data-bs-toggle="modal" data-bs-target="#exampleModal11">
+        Ver libro
+      </button>
+
+      <p style="position: absolute; left: 107%; top: -30%">
+        <!-- <iframe
+          height="600"
+          width="1020"
+          src="books/bienalcatalogo/index.html"
+        ></iframe> -->
+        <img src="images/picture/PortadaVisitas.jpg" width="600px" height="800px"
+          style="position: absolute;top:-50px;left: 230px; border-radius: 2%;" />
+      </p>
+    </div>
+  </swiper-slide>
+
+  <!--  -->
 </swiper-container>
 
 <!-- Primer Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content" style="background: none; border: none">
-      <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="text-align: center">
-        <img src="images/pasan/001.png" style="height: 500px" />
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Segundo Modal -->
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content" style="background: none; border: none">
-      <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="text-align: center">
-        <img src="images/pasan/002.png" style="height: 500px" />
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Tercer Modal -->
-<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content" style="background: none; border: none">
-      <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="text-align: center">
-        <img src="images/pasan/003.png" style="height: 500px" />
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Cuarto Modal -->
-<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content" style="background: none; border: none">
-      <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="text-align: center">
-        <img src="images/pasan/004.png" style="height: 500px" />
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Quinto Modal -->
-<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content" style="background: none; border: none">
-      <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="text-align: center">
-        <img src="images/pasan/005.png" style="height: 500px" />
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Sexto Modal -->
-<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content" style="background: none; border: none">
-      <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="text-align: center">
-        <img src="images/pasan/006.png" style="height: 500px" />
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Septimo Modal -->
-<div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content" style="background: none; border: none">
-      <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="text-align: center">
-        <img src="images/pasan/007.png" style="height: 500px" />
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Octavo Modal -->
-<div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content" style="background: none; border: none">
-      <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style="text-align: center">
-        <img src="images/pasan/008.png" style="height: 500px" />
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Noveno Modal -->
-<div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel9" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  style="background-color: black;"
+  
+>
+  <div class="modal-dialog modal-fullscreen-sm-down">
     <div class="modal-content" style="background: none; border: none">
       <div class="modal-header" style="text-align: center; border-bottom: none">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+         
+          aria-label="Close"
+          (click)="onVideoEnded()"
+         style="color: red; font-size: 40px; background-color: white;position: absolute;right: -650px;"
+        
+        ></button>
       </div>
       <div class="modal-body" style="text-align: center">
-        <img src="images/pasan/009.png" style="height: 500px" />
+        <video style="position: absolute; left: -700px;"
+          #videoPlayer
+          width="1920px"
+          height="900px"
+          (ended)="onVideoEnded()"
+        >
+          <source src="videos/video1.mp4" type="video/mp4"  />
+          Tu navegador no soporta la etiqueta de video.
+        </video>
       </div>
     </div>
   </div>
 </div>
+
+
+<!-- Segundo Modal de video -->
+
+
+<!-- Segundo modal -->
+<div
+  class="modal fade"
+  id="exampleModal2"
+  tabindex="-1"
+  aria-labelledby="exampleModal2Label"
+  aria-hidden="true"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  style="background-color: black"
+>
+  <div class="modal-dialog modal-fullscreen-sm-down">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+          (click)="onVideoEnded2()"
+          style="color: red; font-size: 40px; background-color: white;position: absolute;right: -650px;"
+        ></button>
+      </div>
+      <div class="modal-body" style="text-align: center">
+        <video style="position: absolute; left: -700px;"
+          #videoPlayer2
+          width="1920px"
+          height="900px"
+          controls
+          (ended)="onVideoEnded2()"
+        >
+          <source src="videos/video2.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Segundo Modal de video -->
 
 <!-- Modal catalogo -->
 
@@ -815,6 +831,20 @@
       </div>
       <div class="modal-body">
         <iframe src="books/bienalcatalogo/index.html" style="width: 100%; height: 90%; border: none;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel11" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content" style="background: none; border: none">
+      <div class="modal-header" style="text-align: center; border-bottom: none">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+          style="background-color: white;"></button>
+      </div>
+      <div class="modal-body">
+        <iframe src="books/visitas/index.html" style="width: 100%; height: 90%; border: none;"></iframe>
       </div>
     </div>
   </div>

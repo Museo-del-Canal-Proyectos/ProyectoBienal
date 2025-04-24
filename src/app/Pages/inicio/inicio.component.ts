@@ -1,10 +1,10 @@
-import { Component, ViewChild, CUSTOM_ELEMENTS_SCHEMA, ElementRef, ChangeDetectorRef } from '@angular/core';
+import { Component, ViewChild, CUSTOM_ELEMENTS_SCHEMA, ElementRef, ChangeDetectorRef,AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 import { register } from 'swiper/element/bundle'; // Registra los elementos personalizados de Swiper
 import Swal from 'sweetalert2'; // Importa la librería SweetAlert2 para modales
 import { routes } from '../../app.routes'; // Rutas definidas de la aplicación
-
+declare var bootstrap: any;
 // Registra los elementos personalizados de Swiper
 register();
 
@@ -21,48 +21,85 @@ export class InicioComponent {
   
   @ViewChild('videoPlayer', { static: false }) videoPlayer!: ElementRef<HTMLVideoElement>; // Obtiene una referencia al reproductor de video en el template
   showVideo: boolean = false; // Variable para controlar la visibilidad del video
+  @ViewChild('videoPlayer2') videoPlayer2!: ElementRef;
 
   constructor(private cdr: ChangeDetectorRef) {} // Inyecta el ChangeDetectorRef para detectar cambios manualmente
    dataVideo: any ;
   // Función para iniciar la reproducción del video
-  playVideo(video?: any) {
+  // playVideo(video?: any) {
 
-   if(video =='videos/video2.mp4'){
-    this.dataVideo=video;
+  //  if(video =='videos/video2.mp4'){
+  //   this.dataVideo=video;
      
-   }else{
-    this.dataVideo=video;
-   }
+  //  }else{
+  //   this.dataVideo=video;
+  //  }
 
 
-    this.showVideo = true; // Muestra el video
-    this.cdr.detectChanges(); // Fuerza la actualización de la vista
+  //   this.showVideo = true; // Muestra el video
+  //   this.cdr.detectChanges(); // Fuerza la actualización de la vista
 
-    // Se ejecuta después de un pequeño retraso para garantizar que el video se haya cargado
-    setTimeout(() => {
-      if (this.videoPlayer) {
-        const video = this.videoPlayer.nativeElement; // Accede al elemento video
+  //   // Se ejecuta después de un pequeño retraso para garantizar que el video se haya cargado
+  //   setTimeout(() => {
+  //     if (this.videoPlayer) {
+  //       const video = this.videoPlayer.nativeElement; // Accede al elemento video
 
-        video.muted = false; // Mutea el video
-        video.play(); // Inicia la reproducción del video
+  //       video.muted = false; // Mutea el video
+  //       video.play(); // Inicia la reproducción del video
 
-        // Detecta cuando el video ha terminado y llama a la función `closeVideo` para minimizar la pantalla completa
-        video.onended = () => {
-          this.closeVideo();
-        };
+  //       // Detecta cuando el video ha terminado y llama a la función `closeVideo` para minimizar la pantalla completa
+  //       video.onended = () => {
+  //         this.closeVideo();
+  //       };
 
-        // Activa el modo de pantalla completa
-        if (video.requestFullscreen) {
-          video.requestFullscreen();
-        } else if ((video as any).webkitRequestFullscreen) {
-          (video as any).webkitRequestFullscreen();
-        } else if ((video as any).mozRequestFullScreen) {
-          (video as any).mozRequestFullScreen();
-        } else if ((video as any).msRequestFullscreen) {
-          (video as any).msRequestFullscreen();
-        }
-      }
-    }, 100); // El retraso de 100 ms es necesario para asegurar que el video esté listo
+  //       // Activa el modo de pantalla completa
+  //       if (video.requestFullscreen) {
+  //         video.requestFullscreen();
+  //       } else if ((video as any).webkitRequestFullscreen) {
+  //         (video as any).webkitRequestFullscreen();
+  //       } else if ((video as any).mozRequestFullScreen) {
+  //         (video as any).mozRequestFullScreen();
+  //       } else if ((video as any).msRequestFullscreen) {
+  //         (video as any).msRequestFullscreen();
+  //       }
+  //     }
+  //   }, 100); // El retraso de 100 ms es necesario para asegurar que el video esté listo
+  // }
+
+
+
+  
+
+  ngAfterViewInit() {
+    const modalEl = document.getElementById('exampleModal');
+
+    modalEl?.addEventListener('shown.bs.modal', () => {
+      this.videoPlayer.nativeElement.play();
+    });
+
+    const modalEl2 = document.getElementById('exampleModal2');
+    modalEl2?.addEventListener('shown.bs.modal', () => {
+      this.videoPlayer2.nativeElement.play();
+    });
+  }
+
+  onVideoEnded() {
+    const video: HTMLVideoElement = this.videoPlayer.nativeElement;
+    video.pause();         // Pausa el video
+    video.currentTime = 0; // Reinicia el tiempo al inicio
+    const modalElement = document.getElementById('exampleModal');
+    const modalInstance = bootstrap.Modal.getInstance(modalElement);
+    modalInstance?.hide();
+  }
+
+  onVideoEnded2() {
+    const video: HTMLVideoElement = this.videoPlayer2.nativeElement;
+    video.pause();
+    video.currentTime = 0;
+
+    const modalElement = document.getElementById('exampleModal2');
+    const modalInstance = bootstrap.Modal.getInstance(modalElement);
+    modalInstance?.hide();
   }
 
   // Función para cerrar el video y salir de pantalla completa

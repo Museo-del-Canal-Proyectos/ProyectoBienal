@@ -30,7 +30,7 @@
             45.42887236721131, 12.358047409971245
         ],
         "image": "/images/paises/ecuador.jpg",
-        "url":"<p style='text-align:center; font-weight:800'>Giardini de la Bienalle <br></p><div class='parent3' style='display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; text-align: center;font-size: 12px; width:200px'><div class='div3'>Brasil<img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/brazil`)'></div> <div class='div3'>Bolivia <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/bolivia-plurinational-state`)'></div></div>"
+        "url":"<p style='text-align:center; font-weight:800'>Giardini de la Bienal <br></p><div class='parent3' style='display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; text-align: center;font-size: 12px; width:200px'><div class='div3'>Brasil<img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/brazil`)'></div> <div class='div3'>Bolivia <img width='20px' height='20px' src='icons/globe-internet.svg' onclick='activar(`https://www.labiennale.org/en/art/2024/bolivia-plurinational-state`)'></div></div>"
 
     },
     {
