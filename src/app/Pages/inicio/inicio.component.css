@@ -244,3 +244,32 @@ video::-moz-media-controls {
   cursor: pointer;
   z-index:10000;
 }
+
+
+progress {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 1500px;
+  height: 20px;
+}
+
+/* Estilo general (fondo) */
+progress::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Estilo de la barra de progreso (parte blanca que avanza) */
+progress::-webkit-progress-value {
+  background-color: #e53935;
+  border-radius: 10px;
+}
+
+/* Firefox */
+progress::-moz-progress-bar {
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+

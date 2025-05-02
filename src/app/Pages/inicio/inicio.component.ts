@@ -83,6 +83,9 @@ export class InicioComponent {
     });
   }
 
+  currentTime2 = 0;
+  duration2 = 0;
+
   onVideoEnded() {
     const video: HTMLVideoElement = this.videoPlayer.nativeElement;
     video.pause();         // Pausa el video
@@ -92,15 +95,35 @@ export class InicioComponent {
     modalInstance?.hide();
   }
 
+  updateProgress2() {
+    const video2 = this.videoPlayer.nativeElement;
+    this.currentTime2 = video2.currentTime;
+    this.duration2 = video2.duration || 1; // Evitar división por cero
+  }
+
+
+
+  currentTime = 0;
+  duration = 0;
+
+  updateProgress() {
+    const video = this.videoPlayer2.nativeElement;
+    this.currentTime = video.currentTime;
+    this.duration = video.duration || 1; // Evitar división por cero
+  }
+
   onVideoEnded2() {
     const video: HTMLVideoElement = this.videoPlayer2.nativeElement;
     video.pause();
     video.currentTime = 0;
-
+    this.currentTime = 0;
     const modalElement = document.getElementById('exampleModal2');
     const modalInstance = bootstrap.Modal.getInstance(modalElement);
     modalInstance?.hide();
   }
+
+
+  
 
   // Función para cerrar el video y salir de pantalla completa
   closeVideo() {

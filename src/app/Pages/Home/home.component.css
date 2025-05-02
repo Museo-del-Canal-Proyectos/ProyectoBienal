@@ -71,50 +71,48 @@
 #btn-mapa{
     position: relative;
     top: 400px;
-    border: 1px solid transparent;
-    font-weight: 700;
-    border-radius: 2em;
-    border-radius: 2em;
+    border: 0px solid transparent;
+    font-weight: 900;
+    
     box-shadow: 0 0 10px 5px black;
-    background-color: #ff5a5a;
-    height: 100px;
+    background-color: transparent;
+    height: 600px;
     width: 400px;
-    left: 397px;
+    left: 420px;
+    top: 100px;
 }
 
 #btn-contenido{
     position: relative;
-    top: 400px;
+    top: 100px;
 
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     font-weight: 900;
-    border-radius: 2em;
-    border-radius: 2em;
+   
     box-shadow: 0 0 10px 5px black;
-    background-color: #ff5a5a;
-    height: 100px;
-    width: 500px;
+    
+    height: 600px;
+    width: 400px;
     left: -607px;
 
 }
 
 #btn-ong{
     position: relative;
-    top: 400px;
-    border: 1px solid transparent;
+    top: 100px;
+    border: 0px solid transparent;
     font-weight: 700;
-    border-radius: 2em;
-    border-radius: 2em;
+    
     box-shadow: 0 0 10px 5px black;
-    background-color: #ff5a5a;
-    height: 100px;
-    width: 500px;
-    left: -10px;
+    background-color: transparent;
+    height: 600px;
+    width: 400px;
+    left: 150px;
 }
 
 #btnEsp-h{
 position: relative;
-top: -43px;
+top: -73px;
 left: 0px;
 right: 0px;
 left: 1380px;
@@ -123,9 +121,11 @@ left: 1380px;
 
 #btnEng-h{
 position: relative;
-top: -43px;
+top: -73px;
 left: 0px;
 right: 0px;
 left: 1380px;
 }
+
+
 

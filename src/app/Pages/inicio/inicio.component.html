@@ -766,12 +766,24 @@ su participación en el pabellón de Panamá.
           #videoPlayer
           width="1920px"
           height="900px"
+          (timeupdate)="updateProgress2()"
           (ended)="onVideoEnded()"
         >
           <source src="videos/video1.mp4" type="video/mp4"  />
           Tu navegador no soporta la etiqueta de video.
         </video>
       </div>
+
+      <!-- <div style="position: absolute; left: -700px; top: 920px; width: 1920px;">
+        <progress
+          [value]="currentTime2"
+          [max]="duration2"
+          style="width: 1500px; height: 20px; position: absolute; top: 40px; left: 200px;"
+        ></progress>
+      </div> -->
+
+
+
     </div>
   </div>
 </div>
@@ -800,20 +812,34 @@ su participación en el pabellón de Panamá.
           data-bs-dismiss="modal"
           aria-label="Close"
           (click)="onVideoEnded2()"
+          
           style="color: red; font-size: 40px; background-color: white;position: absolute;right: -650px;"
         ></button>
       </div>
+    
       <div class="modal-body" style="text-align: center">
         <video style="position: absolute; left: -700px;"
           #videoPlayer2
           width="1920px"
           height="900px"
           controls
+          (timeupdate)="updateProgress()"
           (ended)="onVideoEnded2()"
         >
           <source src="videos/video2.mp4" type="video/mp4" />
         </video>
       </div>
+
+      <!-- <div style="position: absolute; left: -700px; top: 920px; width: 1920px;">
+        <progress
+          [value]="currentTime"
+          [max]="duration"
+          style="width: 1500px; height: 20px; position: absolute; top: 40px; left: 200px;"
+        ></progress>
+      </div> -->
+
+
+
     </div>
   </div>
 </div>

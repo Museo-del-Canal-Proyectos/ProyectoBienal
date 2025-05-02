@@ -15,22 +15,33 @@ background-attachment: fixed;
 overflow: hidden;  
 height: 1920px;  ">
     <div class="container text-center">
-        
+        <br>
         <div class="row align-items-start">
             <div class="col" id="mapa">
-               <button class="btn" id="btn-mapa" (click)="map()">
-                <h1 id="mapa-h">Mapa</h1>
-               </button>
+              <div class="card" id="btn-mapa" (click)="map()" style="display: flex; justify-content: center; align-items: center; 
+              background-image: url('images/mapa.png'); 
+              background-size: cover; 
+              background-position: center; 
+              background-repeat: no-repeat;
+              "><h1 style="font-weight: 800; color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.7);">MAPA</h1></div>
             </div>
             <div class="col" id="contenido">
-              <button class="btn " id="btn-contenido" (click)="bienal()">
-                <h1 id="contenido-h">La Bienal de Venecia</h1>
-              </button>
+             
+              <div class="card" id="btn-contenido"  (click)="bienal()" style="display: flex; justify-content: center; align-items: center; 
+              background-image: url('images/bg_Home2.png'); 
+              background-size: cover; 
+              background-position: center; 
+              background-repeat: no-repeat;
+              "><h1 style="font-weight: 800; color: white;text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.7);">LA BIENAL </h1></div>
             </div>
             <div class="col" id="ong">
-              <button class="btn " id="btn-ong" (click)=" migracionDarien()">
-                <h1 id="contenido-h">Migración en el Darién</h1>
-              </button>
+             
+              <div class="card" id="btn-ong" (click)=" migracionDarien()" style="display: flex; justify-content: center; align-items: center; 
+              background-image: url('images/migracion.png'); 
+              background-size: cover; 
+              background-position: center; 
+              background-repeat: no-repeat;
+              "><h1 style="font-weight: 800; color: white;text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.7);">MIGRACIÓN EN EL DARIÉN</h1></div>
             </div>
         </div>
     </div>
